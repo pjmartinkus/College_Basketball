@@ -1,0 +1,128 @@
+#1
+Oklahoma*
+South Carolina State
+California*
+North Carolina State
+Mississippi St
+Butler*
+Louisville*
+Austin Peay
+Oklahoma St*
+Pennsylvania
+Syracuse*
+Manhattan
+Saint Joseph's
+Auburn*
+Wake Forest*
+East Tennessee State
+Texas*
+UNC-Ashville
+LSU
+Purdue*
+Connecticut*
+BYU
+Stanford*
+San Diego
+Maryland*
+UNC-Wilmington
+Xavier*
+Try St
+Michigan St*
+Colorado
+Florida*
+Sam Houston St
+Kentucky*
+IUPUI
+Oregon
+Utah*
+Wisconsin*
+Weber State
+Dayton
+Tulsa*
+Missouri*
+Southern Illinois
+Marquette*
+Holy Cross
+Indiana*
+Alabama
+Pittsburgh*
+Wagner
+Arizona*
+Vermont
+Cincinnati
+Gonzaga*
+Notre Dame*
+UW–Milwaukee
+Illinois*
+Western Kentucky
+Creighton
+Central Michigan*
+Duke*
+Colorado State
+Memphis
+Arizona State*
+Kansas*
+Utah St
+#2
+Oklahoma*
+California
+Butler*
+Louisville
+Oklahoma St
+Syracuse*
+Auburn*
+Wake Forest
+Texas*
+Purdue
+Connecticut*
+Stanford
+Maryland*
+Xavier
+Michigan St*
+Florida
+Kentucky*
+Utah
+Wisconsin*
+Tulsa
+Missouri
+Marquette*
+Indiana
+Pittsburgh*
+Arizona*
+Gonzaga
+Notre Dame*
+Illinois
+Central Michigan
+Duke*
+Arizona St
+Kansas*
+#3
+Oklahoma*
+Butler
+Syracuse*
+Auburn
+Texas*
+Connecticut
+Maryland
+Michigan St*
+Kentucky*
+Wisconsin
+Marquette*
+Pittsburgh
+#4
+Oklahoma
+Syracuse*
+Texas*
+Michigan St
+Kentucky
+Marquette*
+Arizona
+Kansas*
+#5
+Syracuse*
+Texas
+Marquette
+Kansas*
+#6
+Syracuse*
+Kansas

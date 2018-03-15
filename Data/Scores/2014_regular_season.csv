@@ -1,0 +1,5562 @@
+Home,Away,Home_Score,Away_Score
+Army,Air Force,68,79
+Coastal Carolina,Akron,63,72
+Oklahoma,Alabama,82,73
+Alabama-Birmingham,Cal Poly,76,62
+Arizona,UMBC,73,61
+Arizona State,Southern Illinois-Edwardsville,96,65
+Arkansas,Nicholls State,99,54
+Auburn,Austin Peay,76,84
+Colorado,Baylor,60,72
+Loyola (MD),Binghamton,79,74
+Texas-Arlington,Boise State,87,116
+Jacksonville State,Bradley,65,72
+Weber State,BYU,72,81
+Cal State Northridge,Coppin State,86,64
+University of California,Fresno State,83,98
+UC-Irvine,UCSB,97,76
+Campbell,UCF,87,97
+Central Michigan,Charleston Southern,101,130
+ETSU,Charlotte,75,80
+Chattanooga,North Carolina Central,119,61
+Cincinnati,Stetson,74,51
+Clemson,Colorado State,71,99
+Maryland,UConn,77,78
+Alcorn State,Creighton,61,107
+Davidson,Duke,77,111
+East Carolina,Florida International,97,61
+Eastern Kentucky,Eastern Michigan,83,77
+Elon,Fairleigh Dickinson,114,89
+North Florida,Florida,69,77
+Florida Atlantic,Jacksonville,86,67
+Florida State,Saint Francis (PA),91,67
+Fordham,Furman,87,66
+American,George Mason,60,63
+Radford,George Washington,54,76
+Oregon,Georgetown,82,75
+Wofford,Georgia,52,72
+Georgia Southern,Presbyterian,110,57
+Georgia Tech,Loyola Marymount,88,78
+Grand Canyon,William & Mary,75,69
+Hampton,Tennessee State,77,55
+Hawaii,Monmouth,85,88
+Hofstra,Texas State,84,70
+Houston,Howard,76,69
+Alabama State,Illinois,63,80
+Chicago State,Indiana,72,100
+North Carolina-Wilmington,Iowa,39,82
+Louisiana-Monroe,Kansas,63,80
+Northern Colorado,Kansas State,60,58
+Youngstown State,Kennesaw State,73,57
+Kent State,North Carolina-Asheville,84,57
+Kentucky,Liberty,89,74
+Belmont,Lipscomb,87,83
+Milwaukee,Loyola (IL),72,76
+Southern,Marquette,56,63
+South Carolina State,Marshall,69,85
+St. Francis (NY),Miami (FL),66,62
+UMass-Lowell,Michigan,42,69
+McNeese State,Michigan State,56,98
+Lehigh,Minnesota,62,81
+Troy,Ole Miss,54,69
+Prairie View,Mississippi State,56,71
+Southeastern Louisiana,Missouri,53,89
+UMKC,Florida Gulf Coast,76,55
+Nebraska,Pacific,79,80
+Nevada,Portland State,78,48
+UNLV,Western Michigan,67,70
+New Mexico State,Oakland,64,61
+UNC,North Carolina A&T,84,91
+High Point,North Carolina-Greensboro,74,82
+Appalachian State,North Carolina State,77,98
+North Dakota State,North Texas,93,72
+Nebraska-Omaha,Northern Illinois,68,66
+Northwestern State,Miami (OH),92,62
+Notre Dame,Mississippi Valley State,74,62
+Oklahoma State,Missouri State,117,79
+Old Dominion,Savannah State,67,55
+Pitt,UC-Davis,88,83
+Portland,Boston College,100,78
+Providence,Northern Kentucky,82,76
+Purdue,Maine,77,77
+Rhode Island,Delaware,97,69
+Richmond,Florida A&M,71,84
+Rutgers,Sacramento State,92,73
+Southeast Missouri State,Saint Louis,64,87
+Louisiana Tech,Saint Mary's (CA),70,83
+Samford,South Dakota State,79,70
+San Diego,UC-Riverside,74,41
+San Diego State,San Francisco,77,95
+Santa Clara,Albany (NY),84,74
+Siena,Detroit,62,58
+South Alabama,Texas Christian,74,61
+SMU,Jackson State,69,51
+Southern Miss,Southern Utah,67,85
+Wisconsin,St. John's (NY),86,75
+Bucknell,Stanford,68,72
+Stephen F. Austin,Marist,90,55
+Stony Brook,Cornell,71,60
+Syracuse,Mercer,82,73
+Texas,Buffalo,76,58
+Texas A&M,Texas A&M-Corpus Christi,82,79
+Sam Houston State,Texas-Rio Grande Valley,77,73
+Houston Baptist,Texas Tech,61,76
+Navy,Towson,45,72
+NJIT,Tulane,64,75
+Drexel,UCLA,67,72
+Utah,USC,128,65
+Utah State,IUPUI,78,66
+Utah Valley,Murray State,74,74
+Valparaiso,Lafayette,77,59
+Villanova,James Madison,75,41
+Virginia,Illinois State,61,58
+VCU,Citadel,96,71
+Virginia Military Institute,Colgate,82,78
+Wake Forest,Cal State Bakersfield,89,56
+Washington State,Mount St. Mary's,62,62
+West Virginia,Western Carolina,77,77
+UT-Martin,Wyoming,60,78
+Gardner-Webb,Xavier,59,83
+Citadel,Army,69,84
+Bethune-Cookman,Bowling Green State,91,102
+Lamar,Butler,58,89
+Yale,Central Connecticut,93,77
+Chicago State,Iona,77,69
+Cleveland State,Maryland-Eastern Shore,73,54
+Columbia,IPFW,73,80
+Dayton,Delaware State,81,107
+Grambling,DePaul,58,96
+Abilene Christian,Duquesne,75,94
+Evansville,Sacred Heart,87,54
+Fairfield,Youngstown State,67,74
+Florida International,Georgia State,72,97
+Bryant,Gonzaga,76,100
+Green Bay,Quinnipiac,71,82
+Hartford,Western Illinois,77,63
+Idaho,Idaho State,67,99
+Drake,UIC,61,59
+Ball State,Indiana State,73,82
+Eastern Kentucky,Kennesaw State,68,60
+Manhattan,La Salle,99,90
+Long Beach State,St. Peter's,71,80
+LIU-Brooklyn,Louisiana,87,101
+College of Charleston,Louisville,48,70
+South Dakota State,Loyola Marymount,89,98
+Cal State Fullerton,Montana State,84,55
+Morehead State,New Hampshire,107,94
+Alabama A&M,New Mexico,52,88
+Tennessee State,New Mexico State,55,70
+Eastern Illinois,Northwestern,55,72
+Incarnate Word,Northern Iowa,88,64
+Ohio,Morgan State,75,50
+Ohio State,Wagner,89,62
+Penn State,Temple,74,78
+Penn,Pepperdine,73,81
+Rice,Savannah State,69,66
+Robert Morris,Grand Canyon,86,59
+San Diego,Niagara,70,72
+Seton Hall,Longwood,83,44
+South Carolina,Tennessee Tech,82,62
+South Florida,South Dakota,72,46
+St. Bonaventure,UTEP,68,84
+Northern Arizona,UTSA,74,63
+Norfolk State,Texas Southern,83,95
+Toledo,St. Joseph's,102,74
+Vermont,Air Force,64,63
+Virginia Military Institute,South Carolina Upstate,71,64
+Virginia Tech,Wichita State,63,93
+Alcorn State,Arkansas-Pine Bluff,73,66
+UMass,Boston College,86,73
+Northeastern,Boston University,69,72
+Alabama State,Bradley,59,85
+Binghamton,Brown,57,74
+UT-Martin,Colorado,65,91
+Loyola (MD),Cornell,93,89
+Dartmouth,Charleston Southern,106,95
+Delaware,Youngstown State,93,75
+Eastern Kentucky,Eastern Washington,67,87
+Holy Cross,Harvard,72,82
+Western Michigan,Hawaii,68,78
+Fairleigh Dickinson,Hofstra,58,80
+Howard,Jacksonville State,83,62
+Illinois,Nebraska-Omaha,86,75
+Iowa,North Carolina-Wilmington,83,62
+Iowa State,Florida International,95,66
+Kennesaw State,Northern Kentucky,58,63
+Kentucky,Maine,93,111
+Elon,Marist,75,48
+Southern,Middle Tennessee,75,78
+Stetson,Notre Dame,49,80
+Coppin State,Oregon State,78,73
+Florida A&M,Princeton,50,67
+South Carolina State,Stony Brook,59,81
+Oral Roberts,Tulsa,74,68
+Valparaiso,Seattle,113,78
+Washington,Wright State,88,82
+Rutgers,Alabama-Birmingham,76,79
+Long Beach State,Arizona,57,91
+North Florida,Arkansas-Little Rock,72,70
+Cal State Bakersfield,UC-Davis,97,80
+South Dakota,Canisius,66,71
+Coastal Carolina,Yale,76,62
+UConn,UMKC,80,70
+Creighton,Milwaukee,96,81
+Davidson,Detroit,77,106
+St. Francis (NY),Florida Atlantic,59,57
+Delaware State,Georgia Tech,50,68
+Colorado State,Gonzaga,61,93
+Houston Baptist,IPFW,75,90
+Arkansas State,Jackson State,65,61
+Kennesaw State,Lipscomb,92,88
+UMBC,Georgia Southern,84,80
+Miami (FL),Arkansas-Pine Bluff,81,67
+North Carolina Central,Northern Iowa,98,86
+North Texas,Oklahoma,82,95
+Prairie View,Chattanooga,100,78
+Radford,Belmont,89,61
+Richmond,Navy,69,57
+Saint Francis (PA),Sam Houston State,60,116
+Southeast Missouri State,Rhode Island,118,58
+SMU,Abilene Christian,89,47
+St. Bonaventure,BYU,75,112
+Stanford,Kent State,103,81
+Temple,Western Michigan,77,63
+Tennessee State,Mississippi Valley State,52,67
+Texas A&M,Houston,91,77
+Texas-Rio Grande Valley,Texas Southern,65,113
+Northern Arizona,Texas Tech,68,88
+Incarnate Word,Troy,74,102
+North Carolina A&T,Utah Valley,71,78
+North Carolina-Asheville,Western Carolina,67,74
+NJIT,Albany (NY),65,71
+Alcorn State,Campbell,87,73
+Appalachian State,Miami (OH),66,54
+Arizona State,Ball State,90,73
+South Carolina,Baylor,64,66
+Central Michigan,Bradley,70,80
+Nevada,Cal Poly,60,58
+Denver,University of California,50,77
+Central Arkansas,Jacksonville State,109,75
+Chicago State,North Carolina State,79,57
+Cincinnati,Presbyterian,68,68
+Citadel,Charlotte,82,82
+College of Charleston,Manhattan,83,71
+Columbia,Drake,70,104
+Kansas,Duke,94,83
+Morehead State,ETSU,71,63
+Eastern Michigan,Hartford,95,51
+Florida Gulf Coast,Florida International,65,93
+Gardner-Webb,Furman,64,75
+Maine,George Washington,81,108
+Harvard,New Mexico State,79,95
+Hawaii,High Point,88,94
+Drexel,Illinois State,78,70
+LIU-Brooklyn,Indiana,72,73
+Texas A&M-Corpus Christi,Iowa State,50,80
+Evansville,IUPUI,84,78
+Jacksonville,Michigan State,101,78
+Kentucky,Quinnipiac,74,67
+La Salle,Robert Morris,73,90
+Lafayette,George Mason,81,68
+Lamar,Rider,54,78
+Lehigh,McNeese State,92,66
+Louisiana,Hofstra,92,69
+Louisville,Grambling,97,71
+Marquette,Marshall,114,119
+Maryland-Eastern Shore,LSU,95,90
+UMass,South Carolina State,92,59
+Michigan,Montana,93,58
+Minnesota,Southern Illinois,84,59
+Missouri,Penn,72,79
+Monmouth,Murray State,73,97
+Western Illinois,Nebraska,47,62
+UCSB,UNLV,86,65
+New Orleans,East Carolina,81,85
+North Carolina-Greensboro,Northern Colorado,84,98
+Ohio,Ohio State,69,79
+Utah Valley,Oklahoma State,40,93
+UC-Irvine,Pacific,79,84
+Fresno State,Pitt,54,75
+Southeastern Louisiana,Rice,63,62
+Akron,Saint Mary's (CA),63,85
+Hampton,St. Peter's,64,59
+San Jose State,Santa Clara,77,89
+Savannah State,Bethune-Cookman,73,65
+South Florida,Cal State Northridge,91,79
+USC,Fordham,95,74
+Syracuse,Loyola (IL),89,69
+Tennessee Tech,South Alabama,74,77
+Texas,Samford,84,75
+Texas-Arlington,Longwood,88,82
+Texas Christian,Stephen F. Austin,79,64
+Texas State,Morgan State,57,75
+Towson,Oakland,95,60
+UCLA,Southern Utah,91,57
+Utah State,Georgia State,90,80
+Vanderbilt,Siena,86,66
+Vermont,VCU,77,59
+Virginia,West Virginia,56,82
+Virginia Tech,Wagner,87,75
+Virginia Military Institute,Wake Forest,71,98
+Western Kentucky,Wichita State,49,66
+Liberty,William & Mary,72,84
+Florida,Wisconsin,53,59
+Tennessee,Xavier,63,67
+Alabama State,UT-Martin,88,62
+Arkansas State,UMass-Lowell,72,65
+Boston University,Sacramento State,91,66
+Cal State Bakersfield,Pepperdine,74,69
+UC-Riverside,Florida State,66,80
+UCF,North Carolina-Wilmington,68,80
+Charleston Southern,Delaware State,78,37
+Clemson,Wyoming,58,58
+Colorado,Binghamton,63,89
+Cornell,Bryant,79,87
+Dartmouth,Saint Francis (PA),77,56
+Dayton,Southern Miss,70,75
+DePaul,New Hampshire,68,84
+Duquesne,Eastern Illinois,81,67
+Eastern Kentucky,Hartford,114,63
+Fairfield,Wright State,53,70
+Georgetown,Sacred Heart,88,118
+Holy Cross,Valparaiso,122,52
+Illinois,UIC,64,87
+Oral Roberts,Kansas State,63,71
+Louisiana Tech,Abilene Christian,106,44
+Maryland,Mercer,67,95
+North Florida,Middle Tennessee,70,77
+Navy,UMKC,98,71
+Nebraska-Omaha,Buffalo,101,81
+Niagara,Norfolk State,92,115
+North Dakota,Idaho,110,65
+Oklahoma,Howard,85,57
+Old Dominion,Western Carolina,77,83
+Oregon,Portland,107,73
+Oregon State,Bucknell,79,90
+Penn State,Portland State,80,79
+Brown,Providence,69,73
+Central Connecticut,Purdue,73,109
+Marist,St. Joseph's,62,81
+Cleveland State,San Francisco,82,91
+Cal State Fullerton,Seattle,71,75
+Kent State,Seton Hall,76,78
+Tulane,Southern,79,73
+Saint Louis,Southern Illinois-Edwardsville,82,58
+Northeastern,Stony Brook,66,73
+Texas-Arlington,Texas-Rio Grande Valley,111,94
+Mount St. Mary's,Villanova,59,90
+South Carolina Upstate,Winthrop,74,82
+Jackson State,Air Force,84,82
+Texas Tech,Alabama,64,76
+Alabama A&M,Troy,79,69
+Alabama-Birmingham,UMBC,81,61
+American,Indiana State,63,95
+Belmont,Toledo,96,95
+Boston College,Detroit,92,55
+UConn,East Carolina,101,95
+Robert Morris,Eastern Michigan,64,69
+Stetson,Florida A&M,60,63
+Florida International,UTSA,85,62
+Houston,Maryland-Eastern Shore,80,63
+Iowa,Loyola Marymount,109,74
+Long Beach State,Austin Peay,73,69
+Memphis,Texas Southern,95,69
+Miami (FL),Kennesaw State,84,55
+Mississippi State,San Diego,78,68
+Morgan State,Nicholls State,61,78
+North Texas,Sam Houston State,92,108
+Prairie View,Yale,103,71
+Rutgers,North Dakota State,72,65
+Saint Mary's (CA),Arizona,78,69
+San Diego State,Savannah State,60,87
+Montana,South Dakota State,77,69
+Southeastern Louisiana,Northwestern,108,58
+Stanford,Temple,71,69
+Towson,UC-Irvine,75,86
+Washington,William & Mary,72,62
+Wichita State,Youngstown State,79,104
+Idaho State,Arizona State,60,88
+Louisiana,Arkansas,63,76
+NJIT,Army,89,85
+Northwestern State,Auburn,111,92
+Boise State,South Florida,110,75
+Bowling Green State,Chicago State,61,64
+Bradley,Mount St. Mary's,77,76
+BYU,Oakland,108,60
+University of California,Elon,64,69
+Charlotte,North Carolina-Asheville,83,67
+College of Charleston,Florida Atlantic,58,64
+Duke,Lehigh,97,72
+Fordham,Florida Gulf Coast,80,70
+Furman,Georgia Tech,69,80
+Georgia,Fairleigh Dickinson,71,60
+Hartford,Howard,74,44
+Harvard,Samford,76,59
+Indiana,Cornell,105,54
+Louisville,McNeese State,99,92
+Columbia,Michigan State,53,62
+San Jose State,Milwaukee,61,64
+Mississippi Valley State,Nebraska-Omaha,108,70
+UNLV,UTEP,73,73
+New Mexico State,Norfolk State,86,92
+Holy Cross,UNC,54,62
+James Madison,Northern Illinois,60,55
+Arkansas-Pine Bluff,Oklahoma State,63,97
+Murray State,Old Dominion,60,70
+North Carolina A&T,Rhode Island,59,72
+Nevada,San Francisco,92,90
+Northern Arizona,USC,63,67
+Wagner,St. John's (NY),57,73
+UT-Martin,Texas-Rio Grande Valley,79,81
+Tennessee Tech,Stephen F. Austin,78,62
+Texas,Rice,72,65
+Texas A&M,IPFW,68,71
+Texas A&M-Corpus Christi,Cleveland State,72,83
+Texas-Arlington,UC-Davis,73,60
+Utah,Lipscomb,94,69
+Vanderbilt,Western Carolina,80,61
+Virginia Tech,Presbyterian,79,48
+Wake Forest,Morehead State,69,56
+Navy,Binghamton,68,50
+BYU,Vermont,84,64
+Bryant,Saint Francis (PA),87,50
+Bucknell,Buffalo,72,80
+Princeton,Butler,67,70
+Santa Clara,Cal State Fullerton,73,86
+Montana State,UC-Riverside,67,72
+Utah State,UCSB,71,64
+Pepperdine,Central Michigan,88,71
+Chattanooga,Appalachian State,108,49
+Cincinnati,Citadel,77,83
+Ole Miss,Coastal Carolina,72,70
+Jackson State,Colorado,70,94
+Weber State,Colorado State,67,88
+UMass-Lowell,Dartmouth,59,77
+Virginia,Davidson,70,57
+St. Francis (NY),Dayton,58,78
+Wright State,DePaul,72,81
+High Point,Eastern Kentucky,67,74
+Arkansas-Little Rock,Florida,56,86
+Texas Southern,Florida International,68,70
+Cal State Northridge,Fresno State,64,80
+Jacksonville,Gardner-Webb,78,87
+Northern Iowa,George Mason,70,76
+Georgia Southern,Grand Canyon,104,91
+Wisconsin,Green Bay,69,66
+Missouri,Hawaii,92,80
+Incarnate Word,Idaho,85,78
+Eastern Illinois,UIC,86,66
+Wofford,Iona,55,76
+Texas-Rio Grande Valley,IPFW,60,66
+Southeast Missouri State,IUPUI,76,68
+Alabama State,Jacksonville State,84,73
+Milwaukee,James Madison,77,66
+Siena,La Salle,74,78
+Western Carolina,Liberty,68,63
+Longwood,Northwestern State,88,74
+LSU,Fairfield,88,52
+Loyola (MD),George Washington,59,80
+Manhattan,Ohio State,74,52
+Marquette,Seton Hall,35,74
+Mercer,Akron,77,73
+Middle Tennessee,Tulsa,80,93
+Missouri State,Campbell,96,66
+North Carolina State,North Carolina-Wilmington,81,80
+Southern,North Florida,87,78
+Central Connecticut,Northeastern,69,83
+San Jose State,Northern Illinois,59,60
+San Diego,Northern Kentucky,75,44
+Texas State,Oral Roberts,65,82
+Penn State,Penn,83,71
+Marist,Providence,48,93
+Albany (NY),Quinnipiac,69,79
+Radford,Minnesota,105,74
+Richmond,Brown,59,85
+Sacred Heart,Creighton,73,83
+St. Joseph's,Drake,79,63
+Saint Mary's (CA),Seattle,67,100
+Saint Louis,Southern Illinois,76,67
+Central Arkansas,Southern Illinois-Edwardsville,93,100
+Canisius,St. Bonaventure,64,86
+Colgate,Syracuse,50,69
+South Carolina Upstate,Tennessee,65,74
+Tennessee Tech,Texas A&M-Corpus Christi,62,60
+Loyola (IL),Tulane,59,65
+Winthrop,VCU,71,92
+Virginia Military Institute,ETSU,121,50
+Western Kentucky,Tennessee State,57,71
+Wichita State,Arkansas State,85,64
+Arkansas-Pine Bluff,Air Force,64,67
+Louisiana,Baylor,68,87
+Florida Atlantic,Boston College,79,82
+UC-Irvine,Bethune-Cookman,110,63
+UCF,South Carolina,83,57
+Clemson,Boston University,71,60
+UConn,Stanford,77,66
+Denver,UT-Martin,57,61
+Florida State,Oakland,89,67
+Gonzaga,Delaware,82,90
+Hampton,Lehigh,79,66
+Houston,Bradley,80,55
+Illinois,Stony Brook,81,74
+Indiana,Abilene Christian,90,41
+Iowa,Michigan,103,70
+Iowa State,Tennessee Tech,77,66
+IPFW,San Jose State,69,66
+James Madison,Long Beach State,79,58
+Kansas State,St. Peter's,71,58
+Kent State,Robert Morris,75,49
+Kentucky,Northern Arizona,87,78
+Loyola Marymount,Oregon State,90,90
+Maryland,Mount St. Mary's,83,84
+UMBC,Youngstown State,90,69
+UMass,Marshall,85,94
+Morehead State,South Carolina State,102,57
+Nebraska,NJIT,83,71
+New Hampshire,Charleston Southern,63,93
+New Mexico,Belmont,109,83
+UNC,North Carolina-Greensboro,80,97
+Milwaukee,Northern Illinois,82,69
+Illinois State,Northwestern,68,64
+Indiana State,Notre Dame,83,70
+Valparaiso,Ohio,72,76
+Western Illinois,Pacific,52,66
+Howard,Pitt,52,84
+Rider,Purdue,77,81
+Texas-Rio Grande Valley,Texas A&M-Corpus Christi,61,72
+UTEP,Towson,67,44
+Villanova,Eastern Washington,78,80
+Washington,Lamar,92,64
+Washington State,Duquesne,84,83
+West Virginia,Alabama A&M,96,69
+Alabama,Chicago State,102,75
+Alabama State,Alcorn State,79,91
+Fairleigh Dickinson,Arizona,50,100
+SMU,Arkansas,78,89
+Southeast Missouri State,Ball State,83,87
+Nevada,Cal State Bakersfield,66,74
+Southern Utah,University of California,47,75
+North Carolina Central,Campbell,62,43
+Miami (FL),College of Charleston,70,54
+Arkansas State,Colorado,70,93
+Wagner,Coppin State,102,87
+Elon,Drexel,64,71
+North Carolina-Asheville,Duke,55,91
+Norfolk State,East Carolina,74,76
+Cleveland State,Eastern Michigan,69,81
+Mercer,Evansville,76,89
+Southern,Florida,53,67
+Florida Gulf Coast,Stetson,72,66
+Florida International,McNeese State,75,70
+Georgia State,North Carolina-Wilmington,96,87
+Liberty,Samford,76,52
+Louisiana-Monroe,Rhode Island,86,66
+Portland,Michigan State,67,82
+Arkansas-Little Rock,Middle Tennessee,59,76
+Southern Miss,North Dakota State,70,69
+Savannah State,North Florida,63,66
+Presbyterian,Vermont,86,49
+Providence,Canisius,70,51
+Rutgers,Idaho State,66,93
+San Francisco,Monmouth,90,66
+Seton Hall,South Alabama,82,76
+South Dakota State,St. Francis (NY),83,50
+Syracuse,Citadel,56,60
+Tennessee,Lipscomb,86,75
+Tennessee State,Houston Baptist,70,61
+Texas,UTSA,89,71
+Texas Southern,Texas Tech,71,80
+Florida A&M,Toledo,69,79
+Sacramento State,UCLA,50,86
+Virginia Military Institute,Virginia Tech,92,105
+Jacksonville,Wake Forest,83,90
+Wright State,Jackson State,83,65
+Georgia State,Alabama,58,75
+Appalachian State,Rhode Island,91,59
+Arizona,Delaware,87,89
+Army,Jacksonville State,74,54
+Auburn,Southern Illinois,78,70
+Austin Peay,Bethune-Cookman,72,98
+Seattle,Boise State,68,86
+Vanderbilt,Butler,77,85
+Elon,Canisius,85,86
+Kennesaw State,Chattanooga,73,69
+East Carolina,Duke,74,83
+Winthrop,ETSU,76,66
+Alabama A&M,Eastern Kentucky,68,82
+Eastern Washington,Fairleigh Dickinson,82,76
+Gardner-Webb,Saint Francis (PA),92,46
+George Mason,Delaware State,58,50
+George Washington,Incarnate Word,94,106
+IUPUI,Detroit,88,71
+James Madison,Iona,67,66
+Kansas,Texas-Arlington,86,76
+Kentucky,New Orleans,105,54
+LSU,Hartford,81,48
+Louisville,Loyola (IL),87,83
+NJIT,Maine,88,82
+Brown,UMass-Lowell,87,76
+McNeese State,DePaul,81,80
+Milwaukee,Coastal Carolina,71,72
+Minnesota,Mississippi Valley State,82,72
+Mississippi State,Murray State,94,91
+South Carolina State,Nebraska-Omaha,59,91
+Arizona State,UNLV,86,80
+North Carolina-Asheville,Norfolk State,78,80
+Morehead State,Northern Kentucky,74,61
+Memphis,Oklahoma State,80,101
+Utah Valley,Oregon,54,69
+La Salle,Penn State,72,79
+Hofstra,Richmond,63,74
+Drexel,Rutgers,70,59
+St. Bonaventure,Siena,70,72
+Cal State Fullerton,USC,62,76
+Bucknell,St. John's (NY),63,67
+Prairie View,Texas A&M,65,75
+Abilene Christian,Texas Christian,64,71
+Colorado State,UTEP,74,82
+Nicholls State,Troy,62,77
+Navy,Virginia,42,67
+North Dakota,Wisconsin,85,103
+Sacred Heart,Yale,65,80
+Air Force,Charleston Southern,78,64
+Baylor,Lipscomb,69,64
+Belmont,Iowa State,94,90
+BYU,Louisiana Tech,88,94
+Central Arkansas,Campbell,57,62
+Cincinnati,Cornell,81,58
+Colgate,Albany (NY),81,59
+Duquesne,Valparaiso,70,92
+Evansville,Holy Cross,100,63
+Fairfield,Cal Poly,49,46
+Fresno State,Dayton,63,82
+Georgia Tech,Bryant,72,68
+Harvard,Northwestern,86,93
+UIC,Manhattan,58,79
+Illinois State,IPFW,70,106
+Loyola (MD),UMBC,89,83
+Mount St. Mary's,Maryland-Eastern Shore,71,78
+Mercer,Grambling,109,67
+Missouri State,Ohio,97,65
+Morgan State,Northern Colorado,62,63
+New Mexico State,North Carolina-Greensboro,67,92
+North Carolina Central,North Carolina State,82,72
+American,Ohio State,52,63
+San Jose State,Pepperdine,83,77
+Lehigh,Pitt,58,77
+Lafayette,Princeton,80,81
+Eastern Illinois,Purdue,55,83
+Hampton,Quinnipiac,68,71
+Sam Houston State,San Diego State,98,93
+Texas State,SMU,49,70
+UMKC,UT-Martin,79,67
+Rice,Texas A&M-Corpus Christi,63,61
+Tulane,Wichita State,68,77
+Tulsa,Virginia Military Institute,54,112
+North Dakota State,Western Michigan,83,74
+High Point,William & Mary,80,69
+Miami (OH),Xavier,51,77
+New Mexico,Alabama-Birmingham,97,94
+Florida International,Bethune-Cookman,82,67
+UConn,Boston College,72,70
+Montana State,Cal State Northridge,73,74
+Austin Peay,Central Michigan,75,90
+Kansas State,Charlotte,61,68
+Temple,Clemson,58,72
+UCSB,Colorado,68,76
+North Texas,Columbia,66,70
+Georgia,Davidson,82,94
+Samford,ETSU,75,89
+Middle Tennessee,Florida,59,79
+VCU,Florida State,67,85
+Northeastern,Georgetown,63,56
+Washington State,Gonzaga,74,90
+Hawaii,Howard,114,62
+Houston,Washington,75,84
+Indiana,Western Carolina,102,59
+Kent State,Savannah State,72,66
+Lamar,Michigan,75,85
+Long Beach State,New Hampshire,61,53
+Marquette,Stephen F. Austin,58,80
+Marshall,Nebraska,73,90
+UMass,UCF,96,63
+Miami (FL),Wofford,58,57
+Minnesota,South Carolina Upstate,79,83
+Niagara,North Florida,74,109
+Louisiana-Monroe,Northwestern State,84,80
+Presbyterian,Old Dominion,51,69
+Idaho,Portland,74,88
+Texas-Arlington,Robert Morris,81,88
+Oral Roberts,Saint Louis,55,72
+San Diego,USC,82,73
+Southern Illinois,Texas Southern,96,71
+Stanford,Tennessee Tech,97,92
+Texas-Rio Grande Valley,UTSA,70,55
+South Dakota State,Texas Tech,54,68
+Grand Canyon,Utah,54,79
+Vermont,Wagner,61,68
+Citadel,Wake Forest,54,82
+Georgia Southern,West Virginia,68,101
+Western Illinois,North Carolina-Wilmington,79,58
+Western Kentucky,Bowling Green State,73,64
+Abilene Christian,Nebraska,62,74
+Alabama-Birmingham,Bradley,87,58
+Arizona State,Cal State Northridge,70,80
+Austin Peay,Washington,77,78
+Boston College,Eastern Washington,89,80
+Boston University,Southern Illinois-Edwardsville,68,75
+UC-Davis,LIU-Brooklyn,80,64
+UC-Irvine,Montana State,84,59
+Central Michigan,Northeastern,54,77
+Charlotte,Davidson,86,54
+Clemson,Northern Colorado,85,65
+Colorado State,Indiana,72,58
+UConn,Siena,59,71
+Cornell,Florida Atlantic,70,44
+Detroit,Eastern Kentucky,77,95
+Michigan,Florida State,82,80
+Kansas State,Georgetown,63,90
+Temple,Georgia,83,81
+Savannah State,Grand Canyon,71,72
+Wright State,Houston Baptist,75,59
+North Texas,Idaho,76,87
+Chicago State,Illinois,53,77
+Indiana State,Penn,80,55
+Iowa,Jacksonville State,86,85
+Towson,Kansas,58,88
+South Carolina Upstate,Kent State,78,79
+Morgan State,La Salle,59,78
+VCU,Long Beach State,73,67
+Brown,Longwood,81,69
+Southeastern Louisiana,LSU,66,89
+Northern Iowa,Loyola Marymount,90,81
+Maryland,Marist,68,43
+New Mexico,UMass,65,81
+Virginia Tech,Michigan State,77,96
+Mississippi Valley State,Ole Miss,82,111
+San Francisco,Montana,75,74
+Chattanooga,Nevada,81,83
+Western Carolina,Niagara,98,90
+Appalachian State,North Carolina Central,70,76
+IUPUI,Northwestern,61,63
+Santa Clara,Notre Dame,69,84
+Seton Hall,Oklahoma,85,86
+Columbia,Portland,52,69
+Loyola (IL),Portland State,63,67
+Vanderbilt,Providence,60,67
+Southern Miss,South Alabama,66,59
+Stetson,South Florida,63,72
+Southeast Missouri State,Arkansas-Little Rock,109,85
+Southern,Incarnate Word,82,80
+Monmouth,St. John's (NY),54,64
+Toledo,Stony Brook,103,99
+Tennessee State,Tennessee,67,88
+Jackson State,UT-Martin,68,64
+Morehead State,UCLA,70,81
+Lamar,Utah,57,84
+Delaware,Villanova,80,84
+South Dakota,Wyoming,53,70
+Abilene Christian,Bucknell,78,77
+Albany (NY),Murray State,64,67
+Auburn,Montana State,75,72
+Austin Peay,Butler,78,59
+Ball State,Holy Cross,58,70
+Belmont,Radford,81,69
+Binghamton,Cal Poly,63,78
+Idaho State,Cal State Bakersfield,69,71
+Loyola (IL),UC-Davis,61,64
+Boston University,UC-Irvine,74,68
+Rider,Central Connecticut,89,73
+Cal State Northridge,Central Michigan,76,90
+Robert Morris,Cleveland State,74,87
+St. Francis (NY),Coastal Carolina,59,70
+Saint Francis (PA),Colgate,64,81
+Furman,College of Charleston,55,89
+Idaho,Columbia,60,65
+Tulsa,Creighton,72,82
+Toledo,Detroit,80,78
+Nebraska-Omaha,Drake,80,88
+Stephen F. Austin,ETSU,58,66
+Eastern Illinois,Texas-Arlington,89,69
+Eastern Michigan,LIU-Brooklyn,74,70
+Eastern Washington,Evansville,102,91
+Louisville,Fairfield,71,57
+St. Peter's,Fairleigh Dickinson,67,63
+Stony Brook,Florida Atlantic,67,61
+Florida Gulf Coast,Sacred Heart,79,85
+Fordham,Lamar,73,69
+Grand Canyon,Green Bay,78,92
+Hofstra,Hartford,81,78
+Southern Miss,Houston Baptist,67,62
+George Mason,Iona,73,89
+Florida A&M,Jacksonville,72,76
+Niagara,Kent State,97,102
+Oakland,Louisiana,75,84
+Marist,Loyola Marymount,70,76
+North Carolina-Wilmington,Marshall,78,96
+Nicholls State,Memphis,59,98
+Yale,Mercer,54,81
+Miami (OH),Oklahoma,63,76
+Michigan State,Gardner-Webb,87,63
+Missouri,Vanderbilt,72,75
+Morgan State,American,66,64
+Mount St. Mary's,UMBC,68,58
+Navy,Boise State,73,100
+New Orleans,Lafayette,80,88
+NJIT,Richmond,91,72
+UNC,Northern Arizona,82,83
+Ohio,Georgia Southern,85,69
+Old Dominion,Fresno State,86,77
+Pacific,Utah Valley,86,53
+Pepperdine,North Texas,58,77
+Portland,Southern Illinois-Edwardsville,72,74
+Portland State,UMass-Lowell,77,68
+Rhode Island,Princeton,79,70
+Rice,William & Mary,56,72
+Rutgers,Bowling Green State,62,47
+Saint Louis,Cal State Fullerton,74,59
+San Jose State,Virginia Tech,81,67
+Seton Hall,Wright State,68,70
+South Alabama,South Carolina State,74,88
+Western Carolina,South Carolina Upstate,58,72
+UC-Riverside,Southern Utah,74,59
+Milwaukee,Tennessee Tech,70,63
+New Mexico State,UTEP,77,68
+Texas A&M-Corpus Christi,UTSA,76,87
+Northern Kentucky,Tulane,91,86
+Savannah State,Utah,57,71
+Mississippi State,Utah State,68,87
+James Madison,Valparaiso,49,81
+Liberty,Virginia,53,75
+Presbyterian,West Virginia,55,88
+Samford,Western Kentucky,64,67
+Winthrop,Oral Roberts,96,67
+Wisconsin,Youngstown State,76,108
+Temple,Alabama-Birmingham,87,66
+Central Arkansas,Arkansas State,56,99
+Hofstra,Belmont,75,85
+LIU-Brooklyn,Boston University,57,72
+Eastern Washington,UC-Irvine,58,81
+Michigan,Charlotte,61,63
+UMass,Clemson,62,56
+Louisiana,Coastal Carolina,73,69
+Harvard,Colorado,62,70
+New Mexico,Davidson,79,58
+Stony Brook,Detroit,104,102
+Vermont,Duke,90,91
+Richmond,Fairfield,68,47
+Toledo,Florida Atlantic,94,74
+Northeastern,Florida State,60,62
+VCU,Georgetown,80,84
+Nebraska,Georgia,73,65
+North Carolina A&T,Georgia Tech,71,78
+Holy Cross,Hartford,80,55
+Wofford,High Point,56,66
+Long Beach State,Kansas State,38,52
+IPFW,Kennesaw State,76,66
+Providence,La Salle,71,63
+UNC,Louisville,93,84
+Southern Illinois-Edwardsville,Loyola (IL),72,73
+Northern Iowa,Maryland,66,80
+Hampton,Missouri State,67,81
+Morehead State,Nevada,63,58
+Bryant,New Hampshire,60,55
+North Dakota State,North Dakota,77,95
+Northern Illinois,Army,111,60
+Notre Dame,St. Francis (NY),93,68
+Oakland,San Francisco,62,82
+Oregon,Longwood,100,67
+Penn State,UC-Davis,93,63
+Portland State,Siena,79,73
+Purdue,Alcorn State,81,55
+Saint Mary's (CA),Houston Baptist,72,59
+South Alabama,Florida International,79,72
+South Carolina,Arkansas-Pine Bluff,84,61
+SMU,Southern Miss,87,99
+Sam Houston State,Texas A&M,62,79
+Chattanooga,UCLA,65,106
+Texas Christian,Washington State,64,62
+Jacksonville State,Alabama A&M,76,69
+Marquette,Arizona State,77,79
+University of California,Arkansas,85,77
+Texas,BYU,82,86
+Georgia State,Canisius,71,79
+Baylor,Citadel,93,109
+Prairie View,Colorado State,68,95
+Coppin State,Radford,96,86
+Cornell,Gonzaga,71,79
+Dayton,Delaware,84,80
+Delaware State,Wichita State,70,90
+DePaul,McNeese State,72,62
+East Carolina,Elon,91,74
+Norfolk State,Fairleigh Dickinson,70,62
+Fresno State,Stanford,92,86
+Houston,San Diego,76,70
+UIC,UMKC,74,51
+Iowa State,Florida,110,86
+Jacksonville,Cleveland State,60,61
+Kentucky,Northern Iowa,68,65
+La Salle,Texas Southern,50,63
+Lehigh,North Carolina-Greensboro,67,62
+Louisiana Tech,Vanderbilt,99,77
+Loyola Marymount,Quinnipiac,68,102
+Maine,Morgan State,61,74
+Marist,Providence,67,52
+Maryland,Syracuse,56,75
+Minnesota,IUPUI,67,64
+Missouri,Bethune-Cookman,78,56
+New Mexico State,Gardner-Webb,79,59
+Northwestern,Wyoming,72,50
+Ohio State,Texas Tech,65,53
+Pitt,North Carolina-Asheville,76,56
+Rhode Island,Rutgers,73,116
+UC-Riverside,Seattle,68,69
+Nebraska-Omaha,South Carolina State,83,67
+South Carolina Upstate,Howard,94,65
+South Dakota State,Oklahoma State,77,93
+South Florida,Southern,67,76
+St. Bonaventure,Southern Illinois,83,71
+Wagner,Stetson,81,64
+Lipscomb,UT-Martin,95,84
+South Dakota,Texas State,57,56
+Abilene Christian,Xavier,65,93
+Minnesota,Arkansas,73,87
+Arkansas-Little Rock,Tennessee State,90,73
+Auburn,Dayton,78,66
+Baylor,Belmont,67,102
+Sacred Heart,Boston College,67,75
+Presbyterian,Bowling Green State,45,67
+Wichita State,BYU,75,62
+Robert Morris,Buffalo,66,81
+Syracuse,University of California,92,81
+Sacramento State,UC-Davis,73,67
+Canisius,Troy,69,53
+Central Arkansas,Gonzaga,60,113
+Charleston Southern,UMass-Lowell,105,49
+Cincinnati,American,79,47
+Columbia,Loyola (MD),61,66
+UConn,Texas,76,77
+DePaul,North Carolina-Asheville,59,70
+East Carolina,Georgia State,81,85
+Elon,Oral Roberts,90,67
+Georgia Southern,Mississippi Valley State,65,59
+Georgia Tech,Texas Tech,76,76
+Houston,Texas Southern,64,63
+Howard,Louisiana Tech,54,103
+UIC,Evansville,78,46
+Indiana,Kennesaw State,77,73
+Yale,Lafayette,79,76
+South Dakota State,Lehigh,74,61
+Fordham,Manhattan,79,75
+Western Kentucky,Marshall,64,74
+Milwaukee,North Carolina A&T,89,50
+Ole Miss,Liberty,84,52
+Missouri State,Cal State Northridge,54,62
+Montana State,Bucknell,77,64
+Mount St. Mary's,Middle Tennessee,69,80
+Murray State,Maryland-Eastern Shore,62,59
+Navy,Illinois,67,61
+UNLV,UTSA,59,73
+Nicholls State,Central Connecticut,79,74
+NJIT,Norfolk State,71,105
+North Carolina Central,San Diego,101,83
+North Carolina-Greensboro,Florida Gulf Coast,71,62
+North Carolina State,North Carolina-Wilmington,82,72
+Incarnate Word,North Texas,67,84
+Mercer,Ohio,67,76
+West Virginia,Old Dominion,78,60
+Southern Illinois-Edwardsville,Oregon State,81,101
+Monmouth,Penn State,52,84
+Niagara,Penn,66,85
+Stanford,Pitt,67,88
+George Mason,Princeton,66,71
+McNeese State,Rhode Island,71,76
+Albany (NY),Rider,70,59
+Fairleigh Dickinson,Rutgers,73,72
+Wisconsin,Saint Louis,63,57
+Binghamton,St. Peter's,57,70
+North Florida,Savannah State,65,61
+Western Illinois,Southeastern Louisiana,52,62
+Stetson,Southern Illinois,48,67
+Sam Houston State,SMU,53,72
+Wagner,St. Bonaventure,67,70
+Longwood,St. John's (NY),47,65
+Samford,Stephen F. Austin,78,98
+Arkansas-Pine Bluff,Texas A&M,55,88
+Central Michigan,Texas A&M-Corpus Christi,68,64
+UMBC,Towson,60,75
+Colgate,Tulane,98,86
+UCF,Valparaiso,70,85
+Hampton,Virginia,40,69
+Furman,Virginia Tech,54,75
+Montana,Washington,79,83
+Utah State,Weber State,77,71
+Western Carolina,Oakland,78,88
+Richmond,Air Force,83,60
+Duke,Alabama,74,64
+Florida A&M,Alabama-Birmingham,73,85
+Drexel,Arizona,62,66
+Gonzaga,Arkansas,91,81
+Syracuse,Baylor,74,67
+Idaho,Boise State,89,98
+Oral Roberts,Bowling Green State,63,56
+Brown,Bryant,67,70
+Dayton,University of California,82,64
+Campbell,Minnesota,62,83
+Bethune-Cookman,Colorado State,52,66
+IPFW,Eastern Illinois,71,65
+Presbyterian,Georgia Southern,66,76
+New Orleans,Hawaii,58,91
+Wagner,UIC,76,94
+Vermont,Illinois State,87,76
+Tulsa,Indiana State,63,62
+Jacksonville State,Youngstown State,78,79
+Kent State,Eastern Michigan,83,63
+Kentucky,Texas-Rio Grande Valley,81,66
+Lamar,Northwestern State,61,74
+Louisiana,St. Bonaventure,105,72
+Louisiana Tech,Jackson State,76,56
+Mississippi State,Prairie View,58,60
+New Mexico State,Stetson,91,68
+North Carolina-Greensboro,Saint Louis,75,62
+Old Dominion,San Jose State,52,69
+Portland,Southern Illinois,86,56
+San Diego,San Francisco,59,96
+St. Francis (NY),UT-Martin,83,95
+ETSU,Tennessee Tech,83,98
+Ball State,Utah,69,88
+Wisconsin,West Virginia,70,63
+Virginia Military Institute,William & Mary,67,97
+James Madison,Winthrop,57,69
+Alcorn State,Wright State,55,73
+Texas Christian,Creighton,73,88
+Arizona State,Washington State,60,69
+Butler,Marquette,76,86
+Cal State Fullerton,Morehead State,66,88
+Chattanooga,San Diego State,75,72
+College of Charleston,Harvard,52,68
+Denver,IUPUI,60,54
+Gardner-Webb,Miami (FL),61,63
+George Washington,Pepperdine,71,89
+Green Bay,Xavier,97,74
+Iowa,Wake Forest,77,78
+Kansas,St. Joseph's,87,65
+LSU,Siena,82,60
+Memphis,Northwestern,87,67
+Missouri,UCLA,78,105
+Nevada,Purdue,84,87
+Oklahoma State,Villanova,97,94
+USC,UTEP,79,78
+Abilene Christian,Drexel,67,85
+Alabama,Indiana State,83,97
+Duke,Arizona,66,72
+College of Charleston,Arizona State,58,80
+Sam Houston State,Arkansas-Pine Bluff,75,49
+Portland State,Boise State,60,76
+Oklahoma State,Butler,69,67
+North Dakota,Cal Poly,43,70
+Northern Arizona,Cal State Bakersfield,50,61
+Miami (FL),Cal State Fullerton,48,46
+South Dakota State,UCSB,64,83
+IUPUI,Chattanooga,76,87
+Kennesaw State,Cincinnati,67,95
+Coastal Carolina,Clemson,40,69
+San Diego State,Creighton,86,80
+Pepperdine,Denver,68,56
+Seattle,Eastern Washington,75,82
+Florida State,Florida,66,67
+Drake,Fresno State,84,74
+Morehead State,Gardner-Webb,82,86
+Marquette,George Washington,76,60
+Appalachian State,Georgia,53,71
+Ole Miss,Georgia Tech,77,67
+Grand Canyon,Harvard,91,76
+Green Bay,Liberty,64,70
+Hampton,IPFW,53,55
+Illinois,Illinois State,57,75
+UTEP,Iowa,53,89
+Villanova,Kansas,63,59
+North Carolina A&T,Longwood,85,78
+Memphis,LSU,76,69
+Southern Miss,Louisville,38,69
+Morgan State,Maryland,62,89
+Coppin State,Michigan,45,87
+Mount St. Mary's,Michigan State,65,98
+Nevada,Missouri,70,83
+Texas A&M,Missouri State,67,73
+Mississippi Valley State,Monmouth,79,81
+Stephen F. Austin,North Carolina-Wilmington,60,55
+Southeast Missouri State,Northern Kentucky,79,65
+UCLA,Northwestern,95,79
+North Florida,Ohio State,64,99
+Arkansas-Little Rock,Oklahoma,81,101
+Pacific,Oregon,62,85
+St. John's (NY),Penn State,82,89
+Bethune-Cookman,Prairie View,80,89
+Fairfield,Providence,69,78
+Washington State,Purdue,69,54
+Rider,Rice,97,93
+Siena,St. Joseph's,66,78
+Samford,Vermont,79,61
+San Francisco,North Dakota State,72,91
+Santa Clara,Wake Forest,85,77
+USC,Virginia,63,76
+SMU,Xavier,73,49
+Tennessee,Texas-Arlington,64,69
+Texas,Tulsa,72,65
+Texas Christian,Tulane,72,52
+Texas State,UTSA,70,64
+Texas Tech,Citadel,94,59
+Towson,Mercer,84,117
+Valparaiso,Northeastern,108,66
+VCU,Radford,79,56
+Virginia Tech,Cornell,81,70
+Colorado,Air Force,81,57
+Denver,Hampton,78,72
+Arkansas-Pine Bluff,Houston Baptist,65,74
+Army,St. Peter's,72,65
+Boston University,Texas-Rio Grande Valley,66,54
+Bradley,Utah State,74,74
+BYU,Central Connecticut,85,61
+Brown,Bryant,72,82
+Princeton,Bucknell,66,53
+Delaware State,Buffalo,55,65
+Pacific,Cal Poly,73,71
+Idaho,UC-Davis,80,76
+Jacksonville State,Central Michigan,61,66
+Southern Illinois,Chicago State,84,88
+Citadel,Ball State,77,55
+Cleveland State,New Mexico State,78,83
+Colorado State,Robert Morris,85,67
+Delaware,Northern Arizona,86,56
+Drake,Pitt,76,84
+Duquesne,Marshall,67,78
+ETSU,Florida A&M,88,100
+Georgia State,Florida International,60,61
+Cal State Bakersfield,Fresno State,86,96
+Furman,Rhode Island,89,54
+George Mason,Lipscomb,61,49
+Georgetown,Campbell,70,75
+Georgia Southern,St. John's (NY),73,69
+Georgia Tech,Tulsa,58,59
+Green Bay,Yale,67,54
+Hartford,Montana,49,61
+Hawaii,Manhattan,72,66
+Hofstra,Texas A&M-Corpus Christi,59,67
+Houston,William & Mary,78,84
+Howard,Incarnate Word,79,75
+Pepperdine,Indiana State,70,73
+Villanova,Iowa,88,83
+UTEP,Kansas,63,67
+Penn,Lafayette,76,79
+Arkansas State,Lamar,95,89
+Sam Houston State,Liberty,58,62
+Mississippi Valley State,Longwood,90,89
+South Alabama,Middle Tennessee,55,65
+Penn State,Ole Miss,76,79
+Milwaukee,UMKC,84,79
+Virginia,Missouri State,83,63
+North Carolina A&T,Monmouth,61,76
+Northern Illinois,Nebraska,58,63
+Nebraska-Omaha,UT-Martin,86,55
+UNLV,Holy Cross,85,63
+New Hampshire,San Diego,52,66
+New Mexico,Eastern Kentucky,73,56
+North Carolina State,Rider,75,70
+North Dakota State,Southeastern Louisiana,87,61
+North Texas,Bethune-Cookman,75,60
+Northern Colorado,Texas State,65,70
+Northern Kentucky,Niagara,61,100
+Northwestern State,Oakland,107,86
+Evansville,Ohio,59,81
+North Dakota,Oregon,76,91
+Santa Clara,Rice,66,67
+James Madison,Richmond,53,68
+UC-Irvine,Sacramento State,79,53
+American,Saint Francis (PA),75,43
+Murray State,Saint Mary's (CA),64,89
+Illinois State,San Francisco,90,76
+Vermont,Tennessee State,73,64
+South Carolina Upstate,South Dakota,73,112
+Detroit,South Florida,65,60
+Tulane,Southeast Missouri State,72,102
+Xavier,USC,78,84
+Texas A&M,SMU,52,55
+Davidson,Stetson,86,80
+Wake Forest,Tennessee,63,82
+Utah Valley,Tennessee Tech,71,74
+Abilene Christian,Towson,47,74
+Valparaiso,Long Beach State,94,89
+Washington,San Jose State,92,55
+Weber State,Western Illinois,72,76
+Eastern Illinois,Western Kentucky,53,68
+Wofford,Western Carolina,90,77
+Wright State,Montana State,85,54
+Wyoming,Austin Peay,79,88
+UNC,Alabama-Birmingham,59,63
+Miami (FL),Arizona State,60,57
+Baylor,VCU,104,81
+Belmont,Colgate,68,93
+Binghamton,LSU,64,70
+Butler,Drake,68,65
+Cal State Bakersfield,College of Charleston,57,61
+Cal State Fullerton,Cal State Northridge,48,97
+North Carolina-Asheville,Charlotte,56,77
+George Washington,Creighton,60,53
+Oregon State,DePaul,81,93
+North Carolina-Wilmington,East Carolina,70,68
+Columbia,Elon,65,68
+Iona,Florida Gulf Coast,90,72
+Northern Arizona,Fresno State,67,71
+Coppin State,Gonzaga,51,86
+Texas Christian,Harvard,50,71
+Stephen F. Austin,High Point,71,68
+Louisiana Tech,Jackson State,72,61
+Central Arkansas,Kansas State,54,87
+Kennesaw State,Kent State,51,68
+Providence,Kentucky,65,79
+Sacred Heart,Lehigh,64,76
+Norfolk State,LIU-Brooklyn,72,74
+Dartmouth,Maine,81,56
+San Diego State,Marquette,67,59
+UMass-Lowell,Oklahoma State,73,68
+Memphis,Loyola (IL),73,64
+Mississippi State,Albany (NY),65,66
+NJIT,Pacific,55,93
+North Dakota,Prairie View,76,70
+Northern Colorado,Cornell,87,67
+Notre Dame,Cal Poly,101,61
+Oregon,Southern Utah,82,57
+Portland,Siena,86,63
+Purdue,Washington State,68,67
+St. Joseph's,Wichita State,72,70
+Saint Louis,Samford,65,76
+Fairleigh Dickinson,Seton Hall,58,54
+Texas State,Southeast Missouri State,74,82
+South Dakota State,Stanford,60,92
+St. Francis (NY),Stony Brook,70,68
+Niagara,Arkansas State,61,86
+Western Kentucky,Bowling Green State,62,74
+UC-Irvine,University of California,56,73
+Loyola Marymount,UC-Riverside,73,69
+Florida,UConn,64,65
+Delaware State,Chattanooga,72,56
+Georgia,Auburn,87,70
+Iowa State,Maryland-Eastern Shore,99,59
+UMBC,Wright State,64,69
+Morehead State,North Dakota State,74,86
+North Florida,Mercer,90,82
+Oklahoma,Boston University,96,69
+Quinnipiac,UC-Davis,66,53
+Seattle,South Alabama,77,91
+Utah Valley,South Dakota,67,71
+Texas-Rio Grande Valley,Southern Illinois-Edwardsville,49,55
+McNeese State,SMU,59,88
+Vanderbilt,Texas,64,70
+Alcorn State,Troy,70,73
+Loyola (MD),West Virginia,47,96
+Abilene Christian,Texas Tech,93,58
+Arizona,Southeastern Louisiana,79,65
+Arkansas,Arkansas-Little Rock,111,88
+Utah,Boise State,67,69
+North Texas,BYU,67,97
+Southern Utah,Cal State Northridge,57,84
+Delaware,Charleston Southern,85,80
+South Carolina Upstate,Cincinnati,50,86
+South Carolina State,Clemson,49,65
+Colorado,Colorado State,67,62
+Southern,Denver,74,75
+Michigan,Duke,69,79
+East Carolina,UMass,96,69
+Eastern Michigan,Virginia Military Institute,57,70
+Elon,UCF,87,64
+Florida Atlantic,Florida International,75,59
+Illinois,Georgia Tech,64,67
+Grand Canyon,Notre Dame,82,93
+Iowa,Jacksonville,98,88
+Creighton,Long Beach State,78,61
+IPFW,Miami (OH),87,94
+Belmont,Middle Tennessee,70,58
+Northern Iowa,Milwaukee,72,83
+Florida State,Minnesota,61,71
+Nebraska-Omaha,Presbyterian,100,87
+North Carolina-Greensboro,Campbell,66,50
+North Carolina-Wilmington,North Carolina Central,69,76
+Old Dominion,Oral Roberts,69,74
+Penn State,Pitt,69,78
+Saint Louis,UMass-Lowell,68,58
+St. Bonaventure,Bethune-Cookman,67,52
+Stetson,Indiana,56,52
+Syracuse,Alabama A&M,69,66
+Tennessee State,Texas-Arlington,65,81
+UCSB,UCLA,76,89
+Winthrop,Virginia Tech,63,81
+Lafayette,Wagner,77,65
+North Florida,Alabama,48,76
+Howard,American,53,76
+Appalachian State,ETSU,78,80
+Austin Peay,Valparaiso,74,69
+Ball State,IUPUI,50,72
+Bradley,New Hampshire,66,56
+Central Connecticut,Davidson,65,87
+Charlotte,Western Carolina,78,68
+Coastal Carolina,Army,76,64
+Columbia,Delaware State,81,46
+Dayton,Cleveland State,56,82
+Drexel,UMBC,85,88
+Duquesne,Furman,94,48
+Fordham,Wofford,79,65
+Gardner-Webb,South Florida,62,68
+George Mason,Rutgers,66,87
+George Washington,Georgia Southern,93,75
+Georgia State,Sacred Heart,71,73
+Hofstra,Albany (NY),59,57
+Holy Cross,Rice,62,71
+Houston Baptist,SMU,73,73
+UIC,Chicago State,65,56
+Illinois State,Incarnate Word,75,77
+Marist,Iona,74,83
+Bucknell,Kent State,66,59
+Hartford,La Salle,62,75
+Longwood,Louisiana,95,89
+Louisiana Tech,UMKC,80,62
+Louisville,Loyola (MD),90,87
+UNC,Michigan State,79,65
+Missouri State,Binghamton,81,74
+Mount St. Mary's,Evansville,70,63
+Murray State,Citadel,65,74
+Navy,Miami (FL),79,49
+Nebraska,New Mexico,60,79
+New Mexico State,Maine,70,72
+NJIT,Northwestern,81,48
+North Carolina State,Harvard,69,72
+Northeastern,Maryland,64,60
+Ohio State,Cal State Fullerton,76,78
+Pepperdine,Boston College,64,67
+Purdue,Radford,88,111
+Lehigh,Saint Francis (PA),57,50
+UT-Martin,Samford,89,73
+South Dakota State,Morehead State,88,60
+Southern Miss,Fairleigh Dickinson,74,62
+Stony Brook,St. Joseph's,77,69
+Temple,Houston,77,57
+Texas A&M,UTSA,74,90
+Texas State,Detroit,79,75
+Toledo,Texas Southern,91,71
+Tulsa,Penn,98,54
+Villanova,Wisconsin,77,48
+Virginia,Tulane,38,57
+Wake Forest,Eastern Illinois,72,32
+Western Illinois,Richmond,60,71
+William & Mary,Bryant,60,72
+Yale,Robert Morris,64,76
+South Dakota,Air Force,86,94
+Alabama A&M,Boise State,70,80
+Santa Clara,Cal State Bakersfield,60,42
+Seattle,Cal State Northridge,58,53
+UC-Riverside,Coastal Carolina,92,89
+High Point,Georgetown,45,80
+Ole Miss,Kansas State,58,61
+Tennessee Tech,Lipscomb,79,87
+Texas Christian,Mississippi State,71,61
+West Virginia,Missouri,71,80
+Rider,Monmouth,89,83
+Florida A&M,Norfolk State,87,91
+Wright State,North Carolina A&T,59,62
+Dartmouth,Northern Illinois,57,64
+Texas A&M-Corpus Christi,Oklahoma,56,78
+Presbyterian,Providence,91,50
+Rhode Island,San Diego State,49,65
+San Diego,LIU-Brooklyn,64,81
+Seton Hall,Marshall,92,67
+Vanderbilt,Eastern Kentucky,69,68
+Kentucky,Baylor,62,67
+University of California,UCSB,65,72
+St. Peter's,Canisius,67,82
+Maine,UConn,68,95
+Arizona State,DePaul,78,56
+Idaho State,Sam Houston State,77,77
+James Madison,Manhattan,76,70
+Marist,Siena,59,84
+Niagara,South Carolina,71,52
+Oklahoma State,Loyola Marymount,79,68
+Pitt,Fairfield,85,79
+Quinnipiac,Towson,83,69
+Brown,American,72,67
+UNLV,Arizona,58,63
+Clemson,Arkansas,68,74
+St. Francis (NY),Army,54,67
+Harvard,Boston University,79,68
+UMass,BYU,105,96
+North Dakota State,Bryant,66,62
+Columbia,Bucknell,52,57
+St. Bonaventure,Buffalo,73,78
+North Dakota,Butler,64,79
+Santa Clara,Cal Poly,53,64
+Seattle,Cal State Fullerton,74,65
+Nevada,UC-Davis,87,81
+Pepperdine,UC-Irvine,75,69
+Stetson,UCF,58,77
+Chicago State,Gardner-Webb,90,67
+Citadel,Akron,55,73
+Cleveland State,Kansas,61,72
+Colorado,Saint Francis (PA),75,72
+Cornell,Davidson,62,105
+Coppin State,Delaware State,73,54
+Iowa,Drake,83,66
+Tennessee State,Drexel,61,75
+Indiana State,Eastern Illinois,66,48
+Miami (OH),Evansville,65,78
+Jacksonville,Florida Atlantic,63,83
+Florida Gulf Coast,Florida International,61,72
+Colgate,Georgetown,55,61
+ETSU,Georgia Tech,57,87
+New Mexico State,Gonzaga,68,80
+Virginia,Green Bay,72,75
+Florida A&M,Hampton,62,72
+Holy Cross,Hartford,78,90
+San Jose State,Houston,72,68
+Washington State,Idaho,67,66
+Dayton,Illinois State,75,81
+North Florida,Indiana,68,89
+Northern Iowa,Iowa State,82,91
+Dartmouth,IPFW,64,80
+North Carolina Central,IUPUI,65,71
+Stony Brook,La Salle,57,65
+UMBC,Lehigh,68,70
+Liberty,Eastern Kentucky,84,76
+Longwood,Southern,67,50
+Louisiana Tech,Louisiana,69,74
+Louisville,UIC,113,70
+Loyola (IL),Northwestern State,73,76
+Memphis,Denver,96,63
+Mercer,Houston Baptist,64,53
+Michigan,Bradley,107,67
+Milwaukee,New Orleans,73,65
+Minnesota,Mississippi Valley State,80,89
+UCLA,Missouri,71,80
+Youngstown State,UMKC,80,88
+Montana State,Howard,109,58
+Morgan State,Loyola (MD),87,58
+Mount St. Mary's,Lipscomb,70,69
+Murray State,Cincinnati,73,54
+New Mexico,Nicholls State,63,87
+UMass-Lowell,NJIT,44,55
+Bethune-Cookman,Norfolk State,45,59
+North Carolina-Greensboro,UNC,50,81
+Long Beach State,North Carolina State,66,76
+Alabama-Birmingham,Northeastern,74,69
+Hawaii,Northern Arizona,76,66
+Western Michigan,Northwestern,35,51
+Delaware,Notre Dame,75,80
+Ohio,Oakland,56,73
+Central Connecticut,Ohio State,56,74
+Marshall,Penn State,77,90
+Wagner,Penn,75,69
+Portland,Portland State,92,76
+Furman,Presbyterian,74,59
+Fairleigh Dickinson,Princeton,55,77
+Eastern Michigan,Purdue,64,69
+North Carolina A&T,Radford,52,72
+South Alabama,Rice,93,96
+Toledo,Robert Morris,80,77
+Lafayette,Sacred Heart,86,79
+Villanova,St. Joseph's,98,68
+Towson,Sam Houston State,55,67
+Austin Peay,Samford,63,85
+Georgia Southern,South Carolina State,79,61
+Wyoming,South Dakota,67,66
+Alabama,South Florida,64,66
+Southeast Missouri State,Southeastern Louisiana,74,73
+Western Kentucky,Southern Illinois,69,60
+Central Michigan,Southern Illinois-Edwardsville,65,64
+Georgia State,Southern Miss,65,75
+Fordham,St. John's (NY),58,104
+James Madison,Stephen F. Austin,57,70
+Binghamton,Syracuse,65,93
+Texas,Temple,81,80
+Tennessee Tech,Tennessee,63,84
+Northern Kentucky,UT-Martin,66,79
+Sacramento State,UTEP,51,69
+UTSA,Texas-Rio Grande Valley,72,65
+Alabama State,Troy,69,85
+Jackson State,Tulane,65,70
+Fresno State,Utah,77,90
+Pacific,Utah State,78,68
+Utah Valley,Saint Louis,89,67
+Valparaiso,Wright State,65,74
+Virginia Military Institute,Richmond,94,66
+Wake Forest,Western Illinois,76,77
+Oral Roberts,Wichita State,58,71
+Marquette,Wisconsin,64,70
+William & Mary,Wofford,63,60
+Bowling Green State,Xavier,73,85
+New Hampshire,Yale,61,71
+Charlotte,Appalachian State,77,59
+Illinois,Auburn,81,62
+Siena,Canisius,78,93
+Colorado State,Nebraska,109,67
+Creighton,Rhode Island,82,68
+Detroit,East Carolina,70,77
+Iona,Fairfield,83,72
+Jacksonville State,Florida State,53,77
+Oklahoma,George Mason,81,66
+Maryland,George Washington,75,77
+Monmouth,Manhattan,66,75
+Virginia Tech,Miami (FL),61,60
+Oregon,Ole Miss,115,105
+St. Peter's,Niagara,56,61
+Quinnipiac,Rider,78,90
+Seton Hall,Rutgers,77,71
+Eastern Washington,Saint Mary's (CA),65,93
+Washington,San Diego State,63,70
+Boston College,USC,62,78
+Texas A&M-Corpus Christi,Old Dominion,77,48
+Air Force,Butler,94,100
+UMass-Lowell,Columbia,39,78
+Bethune-Cookman,Hampton,52,85
+Alcorn State,Houston,58,89
+Fairleigh Dickinson,Iowa,59,92
+LIU-Brooklyn,Lehigh,69,76
+Louisiana-Monroe,Middle Tennessee,84,115
+Bryant,Notre Dame,59,70
+IPFW,Bradley,65,61
+Albany (NY),Brown,74,68
+Nevada,University of California,84,92
+Campbell,Hartford,65,59
+Central Connecticut,Chattanooga,73,86
+Fordham,Colgate,77,73
+Green Bay,Eastern Michigan,58,67
+Kansas,Florida,61,67
+Furman,Dartmouth,93,65
+Illinois,Oakland,72,54
+Indiana,IUPUI,81,94
+South Dakota,Kansas State,62,64
+Boise State,Kentucky,55,70
+South Dakota State,Minnesota,59,75
+Cal State Bakersfield,Nebraska-Omaha,88,93
+Northern Colorado,Savannah State,96,50
+Northern Iowa,San Diego,55,84
+NJIT,Seton Hall,55,71
+Monmouth,St. Francis (NY),73,58
+Towson,Arkansas-Little Rock,102,64
+Tulsa,Idaho State,78,66
+Utah,Gonzaga,74,80
+West Virginia,Evansville,76,60
+New Mexico State,Arizona,48,74
+North Dakota,Bowling Green State,69,79
+Prairie View,BYU,52,100
+Canisius,Buffalo,69,55
+Howard,UCF,64,79
+Denver,Colorado State,80,70
+UMBC,Coppin State,71,91
+Niagara,Davidson,83,72
+Penn State,Duquesne,68,59
+Boston University,George Washington,60,70
+Alcorn State,Jacksonville State,52,63
+Northwestern State,Louisiana Tech,71,93
+Idaho,Montana,58,69
+North Carolina-Greensboro,North Dakota State,75,73
+Notre Dame,Bryant,69,48
+Ohio State,Princeton,86,78
+Rutgers,Weber State,73,59
+Utah Valley,Milwaukee,62,52
+Savannah State,Arkansas,43,72
+Maryland,Boston College,88,80
+College of Charleston,Florida Atlantic,68,70
+DePaul,LIU-Brooklyn,81,96
+NJIT,North Carolina-Asheville,93,92
+Elon,Colorado,63,80
+Iowa,Iowa State,82,85
+Campbell,Loyola (IL),68,80
+Army,Maine,90,80
+Arkansas-Little Rock,Memphis,59,73
+Southeastern Louisiana,Mississippi State,62,68
+Missouri State,Oral Roberts,70,67
+Arkansas-Pine Bluff,Oregon State,63,77
+UC-Riverside,Air Force,52,62
+Bethune-Cookman,Akron,56,84
+Charleston Southern,Alabama,45,59
+Colgate,Albany (NY),69,60
+Grambling,Arizona State,55,97
+Liberty,Austin Peay,71,77
+Saint Mary's (CA),Boise State,82,74
+Navy,Bryant,80,90
+Purdue,Butler,70,76
+Cal Poly,Fresno State,85,56
+University of California,Hawaii,67,94
+Xavier,Cincinnati,64,47
+Furman,Clemson,35,71
+Coastal Carolina,Jacksonville State,118,46
+Dartmouth,Central Michigan,76,58
+Dayton,New Mexico State,84,81
+Drake,Robert Morris,69,67
+Duquesne,North Carolina A&T,63,71
+East Carolina,Jackson State,84,57
+Evansville,Samford,51,51
+Florida Gulf Coast,Howard,83,60
+Fordham,Gardner-Webb,79,106
+Lipscomb,Georgia,75,84
+Old Dominion,Georgia State,73,79
+South Alabama,Gonzaga,59,68
+James Madison,High Point,84,69
+Texas-Arlington,Houston Baptist,80,70
+Oregon,Illinois,71,64
+Incarnate Word,Notre Dame,83,79
+Indiana,St. Bonaventure,72,102
+Iona,Southern Illinois-Edwardsville,89,75
+IPFW,New Mexico,95,63
+Kansas,Longwood,80,99
+Houston,Louisiana,76,79
+Louisiana-Monroe,LSU,54,61
+Oklahoma State,Louisiana Tech,70,55
+Western Kentucky,Louisville,63,79
+IUPUI,Marquette,50,86
+West Virginia,Marshall,74,64
+Florida Atlantic,Maryland,62,66
+Northern Illinois,UMass,54,80
+Arizona,Michigan,72,70
+Oakland,Michigan State,63,67
+Middle Tennessee,Ole Miss,63,72
+Indiana State,UMKC,74,63
+Binghamton,Monmouth,46,74
+Arkansas State,Nebraska,67,79
+Nebraska-Omaha,Nevada,82,80
+New Orleans,Kentucky,101,77
+UNC,Detroit,82,79
+North Carolina State,Grand Canyon,82,61
+Northern Arizona,VCU,63,68
+Northern Iowa,Northwestern State,77,116
+Alabama A&M,Ohio,47,72
+North Dakota State,Ohio State,62,79
+Tulsa,Oklahoma,91,101
+Pacific,Princeton,84,81
+Penn State,Youngstown State,79,73
+Pitt,Idaho,91,76
+Portland State,Coppin State,75,49
+Richmond,Wagner,71,58
+Rider,North Carolina-Greensboro,79,72
+Rutgers,Sacramento State,89,85
+Wofford,Saint Louis,52,66
+Nicholls State,San Francisco,48,77
+Santa Clara,St. Peter's,97,83
+Seton Hall,Green Bay,80,89
+South Dakota,Belmont,85,72
+South Dakota State,UIC,85,75
+Southeast Missouri State,Southern,69,107
+Southern Miss,UNLV,96,73
+Southern Utah,Canisius,51,51
+St. Francis (NY),UC-Davis,67,56
+Stanford,Texas State,83,53
+Texas,McNeese State,85,60
+Texas A&M,Sam Houston State,73,61
+Toledo,Prairie View,77,71
+UCLA,BYU,95,64
+Utah,Utah Valley,81,60
+Utah State,Loyola Marymount,71,73
+Valparaiso,Idaho State,80,66
+Washington,Tennessee,85,61
+Wichita State,Eastern Kentucky,70,61
+Georgia Southern,Alabama-Birmingham,62,84
+Boston College,Norfolk State,67,86
+Boston University,Texas Southern,82,80
+Cal State Fullerton,Marist,87,69
+College of Charleston,Drexel,62,72
+Davidson,Howard,58,64
+Delaware State,Wyoming,62,61
+Denver,Chicago State,64,70
+DePaul,UC-Irvine,77,70
+Eastern Washington,Northeastern,61,60
+Fairfield,Central Connecticut,64,67
+Hofstra,Troy,72,43
+Kansas State,Tennessee Tech,72,79
+Lamar,Wright State,74,56
+Miami (OH),Western Michigan,59,60
+Missouri,Montana,66,73
+Bowling Green State,Morehead State,67,61
+Stony Brook,New Hampshire,67,48
+Manhattan,North Carolina-Wilmington,77,72
+North Dakota,Stephen F. Austin,78,87
+North Texas,Chattanooga,53,71
+Northern Kentucky,Maryland-Eastern Shore,87,66
+Oregon State,Montana State,98,72
+Portland,Hartford,69,84
+Sacred Heart,UCSB,72,72
+San Diego,Seattle,61,66
+North Carolina-Asheville,South Carolina Upstate,73,63
+Cal State Bakersfield,USC,59,63
+Syracuse,St. John's (NY),68,63
+Tennessee State,Texas-Rio Grande Valley,108,48
+Texas Christian,Central Arkansas,57,57
+Texas Tech,Quinnipiac,79,80
+Vermont,La Salle,67,52
+Villanova,Pepperdine,73,61
+Washington State,Appalachian State,78,72
+Oral Roberts,Akron,64,74
+Western Illinois,Alabama State,52,59
+Southern Illinois-Edwardsville,Chicago State,64,81
+Western Carolina,Cleveland State,55,66
+Gardner-Webb,Duke,66,85
+ETSU,Kennesaw State,108,57
+Georgia Tech,Grambling,74,83
+Canisius,Holy Cross,83,73
+Incarnate Word,Alcorn State,96,44
+Mercer,Delaware,70,66
+North Dakota State,UC-Riverside,85,60
+Northern Colorado,Mississippi Valley State,63,64
+Northwestern,Illinois State,86,75
+Oakland,UT-Martin,90,73
+Presbyterian,Radford,70,62
+Santa Clara,New Orleans,75,71
+Abilene Christian,Wichita State,90,72
+Alabama,Toledo,67,78
+Arkansas State,Jacksonville,65,64
+UCF,Pitt,104,43
+Cincinnati,Arkansas-Pine Bluff,44,51
+Creighton,Belmont,88,62
+Denver,Memphis,90,75
+Florida,Charlotte,77,62
+Florida State,Elon,106,76
+Georgetown,Tennessee Tech,85,49
+Green Bay,UIC,76,88
+Incarnate Word,Central Michigan,98,73
+Jacksonville State,Lafayette,82,79
+Howard,Liberty,59,77
+Longwood,Louisiana,80,103
+McNeese State,Louisiana Tech,50,64
+Missouri State,Louisville,60,90
+Cal Poly,Loyola Marymount,59,79
+Ball State,Marquette,53,91
+Marshall,North Florida,121,48
+Michigan State,Middle Tennessee,78,102
+Florida A&M,Mississippi State,65,78
+Southern Illinois,Murray State,65,73
+New Mexico State,New Mexico,67,61
+Central Arkansas,North Texas,55,64
+Texas-Arlington,Oklahoma,89,91
+Delaware State,Oklahoma State,43,75
+UC-Irvine,Oregon,63,91
+Yale,Providence,74,76
+Maryland-Eastern Shore,Purdue,50,79
+Duquesne,Saint Francis (PA),78,71
+South Alabama,Manhattan,82,86
+South Carolina,Coastal Carolina,68,78
+South Carolina State,Florida Gulf Coast,83,66
+South Florida,Florida Atlantic,68,62
+Stetson,Washington,64,73
+Tulane,Austin Peay,62,56
+Vanderbilt,Wofford,58,57
+VCU,St. Bonaventure,72,62
+Wake Forest,Weber State,77,107
+Bethune-Cookman,Youngstown State,59,71
+Abilene Christian,Detroit,87,60
+Akron,Chattanooga,79,52
+Alabama-Birmingham,Northwestern State,67,84
+Baylor,Citadel,91,79
+Cleveland State,Stanford,97,53
+UConn,Houston Baptist,51,58
+DePaul,Western Michigan,78,68
+Drake,North Carolina A&T,71,73
+Eastern Kentucky,Kennesaw State,84,55
+Georgia Southern,Nicholls State,73,62
+IUPUI,Lamar,56,79
+LIU-Brooklyn,Northern Illinois,82,55
+Loyola (IL),Vermont,49,62
+UMass-Lowell,Louisiana-Monroe,48,62
+Ole Miss,Miami (OH),75,55
+UMKC,High Point,69,74
+Morgan State,Radford,85,62
+UNLV,Dartmouth,81,62
+New Hampshire,Texas,48,86
+UNC,Winthrop,83,66
+North Carolina Central,James Madison,72,65
+North Carolina-Greensboro,Hampton,78,67
+Northern Kentucky,UMass,69,83
+Ohio,Delaware,71,64
+Ohio State,College of Charleston,76,51
+Old Dominion,Towson,44,67
+Oregon State,Appalachian State,76,69
+Presbyterian,Campbell,74,61
+Robert Morris,Drexel,72,55
+St. Joseph's,Indiana State,75,66
+Saint Louis,Southern Utah,83,39
+San Diego State,Washington State,76,80
+UC-Davis,San Jose State,85,89
+Sacred Heart,Santa Clara,61,70
+South Dakota State,Texas-Rio Grande Valley,75,56
+SMU,San Francisco,82,57
+St. John's (NY),Texas Southern,81,90
+Temple,North Carolina State,89,65
+Tennessee,Cal State Bakersfield,58,90
+UTSA,LSU,64,71
+Texas Tech,Grand Canyon,69,65
+Tulsa,Charleston Southern,66,84
+Western Carolina,Southern Miss,92,65
+Southern,Arizona,43,69
+UT-Martin,Arkansas,56,102
+Clemson,Auburn,64,66
+Lipscomb,Austin Peay,88,83
+Troy,UCSB,54,57
+Iona,Dayton,84,96
+UCLA,Duke,63,80
+Virginia Military Institute,East Carolina,94,103
+Elon,Gardner-Webb,126,49
+Georgia,Tennessee State,58,58
+Illinois State,Louisiana,64,70
+Jackson State,Wagner,73,54
+La Salle,USC,80,71
+Long Beach State,Stony Brook,72,76
+Loyola (MD),Florida Gulf Coast,69,53
+Mississippi State,Montana State,66,109
+South Dakota,Morehead State,83,120
+Seattle,Norfolk State,70,67
+Rice,American,69,44
+Saint Mary's (CA),Miami (FL),59,68
+Savannah State,South Carolina Upstate,51,74
+South Carolina,Florida A&M,68,70
+South Florida,Lafayette,73,62
+St. Francis (NY),Tennessee Tech,65,112
+Grambling,Texas Christian,75,98
+Northwestern State,UTEP,74,84
+Texas State,Utah,50,69
+Western Illinois,Utah State,52,68
+Eastern Illinois,Wright State,43,70
+Yale,Albany (NY),62,70
+Jacksonville State,Arkansas-Little Rock,70,75
+Portland,Bradley,74,53
+UIC,UC-Riverside,56,57
+Southern Miss,Coppin State,88,74
+Liberty,Furman,83,86
+Georgia Southern,Georgia State,61,73
+Idaho State,Idaho,65,69
+Nicholls State,Indiana,66,79
+Samford,Jacksonville,75,58
+Bucknell,Marist,51,69
+Nebraska-Omaha,Minnesota,79,92
+Montana,Sacred Heart,91,50
+UNLV,North Carolina-Asheville,82,83
+Princeton,Pacific,83,58
+High Point,Syracuse,54,75
+Cal State Northridge,Texas A&M-Corpus Christi,67,66
+Western Illinois,Troy,61,58
+UCSB,Utah State,71,77
+Utah Valley,William & Mary,103,94
+SMU,Wyoming,62,54
+Xavier,Alabama,77,74
+Appalachian State,Texas Tech,100,62
+Arizona State,South Alabama,76,60
+Arkansas,Southern Miss,72,74
+Arkansas-Little Rock,Pacific,60,71
+Bradley,Delaware,55,108
+Bryant,Manhattan,107,84
+Buffalo,Sacramento State,81,51
+Cal State Fullerton,Air Force,59,74
+UC-Davis,Western Illinois,80,55
+UCSB,Campbell,61,95
+Lamar,Canisius,74,87
+Charleston Southern,Central Arkansas,97,90
+Coastal Carolina,Central Connecticut,65,62
+UCF,South Carolina Upstate,86,76
+Charlotte,Middle Tennessee,81,48
+Cincinnati,Kent State,69,58
+College of Charleston,Oklahoma State,54,78
+Colorado,Fairleigh Dickinson,73,59
+Columbia,Jacksonville State,82,72
+Coppin State,Longwood,61,64
+Dartmouth,UC-Irvine,84,63
+Denver,Austin Peay,50,79
+ETSU,Butler,84,68
+Evansville,Fresno State,59,49
+Florida,Louisville,66,85
+Florida International,UMass,56,55
+Florida State,Gardner-Webb,60,90
+UMBC,George Washington,61,74
+Western Carolina,Georgia,63,65
+Kansas State,Gonzaga,72,62
+Grambling,Fairfield,54,58
+Green Bay,James Madison,74,55
+Hampton,Vermont,49,68
+Harvard,Rice,74,52
+Houston,Missouri,54,64
+Illinois,IUPUI,65,61
+Indiana State,Eastern Illinois,81,65
+IPFW,Georgetown,86,64
+Kansas,Belmont,86,80
+Kentucky,Quinnipiac,93,58
+Lehigh,Long Beach State,69,82
+Temple,LIU-Brooklyn,101,65
+Alabama-Birmingham,LSU,63,86
+Loyola Marymount,St. Joseph's,100,88
+Loyola (MD),New Mexico,77,75
+Marquette,Arkansas State,68,83
+Marshall,Boston University,82,83
+Maryland,Maryland-Eastern Shore,77,62
+Duquesne,UMass-Lowell,95,77
+Southeast Missouri State,Memphis,65,77
+Stanford,Michigan,65,68
+Northeastern,Milwaukee,62,59
+Alabama A&M,Missouri State,47,68
+Fordham,Monmouth,78,87
+Citadel,Nebraska,62,77
+New Mexico State,St. Bonaventure,97,74
+Niagara,Holy Cross,72,74
+NJIT,Davidson,55,85
+UNC,East Carolina,97,79
+North Carolina State,Old Dominion,90,69
+North Carolina-Wilmington,South Dakota State,57,77
+North Dakota,Towson,70,82
+North Dakota State,Bethune-Cookman,90,64
+North Florida,North Texas,68,81
+Navy,Northern Kentucky,65,72
+Ohio State,Notre Dame,64,61
+Eastern Michigan,Oakland,81,79
+Texas A&M,Oklahoma,52,64
+Oral Roberts,BYU,69,96
+Oregon,Houston Baptist,100,64
+Pepperdine,Cal Poly,76,56
+Pitt,Princeton,73,79
+Portland,Maine,93,70
+Providence,North Carolina A&T,94,57
+Saint Louis,Southern Utah,79,52
+San Diego,McNeese State,67,36
+San Diego State,San Jose State,65,73
+Valparaiso,Ball State,89,58
+Southern Illinois,Youngstown State,66,87
+St. John's (NY),Stephen F. Austin,96,83
+Southeastern Louisiana,UT-Martin,80,76
+Miami (OH),Tennessee State,79,64
+Michigan State,Texas,92,78
+Cal State Bakersfield,Texas-Arlington,75,79
+Tulsa,Texas Christian,58,70
+Texas State,Cleveland State,73,67
+Toledo,Alabama State,71,66
+Tulane,Troy,84,50
+Utah State,Georgia Tech,71,63
+Vanderbilt,Rider,76,67
+Villanova,Northern Iowa,88,43
+Virginia,Virginia Tech,57,52
+VCU,North Carolina-Greensboro,82,51
+Wake Forest,UTEP,59,64
+Washington State,Murray State,51,64
+Western Kentucky,Prairie View,71,53
+Western Michigan,Wofford,92,62
+Winthrop,UMKC,56,49
+Oregon State,Akron,71,83
+Milwaukee,Alabama State,67,54
+Boston College,Auburn,67,77
+Southern,Baylor,56,81
+Detroit,Bowling Green State,62,64
+Idaho,Cal State Northridge,69,79
+Northern Illinois,UC-Riverside,71,64
+Valparaiso,UCF,62,90
+Colgate,University of California,79,54
+Creighton,USC,68,79
+Dayton,Saint Francis (PA),76,49
+Drexel,Elon,59,67
+Florida Atlantic,Florida A&M,62,68
+Florida Gulf Coast,Iowa State,77,79
+George Mason,St. Peter's,67,56
+Hartford,Boise State,66,62
+Hawaii,DePaul,61,64
+Illinois State,Kennesaw State,69,66
+Indiana,Arkansas-Pine Bluff,90,61
+Iowa,Louisiana Tech,86,83
+Louisiana-Monroe,Penn,61,62
+Marist,La Salle,76,58
+Miami (FL),Mercer,71,79
+Ole Miss,South Florida,76,66
+Mississippi State,Seattle,71,69
+Nebraska-Omaha,Iona,76,72
+Nevada,Santa Clara,80,71
+UNLV,Brown,92,52
+Northwestern,Robert Morris,58,94
+Oakland,Mount St. Mary's,100,82
+Penn State,Sacred Heart,92,78
+Radford,New Hampshire,94,45
+Rhode Island,Ohio,62,70
+Richmond,Army,69,72
+Rutgers,South Carolina,75,78
+Saint Mary's (CA),American,71,69
+San Francisco,Eastern Washington,77,70
+Seton Hall,Cornell,92,54
+Stony Brook,Georgia State,76,99
+UTSA,Northeastern,68,62
+Tulane,Weber State,65,60
+UCLA,UConn,83,82
+Washington,Purdue,70,73
+West Virginia,North Carolina Central,70,66
+Wichita State,Northern Colorado,77,59
+Iowa State,Akron,83,60
+Northern Arizona,Arizona,44,77
+South Carolina,Boise State,54,80
+Binghamton,Buffalo,57,87
+Chicago State,Cincinnati,62,102
+Cleveland State,UIC,89,61
+Colorado State,Detroit,74,93
+Albany (NY),Drake,63,71
+Sacred Heart,Florida A&M,70,75
+Radford,Florida Gulf Coast,64,63
+Loyola (IL),Fordham,69,83
+Oregon State,George Mason,58,54
+Saint Mary's (CA),Hawaii,74,76
+South Carolina State,Jacksonville,47,61
+UNLV,Mississippi State,82,66
+Grand Canyon,New Mexico,68,80
+Portland State,South Florida,98,65
+Santa Clara,Hofstra,66,59
+Siena,IUPUI,67,79
+Southeast Missouri State,Southern Illinois-Edwardsville,83,57
+Southern Illinois,NJIT,74,65
+St. Francis (NY),Morehead State,77,67
+Tennessee,Montana State,82,55
+UTEP,North Dakota State,70,74
+Utah Valley,Norfolk State,70,56
+South Carolina,Akron,69,59
+Iowa State,Boise State,70,66
+Saint Mary's (CA),George Mason,63,65
+Oregon State,Hawaii,73,79
+Morgan State,Cal State Northridge,80,86
+Mercer,Northern Kentucky,98,60
+UNC,DePaul,75,57
+Northwestern,Oakland,56,87
+Louisiana-Monroe,Ohio State,31,71
+San Diego State,Lafayette,118,58
+Seton Hall,Mississippi Valley State,90,80
+Alabama State,Denver,78,67
+Alcorn State,UC-Irvine,49,61
+Arizona State,High Point,74,48
+Arkansas,Bryant,89,62
+Binghamton,VCU,67,69
+Boston College,South Florida,50,61
+Bradley,Fairfield,57,73
+Bucknell,NJIT,64,48
+Butler,Furman,66,60
+University of California,Nebraska-Omaha,90,104
+Central Arkansas,Charleston Southern,88,122
+Nebraska,Cincinnati,59,74
+Georgia,Colorado,70,84
+Lamar,Colorado State,71,86
+St. John's (NY),Columbia,65,59
+Eastern Washington,UConn,65,82
+Eastern Michigan,Duke,59,82
+Tennessee State,Eastern Illinois,69,70
+Grambling,Evansville,61,96
+Harvard,Fordham,94,86
+Fresno State,Florida International,104,57
+Georgetown,Santa Clara,92,60
+Gonzaga,Green Bay,74,91
+George Washington,Hofstra,69,58
+Montana,Idaho,72,71
+Cal State Bakersfield,Idaho State,61,57
+UIC,Illinois,60,74
+Belmont,Indiana State,73,85
+Tulane,Kansas State,41,72
+Cleveland State,Kent State,78,70
+Louisville,Kentucky,66,73
+Liberty,McNeese State,92,52
+LSU,BYU,79,76
+Loyola Marymount,Samford,87,48
+Marquette,Providence,71,67
+UMass,Jackson State,69,61
+Memphis,Holy Cross,75,66
+Michigan,New Orleans,88,48
+Michigan State,Texas A&M-Corpus Christi,101,44
+Minnesota,South Dakota State,65,65
+UMKC,Long Beach State,60,80
+Nevada,Cal State Fullerton,77,64
+UNLV,South Alabama,83,64
+New Mexico State,North Carolina-Wilmington,82,61
+North Carolina-Asheville,Georgia Southern,75,66
+North Carolina A&T,Missouri,63,68
+North Carolina State,Iona,64,78
+Northern Iowa,San Diego,90,64
+Pepperdine,San Francisco,75,87
+Portland,Southern Miss,81,77
+Rhode Island,Old Dominion,64,58
+Richmond,Cornell,67,59
+St. Peter's,LIU-Brooklyn,67,78
+Sam Houston State,San Jose State,82,87
+Akron,South Carolina,45,78
+Villanova,Syracuse,62,78
+Western Illinois,UTEP,64,67
+Coppin State,Toledo,66,85
+Troy,Alabama,74,67
+UCLA,Utah,75,124
+Utah State,Tennessee Tech,84,66
+Utah Valley,North Carolina-Greensboro,75,55
+Virginia Tech,Mississippi Valley State,52,48
+Washington State,Weber State,85,75
+Western Kentucky,Prairie View,103,43
+Wisconsin,Wake Forest,80,53
+Alabama A&M,Alabama-Birmingham,57,69
+Western Illinois,Alcorn State,64,62
+Central Connecticut,Georgia Tech,85,58
+Charlotte,Grand Canyon,55,64
+Chattanooga,College of Charleston,69,72
+Citadel,Chicago State,48,58
+Creighton,Murray State,90,51
+Dayton,Buffalo,72,55
+Drexel,Georgia State,52,89
+East Carolina,Valparaiso,82,62
+ETSU,Savannah State,73,34
+Florida,Winthrop,76,95
+Hampton,Eastern Kentucky,101,90
+IPFW,Drake,68,75
+IUPUI,Middle Tennessee,52,85
+Maine,Tulsa,89,74
+Maryland,American,85,71
+Maryland-Eastern Shore,Southern Illinois,58,65
+Miami (OH),Southeast Missouri State,67,78
+Missouri State,Brown,81,65
+Niagara,North Dakota,68,66
+Northern Colorado,Canisius,84,81
+Notre Dame,Morgan State,87,76
+Oregon,Quinnipiac,97,68
+Oregon State,Penn,76,88
+Rider,UC-Riverside,89,67
+Sacramento State,Boston University,69,67
+St. Joseph's,Howard,73,60
+USC,Southern Illinois-Edwardsville,82,102
+Cal Poly,Stanford,62,79
+Texas Southern,Texas Christian,64,77
+Denver,UTEP,54,60
+Duquesne,Texas-Rio Grande Valley,88,69
+Hartford,Washington,67,73
+William & Mary,West Virginia,45,82
+Davidson,Wichita State,70,81
+Bowling Green State,Wright State,43,46
+South Dakota,Youngstown State,59,85
+Abilene Christian,Alabama State,99,93
+Appalachian State,Grambling,97,68
+Arkansas-Little Rock,Arkansas State,88,91
+Army,Arkansas-Pine Bluff,68,59
+Auburn,Austin Peay,91,93
+Oral Roberts,Baylor,55,81
+Lehigh,Bryant,68,70
+Furman,UC-Davis,75,65
+Georgia Southern,Campbell,63,69
+Central Arkansas,Maine,121,80
+Chattanooga,Virginia Military Institute,86,50
+Clemson,South Carolina State,80,68
+Coastal Carolina,Columbia,58,76
+Colgate,St. Francis (NY),70,60
+Delaware State,Bethune-Cookman,57,53
+Detroit,Northern Kentucky,73,56
+Florida Gulf Coast,Charleston Southern,60,59
+Florida State,San Francisco,67,41
+Gonzaga,Middle Tennessee,69,79
+Grand Canyon,Norfolk State,56,66
+Hawaii,NJIT,77,64
+Hofstra,Incarnate Word,75,102
+Mercer,Jacksonville,86,49
+UT-Martin,Jacksonville State,65,70
+Ball State,James Madison,68,73
+Toledo,Kansas,83,93
+Louisiana,San Diego,90,62
+Loyola Marymount,Navy,65,48
+UMBC,Loyola (MD),63,48
+Miami (FL),Wagner,71,59
+Monmouth,Morehead State,52,102
+North Carolina State,North Carolina-Greensboro,68,64
+Kennesaw State,North Florida,60,85
+Longwood,Ohio,43,78
+Louisiana Tech,Oklahoma,102,98
+Robert Morris,Oklahoma State,66,92
+Saint Mary's (CA),Pacific,88,80
+BYU,Pepperdine,74,80
+Santa Clara,Portland,76,68
+Radford,Presbyterian,80,59
+Samford,UCSB,71,86
+Seattle,Fordham,70,69
+Siena,Marshall,79,65
+South Carolina,Southeastern Louisiana,92,75
+Southern,Delaware,116,73
+St. Bonaventure,Cal State Northridge,80,67
+Stephen F. Austin,Lipscomb,74,63
+Stetson,Virginia,65,52
+Tennessee,Rice,87,44
+Texas,LIU-Brooklyn,66,73
+Texas State,Mount St. Mary's,64,69
+Texas Tech,New Hampshire,100,64
+Towson,Saint Louis,72,57
+Vanderbilt,Vermont,49,88
+Western Carolina,Ole Miss,106,79
+Western Kentucky,High Point,74,53
+Coppin State,Akron,66,77
+Villanova,Butler,76,73
+Louisville,UCF,90,65
+Marquette,Creighton,49,67
+Dartmouth,Saint Francis (PA),85,61
+Denver,Elon,83,48
+Duke,DePaul,86,54
+Georgetown,UConn,61,71
+Houston,Indiana,75,80
+Illinois,Nebraska,83,57
+Iowa,Northern Illinois,67,63
+Iowa State,George Washington,99,55
+Kansas State,North Carolina Central,72,56
+Maryland,Mississippi Valley State,70,99
+North Carolina-Wilmington,UNC,51,84
+North Carolina-Asheville,Richmond,80,70
+Northeastern,Michigan State,66,79
+Penn State,Albany (NY),63,46
+Pitt,Kent State,58,68
+Princeton,Seton Hall,73,81
+Providence,Ohio State,80,78
+Purdue,Binghamton,69,44
+St. Joseph's,South Carolina Upstate,71,94
+Memphis,South Florida,88,73
+Eastern Michigan,Syracuse,48,70
+North Texas,Texas A&M,61,41
+UTSA,Maryland-Eastern Shore,64,66
+Virginia Tech,St. John's (NY),82,60
+Utah State,Air Force,72,73
+SMU,Cincinnati,57,65
+San Diego State,Colorado State,71,61
+College of Charleston,Davidson,76,64
+Winthrop,Dayton,47,81
+Liberty,Delaware,64,77
+Evansville,Drake,66,94
+Florida Atlantic,Lipscomb,81,62
+Florida Gulf Coast,UNLV,75,75
+Fresno State,Boston College,62,58
+Harvard,Loyola (IL),73,58
+Indiana State,Kennesaw State,70,66
+Jacksonville,Mercer,86,83
+North Florida,Bradley,89,46
+Northern Iowa,Temple,80,66
+Rutgers,Nevada,71,62
+San Jose State,Northern Kentucky,50,67
+Stetson,Old Dominion,65,68
+William & Mary,Wyoming,74,69
+Marshall,Akron,58,59
+Washington State,Arizona,25,60
+Washington,Arizona State,76,65
+UT-Martin,Austin Peay,68,81
+Jacksonville State,Belmont,67,78
+Holy Cross,Boston University,60,70
+IPFW,Bowling Green State,65,60
+Rhode Island,Brown,75,66
+American,Bucknell,67,57
+UC-Davis,Morgan State,93,63
+UC-Irvine,UC-Riverside,75,85
+East Carolina,Campbell,79,71
+Texas A&M-Corpus Christi,Central Arkansas,81,66
+Lehigh,Colgate,88,81
+Oregon State,Colorado,58,64
+Gardner-Webb,Delaware State,65,66
+Appalachian State,Duquesne,55,79
+Eastern Kentucky,Eastern Illinois,100,81
+Florida International,Florida A&M,88,93
+Penn,George Mason,77,80
+Troy,Georgia State,72,81
+Saint Mary's (CA),Gonzaga,51,73
+Texas-Rio Grande Valley,Grand Canyon,85,91
+Cleveland State,Green Bay,55,66
+UMKC,Idaho,80,74
+Portland State,Idaho State,76,87
+IUPUI,Army,112,85
+Lafayette,Navy,66,57
+Loyola (MD),Fairfield,63,56
+Marist,Southeastern Louisiana,75,60
+McNeese State,Youngstown State,69,76
+Milwaukee,Michigan,82,63
+Minnesota,Maryland-Eastern Shore,60,63
+Mississippi State,Illinois State,77,70
+Missouri State,Siena,78,59
+Monmouth,Northern Arizona,63,73
+Montana,Sacramento State,65,55
+Montana State,Southeast Missouri State,70,75
+Murray State,New Orleans,82,83
+Nicholls State,Southern Utah,88,61
+North Dakota,Wisconsin,65,76
+Northwestern,Sam Houston State,49,107
+Northwestern State,Houston Baptist,104,55
+Oral Roberts,Pacific,88,64
+Portland,Citadel,72,59
+Radford,Niagara,76,83
+Rider,Manhattan,85,74
+St. Peter's,Wofford,62,71
+Samford,Loyola Marymount,61,61
+San Francisco,Pepperdine,75,70
+Santa Clara,Western Kentucky,61,58
+South Alabama,Cal State Northridge,56,75
+South Dakota,Wichita State,76,82
+Southern Illinois,Morehead State,67,70
+Southern Illinois-Edwardsville,University of California,63,69
+Stanford,Lamar,62,65
+Stephen F. Austin,Tennessee Tech,85,57
+Tennessee State,Arkansas State,53,82
+Texas-Arlington,Arkansas-Little Rock,66,63
+Texas State,Hofstra,59,58
+Tulane,Oregon,61,70
+Utah,UIC,68,72
+Valparaiso,Eastern Washington,87,67
+Weber State,North Carolina-Greensboro,74,51
+Western Carolina,Western Michigan,72,83
+Oakland,Wright State,64,76
+Ball State,Savannah State,94,50
+Baylor,Central Michigan,80,127
+Central Connecticut,Coastal Carolina,67,86
+Georgia,George Washington,55,73
+Nebraska-Omaha,Hawaii,73,77
+High Point,Mount St. Mary's,85,104
+Norfolk State,Bethune-Cookman,84,51
+Northern Illinois,South Carolina State,65,75
+South Carolina,Drexel,82,49
+Southern Miss,Stony Brook,66,63
+Robert Morris,Alabama,56,64
+Alabama-Birmingham,Hartford,96,56
+Albany (NY),Washington,81,62
+Arizona,UTSA,71,71
+Arkansas,Florida A&M,104,50
+Auburn,Southeast Missouri State,81,74
+Austin Peay,Tennessee Tech,80,62
+Belmont,Fresno State,64,79
+Boise State,Clemson,86,62
+Boston College,Drake,60,57
+Bradley,San Diego,68,53
+BYU,Utah Valley,87,82
+Cal State Bakersfield,UC-Irvine,74,91
+UCSB,Delaware State,81,70
+Campbell,Houston Baptist,60,69
+Central Arkansas,Temple,86,76
+UCF,North Carolina A&T,78,72
+Charlotte,Howard,88,50
+College of Charleston,St. Francis (NY),60,61
+Columbia,Towson,81,81
+Coppin State,Vermont,79,62
+Dartmouth,Cal Poly,53,72
+Delaware,Wright State,82,53
+Detroit,Morehead State,58,85
+Eastern Illinois,Eastern Michigan,77,92
+Indiana State,Evansville,81,62
+Richmond,Florida,58,67
+Virginia,Florida State,62,50
+Chattanooga,Furman,72,63
+St. John's (NY),Georgetown,60,77
+Samford,Georgia Southern,78,80
+Pacific,Gonzaga,64,86
+Alabama State,Grambling,68,51
+New Mexico State,Grand Canyon,84,62
+Youngstown State,Green Bay,69,85
+Radford,Hampton,60,87
+Chicago State,Idaho,57,55
+Eastern Washington,Idaho State,72,83
+Penn State,Illinois,55,75
+Incarnate Word,Michigan State,100,73
+Indiana,Niagara,56,92
+Iona,IPFW,118,110
+Alabama A&M,Jackson State,68,61
+Oklahoma State,Kansas State,71,74
+ETSU,Kennesaw State,71,55
+Princeton,Liberty,80,74
+North Florida,Lipscomb,78,73
+Louisiana,Louisiana-Monroe,98,103
+Rhode Island,LSU,74,70
+Longwood,Louisiana Tech,52,126
+Fairfield,Manhattan,57,83
+DePaul,Marquette,56,66
+Georgia Tech,Maryland,61,77
+Miami (OH),UMass,65,73
+New Orleans,McNeese State,69,82
+Cincinnati,Memphis,69,53
+South Carolina Upstate,Mercer,60,62
+Cleveland State,Milwaukee,77,49
+Dayton,Ole Miss,83,80
+Arkansas-Pine Bluff,Mississippi Valley State,78,73
+Long Beach State,Missouri,59,69
+Quinnipiac,Monmouth,94,77
+Sacramento State,Montana,70,82
+Northern Arizona,Montana State,66,68
+Wyoming,Nevada,58,61
+Air Force,UNLV,75,68
+Sacred Heart,New Hampshire,66,53
+Colorado State,New Mexico,73,80
+Southeastern Louisiana,Nicholls State,61,64
+Ohio,North Carolina-Asheville,79,70
+Pitt,North Carolina State,74,62
+James Madison,North Carolina-Wilmington,60,55
+North Dakota State,UC-Riverside,96,72
+North Texas,Southern Utah,76,55
+Northern Colorado,Jacksonville,91,66
+Northern Kentucky,Lamar,73,85
+Northwestern State,Duke,99,77
+Notre Dame,Valparaiso,79,70
+Oakland,Nebraska,75,53
+Ohio State,George Mason,84,66
+Old Dominion,Texas A&M-Corpus Christi,71,71
+Oral Roberts,La Salle,64,76
+Penn,Saint Mary's (CA),57,72
+Portland,Southern,63,60
+Prairie View,Harvard,57,69
+Rice,Louisville,54,83
+Rutgers,NJIT,76,64
+Saint Francis (PA),Denver,56,52
+St. Joseph's,Yale,53,55
+Saint Louis,Canisius,75,67
+St. Peter's,Pepperdine,63,66
+San Francisco,Loyola Marymount,76,81
+Santa Clara,UMKC,86,95
+Seattle,Creighton,84,79
+Seton Hall,Rider,66,47
+Siena,Georgia State,62,73
+South Alabama,South Dakota,63,86
+Houston,South Florida,67,58
+Eastern Kentucky,Southern Illinois-Edwardsville,79,85
+UConn,SMU,65,74
+Cornell,St. Bonaventure,57,81
+Sam Houston State,Stephen F. Austin,56,73
+Miami (FL),Syracuse,44,49
+Tennessee,Jacksonville State,98,65
+Tennessee State,Oklahoma,70,88
+Texas,Texas-Rio Grande Valley,85,46
+Texas A&M,Arkansas-Little Rock,63,72
+Texas-Arlington,West Virginia,70,74
+Texas Christian,Alcorn State,69,66
+Texas Southern,Arkansas State,83,74
+Texas State,Iowa State,69,73
+Texas Tech,Western Kentucky,62,60
+Troy,Cal State Fullerton,51,57
+Tulsa,Oregon State,73,69
+Utah,San Jose State,80,67
+Utah State,Northeastern,86,49
+Vanderbilt,Virginia Military Institute,79,128
+Portland State,Weber State,62,79
+Elon,Western Carolina,62,74
+William & Mary,Western Illinois,78,67
+Davidson,Wofford,78,63
+Butler,Xavier,68,79
+Washington State,Arizona State,47,66
+Loyola (MD),Army,82,91
+Colgate,Bucknell,57,68
+Oregon,Colorado,91,100
+Hofstra,Fairleigh Dickinson,67,86
+American,Holy Cross,69,54
+Southern Illinois,Illinois State,48,66
+San Diego State,Kansas,61,57
+Boston University,Lehigh,67,66
+Missouri State,Loyola (IL),57,89
+Binghamton,Maine,66,82
+Presbyterian,Marshall,49,77
+UMBC,UMass-Lowell,54,59
+Northwestern,Michigan,51,74
+Purdue,Minnesota,79,82
+UT-Martin,Murray State,77,91
+Lafayette,Navy,71,79
+Florida Gulf Coast,Stetson,68,55
+USC,UCLA,73,107
+Providence,Villanova,61,91
+UNC,Wake Forest,67,73
+Northern Iowa,Wichita State,53,67
+Iowa,Wisconsin,71,75
+Charleston Southern,Chattanooga,105,82
+Citadel,Appalachian State,78,66
+Elon,Alabama A&M,75,70
+Grambling,Alabama State,58,68
+Jackson State,South Carolina Upstate,70,58
+Kennesaw State,Jacksonville,68,88
+Lipscomb,Canisius,85,62
+Marist,ETSU,65,63
+Mercer,Furman,73,82
+North Carolina-Greensboro,North Florida,90,64
+Northern Kentucky,Maryland,70,59
+Pitt,Alcorn State,79,67
+Prairie View,Iona,70,74
+Quinnipiac,Saint Mary's (CA),86,84
+Maryland-Eastern Shore,Savannah State,42,66
+Southern,Texas Southern,79,71
+West Virginia,Texas Tech,89,86
+Vanderbilt,Alabama,63,68
+Navy,Boston University,32,55
+New Hampshire,Brown,68,72
+Green Bay,Chicago State,98,62
+James Madison,College of Charleston,61,75
+Hartford,Dartmouth,68,56
+Creighton,DePaul,81,62
+Georgia Tech,Duke,57,79
+Cincinnati,Houston,61,60
+Youngstown State,UIC,75,62
+Baylor,Iowa State,72,87
+Tennessee,LSU,68,50
+Ohio State,Michigan State,68,72
+Hampton,North Carolina Central,61,74
+North Carolina State,Notre Dame,77,70
+Saint Louis,Rhode Island,59,58
+Middle Tennessee,Tennessee State,74,66
+Kansas State,Texas Christian,65,47
+Syracuse,Virginia Tech,72,52
+UMBC,Albany (NY),72,73
+Loyola (MD),American,51,65
+Akron,Ball State,72,68
+Eastern Michigan,Bowling Green State,56,51
+Missouri State,Bradley,68,65
+Northern Illinois,Buffalo,46,67
+High Point,Campbell,71,74
+Miami (OH),Central Michigan,77,70
+Coastal Carolina,Charleston Southern,58,70
+Detroit,Cleveland State,63,73
+Stony Brook,Columbia,63,68
+Harvard,UConn,56,61
+Hofstra,Delaware,79,86
+Indiana State,Drake,77,73
+Fordham,Duquesne,81,87
+Murray State,Eastern Kentucky,77,64
+Northern Iowa,Evansville,80,53
+St. Peter's,Fairfield,56,55
+South Carolina,Florida,58,74
+Air Force,Fresno State,65,71
+North Carolina-Asheville,Gardner-Webb,81,77
+Colgate,Holy Cross,64,73
+Ohio,Kent State,59,53
+Mississippi State,Kentucky,63,85
+Bucknell,Lafayette,96,86
+Army,Lehigh,79,76
+Southern Illinois,Loyola (IL),71,67
+St. Joseph's,UMass,62,66
+Georgia,Missouri,70,64
+Nevada,UNLV,74,71
+Miami (FL),UNC,63,57
+North Carolina-Wilmington,Northeastern,68,79
+Milwaukee,Oakland,84,75
+Kansas,Oklahoma,90,83
+Texas,Oklahoma State,74,87
+Minnesota,Penn State,68,65
+Winthrop,Presbyterian,71,67
+Georgetown,Providence,52,70
+Liberty,Radford,63,72
+Boise State,San Diego State,66,69
+Colorado State,San Jose State,66,64
+Villanova,Seton Hall,83,67
+Maryland-Eastern Shore,South Carolina State,71,78
+Richmond,St. Bonaventure,70,84
+Arkansas,Texas A&M,53,69
+Wake Forest,Virginia,51,74
+Longwood,Virginia Military Institute,72,95
+Utah,Washington,57,59
+Colorado,Washington State,71,70
+Toledo,Western Michigan,76,87
+Illinois State,Wichita State,47,66
+Drexel,William & Mary,73,85
+Illinois,Wisconsin,70,95
+New Mexico,Wyoming,72,69
+Vermont,Yale,67,59
+North Carolina-Greensboro,Appalachian State,66,60
+South Alabama,Arkansas-Little Rock,60,65
+Troy,Arkansas State,98,84
+New Hampshire,Binghamton,38,67
+Pepperdine,BYU,72,84
+Saint Francis (PA),Bryant,67,77
+DePaul,Butler,99,94
+Hawaii,Cal Poly,65,77
+Grand Canyon,Cal State Bakersfield,66,63
+UC-Riverside,Cal State Fullerton,73,78
+UC-Davis,Cal State Northridge,77,89
+Wagner,Central Connecticut,88,59
+Samford,Chattanooga,81,90
+Florida State,Clemson,56,41
+Lipscomb,ETSU,82,80
+Montana,Eastern Washington,62,69
+Mount St. Mary's,Fairleigh Dickinson,79,85
+Davidson,Furman,73,56
+Maine,Hartford,65,80
+Stephen F. Austin,Houston Baptist,77,50
+Northwestern,Iowa,67,93
+North Dakota State,IPFW,71,82
+South Dakota State,IUPUI,86,70
+Stetson,Jacksonville,75,88
+Southern Illinois-Edwardsville,Jacksonville State,52,61
+George Washington,La Salle,72,76
+Nicholls State,Lamar,64,60
+UC-Irvine,Long Beach State,46,44
+Florida Atlantic,Louisiana Tech,64,84
+Memphis,Louisville,73,67
+Auburn,Ole Miss,62,65
+Michigan,Nebraska,71,70
+Seattle,New Mexico State,87,96
+Abilene Christian,New Orleans,81,87
+Idaho State,North Dakota,62,66
+Florida Gulf Coast,North Florida,79,75
+Southern Miss,North Texas,74,64
+Sacramento State,Northern Arizona,65,75
+Weber State,Northern Colorado,51,70
+University of California,Oregon,96,83
+Stanford,Oregon State,72,81
+San Francisco,Pacific,81,72
+Gonzaga,Portland,73,82
+Montana State,Portland State,79,76
+Manhattan,Quinnipiac,76,81
+Florida International,Rice,71,60
+Robert Morris,Sacred Heart,79,70
+Santa Clara,Saint Mary's (CA),57,55
+McNeese State,Sam Houston State,81,86
+Loyola Marymount,San Diego,67,74
+Northern Kentucky,South Carolina Upstate,64,73
+Belmont,Southeast Missouri State,107,94
+Incarnate Word,Southeastern Louisiana,72,76
+Arizona State,USC,79,60
+LIU-Brooklyn,St. Francis (NY),64,78
+South Florida,Temple,82,75
+Eastern Illinois,Tennessee Tech,69,81
+Northwestern State,Texas A&M-Corpus Christi,87,101
+Louisiana-Monroe,Texas-Arlington,79,83
+Charlotte,UTEP,73,68
+Idaho,Texas-Rio Grande Valley,86,85
+Marshall,UTSA,81,90
+Tulane,Tulsa,71,97
+Arizona,UCLA,79,75
+George Mason,VCU,57,71
+Georgia State,Western Kentucky,77,54
+Citadel,Wofford,75,79
+Marquette,Xavier,79,86
+Rider,Canisius,91,94
+Radford,High Point,81,72
+Fairfield,Iona,75,84
+Kennesaw State,Mercer,46,83
+Monmouth,Niagara,85,74
+Marist,Siena,58,67
+Wright State,Valparaiso,62,45
+Arkansas-Pine Bluff,Alabama A&M,72,64
+Mississippi Valley State,Alabama State,62,93
+Jackson State,Alcorn State,51,64
+Florida,Arkansas,84,82
+Troy,Arkansas-Little Rock,75,62
+South Alabama,Arkansas State,60,72
+Missouri,Auburn,70,68
+Texas Christian,Baylor,62,88
+North Carolina A&T,Bethune-Cookman,70,67
+UMass-Lowell,Binghamton,71,59
+Wyoming,Boise State,52,50
+Loyola Marymount,BYU,68,91
+Brown,Robert Morris,91,71
+Bryant,Holy Cross,67,57
+Bucknell,Eastern Michigan,61,66
+Buffalo,Georgetown,76,70
+Butler,Hawaii,67,78
+Cal State Northridge,UC-Irvine,79,72
+UC-Riverside,Cal Poly,52,72
+UCSB,Saint Francis (PA),64,75
+Central Connecticut,Wofford,67,69
+Chattanooga,Rutgers,70,51
+Cincinnati,Duke,71,59
+Clemson,American,72,69
+Colgate,Fresno State,62,57
+Colorado State,Columbia,76,104
+UCF,UConn,61,84
+Savannah State,Coppin State,75,53
+Cornell,Appalachian State,77,66
+Davidson,Saint Louis,78,67
+Dayton,Hampton,59,73
+Delaware State,Oakland,60,77
+Detroit,Northeastern,69,88
+Drexel,Old Dominion,93,81
+East Carolina,Northern Kentucky,70,65
+ETSU,Montana State,74,72
+Eastern Washington,Citadel,77,65
+Elon,North Carolina Central,74,60
+Florida A&M,Richmond,63,77
+Fordham,Coastal Carolina,74,81
+Gardner-Webb,St. Joseph's,69,84
+George Mason,Rhode Island,80,56
+George Washington,Alabama,69,58
+Georgia,Western Carolina,66,68
+Georgia Southern,Notre Dame,67,69
+Georgia Tech,Dartmouth,74,45
+Harvard,College of Charleston,61,71
+Hofstra,Northwestern State,75,97
+Houston Baptist,Loyola (IL),98,50
+Illinois State,Bradley,59,59
+Indiana State,South Dakota State,62,75
+IPFW,North Dakota State,82,87
+IUPUI,Florida Gulf Coast,64,69
+Jacksonville,Eastern Illinois,76,56
+Jacksonville State,Delaware,48,78
+James Madison,Kansas State,74,60
+Kansas,Ball State,86,74
+Kent State,Boston University,86,89
+Lafayette,McNeese State,78,74
+Lamar,UC-Davis,59,74
+Long Beach State,Campbell,99,75
+Longwood,Texas-Arlington,67,70
+Louisiana,Texas State,90,61
+Louisiana-Monroe,Florida International,36,51
+Louisiana Tech,Lehigh,85,68
+Loyola (MD),Seton Hall,72,66
+Marquette,Maine,67,76
+UMBC,Norfolk State,79,66
+Maryland-Eastern Shore,St. Bonaventure,62,68
+UMass,Western Michigan,73,78
+Miami (OH),Minnesota,77,75
+Michigan State,Alabama-Birmingham,87,84
+Middle Tennessee,Ole Miss,89,72
+Mississippi State,Chicago State,76,68
+UMKC,Wichita State,66,72
+Missouri State,Eastern Kentucky,69,76
+Morehead State,South Carolina State,65,56
+Morgan State,St. Francis (NY),73,82
+Mount St. Mary's,Austin Peay,88,67
+Murray State,Army,89,60
+Navy,Utah State,55,54
+Nevada,Idaho,62,54
+New Mexico State,Incarnate Word,78,78
+New Orleans,Presbyterian,55,70
+North Carolina-Asheville,Virginia,84,76
+North Carolina State,Weber State,45,72
+North Dakota,Stetson,60,60
+North Florida,Tulane,74,73
+North Texas,Idaho State,62,75
+Northern Colorado,Drake,82,66
+Northern Iowa,Iowa State,76,82
+Oklahoma,Central Arkansas,87,80
+Oral Roberts,University of California,93,88
+Oregon State,Santa Clara,83,68
+Pacific,Indiana,80,79
+Penn State,Princeton,76,74
+Penn,Wake Forest,77,65
+Pitt,Montana,80,78
+Portland State,Florida Atlantic,81,73
+Rice,Fairleigh Dickinson,68,67
+Sacred Heart,San Francisco,71,73
+Saint Mary's (CA),Nicholls State,88,61
+Sam Houston State,Furman,88,55
+Samford,Pepperdine,57,69
+San Diego,New Mexico,65,69
+San Jose State,LSU,65,71
+South Carolina,Lipscomb,68,70
+South Carolina Upstate,Denver,84,54
+South Dakota,Tennessee State,59,94
+Southeast Missouri State,Abilene Christian,102,77
+Southeastern Louisiana,Grambling,85,49
+Southern,Evansville,73,75
+Southern Illinois,Sacramento State,69,77
+Southern Utah,Villanova,49,74
+St. John's (NY),UNC,67,45
+Syracuse,Memphis,57,79
+Temple,Texas A&M,69,57
+Tennessee,Belmont,56,87
+UT-Martin,Southern Illinois-Edwardsville,72,63
+Tennessee Tech,Texas Tech,64,64
+Texas,Stephen F. Austin,67,80
+Texas A&M-Corpus Christi,Marshall,70,56
+UTEP,Seattle,66,64
+Texas-Rio Grande Valley,Charlotte,46,77
+UTSA,Prairie View,85,83
+Texas Southern,Central Michigan,87,71
+Toledo,North Carolina-Wilmington,86,53
+Towson,Grand Canyon,60,58
+Utah Valley,Kentucky,65,71
+Vanderbilt,Albany (NY),62,38
+Vermont,Liberty,68,85
+Virginia Military Institute,Boston College,80,62
+Virginia Tech,LIU-Brooklyn,59,70
+Wagner,Oklahoma State,84,73
+West Virginia,Nebraska-Omaha,72,72
+Western Illinois,Charleston Southern,79,68
+Winthrop,Yale,85,88
+San Diego State,Air Force,79,72
+Northern Illinois,Bowling Green State,45,36
+Monmouth,Canisius,67,87
+Xavier,Creighton,89,95
+La Salle,Duquesne,75,56
+Maryland,Florida State,61,85
+Stony Brook,Hartford,73,50
+SMU,Louisville,63,71
+Marist,Manhattan,79,86
+Green Bay,Milwaukee,93,86
+Rider,Niagara,90,78
+Illinois,Northwestern,43,49
+Akron,Ohio,83,80
+Iowa,Ohio State,84,74
+Stanford,Oregon,82,80
+Nebraska,Purdue,64,70
+Quinnipiac,St. Peter's,67,74
+Iona,Siena,87,78
+Arizona,USC,73,53
+Southern Miss,Tulsa,71,75
+Arizona State,UCLA,72,87
+Colorado,Washington,54,71
+Utah,Washington State,46,49
+UIC,Wright State,53,58
+Mississippi Valley State,Alabama A&M,59,68
+Arkansas-Pine Bluff,Alabama State,64,77
+Grambling,Alcorn State,56,64
+North Carolina Central,Bethune-Cookman,64,49
+Syracuse,Boston College,69,59
+South Carolina State,Coppin State,69,75
+Norfolk State,Delaware State,58,56
+Virginia,Duke,65,69
+North Carolina A&T,Florida A&M,66,76
+Savannah State,Howard,56,54
+Kansas,Iowa State,77,70
+Texas State,Louisiana,58,81
+Lafayette,Loyola (MD),63,77
+NJIT,College of Charleston,99,58
+Northeastern,Jackson State,49,36
+Southern,Northern Arizona,60,70
+Southern Utah,Tennessee State,36,81
+UT-Martin,Texas,100,80
+West Virginia,Cleveland State,69,66
+Kentucky,Arkansas,85,87
+Temple,Cincinnati,58,69
+Butler,Creighton,60,88
+St. John's (NY),DePaul,75,77
+Towson,Drexel,80,68
+Western Michigan,Eastern Michigan,37,56
+Georgia,Florida,50,72
+VCU,George Washington,66,76
+Pitt,Georgia Tech,81,74
+Wisconsin,Indiana,72,75
+Oklahoma,Kansas State,66,72
+Campbell,Liberty,68,71
+Penn State,Michigan,67,80
+Boise State,Nevada,74,65
+Northern Iowa,Southern Illinois,66,68
+Bradley,Wichita State,50,72
+San Jose State,Air Force,62,77
+Miami (OH),Akron,52,59
+Mississippi State,Alabama,61,80
+Holy Cross,Army,78,75
+Colgate,Boston University,58,66
+Central Michigan,Bowling Green State,57,67
+Washington,University of California,56,82
+Presbyterian,Charleston Southern,58,95
+North Carolina-Asheville,Coastal Carolina,78,81
+William & Mary,Delaware,71,76
+Valparaiso,Detroit,78,70
+Dayton,Fordham,80,68
+UMass,George Mason,88,87
+Longwood,High Point,75,83
+Purdue,Illinois,66,58
+Evansville,Illinois State,78,79
+Missouri State,Indiana State,55,70
+Northeastern,James Madison,56,52
+Rhode Island,La Salle,62,72
+American,Lehigh,65,63
+Drake,Loyola (IL),60,70
+Notre Dame,Maryland,66,74
+Albany (NY),UMass-Lowell,66,70
+Florida State,Miami (FL),63,53
+LSU,Ole Miss,74,88
+Bucknell,Navy,61,62
+UMBC,New Hampshire,42,56
+UNLV,New Mexico,76,73
+Hofstra,North Carolina-Wilmington,69,64
+Kent State,Northern Illinois,73,64
+Michigan State,Northwestern,54,40
+Ball State,Ohio,51,71
+Texas Christian,Oklahoma State,50,82
+Virginia Military Institute,Radford,101,88
+UCF,Rutgers,75,85
+Duquesne,St. Joseph's,75,84
+St. Bonaventure,Saint Louis,60,66
+Fresno State,San Diego State,60,68
+South Florida,SMU,54,71
+Washington State,Stanford,48,80
+Binghamton,Stony Brook,47,67
+Auburn,Tennessee,67,78
+South Carolina,Texas A&M,67,75
+Baylor,Texas Tech,72,82
+Buffalo,Toledo,65,67
+Colorado State,Utah State,50,57
+Clemson,Virginia Tech,56,49
+North Carolina State,Wake Forest,69,70
+Gardner-Webb,Winthrop,56,51
+Georgetown,Xavier,67,80
+Oral Roberts,Abilene Christian,82,59
+UTSA,Alabama-Birmingham,65,78
+Chattanooga,Appalachian State,80,70
+Arizona State,Arizona,68,91
+Sacred Heart,Bryant,70,85
+Cal State Northridge,Cal Poly,52,62
+UC-Riverside,UC-Davis,81,69
+Cal State Fullerton,UC-Irvine,54,72
+Long Beach State,UCSB,51,64
+St. Francis (NY),Central Connecticut,76,66
+Tulsa,Charlotte,86,90
+New Mexico State,Chicago State,81,86
+Oakland,Cleveland State,76,86
+UCLA,Colorado,69,56
+Elon,Davidson,87,85
+IPFW,Denver,67,64
+Murray State,Eastern Illinois,70,66
+Belmont,Eastern Kentucky,63,74
+Niagara,Fairfield,67,63
+East Carolina,Florida Atlantic,67,78
+South Carolina Upstate,Florida Gulf Coast,60,63
+Old Dominion,Florida International,52,36
+Furman,Georgia Southern,81,88
+Arkansas State,Georgia State,72,73
+Utah Valley,Idaho,71,66
+Southern Utah,Idaho State,45,60
+Milwaukee,UIC,67,63
+Central Arkansas,Incarnate Word,72,87
+Tennessee State,Jacksonville State,64,70
+Kennesaw State,Lipscomb,83,88
+Fairleigh Dickinson,LIU-Brooklyn,89,67
+Houston,Louisville,52,91
+Portland,Loyola Marymount,71,57
+Vermont,Maine,83,46
+Siena,Manhattan,68,90
+North Texas,Marshall,80,65
+Texas A&M-Corpus Christi,McNeese State,77,61
+UConn,Memphis,83,73
+UTEP,Middle Tennessee,63,54
+Ohio State,Minnesota,53,63
+Texas-Rio Grande Valley,UMKC,78,66
+North Dakota,Montana,71,84
+Northern Colorado,Montana State,55,70
+Southeast Missouri State,Morehead State,67,80
+Wagner,Mount St. Mary's,80,89
+Lamar,New Orleans,55,77
+Houston Baptist,Nicholls State,64,66
+NJIT,North Carolina Central,55,71
+Citadel,North Carolina-Greensboro,65,69
+Nebraska-Omaha,North Dakota State,69,91
+Eastern Washington,Northern Arizona,65,84
+Mercer,Northern Kentucky,74,58
+Stephen F. Austin,Northwestern State,74,58
+Gonzaga,Pepperdine,70,53
+Monmouth,Quinnipiac,61,70
+St. Peter's,Rider,77,69
+Saint Francis (PA),Robert Morris,68,73
+Portland State,Sacramento State,68,64
+BYU,San Francisco,83,76
+San Diego,Santa Clara,69,66
+Cal State Bakersfield,Seattle,61,57
+Louisiana,South Alabama,73,81
+IUPUI,South Dakota,57,69
+Western Illinois,South Dakota State,55,64
+Sam Houston State,Southeastern Louisiana,85,78
+Austin Peay,Southern Illinois-Edwardsville,67,71
+Rice,Southern Miss,62,84
+Providence,St. John's (NY),84,83
+ETSU,Stetson,58,64
+Louisiana-Monroe,Troy,75,64
+Louisiana Tech,Tulane,73,45
+USC,Utah,66,84
+Missouri,Vanderbilt,75,78
+Arkansas-Little Rock,Western Kentucky,87,83
+Southern Illinois,Bradley,60,66
+Canisius,Iona,85,83
+Jacksonville,North Florida,82,86
+Green Bay,Wright State,79,69
+Central Arkansas,Abilene Christian,72,73
+Toledo,Akron,75,61
+UTEP,Alabama-Birmingham,63,61
+Alabama A&M,Alabama State,58,67
+Mississippi Valley State,Alcorn State,53,65
+Lafayette,American,61,66
+Georgia Southern,Appalachian State,68,81
+Southern,Arkansas-Pine Bluff,60,56
+Florida,Auburn,68,61
+Miami (OH),Ball State,64,52
+Oklahoma,Baylor,66,64
+Utah State,Boise State,74,78
+Kent State,Buffalo,60,71
+Marquette,Butler,57,69
+Long Beach State,Cal Poly,63,62
+UCSB,Cal State Northridge,79,69
+Washington State,University of California,55,76
+Cal State Fullerton,UC-Davis,61,69
+Virginia Military Institute,Campbell,93,97
+LIU-Brooklyn,Central Connecticut,62,61
+SMU,UCF,58,46
+Eastern Michigan,Central Michigan,72,59
+North Carolina-Asheville,Charleston Southern,80,76
+North Texas,Charlotte,74,76
+Texas-Rio Grande Valley,Chicago State,84,61
+Furman,Citadel,76,71
+Wake Forest,Clemson,53,61
+Winthrop,Coastal Carolina,73,72
+Navy,Colgate,41,63
+USC,Colorado,62,83
+Air Force,Colorado State,68,74
+Cornell,Columbia,61,71
+Louisville,UConn,76,64
+IUPUI,Denver,45,66
+Illinois State,Drake,77,63
+North Carolina State,Duke,60,95
+Austin Peay,Eastern Illinois,64,67
+Jacksonville State,Eastern Kentucky,56,60
+UMass,Elon,84,74
+Loyola (IL),Evansville,48,53
+Manhattan,Fairfield,67,71
+Bryant,Fairleigh Dickinson,95,68
+Old Dominion,Florida Atlantic,65,60
+ETSU,Florida Gulf Coast,62,90
+East Carolina,Florida International,64,68
+New Mexico,Fresno State,89,78
+Seton Hall,Georgetown,67,57
+Arkansas,Georgia,61,66
+Arkansas-Little Rock,Georgia State,73,99
+Miami (FL),Georgia Tech,56,42
+Texas Southern,Grambling,74,72
+Coppin State,Hampton,71,68
+UC-Riverside,Hawaii,69,100
+Lehigh,Holy Cross,42,61
+Maryland-Eastern Shore,Howard,55,88
+Cal State Bakersfield,Idaho,61,64
+Michigan State,Illinois,78,62
+Oral Roberts,Incarnate Word,79,77
+Northwestern,Indiana,54,47
+Prairie View,Jackson State,85,80
+Oklahoma State,Kansas,78,80
+West Virginia,Kansas State,56,78
+Tennessee,Kentucky,66,74
+Temple,La Salle,68,74
+High Point,Liberty,76,70
+Mercer,Lipscomb,87,66
+Vanderbilt,LSU,58,81
+Gonzaga,Loyola Marymount,82,72
+Albany (NY),Maine,85,78
+Rider,Marist,66,56
+Tulsa,Marshall,69,52
+Vermont,UMBC,73,47
+Houston Baptist,McNeese State,68,70
+Memphis,UTSA,101,58
+Middle Tennessee,Texas A&M,80,72
+Mississippi State,Alabama,81,47
+Missouri,New Mexico State,68,66
+UMKC,Northern Colorado,68,84
+Montana,North Dakota,73,72
+Montana State,UT-Martin,69,75
+Morehead State,Robert Morris,82,77
+Mount St. Mary's,Hartford,69,60
+New Hampshire,Sam Houston State,43,77
+New Orleans,Texas A&M-Corpus Christi,70,70
+Nicholls State,Morgan State,67,87
+Norfolk State,Boston College,70,71
+UNC,NJIT,82,82
+North Carolina A&T,Delaware State,88,52
+North Carolina Central,Davidson,62,93
+North Carolina-Greensboro,Drexel,82,79
+North Carolina-Wilmington,Western Illinois,63,52
+North Dakota State,Delaware,65,74
+Northeastern,Portland State,70,56
+Northern Arizona,Ohio,77,65
+Northern Illinois,Missouri State,46,89
+Northern Iowa,Kennesaw State,94,69
+Northern Kentucky,St. Joseph's,82,85
+Penn,Portland,68,65
+Pepperdine,Gardner-Webb,76,67
+Presbyterian,Creighton,58,68
+Providence,Penn State,81,64
+Purdue,Niagara,65,71
+Quinnipiac,Longwood,85,76
+Radford,George Mason,93,69
+Rhode Island,Dayton,71,64
+Richmond,Eastern Washington,73,64
+Sacramento State,Wagner,75,56
+Saint Francis (PA),Fordham,50,48
+Saint Louis,Pacific,70,73
+Saint Mary's (CA),UNLV,79,52
+San Diego State,San Diego,63,62
+San Francisco,BYU,64,91
+Santa Clara,Bethune-Cookman,81,60
+Savannah State,Louisiana-Monroe,70,64
+South Alabama,Ole Miss,58,75
+South Carolina,Florida A&M,74,78
+South Carolina State,IPFW,72,61
+South Dakota,Nebraska-Omaha,75,80
+South Dakota State,Cincinnati,71,61
+South Florida,Lamar,54,65
+Southeastern Louisiana,Murray State,91,60
+Southern Illinois-Edwardsville,George Washington,67,79
+St. Bonaventure,Sacred Heart,71,71
+St. Francis (NY),Dartmouth,74,55
+St. John's (NY),Washington,69,67
+Stanford,South Carolina Upstate,79,73
+Stetson,UMass-Lowell,77,65
+Stony Brook,Pitt,70,54
+Syracuse,Belmont,59,79
+Tennessee State,Southeast Missouri State,65,83
+Tennessee Tech,Iowa State,74,76
+Texas,Texas Tech,86,60
+Texas Christian,Texas-Arlington,49,56
+Texas State,Louisiana,48,72
+Troy,Rice,59,41
+Tulane,UCLA,58,69
+Utah,Milwaukee,74,62
+Valparaiso,DePaul,75,62
+Villanova,Florida State,88,66
+Virginia,Duquesne,78,65
+VCU,Southern Utah,80,59
+Weber State,Samford,65,64
+Western Carolina,Arkansas State,67,77
+Western Kentucky,Indiana State,82,48
+Wichita State,James Madison,68,56
+William & Mary,Michigan,78,77
+Wisconsin,Chattanooga,70,71
+Wofford,San Jose State,57,56
+Wyoming,Brown,67,67
+Yale,Detroit,74,63
+Bucknell,Army,67,74
+Wright State,Cleveland State,49,46
+Towson,College of Charleston,72,57
+Rutgers,Houston,55,77
+Green Bay,UIC,69,64
+Siena,Iona,74,88
+Minnesota,Iowa,73,94
+Canisius,Monmouth,82,83
+Virginia Tech,Notre Dame,63,70
+Oregon,Oregon State,72,80
+Utah Valley,Seattle,52,51
+Hofstra,SMU,49,73
+Louisiana Tech,Southern Miss,71,80
+Bowling Green State,Western Michigan,69,64
+Binghamton,Albany (NY),60,66
+Alcorn State,Arkansas-Pine Bluff,71,45
+Fairfield,Belmont,53,62
+Loyola (MD),Boston University,58,72
+Xavier,DePaul,84,74
+Delaware,Drexel,90,77
+Marquette,Georgetown,80,72
+Prairie View,Grambling,83,82
+Morgan State,Hampton,80,71
+UMass-Lowell,Hartford,51,69
+Texas Southern,Jackson State,80,84
+Baylor,Kansas,68,78
+St. Peter's,Marist,63,70
+Stony Brook,UMBC,81,62
+Ohio State,Nebraska,62,68
+Coppin State,Norfolk State,71,83
+Delaware State,North Carolina A&T,55,66
+Maryland,North Carolina State,56,65
+Florida A&M,Savannah State,68,79
+Bethune-Cookman,South Carolina State,67,69
+New Hampshire,Vermont,40,57
+Creighton,Villanova,96,68
+UNC,Virginia,61,76
+Idaho State,Weber State,59,65
+Western Carolina,Wofford,60,71
+Georgia Tech,Boston College,68,60
+Temple,UConn,66,90
+Harvard,Florida Atlantic,53,68
+Notre Dame,Florida State,74,76
+Texas A&M,Kentucky,51,68
+Missouri,LSU,71,77
+Nicholls State,McNeese State,87,79
+Indiana,Michigan State,66,71
+Evansville,Missouri State,61,64
+Boise State,New Mexico,75,84
+Purdue,Northwestern,60,63
+Clemson,Pitt,43,76
+Butler,Providence,56,65
+Rutgers,SMU,56,70
+Kansas State,Texas,64,67
+Milwaukee,Wright State,57,73
+Wyoming,Air Force,66,59
+Boston University,American,56,86
+Northern Iowa,Bradley,65,69
+Loyola (MD),Bucknell,60,70
+Radford,Campbell,63,65
+Niagara,Canisius,74,87
+Army,Colgate,66,63
+North Carolina-Wilmington,College of Charleston,70,75
+VCU,Dayton,80,66
+Saint Louis,Duquesne,76,72
+Akron,Eastern Michigan,78,68
+George Mason,Fordham,70,76
+Nevada,Fresno State,96,86
+Charleston Southern,Gardner-Webb,78,76
+South Carolina,Georgia,76,97
+Oakland,Green Bay,69,83
+William & Mary,Hofstra,60,77
+Cleveland State,UIC,74,64
+Wichita State,Illinois State,70,55
+Holy Cross,Lafayette,59,58
+Liberty,Longwood,66,69
+Indiana State,Loyola (IL),65,61
+Duke,Miami (FL),67,46
+Central Michigan,Miami (OH),80,86
+Iowa,Michigan,67,75
+Wisconsin,Minnesota,68,81
+Auburn,Mississippi State,74,82
+Southern,Mississippi Valley State,64,72
+Lehigh,Navy,68,66
+Utah State,UNLV,42,62
+Winthrop,North Carolina-Asheville,66,81
+North Carolina A&T,North Carolina Central,44,84
+Bowling Green State,Ohio,58,56
+Texas Christian,Oklahoma,69,77
+Coastal Carolina,Presbyterian,84,72
+UMass,Richmond,55,58
+Rhode Island,St. Joseph's,57,61
+San Diego State,San Jose State,75,50
+Louisville,South Florida,86,47
+University of California,USC,69,77
+Drake,Southern Illinois,57,54
+La Salle,St. Bonaventure,51,66
+Arkansas,Tennessee,74,81
+Northern Illinois,Toledo,68,77
+Northeastern,Towson,57,54
+Ole Miss,Vanderbilt,63,52
+High Point,Virginia Military Institute,80,82
+Wake Forest,Virginia Tech,83,77
+Oregon State,Washington State,66,55
+Texas Tech,West Virginia,81,87
+Lamar,Abilene Christian,65,57
+Florida,Alabama,68,62
+Colorado,Arizona,57,69
+Utah,Arizona State,75,79
+Texas State,Arkansas-Little Rock,64,69
+Jacksonville State,Austin Peay,71,59
+Buffalo,Ball State,68,71
+Morehead State,Belmont,66,80
+Hartford,Binghamton,56,54
+LIU-Brooklyn,Bryant,79,87
+Chicago State,Cal State Bakersfield,71,63
+Cal Poly,Cal State Fullerton,58,56
+Hawaii,UC-Davis,90,73
+Cal State Northridge,UC-Irvine,66,72
+UCSB,UC-Riverside,68,65
+Northwestern State,Central Arkansas,76,68
+Elon,Chattanooga,63,84
+UCF,Cincinnati,51,69
+Appalachian State,Citadel,80,67
+Tulane,East Carolina,59,54
+North Florida,ETSU,93,99
+Southern Utah,Eastern Washington,83,90
+St. Francis (NY),Fairleigh Dickinson,85,86
+Wofford,Georgia Southern,74,64
+San Diego,Gonzaga,56,59
+Idaho,Grand Canyon,73,86
+New Orleans,Houston Baptist,79,66
+Montana,Idaho State,59,54
+Sam Houston State,Incarnate Word,74,85
+Stetson,Kennesaw State,68,65
+Western Michigan,Kent State,75,59
+Georgia State,Louisiana,77,70
+Western Kentucky,Louisiana-Monroe,69,51
+Charlotte,Louisiana Tech,60,80
+UMass-Lowell,Maine,74,62
+Houston,Memphis,59,82
+Florida Gulf Coast,Mercer,55,68
+Fairfield,Monmouth,60,63
+Tennessee Tech,Murray State,53,92
+Denver,Nebraska-Omaha,74,60
+Albany (NY),New Hampshire,56,60
+Sacramento State,North Dakota,71,82
+Alabama-Birmingham,North Texas,65,76
+Northern Arizona,Northern Colorado,72,87
+Illinois,Ohio State,55,62
+Southern Miss,Old Dominion,75,60
+Stephen F. Austin,Oral Roberts,72,69
+Loyola Marymount,Pacific,92,81
+Nebraska,Penn State,54,58
+BYU,Portland,110,114
+Marshall,Rice,73,63
+Sacred Heart,Robert Morris,65,91
+Mount St. Mary's,Saint Francis (PA),83,77
+Pepperdine,Saint Mary's (CA),74,80
+North Carolina-Greensboro,Samford,78,88
+St. Peter's,Siena,47,64
+Jacksonville,South Carolina Upstate,69,79
+Southern Illinois-Edwardsville,Southeast Missouri State,78,82
+Seton Hall,St. John's (NY),76,77
+Eastern Illinois,UT-Martin,77,84
+Eastern Kentucky,Tennessee State,94,78
+Southeastern Louisiana,Texas A&M-Corpus Christi,71,74
+Troy,Texas-Arlington,56,59
+Middle Tennessee,Tulsa,53,58
+Stanford,UCLA,74,91
+UMKC,Utah Valley,48,66
+Central Connecticut,Wagner,87,83
+Oregon,Washington,76,80
+Montana State,Weber State,57,86
+Davidson,Western Carolina,82,77
+South Dakota,Western Illinois,61,79
+Valparaiso,Youngstown State,74,71
+Quinnipiac,Iona,73,95
+Rider,Manhattan,51,67
+Detroit,Milwaukee,73,54
+Marist,Niagara,74,80
+Lipscomb,Northern Kentucky,75,74
+Vermont,Stony Brook,64,67
+Sam Houston State,Abilene Christian,70,51
+LSU,Alabama,80,82
+Alabama State,Alcorn State,58,54
+Colorado,Arizona State,51,72
+Auburn,Arkansas,67,86
+Arkansas-Little Rock,Arkansas State,49,77
+American,Army,84,74
+Tennessee Tech,Austin Peay,69,83
+Texas,Baylor,74,60
+Eastern Kentucky,Belmont,81,84
+Maryland-Eastern Shore,Bethune-Cookman,63,69
+San Jose State,Boise State,55,76
+Miami (OH),Bowling Green State,70,65
+Yale,Brown,56,73
+St. Francis (NY),Bryant,79,83
+Boston University,Bucknell,64,61
+St. John's (NY),Butler,69,52
+UMKC,Cal State Bakersfield,70,69
+UCSB,Cal State Fullerton,72,74
+Hawaii,UC-Irvine,90,86
+Cal Poly,UC-Riverside,58,61
+Stephen F. Austin,Central Arkansas,66,49
+Akron,Central Michigan,82,74
+Longwood,Charleston Southern,88,85
+North Carolina-Greensboro,Chattanooga,67,77
+Western Carolina,Citadel,78,60
+Valparaiso,Cleveland State,50,69
+New Mexico,Colorado State,68,66
+Columbia,Cornell,74,58
+Georgetown,Creighton,63,76
+Georgia Southern,Davidson,52,82
+Towson,Delaware,76,83
+Wichita State,Drake,78,61
+William & Mary,Drexel,68,66
+Florida State,Duke,56,78
+St. Bonaventure,Duquesne,81,83
+Southern Miss,East Carolina,60,46
+Jacksonville,ETSU,75,76
+Ohio,Eastern Michigan,58,56
+Central Connecticut,Fairleigh Dickinson,73,86
+Tennessee,Florida,41,67
+Howard,Florida A&M,69,62
+Florida Atlantic,Florida International,57,66
+Wofford,Furman,76,52
+Campbell,Gardner-Webb,48,66
+George Washington,George Mason,75,69
+BYU,Gonzaga,69,84
+Seattle,Grand Canyon,63,71
+North Carolina-Asheville,High Point,67,78
+Northeastern,Hofstra,70,57
+Southeastern Louisiana,Houston Baptist,60,52
+Montana State,Idaho State,64,69
+Lamar,Incarnate Word,64,75
+Illinois State,Indiana State,62,76
+Kansas State,Iowa State,75,81
+IUPUI,IPFW,75,90
+Grambling,Jackson State,59,76
+College of Charleston,James Madison,56,58
+Florida Gulf Coast,Kennesaw State,83,62
+Georgia,Kentucky,54,79
+VCU,La Salle,97,89
+Lafayette,Lehigh,68,71
+Presbyterian,Liberty,53,65
+Cal State Northridge,Long Beach State,62,76
+Mount St. Mary's,LIU-Brooklyn,71,75
+Western Kentucky,Louisiana,79,70
+Georgia State,Louisiana-Monroe,66,58
+Marshall,Louisiana Tech,77,98
+Northern Iowa,Loyola (IL),87,93
+Colgate,Loyola (MD),60,67
+Villanova,Marquette,94,85
+Pitt,Maryland,83,79
+Hartford,UMBC,58,60
+Stetson,Mercer,49,87
+Syracuse,Miami (FL),64,52
+Michigan,Michigan State,80,75
+Mississippi State,Ole Miss,63,82
+South Carolina,Missouri,74,82
+Southern Illinois,Missouri State,63,69
+Jacksonville State,Murray State,65,73
+Holy Cross,Navy,67,52
+South Dakota,Nebraska-Omaha,73,77
+Fresno State,UNLV,73,75
+Texas-Rio Grande Valley,New Mexico State,78,90
+Morgan State,North Carolina A&T,67,68
+Coppin State,North Carolina Central,63,87
+Northern Arizona,North Dakota,68,84
+Middle Tennessee,North Texas,70,63
+Sacramento State,Northern Colorado,62,72
+Buffalo,Northern Illinois,75,67
+Iowa,Northwestern,76,50
+UIC,Oakland,75,76
+West Virginia,Oklahoma State,75,81
+Tulane,Old Dominion,64,70
+Northwestern State,Oral Roberts,87,83
+Pepperdine,Pacific,66,76
+NJIT,Penn,74,89
+San Diego,Portland,65,63
+Southern Utah,Portland State,64,67
+Arkansas-Pine Bluff,Prairie View,62,71
+Xavier,Providence,72,81
+Wisconsin,Purdue,72,58
+Coastal Carolina,Radford,69,61
+Dayton,Rhode Island,76,88
+Charlotte,Rice,69,71
+St. Joseph's,Richmond,62,77
+Wagner,Robert Morris,70,74
+UConn,Rutgers,82,71
+Sacred Heart,Saint Francis (PA),66,68
+Loyola Marymount,Saint Mary's (CA),61,89
+Elon,Samford,59,62
+Santa Clara,San Francisco,66,75
+Hampton,Savannah State,80,71
+DePaul,Seton Hall,69,86
+Norfolk State,South Carolina State,61,73
+North Florida,South Carolina Upstate,60,71
+North Dakota State,South Dakota State,85,77
+Eastern Illinois,Southeast Missouri State,77,74
+Alabama A&M,Southern,52,66
+Southern Illinois-Edwardsville,UT-Martin,87,82
+Morehead State,Tennessee State,80,74
+Vanderbilt,Texas A&M,66,55
+New Orleans,Texas A&M-Corpus Christi,70,62
+South Alabama,Texas-Arlington,65,73
+Kansas,Texas Christian,91,69
+UTSA,UTEP,62,81
+Mississippi Valley State,Texas Southern,56,94
+Troy,Texas State,65,73
+Oklahoma,Texas Tech,74,65
+Alabama-Birmingham,Tulsa,70,63
+San Diego State,Utah State,74,69
+Chicago State,Utah Valley,55,62
+Virginia Tech,Virginia,45,65
+Notre Dame,Wake Forest,58,65
+Oregon State,Washington,81,87
+Montana,Weber State,63,68
+Denver,Western Illinois,67,55
+Virginia Military Institute,Winthrop,57,58
+Nevada,Wyoming,62,64
+Wright State,Youngstown State,67,68
+Utah,Arizona,56,65
+Marist,Canisius,65,78
+Harvard,Dartmouth,80,50
+Bradley,Evansville,60,66
+Siena,Fairfield,64,56
+Detroit,Green Bay,52,62
+SMU,Houston,75,68
+Illinois,Indiana,46,56
+Quinnipiac,Manhattan,90,86
+Fordham,UMass,52,90
+New Hampshire,UMass-Lowell,61,32
+South Florida,Memphis,58,80
+Minnesota,Nebraska,78,82
+Clemson,UNC,61,80
+Georgia Tech,North Carolina State,78,80
+Princeton,Monmouth,84,71
+Rider,Iona,77,71
+St. Peter's,Stanford,63,79
+USC,Maine,71,61
+Stony Brook,Cincinnati,79,80
+Temple,Kent State,76,78
+Toledo,University of California,81,64
+UCLA,Binghamton,76,39
+Vermont,Oregon,72,71
+Washington State,Ball State,44,53
+Alabama A&M,Alcorn State,64,70
+Howard,Bethune-Cookman,47,58
+NJIT,Delaware State,65,59
+Villanova,Georgetown,65,60
+Colgate,Lafayette,75,68
+Coppin State,North Carolina A&T,70,54
+Morgan State,North Carolina Central,52,53
+Oklahoma State,Oklahoma,76,88
+Duke,Pitt,80,65
+Eastern Washington,Portland State,83,92
+Mississippi Valley State,Prairie View,81,72
+Norfolk State,Savannah State,56,49
+Hampton,South Carolina State,67,56
+Alabama State,Southern,55,68
+Arkansas-Pine Bluff,Texas Southern,71,72
+Hofstra,Towson,58,76
+College of Charleston,William & Mary,63,74
+Missouri,Arkansas,75,71
+West Virginia,Baylor,66,64
+St. John's (NY),Creighton,60,63
+Cleveland State,Eastern Illinois,82,68
+Michigan State,Iowa,71,69
+Texas Tech,Kansas State,58,66
+Kentucky,LSU,82,87
+Virginia Military Institute,North Carolina-Asheville,109,105
+Virginia,Notre Dame,68,53
+High Point,Presbyterian,81,74
+SMU,South Florida,71,78
+New Mexico,Utah State,78,65
+Loyola (IL),Wichita State,45,57
+Ball State,Akron,46,73
+Stony Brook,Albany (NY),67,77
+Navy,American,52,74
+UMBC,Binghamton,73,61
+Air Force,Boise State,58,69
+Virginia Tech,Boston College,52,76
+Army,Boston University,81,86
+Illinois State,Bradley,45,64
+Western Michigan,Buffalo,63,84
+Arizona State,University of California,89,78
+Charleston Southern,Campbell,57,65
+Memphis,UCF,69,59
+Liberty,Coastal Carolina,64,66
+St. Joseph's,Dayton,60,57
+UIC,Detroit,68,74
+Missouri State,Drake,74,84
+Bowling Green State,Eastern Michigan,57,69
+Wyoming,Fresno State,62,67
+La Salle,George Washington,47,69
+Vanderbilt,Georgia,59,54
+UNC,Georgia Tech,78,65
+Vermont,Hartford,67,60
+Drexel,Hofstra,77,74
+Loyola (MD),Holy Cross,51,60
+Iowa State,Kansas,81,92
+Northern Illinois,Kent State,50,49
+Bucknell,Lehigh,63,66
+Gardner-Webb,Longwood,82,62
+Miami (FL),Maryland,71,74
+Toledo,Miami (OH),83,70
+Belmont,Morehead State,76,73
+Colorado State,Nevada,67,76
+Maine,New Hampshire,68,60
+Duquesne,NJIT,71,64
+Florida State,North Carolina State,70,74
+James Madison,Northeastern,49,46
+Evansville,Northern Iowa,81,95
+Central Michigan,Ohio,67,71
+Penn State,Ohio State,71,70
+St. Francis (NY),Sacred Heart,83,78
+Richmond,Saint Louis,57,77
+Portland,San Francisco,71,84
+UNLV,San Jose State,70,46
+Gonzaga,Santa Clara,54,52
+Butler,Seton Hall,64,57
+Texas A&M,South Carolina,52,80
+UMKC,Southeast Missouri State,81,91
+Indiana State,Southern Illinois,60,79
+Southern Illinois-Edwardsville,UMass,77,65
+St. Bonaventure,Arizona,78,60
+Stanford,Rutgers,57,82
+Temple,Ole Miss,88,70
+Tennessee,Green Bay,86,60
+Valparaiso,Fordham,75,60
+VCU,Syracuse,76,67
+Wake Forest,Delaware,57,89
+William & Mary,Radford,72,76
+Winthrop,Northwestern,64,65
+Old Dominion,Alabama-Birmingham,66,75
+Louisiana,Arkansas-Little Rock,69,80
+Alabama,Auburn,55,74
+Pacific,BYU,78,88
+UC-Davis,Cal Poly,62,58
+UC-Riverside,Cal State Northridge,89,93
+UC-Irvine,UCSB,60,80
+Florida Atlantic,Charlotte,53,62
+Grand Canyon,Chicago State,76,75
+Houston,UConn,43,80
+Chattanooga,Davidson,51,94
+South Dakota State,Denver,74,73
+UT-Martin,Eastern Kentucky,66,89
+North Dakota,Eastern Washington,73,61
+Western Carolina,Elon,60,74
+Citadel,Georgia Southern,52,83
+Long Beach State,Hawaii,92,83
+Nebraska-Omaha,IPFW,82,86
+Western Illinois,IUPUI,69,54
+Lipscomb,Jacksonville,88,76
+Houston Baptist,Lamar,57,59
+Wagner,LIU-Brooklyn,75,68
+Arkansas State,Louisiana-Monroe,65,72
+Cincinnati,Louisville,69,66
+Monmouth,Marist,73,75
+Providence,Marquette,50,61
+Florida International,Marshall,68,80
+Central Arkansas,McNeese State,76,75
+Purdue,Michigan,66,75
+East Carolina,Middle Tennessee,67,84
+Wright State,Milwaukee,64,68
+Florida,Mississippi State,62,51
+Fairleigh Dickinson,Mount St. Mary's,82,87
+Indiana,Nebraska,55,60
+Cal State Bakersfield,New Mexico State,86,88
+Oral Roberts,Nicholls State,72,73
+Appalachian State,North Carolina-Greensboro,61,66
+Northern Kentucky,North Florida,66,67
+Weber State,Northern Arizona,76,67
+Incarnate Word,Northwestern State,86,100
+UCLA,Oregon,70,68
+USC,Oregon State,75,76
+Northern Colorado,Portland State,57,80
+Canisius,Quinnipiac,86,74
+Bryant,Robert Morris,76,79
+Idaho State,Sacramento State,78,84
+Central Connecticut,Saint Francis (PA),63,69
+Texas A&M-Corpus Christi,Sam Houston State,74,78
+Saint Mary's (CA),San Diego,43,61
+Niagara,Siena,62,66
+North Dakota State,South Dakota,66,63
+New Orleans,Southeastern Louisiana,90,85
+Montana,Southern Utah,69,61
+Abilene Christian,Stephen F. Austin,48,64
+Tennessee State,Tennessee Tech,81,68
+Louisiana Tech,UTEP,79,89
+Utah Valley,Texas-Rio Grande Valley,67,53
+Rice,UTSA,76,89
+Texas-Arlington,Western Kentucky,72,77
+Murray State,Austin Peay,96,88
+Cornell,Brown,66,78
+Penn,Dartmouth,58,67
+Cleveland State,Detroit,86,78
+Mercer,ETSU,90,77
+Stetson,Florida Gulf Coast,68,71
+Princeton,Harvard,76,82
+Manhattan,Iona,73,85
+Youngstown State,Oakland,85,86
+Rider,St. Peter's,71,53
+Kennesaw State,South Carolina Upstate,48,65
+Presbyterian,Virginia Military Institute,93,107
+Columbia,Yale,59,69
+Tennessee,Alabama,76,59
+Texas Southern,Alabama A&M,62,63
+East Carolina,Alabama-Birmingham,74,67
+Prairie View,Alabama State,63,76
+Vermont,Albany (NY),55,45
+Holy Cross,American,57,63
+Elon,Appalachian State,83,76
+Grambling,Arkansas-Pine Bluff,64,66
+Georgia,Auburn,67,74
+Northern Illinois,Ball State,67,65
+Savannah State,Bethune-Cookman,50,40
+Lehigh,Boston University,82,80
+Saint Mary's (CA),BYU,71,84
+Columbia,Brown,56,64
+UC-Irvine,Cal Poly,64,50
+Arizona,University of California,58,60
+UC-Davis,UCSB,67,82
+Coastal Carolina,Campbell,61,58
+Liberty,Charleston Southern,66,80
+Florida International,Charlotte,61,73
+Furman,Chattanooga,52,67
+Bucknell,Colgate,79,68
+Hofstra,College of Charleston,49,67
+Utah,Colorado,75,79
+Hampton,Coppin State,79,76
+Princeton,Dartmouth,69,78
+Citadel,Davidson,43,62
+George Washington,Dayton,65,75
+North Carolina-Wilmington,Delaware,65,66
+North Dakota State,Denver,63,67
+Providence,DePaul,77,72
+Southern Illinois-Edwardsville,Eastern Illinois,70,76
+Southeast Missouri State,Eastern Kentucky,78,79
+Northern Colorado,Eastern Washington,90,94
+Canisius,Fairfield,84,58
+Texas A&M,Florida,36,69
+South Carolina State,Florida A&M,63,59
+Clemson,Florida State,53,49
+Rhode Island,Fordham,79,85
+Michigan State,Georgetown,60,64
+Texas-Arlington,Georgia State,91,101
+Wright State,Green Bay,55,62
+Penn,Harvard,50,80
+Cal State Northridge,Hawaii,63,77
+Winthrop,High Point,64,65
+North Carolina Central,Howard,79,65
+Seattle,Idaho,68,67
+Iowa,Illinois,81,74
+Valparaiso,UIC,70,46
+Drake,Illinois State,57,75
+Oklahoma,Iowa State,75,81
+Western Illinois,IPFW,64,77
+Nebraska-Omaha,IUPUI,99,71
+Northern Kentucky,Jacksonville,77,95
+Akron,Kent State,57,60
+Duquesne,La Salle,63,71
+Navy,Lafayette,54,72
+Texas A&M-Corpus Christi,Lamar,58,35
+Cal State Fullerton,Long Beach State,56,75
+North Carolina-Asheville,Longwood,67,66
+Louisiana-Monroe,Louisiana,50,66
+Arkansas,LSU,74,88
+UCF,Louisville,70,87
+Army,Loyola (MD),77,71
+UMBC,Maine,80,83
+Niagara,Marist,64,78
+Florida Atlantic,Marshall,65,57
+North Carolina A&T,Maryland-Eastern Shore,60,67
+Binghamton,UMass-Lowell,55,62
+Oral Roberts,McNeese State,68,79
+Norfolk State,Miami (FL),49,64
+Eastern Michigan,Miami (OH),61,65
+Old Dominion,Middle Tennessee,48,64
+Northwestern,Minnesota,55,54
+South Carolina,Ole Miss,71,75
+Jackson State,Mississippi Valley State,66,69
+Kentucky,Missouri,84,79
+Grand Canyon,UMKC,72,53
+Bradley,Missouri State,61,74
+Jacksonville State,Morehead State,54,65
+Delaware State,Morgan State,64,77
+LIU-Brooklyn,Mount St. Mary's,92,95
+Air Force,Nevada,56,69
+Boise State,UNLV,69,73
+San Jose State,New Mexico,47,72
+Utah Valley,New Mexico State,49,72
+Central Arkansas,Nicholls State,67,78
+North Carolina State,UNC,70,84
+Georgia Southern,North Carolina-Greensboro,64,62
+Lipscomb,North Florida,60,58
+Idaho State,Northern Arizona,65,67
+Indiana State,Northern Iowa,87,81
+Abilene Christian,Northwestern State,66,84
+Boston College,Notre Dame,73,76
+Toledo,Ohio,90,95
+Baylor,Oklahoma State,76,70
+USC,Oregon,66,78
+Loyola Marymount,Pepperdine,69,80
+North Dakota,Portland State,68,70
+Gardner-Webb,Radford,73,72
+Central Connecticut,Robert Morris,74,73
+Houston,Rutgers,70,93
+Weber State,Sacramento State,75,78
+Fairleigh Dickinson,Saint Francis (PA),75,83
+UMass,St. Joseph's,68,73
+George Mason,Saint Louis,81,87
+Houston Baptist,Sam Houston State,63,81
+Pacific,San Diego,84,67
+Colorado State,San Diego State,56,65
+Gonzaga,San Francisco,75,65
+Portland,Santa Clara,76,64
+Quinnipiac,Siena,103,95
+Arkansas-Little Rock,South Alabama,62,58
+South Dakota State,South Dakota,70,68
+Alcorn State,Southern,54,62
+Loyola (IL),Southern Illinois,76,81
+Memphis,SMU,72,87
+Tulane,Southern Miss,47,78
+Montana State,Southern Utah,54,52
+Wagner,St. Francis (NY),72,73
+Marquette,St. John's (NY),59,74
+Arizona State,Stanford,70,76
+Incarnate Word,Stephen F. Austin,74,76
+Hartford,Stony Brook,52,56
+Duke,Syracuse,89,91
+Villanova,Temple,90,74
+Belmont,Tennessee Tech,76,81
+Kansas,Texas,69,81
+Rice,UTEP,57,68
+Cal State Bakersfield,Texas-Rio Grande Valley,72,64
+Louisiana Tech,UTSA,87,72
+Texas Christian,Texas Tech,54,60
+Drexel,Towson,73,75
+Arkansas State,Troy,83,73
+North Texas,Tulsa,63,94
+Mississippi State,Vanderbilt,49,55
+Richmond,VCU,70,81
+Maryland,Virginia Tech,80,60
+Georgia Tech,Wake Forest,79,70
+Washington,Washington State,67,72
+Kansas State,West Virginia,71,81
+Texas State,Western Kentucky,64,68
+Central Michigan,Western Michigan,72,75
+Evansville,Wichita State,67,81
+Ohio State,Wisconsin,59,58
+Samford,Wofford,58,77
+Utah State,Wyoming,57,74
+Seton Hall,Xavier,68,60
+Cornell,Yale,57,61
+Buffalo,Bowling Green State,68,74
+South Florida,Cincinnati,45,50
+Kennesaw State,ETSU,73,86
+Michigan,Indiana,52,63
+William & Mary,James Madison,81,79
+Oakland,Milwaukee,64,86
+UCLA,Oregon State,67,71
+Purdue,Penn State,68,79
+Virginia,Pitt,48,45
+Bryant,Sacred Heart,76,67
+Mercer,South Carolina Upstate,61,80
+Prairie View,Alabama A&M,55,67
+Texas Southern,Alabama State,73,79
+Jackson State,Arkansas-Pine Bluff,69,70
+South Carolina State,Bethune-Cookman,59,91
+Delaware State,Coppin State,53,54
+Northeastern,Delaware,67,80
+Georgetown,DePaul,71,59
+North Carolina-Wilmington,Drexel,50,61
+Savannah State,Florida A&M,51,54
+Samford,Furman,76,68
+South Alabama,Georgia State,65,85
+North Carolina A&T,Howard,60,68
+North Carolina Central,Maryland-Eastern Shore,66,62
+NJIT,UMass-Lowell,64,73
+Grambling,Mississippi Valley State,67,75
+Montana,Montana State,70,66
+Hampton,Morgan State,92,94
+Iowa State,Oklahoma State,98,97
+Fairfield,Rider,65,73
+Notre Dame,Syracuse,55,61
+Xavier,Villanova,58,81
+Kansas,Baylor,69,52
+Stony Brook,Binghamton,58,53
+Georgia Tech,Clemson,41,45
+Holy Cross,Colgate,69,68
+Southern Illinois,Drake,74,58
+Wake Forest,Duke,63,83
+Chattanooga,Eastern Kentucky,63,74
+Missouri,Florida,58,68
+Wisconsin,Illinois,75,63
+Ohio State,Iowa,76,69
+Ole Miss,Kentucky,64,80
+Winthrop,Liberty,73,62
+St. Peter's,Manhattan,49,64
+Butler,Marquette,62,69
+Rutgers,Memphis,69,101
+Iona,Monmouth,89,71
+Maryland,UNC,63,75
+Miami (OH),Northern Illinois,41,53
+St. John's (NY),Providence,86,76
+South Dakota,Texas,80,59
+Texas Christian,James Madison,54,71
+Towson,Maine,80,65
+Fresno State,Air Force,68,51
+Eastern Michigan,Akron,48,52
+UMass-Lowell,Albany (NY),56,73
+Alabama,Arkansas,58,65
+Lehigh,Army,51,70
+San Diego State,Boise State,67,65
+Lafayette,Bucknell,66,58
+Ball State,Buffalo,48,69
+Stanford,University of California,80,69
+South Florida,UCF,79,78
+Kent State,Central Michigan,73,78
+Radford,Charleston Southern,82,76
+High Point,Coastal Carolina,77,74
+Washington State,Colorado,63,68
+UNLV,Colorado State,57,75
+College of Charleston,Delaware,64,67
+Missouri State,Evansville,66,54
+Virginia Tech,Florida State,50,70
+Virginia Military Institute,Gardner-Webb,108,104
+Dayton,George Mason,84,67
+Duquesne,George Washington,57,71
+Portland,Gonzaga,66,71
+UIC,Green Bay,70,81
+Louisville,Houston,77,62
+Northern Iowa,Illinois State,65,76
+Wichita State,Indiana State,65,58
+American,Loyola (MD),58,62
+New Hampshire,UMBC,57,68
+La Salle,UMass,67,79
+Pitt,Miami (FL),59,55
+Nebraska,Michigan,50,79
+Boston University,Navy,61,48
+Nebraska-Omaha,Wyoming,86,61
+New Mexico,Campbell,66,73
+North Carolina-Asheville,William & Mary,86,54
+North Carolina-Wilmington,Hofstra,50,73
+Northeastern,Longwood,81,62
+Presbyterian,Minnesota,77,74
+Purdue,St. Bonaventure,77,62
+Richmond,Saint Louis,64,65
+St. Joseph's,Auburn,49,79
+South Carolina,Mississippi State,74,52
+Texas A&M,Bowling Green State,72,76
+Toledo,Nevada,83,75
+Utah State,Tennessee,83,60
+Vanderbilt,Boston College,64,67
+Virginia,Oklahoma,77,86
+West Virginia,Ohio,91,74
+Western Michigan,Youngstown State,90,67
+Houston Baptist,Abilene Christian,81,87
+Citadel,Appalachian State,45,54
+Oregon,Arizona,65,67
+Oregon State,Arizona State,82,86
+Georgia State,Arkansas-Little Rock,68,57
+Murray State,Belmont,96,99
+Santa Clara,BYU,76,89
+Cal State Northridge,UC-Davis,86,90
+Long Beach State,UC-Irvine,58,61
+Cal State Fullerton,UC-Riverside,69,72
+Southeastern Louisiana,Central Arkansas,71,85
+Bryant,Central Connecticut,79,68
+UConn,Cincinnati,58,63
+UTEP,East Carolina,58,47
+UT-Martin,Eastern Illinois,79,91
+North Carolina-Greensboro,Elon,66,72
+Middle Tennessee,Florida Atlantic,67,63
+Jacksonville,Florida Gulf Coast,71,100
+Alabama-Birmingham,Florida International,73,78
+LSU,Georgia,78,91
+Utah Valley,Grand Canyon,79,68
+UCSB,Hawaii,75,64
+New Mexico State,Idaho,67,73
+Northern Colorado,Idaho State,70,73
+Texas A&M-Corpus Christi,Incarnate Word,78,82
+South Carolina Upstate,Lipscomb,75,77
+Robert Morris,LIU-Brooklyn,65,56
+Tulsa,Louisiana Tech,61,66
+Bradley,Loyola (IL),63,54
+Saint Mary's (CA),Loyola Marymount,77,58
+Penn State,Michigan State,67,82
+Portland State,Montana,76,82
+Eastern Washington,Montana State,79,50
+NJIT,IUPUI,110,60
+North Dakota State,ETSU,66,64
+Northern Kentucky,McNeese State,50,74
+Northwestern State,Cleveland State,85,92
+Oakland,UTSA,85,61
+Old Dominion,New Orleans,69,59
+Oral Roberts,Pacific,79,69
+Pepperdine,North Texas,80,70
+Rice,Marist,75,68
+Rider,Northern Arizona,61,70
+Sacramento State,Mount St. Mary's,87,73
+Sacred Heart,Davidson,60,109
+Samford,San Francisco,88,74
+San Diego,Texas-Rio Grande Valley,67,62
+Seattle,IPFW,83,51
+South Dakota State,Southeast Missouri State,79,88
+Southern Illinois-Edwardsville,Temple,93,52
+SMU,Saint Francis (PA),75,52
+St. Francis (NY),Nicholls State,78,64
+Stephen F. Austin,North Florida,93,54
+Stetson,Austin Peay,52,75
+Tennessee State,Louisiana,65,92
+Texas-Arlington,Louisiana-Monroe,89,57
+Texas State,South Alabama,65,74
+Troy,Washington,79,69
+Utah,Rhode Island,78,52
+VCU,Fairleigh Dickinson,68,68
+Wagner,North Dakota,75,72
+Weber State,Winthrop,84,92
+Georgia Southern,Wofford,61,74
+Manhattan,Canisius,84,73
+DePaul,Creighton,66,78
+Yale,Dartmouth,67,54
+Monmouth,Fairfield,56,60
+Brown,Harvard,45,52
+Mercer,Kennesaw State,75,68
+Iona,Niagara,90,89
+Cornell,Penn,83,90
+Columbia,Princeton,53,52
+Siena,St. Peter's,53,66
+Marshall,Southern Miss,57,60
+Charlotte,Tulane,63,64
+Detroit,Valparaiso,59,57
+Seton Hall,Villanova,53,70
+Texas A&M-Corpus Christi,Abilene Christian,71,69
+Colorado State,Air Force,68,56
+Colgate,American,63,60
+Oregon,Arizona State,72,74
+Western Kentucky,Arkansas-Little Rock,79,78
+Alabama A&M,Arkansas-Pine Bluff,61,64
+Navy,Army,79,57
+Toledo,Ball State,80,73
+Austin Peay,Belmont,68,93
+Maine,Binghamton,58,73
+Duke,Boston College,89,68
+Lafayette,Boston University,54,88
+San Francisco,BYU,63,68
+Mount St. Mary's,Bryant,75,78
+Cal State Fullerton,Cal State Northridge,83,92
+UC-Irvine,UC-Davis,61,59
+Long Beach State,UC-Riverside,88,76
+New Orleans,Central Arkansas,88,79
+Fairleigh Dickinson,Central Connecticut,86,91
+Buffalo,Central Michigan,79,70
+UMKC,Chicago State,74,81
+Wofford,Citadel,77,56
+Longwood,Coastal Carolina,58,67
+Brown,Dartmouth,75,62
+Furman,Davidson,50,65
+South Carolina State,Delaware State,53,61
+South Dakota,Denver,67,75
+James Madison,Drexel,60,78
+George Mason,Duquesne,74,68
+UTSA,East Carolina,71,81
+Southeast Missouri State,Eastern Illinois,74,68
+Morehead State,Eastern Kentucky,86,79
+Kent State,Eastern Michigan,53,70
+Georgia Southern,Elon,59,60
+Alabama,Florida,69,78
+Alabama-Birmingham,Florida Atlantic,71,82
+North Florida,Florida Gulf Coast,46,73
+Middle Tennessee,Florida International,70,68
+San Jose State,Fresno State,56,82
+High Point,Gardner-Webb,76,80
+Fordham,George Washington,67,93
+Butler,Georgetown,63,71
+Texas A&M,Georgia,50,62
+Virginia,Georgia Tech,64,45
+Southern,Grambling,104,54
+Cal State Bakersfield,Grand Canyon,70,79
+Milwaukee,Green Bay,73,63
+Howard,Hampton,47,63
+Albany (NY),Hartford,54,67
+Yale,Harvard,74,67
+Cal Poly,Hawaii,60,69
+North Carolina-Wilmington,Hofstra,52,61
+Texas-Rio Grande Valley,Idaho,63,70
+North Dakota,Idaho State,80,75
+Houston Baptist,Incarnate Word,82,89
+Michigan,Iowa,67,85
+Texas Christian,Iowa State,69,84
+Alcorn State,Jackson State,61,71
+Tennessee Tech,Jacksonville State,72,60
+West Virginia,Kansas,69,83
+Texas,Kansas State,57,74
+Saint Louis,La Salle,65,63
+Loyola (MD),Lehigh,52,66
+ETSU,Lipscomb,96,88
+Saint Francis (PA),LIU-Brooklyn,74,58
+Auburn,LSU,80,87
+North Texas,Louisiana Tech,75,90
+Pacific,Loyola Marymount,82,72
+Florida State,Maryland,71,83
+UMass-Lowell,UMBC,71,61
+Coppin State,Maryland-Eastern Shore,58,50
+Gonzaga,Memphis,54,60
+North Carolina State,Miami (FL),56,55
+Indiana,Minnesota,60,66
+Missouri,Ole Miss,88,91
+Kentucky,Mississippi State,69,59
+Alabama State,Mississippi Valley State,75,70
+Eastern Washington,Montana,77,82
+Portland State,Montana State,64,69
+Norfolk State,Morgan State,64,53
+Western Illinois,Nebraska-Omaha,60,71
+Wyoming,UNLV,46,48
+Liberty,North Carolina-Asheville,72,75
+Florida A&M,North Carolina A&T,78,84
+Bethune-Cookman,North Carolina Central,54,77
+IPFW,North Dakota State,58,69
+William & Mary,Northeastern,82,70
+Southern Utah,Northern Arizona,57,64
+Wichita State,Northern Iowa,82,73
+South Carolina Upstate,Northern Kentucky,76,59
+Nebraska,Northwestern,53,49
+Nicholls State,Northwestern State,73,86
+UNC,Notre Dame,73,62
+Miami (OH),Ohio,75,82
+Purdue,Ohio State,49,67
+Baylor,Oklahoma,72,88
+UTEP,Old Dominion,63,49
+Southeastern Louisiana,Oral Roberts,54,71
+Columbia,Penn,60,68
+Saint Mary's (CA),Pepperdine,69,67
+Virginia Tech,Pitt,57,62
+Texas Southern,Prairie View,77,85
+Radford,Presbyterian,83,66
+Cornell,Princeton,48,69
+Rider,Quinnipiac,61,82
+Tulsa,Rice,66,56
+Wagner,Sacred Heart,62,55
+VCU,St. Joseph's,62,69
+Lamar,Sam Houston State,70,84
+Chattanooga,Samford,85,92
+Santa Clara,San Diego,69,63
+Nevada,San Diego State,58,73
+New Mexico State,Seattle,92,77
+IUPUI,South Dakota State,59,83
+Rutgers,South Florida,79,69
+UCLA,USC,83,73
+Missouri State,Southern Illinois,54,72
+UT-Martin,Southern Illinois-Edwardsville,78,84
+Cincinnati,SMU,55,76
+Dayton,St. Bonaventure,72,69
+Robert Morris,St. Francis (NY),72,50
+McNeese State,Stephen F. Austin,54,74
+Jacksonville,Stetson,68,73
+New Hampshire,Stony Brook,73,69
+South Carolina,Tennessee,53,72
+Murray State,Tennessee State,73,65
+Louisiana,Texas State,67,66
+Oklahoma State,Texas Tech,61,65
+College of Charleston,Towson,61,68
+Washington State,Utah,63,81
+Boise State,Utah State,70,76
+Arkansas,Vanderbilt,77,75
+Charleston Southern,Virginia Military Institute,84,92
+Northern Colorado,Weber State,65,79
+Appalachian State,Western Carolina,75,84
+Campbell,Winthrop,62,88
+Cleveland State,Wright State,72,68
+Providence,Xavier,53,59
+Oregon State,Arizona,54,76
+Akron,Bowling Green State,65,63
+Evansville,Bradley,66,83
+Iona,Canisius,101,91
+UConn,UCF,75,55
+Washington,Colorado,65,91
+Youngstown State,Detroit,81,83
+Bucknell,Holy Cross,50,66
+Temple,Houston,74,88
+Drake,Indiana State,56,60
+Illinois State,Loyola (IL),69,79
+Manhattan,Niagara,78,77
+Western Michigan,Northern Illinois,74,71
+Illinois,Penn State,60,55
+UMass,Rhode Island,73,68
+Monmouth,St. Peter's,50,61
+Charlotte,Southern Miss,64,81
+Creighton,St. John's (NY),65,70
+Clemson,Syracuse,44,57
+Marshall,Tulane,65,68
+Oakland,Valparaiso,60,63
+Michigan State,Wisconsin,58,60
+Alabama State,Arkansas-Pine Bluff,71,76
+Western Kentucky,Arkansas State,58,72
+Morgan State,Coppin State,82,77
+Savannah State,Delaware State,59,79
+South Carolina Upstate,ETSU,75,63
+Miami (FL),Florida State,77,73
+Providence,Georgetown,71,83
+Alcorn State,Grambling,80,95
+Maryland-Eastern Shore,Hampton,65,71
+Southern,Jackson State,68,63
+Hofstra,James Madison,53,59
+Kansas,Kansas State,82,85
+Alabama A&M,Mississippi Valley State,91,82
+Howard,Norfolk State,49,75
+Bethune-Cookman,North Carolina A&T,72,71
+Florida A&M,North Carolina Central,49,92
+Towson,North Carolina-Wilmington,53,66
+Marist,Quinnipiac,78,83
+Southern Utah,Sacramento State,56,68
+Fairfield,Siena,75,77
+Maryland,Virginia,53,61
+Iowa State,West Virginia,77,102
+Furman,Western Carolina,75,83
+Ole Miss,Alabama,64,67
+Xavier,Butler,64,50
+Utah State,Colorado State,71,62
+Gardner-Webb,Liberty,68,52
+Wake Forest,North Carolina State,67,82
+Clemson,Notre Dame,64,68
+Michigan,Ohio State,70,60
+Marquette,Seton Hall,77,66
+Florida,Tennessee,67,58
+Oklahoma State,Texas,68,87
+Southern Illinois,Wichita State,67,78
+San Diego State,Wyoming,62,68
+Lehigh,American,44,64
+Kentucky,Auburn,64,56
+Eastern Michigan,Ball State,73,62
+New Mexico,Boise State,70,71
+Indiana State,Bradley,68,62
+Navy,Bucknell,57,78
+Presbyterian,Campbell,66,77
+Boston University,Colgate,76,74
+South Florida,UConn,40,83
+Rhode Island,Dayton,69,76
+James Madison,Delaware,65,81
+Villanova,DePaul,87,62
+Richmond,Duquesne,75,58
+Illinois State,Evansville,98,104
+St. Bonaventure,Fordham,76,65
+Army,Holy Cross,63,66
+Penn State,Indiana,66,65
+St. Peter's,Iona,59,62
+Bowling Green State,Kent State,61,62
+Loyola (MD),Lafayette,44,61
+Winthrop,Longwood,76,59
+Hartford,Maine,91,79
+Albany (NY),UMBC,69,71
+George Mason,UMass,91,80
+UCF,Memphis,70,76
+Buffalo,Miami (OH),75,62
+Georgia,Mississippi State,75,55
+Drake,Missouri State,63,69
+Illinois,Nebraska,58,67
+Fresno State,Nevada,75,67
+Binghamton,New Hampshire,72,71
+NJIT,Central Michigan,84,63
+Northern Illinois,Loyola (IL),88,58
+Northern Iowa,Texas Tech,80,68
+Oklahoma,Syracuse,60,58
+Pitt,Air Force,56,51
+San Jose State,UT-Martin,48,79
+Southeast Missouri State,LSU,70,73
+Texas A&M,Baylor,83,91
+Texas Christian,Ohio,58,76
+Toledo,UMass-Lowell,82,58
+Vermont,George Washington,83,75
+VCU,Coastal Carolina,92,83
+Virginia Military Institute,Stanford,78,60
+Washington,University of California,64,80
+Washington State,Akron,76,54
+Southern Miss,Alabama-Birmingham,60,84
+Samford,Appalachian State,68,74
+Eastern Illinois,Austin Peay,83,88
+Tennessee State,Belmont,71,73
+Creighton,Butler,68,63
+Idaho,Cal State Bakersfield,67,76
+UC-Davis,Cal State Fullerton,64,74
+Cal Poly,Cal State Northridge,62,55
+Hawaii,UC-Riverside,87,76
+UIC,Cleveland State,53,73
+Drexel,College of Charleston,46,47
+Florida Gulf Coast,ETSU,81,89
+Sacramento State,Eastern Washington,72,85
+Quinnipiac,Fairfield,80,72
+North Carolina-Greensboro,Georgia Southern,68,56
+Boston College,Georgia Tech,71,74
+Pepperdine,Gonzaga,68,83
+Oral Roberts,Houston Baptist,80,66
+Abilene Christian,Incarnate Word,68,80
+South Dakota,IPFW,69,75
+Denver,IUPUI,49,59
+Morehead State,Jacksonville State,69,67
+Stephen F. Austin,Lamar,78,69
+UCSB,Long Beach State,65,64
+Arkansas-Little Rock,Louisiana,87,93
+Texas-Arlington,Louisiana-Monroe,85,74
+Northwestern,Michigan State,70,85
+Tulane,Middle Tennessee,44,71
+Arkansas,Missouri,85,86
+Southern Illinois-Edwardsville,Murray State,72,82
+South Dakota State,Nebraska-Omaha,77,60
+UMKC,New Mexico State,48,71
+Nicholls State,New Orleans,64,70
+Northeastern,North Carolina-Wilmington,45,55
+Montana State,North Dakota,78,70
+Old Dominion,North Texas,72,62
+Montana,Northern Colorado,86,89
+BYU,Pacific,82,89
+Loyola Marymount,Portland,64,71
+Northern Arizona,Portland State,65,63
+North Carolina-Asheville,Radford,92,102
+Manhattan,Rider,86,69
+Robert Morris,Saint Francis (PA),66,60
+San Diego,Saint Mary's (CA),57,69
+Northwestern State,Sam Houston State,64,67
+St. John's (NY),Seton Hall,68,67
+Arkansas State,South Alabama,85,61
+Vanderbilt,South Carolina,59,65
+McNeese State,Southeastern Louisiana,53,62
+Utah,USC,79,71
+Weber State,Southern Utah,75,55
+Eastern Kentucky,Tennessee Tech,66,72
+Central Arkansas,Texas A&M-Corpus Christi,73,84
+Florida Atlantic,UTEP,71,69
+Chicago State,Texas-Rio Grande Valley,68,71
+Florida International,UTSA,80,72
+East Carolina,Tulsa,58,76
+Colorado,UCLA,74,92
+Seattle,Utah Valley,71,57
+North Dakota State,Western Illinois,56,52
+Troy,Western Kentucky,76,81
+Minnesota,Wisconsin,70,78
+Green Bay,Youngstown State,71,40
+Arizona,Arizona State,66,69
+Princeton,Brown,69,65
+Western Carolina,Chattanooga,73,83
+Harvard,Columbia,88,84
+Dartmouth,Cornell,67,70
+Monmouth,Iona,70,89
+North Florida,Jacksonville,79,74
+Northern Kentucky,Kennesaw State,67,69
+Siena,Marist,64,65
+Lipscomb,Mercer,48,79
+Canisius,Niagara,71,65
+Detroit,Oakland,82,83
+SMU,Rutgers,77,65
+Louisville,Temple,82,58
+Penn,Yale,54,69
+Abilene Christian,Northern Illinois,108,54
+Akron,Alabama State,62,65
+Alabama A&M,Tulane,68,86
+Alabama-Birmingham,Maine,80,63
+Albany (NY),Mississippi Valley State,74,63
+Alcorn State,Wofford,67,64
+Appalachian State,LSU,58,70
+Arkansas,Mississippi State,81,82
+Auburn,Southern Illinois-Edwardsville,92,83
+Austin Peay,Bowling Green State,68,66
+Ball State,Kansas State,64,73
+Baylor,Delaware State,87,79
+Bethune-Cookman,Penn,67,55
+Brown,Army,62,61
+Bucknell,Ohio,73,73
+Buffalo,Seattle,70,65
+Cal State Bakersfield,Hawaii,83,83
+Cal State Fullerton,UC-Riverside,80,52
+UC-Irvine,Cal State Northridge,70,80
+UCSB,Longwood,78,76
+Campbell,Sacred Heart,53,69
+Central Connecticut,Winthrop,74,64
+Charleston Southern,Marshall,84,59
+Charlotte,Houston,56,62
+Cincinnati,Virginia,73,63
+Clemson,Green Bay,58,68
+Cleveland State,Gardner-Webb,54,60
+Coastal Carolina,Northeastern,75,60
+College of Charleston,Dartmouth,44,59
+Columbia,Memphis,69,81
+UConn,Harvard,86,67
+Cornell,Loyola (IL),44,62
+Drake,Maryland,70,67
+Duke,Stetson,69,66
+ETSU,Toledo,93,44
+Eastern Michigan,Northern Arizona,65,65
+Eastern Washington,Samford,84,69
+Elon,Rider,86,71
+Fairfield,Saint Francis (PA),62,89
+Fairleigh Dickinson,Coppin State,82,71
+Florida A&M,Colorado State,82,66
+Fresno State,Citadel,75,67
+Furman,St. Bonaventure,76,85
+George Mason,UMass,73,67
+George Washington,Ole Miss,61,60
+Georgia,Davidson,61,88
+Georgia Southern,Loyola Marymount,73,67
+Gonzaga,New Hampshire,86,59
+Hartford,Central Arkansas,61,83
+Houston Baptist,Ohio State,99,48
+Illinois,Bradley,39,54
+Illinois State,Southern Illinois,70,57
+Indiana State,Texas Tech,60,64
+Iowa State,Denver,70,73
+IPFW,South Dakota,62,71
+IUPUI,Eastern Kentucky,67,86
+Jacksonville State,North Carolina-Wilmington,65,62
+James Madison,Texas Christian,64,65
+Kansas,Central Michigan,95,75
+Kent State,Florida,83,69
+Kentucky,St. Joseph's,59,75
+La Salle,American,64,62
+Lafayette,Northwestern State,74,87
+Lamar,Holy Cross,67,72
+Lehigh,Virginia Military Institute,67,77
+Liberty,Cal Poly,70,65
+Long Beach State,Arkansas State,74,67
+Louisiana,Arkansas-Little Rock,85,49
+Louisiana-Monroe,Rice,65,46
+Louisiana Tech,Boston University,85,87
+Loyola (MD),Xavier,72,72
+Marquette,Howard,81,73
+Maryland-Eastern Shore,Stony Brook,87,78
+UMass-Lowell,Southern Miss,68,64
+Middle Tennessee,Valparaiso,81,77
+Milwaukee,Tennessee,62,70
+Missouri,Northern Iowa,75,60
+Missouri State,Eastern Illinois,58,60
+Murray State,Colgate,72,61
+Navy,North Dakota State,71,75
+Nebraska-Omaha,Nevada,59,72
+New Mexico,Chicago State,90,55
+New Mexico State,Hampton,84,79
+Norfolk State,Pitt,73,71
+UNC,Montana,75,69
+North Dakota,East Carolina,74,51
+North Texas,Montana State,53,73
+Northern Colorado,Oklahoma,83,77
+Oklahoma State,San Diego,74,70
+Pacific,Iowa,55,82
+Penn State,Pepperdine,70,62
+Portland,Sacramento State,74,72
+Portland State,Jackson State,65,50
+Prairie View,North Carolina-Asheville,53,71
+Presbyterian,DePaul,72,61
+Providence,Indiana,84,64
+Purdue,High Point,82,72
+Radford,Duquesne,65,83
+Rhode Island,Fordham,71,70
+Richmond,Mount St. Mary's,82,61
+Robert Morris,VCU,69,62
+Saint Louis,BYU,64,60
+Saint Mary's (CA),Stephen F. Austin,57,67
+Sam Houston State,Air Force,60,56
+San Diego State,Wyoming,64,46
+San Jose State,San Francisco,38,69
+Santa Clara,North Carolina A&T,63,48
+Savannah State,Alabama,73,66
+South Carolina,North Carolina Central,67,67
+South Carolina State,Florida Gulf Coast,53,84
+South Carolina Upstate,UCF,80,75
+South Florida,Nicholls State,74,66
+Southeastern Louisiana,Arkansas-Pine Bluff,71,64
+Southern,Idaho State,58,75
+Southern Utah,North Carolina State,65,55
+Syracuse,Morehead State,56,79
+Tennessee Tech,West Virginia,53,71
+Texas,Oral Roberts,88,72
+Texas A&M-Corpus Christi,Texas State,74,62
+Texas-Arlington,Florida International,69,71
+UTEP,UMKC,84,59
+Texas-Rio Grande Valley,Florida Atlantic,68,56
+UTSA,Grambling,66,71
+Texas Southern,Georgia State,74,81
+Troy,Old Dominion,85,37
+Tulsa,Utah,76,66
+UCLA,UNLV,80,73
+Utah State,Idaho,62,88
+Utah Valley,Texas A&M,89,54
+Vanderbilt,UMBC,57,52
+Vermont,Miami (FL),76,45
+Virginia Tech,Florida State,52,67
+Wake Forest,University of California,60,72
+Washington,Stanford,59,69
+Washington State,South Dakota State,56,62
+Western Illinois,South Alabama,50,69
+Western Kentucky,Miami (OH),62,57
+Western Michigan,Towson,68,85
+William & Mary,Princeton,70,65
+Yale,UIC,66,56
+Notre Dame,Boston College,73,69
+Villanova,Creighton,80,101
+Hofstra,Drexel,63,74
+Wichita State,Evansville,84,68
+Lipscomb,Kennesaw State,76,73
+St. Francis (NY),LIU-Brooklyn,68,69
+Rutgers,Louisville,54,102
+Niagara,Manhattan,72,90
+Northern Kentucky,Mercer,67,89
+Wisconsin,Michigan,75,62
+Nebraska,Michigan State,60,51
+Marist,Monmouth,96,92
+McNeese State,New Orleans,72,69
+Western Carolina,North Carolina-Greensboro,82,77
+Minnesota,Northwestern,54,48
+Wright State,Oakland,72,71
+Oregon State,Oregon,83,93
+St. Peter's,Quinnipiac,64,74
+Canisius,Siena,92,88
+Colorado,USC,83,74
+Georgetown,St. John's (NY),60,82
+SMU,Temple,64,71
+Bryant,Wagner,61,73
+Arkansas-Pine Bluff,Alcorn State,54,57
+Oklahoma State,Baylor,64,70
+Davidson,Citadel,83,76
+Delaware State,Florida A&M,63,68
+UNC,Florida State,81,75
+Texas State,Georgia State,41,68
+Charleston Southern,High Point,70,76
+Weber State,Idaho State,75,78
+Morgan State,Maryland-Eastern Shore,88,72
+Grambling,Prairie View,83,81
+North Carolina Central,Savannah State,76,62
+North Carolina A&T,South Carolina State,70,75
+Stetson,South Carolina Upstate,48,66
+Mississippi Valley State,Southern,74,83
+Jackson State,Texas Southern,75,73
+Delaware,Towson,63,78
+North Carolina-Wilmington,William & Mary,70,93
+Abilene Christian,North Carolina State,80,56
+Clemson,Boise State,73,84
+Colorado State,Northern Iowa,72,67
+Drake,Duke,70,68
+Georgia Tech,Cal State Northridge,51,88
+Idaho,Detroit,96,65
+UIC,Missouri State,59,63
+Illinois State,Texas,67,76
+Iowa State,South Florida,85,54
+Louisville,Wake Forest,80,60
+Maryland,Kentucky,71,84
+Ole Miss,San Jose State,70,66
+Nevada,Villanova,64,82
+Providence,George Washington,79,73
+Richmond,Utah State,65,45
+San Diego State,Bradley,60,64
+Southern Illinois,Central Connecticut,75,73
+St. Francis (NY),Butler,71,52
+St. John's (NY),Georgia,77,48
+Tennessee,Kansas,67,64
+Texas Tech,Virginia,63,57
+Virginia Tech,Fresno State,53,66
+South Carolina,Arkansas,64,71
+Colgate,Army,66,74
+Albany (NY),Binghamton,57,48
+American,Boston University,62,71
+Akron,Buffalo,90,96
+UCLA,University of California,86,66
+Cincinnati,UCF,77,49
+Ball State,Central Michigan,95,101
+William & Mary,College of Charleston,54,87
+Arizona State,Colorado,52,61
+La Salle,Dayton,53,65
+Auburn,Florida,66,71
+Presbyterian,Gardner-Webb,70,79
+Saint Louis,George Mason,89,85
+Liberty,High Point,60,67
+Delaware,Hofstra,81,77
+Lafayette,Holy Cross,76,64
+Evansville,Indiana State,54,59
+Drexel,James Madison,61,63
+Texas Christian,Kansas State,53,65
+Navy,Lehigh,65,72
+Radford,Longwood,86,75
+Mississippi State,LSU,81,92
+Wichita State,Loyola (IL),88,74
+Bucknell,Loyola (MD),55,53
+Creighton,Marquette,85,70
+NJIT,Maryland-Eastern Shore,77,76
+Hartford,UMass-Lowell,75,68
+Notre Dame,Miami (FL),64,71
+Kent State,Miami (OH),75,63
+Illinois,Minnesota,62,49
+Vanderbilt,Missouri,64,67
+Manhattan,Monmouth,75,61
+Austin Peay,Morehead State,88,90
+Coppin State,Morgan State,69,78
+New Mexico,UNLV,68,56
+Vermont,New Hampshire,79,44
+Charleston Southern,North Carolina-Asheville,71,82
+Elon,North Carolina-Greensboro,81,68
+Western Michigan,Ohio,73,63
+Northwestern,Ohio State,60,76
+Washington,Oregon,71,78
+St. Joseph's,Rhode Island,57,54
+Houston,SMU,64,68
+Duquesne,St. Bonaventure,67,71
+UMBC,Stony Brook,53,72
+Boston College,Syracuse,62,59
+Arizona,Utah,67,63
+Campbell,Virginia Military Institute,81,84
+Coastal Carolina,Winthrop,65,75
+DePaul,Xavier,64,83
+Western Carolina,Appalachian State,74,61
+Texas-Arlington,Arkansas State,60,83
+Eastern Illinois,Belmont,63,82
+Toledo,Bowling Green State,60,58
+Gonzaga,BYU,65,73
+Fairleigh Dickinson,Bryant,63,52
+Cal State Fullerton,Cal Poly,67,59
+Long Beach State,UC-Davis,79,57
+UC-Riverside,UCSB,54,55
+Quinnipiac,Canisius,88,81
+Mount St. Mary's,Central Connecticut,87,76
+Middle Tennessee,Charlotte,71,49
+Georgia Southern,Chattanooga,77,61
+Utah Valley,Chicago State,79,70
+Western Illinois,Denver,67,75
+Louisiana Tech,East Carolina,68,75
+Tulsa,Florida Atlantic,71,52
+North Texas,Florida International,65,63
+Louisiana-Monroe,Georgia State,60,75
+Valparaiso,Green Bay,53,67
+UC-Irvine,Hawaii,60,56
+ETSU,Jacksonville,86,91
+Troy,Louisiana,63,78
+Pepperdine,Loyola Marymount,72,69
+Alabama-Birmingham,Marshall,68,62
+Cal State Bakersfield,UMKC,74,69
+Weber State,Montana,57,68
+Idaho State,Montana State,60,66
+Penn State,Nebraska,67,80
+Southeastern Louisiana,New Orleans,58,67
+Fairfield,Niagara,72,66
+Duke,UNC,66,74
+South Carolina Upstate,North Florida,81,70
+Towson,Northeastern,79,70
+Northern Colorado,Northern Arizona,74,59
+Eastern Michigan,Northern Illinois,59,61
+Rice,Old Dominion,51,55
+Washington State,Oregon State,57,68
+Michigan State,Purdue,94,79
+LIU-Brooklyn,Robert Morris,64,73
+Memphis,Rutgers,64,59
+North Dakota,Sacramento State,65,71
+St. Francis (NY),Saint Francis (PA),73,44
+Marist,St. Peter's,57,58
+Portland,San Diego,59,61
+Saint Mary's (CA),San Francisco,62,73
+Pacific,Santa Clara,50,70
+Grand Canyon,Seattle,74,73
+Georgetown,Seton Hall,67,82
+Nebraska-Omaha,South Dakota,86,87
+Jacksonville State,Southeast Missouri State,70,87
+UTSA,Southern Miss,56,85
+Portland State,Southern Utah,86,79
+USC,Stanford,59,80
+UConn,Temple,68,55
+Tennessee Tech,UT-Martin,91,83
+Southern Illinois-Edwardsville,Tennessee State,61,66
+Alabama,Texas A&M,48,63
+New Mexico State,Texas-Rio Grande Valley,78,61
+South Alabama,Texas State,66,67
+UTEP,Tulane,72,54
+Sacred Heart,Wagner,62,74
+Furman,Wofford,50,70
+Milwaukee,Youngstown State,83,88
+Brown,Columbia,68,70
+Yale,Cornell,82,65
+Mercer,Florida Gulf Coast,61,75
+Oakland,UIC,86,71
+Northern Kentucky,Lipscomb,66,70
+VCU,UMass,75,80
+Harvard,Penn,83,63
+Dartmouth,Princeton,57,67
+Iona,Rider,80,77
+Manhattan,Siena,63,67
+Kennesaw State,Stetson,67,63
+Detroit,Wright State,61,65
+Abilene Christian,Nevada,124,75
+Air Force,Ohio,56,66
+Akron,Missouri,50,73
+Alabama,Southern,80,70
+Alabama A&M,Alcorn State,62,86
+Alabama State,Army,92,54
+American,Texas-Arlington,58,75
+Arkansas-Little Rock,Prairie View,71,61
+Arkansas-Pine Bluff,Texas State,76,68
+Arkansas State,Vanderbilt,73,67
+Auburn,Eastern Kentucky,59,96
+Austin Peay,Florida A&M,75,80
+Bethune-Cookman,UNLV,75,90
+Boise State,Loyola (IL),91,38
+Bradley,Portland,55,72
+BYU,Central Connecticut,89,65
+Bryant,UC-Riverside,68,64
+Cal Poly,UC-Irvine,69,75
+Cal State Northridge,Cal State Fullerton,81,65
+UCSB,Liberty,80,79
+Campbell,Fairfield,59,78
+Canisius,Oral Roberts,90,63
+Central Arkansas,Alabama-Birmingham,50,64
+Charlotte,Cal State Bakersfield,62,68
+Chicago State,Louisville,73,58
+Cincinnati,Milwaukee,57,50
+Cleveland State,Loyola (MD),74,60
+Colgate,Arizona,84,88
+Colorado,Wyoming,61,67
+Colorado State,Norfolk State,82,73
+Coppin State,Brown,68,81
+Cornell,Wofford,75,49
+Davidson,Maryland-Eastern Shore,59,71
+Delaware State,Nebraska-Omaha,84,60
+Denver,Marquette,72,96
+DePaul,Syracuse,94,60
+Duke,Dayton,66,57
+Duquesne,Rice,54,55
+East Carolina,Southern Illinois,67,61
+Evansville,Sacred Heart,56,66
+Fairleigh Dickinson,North Texas,73,78
+Florida Atlantic,Tulsa,76,77
+Florida International,Appalachian State,65,53
+Furman,Winthrop,68,79
+Gardner-Webb,Xavier,85,52
+Georgetown,Elon,74,66
+Georgia Southern,Louisiana,61,77
+Georgia State,Clemson,80,63
+Georgia Tech,Jackson State,55,79
+Grambling,UC-Davis,59,77
+Hawaii,Towson,86,83
+Hofstra,UCF,77,84
+Houston,Texas A&M-Corpus Christi,88,66
+Houston Baptist,Hampton,61,81
+Howard,Grand Canyon,78,77
+Idaho,Wisconsin,83,79
+Iowa,IPFW,74,84
+IUPUI,South Carolina Upstate,60,82
+Jacksonville,Texas,88,54
+Kansas,Buffalo,85,78
+Kent State,LSU,69,76
+Kentucky,Sam Houston State,77,74
+Lamar,High Point,71,85
+Longwood,Middle Tennessee,59,56
+Marshall,Binghamton,53,72
+UMBC,Temple,70,79
+Memphis,Boston College,82,42
+Miami (FL),Florida,69,75
+Ole Miss,Arkansas,71,73
+Mississippi State,Texas Southern,69,73
+Mississippi Valley State,Utah Valley,65,56
+UMKC,Indiana State,74,66
+Missouri State,St. Peter's,77,61
+Monmouth,Idaho State,51,61
+Montana,Weber State,62,86
+Montana State,Morehead State,68,58
+Murray State,UMass-Lowell,69,58
+New Hampshire,San Diego State,52,44
+New Mexico,Quinnipiac,58,90
+Niagara,McNeese State,88,59
+Nicholls State,NJIT,68,99
+Wake Forest,UNC,72,105
+Coastal Carolina,North Carolina-Asheville,85,100
+North Carolina Central,North Carolina A&T,73,55
+College of Charleston,North Carolina-Wilmington,55,57
+South Dakota State,North Dakota State,59,74
+ETSU,North Florida,88,85
+North Dakota,Northern Arizona,75,63
+Indiana,Northwestern,61,56
+Minnesota,Ohio State,46,64
+Kansas State,Oklahoma,73,86
+Texas Tech,Oklahoma State,62,84
+Louisiana Tech,Old Dominion,71,66
+Washington,Oregon State,86,62
+Dartmouth,Penn,65,74
+Charleston Southern,Presbyterian,86,47
+Harvard,Princeton,59,47
+La Salle,Richmond,49,62
+St. Francis (NY),Robert Morris,70,71
+Northern Colorado,Sacramento State,58,79
+LIU-Brooklyn,Saint Francis (PA),64,83
+Fordham,St. Joseph's,72,87
+George Washington,Saint Louis,59,66
+Gonzaga,San Diego,66,69
+Pacific,San Francisco,59,64
+Saint Mary's (CA),Santa Clara,76,54
+Troy,South Alabama,78,86
+Georgia,South Carolina,73,56
+Savannah State,South Carolina State,75,65
+Western Illinois,South Dakota,54,64
+UTEP,Southern Miss,68,77
+Eastern Washington,Southern Utah,85,74
+Rhode Island,St. Bonaventure,87,78
+UCLA,Stanford,74,83
+Northwestern State,Stephen F. Austin,68,70
+Southeast Missouri State,UT-Martin,77,74
+Jacksonville State,Tennessee Tech,57,69
+Tennessee,Texas A&M,65,68
+Iowa State,Texas Christian,71,60
+UTSA,Tulane,56,68
+Fresno State,Utah State,79,76
+Youngstown State,Valparaiso,66,68
+St. John's (NY),Villanova,54,57
+Notre Dame,Virginia,49,70
+Radford,Virginia Military Institute,76,88
+North Carolina State,Virginia Tech,71,64
+Mount St. Mary's,Wagner,66,71
+Baylor,West Virginia,88,75
+Citadel,Western Carolina,52,70
+Louisiana-Monroe,Western Kentucky,63,72
+Drake,Wichita State,54,83
+Northeastern,William & Mary,67,81
+Bucknell,Boston University,63,53
+Providence,Butler,87,81
+USC,University of California,64,77
+Northern Illinois,Central Michigan,67,70
+Yale,Columbia,46,62
+SMU,UConn,64,55
+Seton Hall,Creighton,71,72
+Drexel,Delaware,69,65
+Kennesaw State,Florida Gulf Coast,68,78
+Navy,Holy Cross,57,74
+Lehigh,Lafayette,71,77
+Stony Brook,Maine,83,79
+Iona,Marist,86,67
+Bowling Green State,Miami (OH),52,55
+Michigan State,Michigan,70,79
+Purdue,Nebraska,57,76
+Chattanooga,North Carolina-Greensboro,84,88
+Illinois State,Northern Iowa,59,72
+Washington State,Oregon,53,67
+Florida State,Pitt,71,66
+Siena,Rider,69,60
+Mercer,Stetson,73,52
+Ball State,Toledo,74,85
+Arizona State,Utah,63,86
+Hartford,Vermont,47,72
+Eastern Michigan,Western Michigan,67,75
+Alcorn State,Alabama A&M,64,56
+Southern,Alabama State,87,64
+Texas Southern,Arkansas-Pine Bluff,65,55
+Samford,Citadel,71,81
+Morgan State,Delaware State,56,59
+Chicago State,Eastern Illinois,62,84
+Portland State,Eastern Washington,87,76
+Wagner,Fairleigh Dickinson,67,64
+Elon,Furman,78,49
+Norfolk State,Howard,66,60
+Oklahoma,Kansas,75,83
+Syracuse,Maryland,57,55
+Hampton,Maryland-Eastern Shore,104,89
+Prairie View,Mississippi Valley State,69,75
+Bryant,Mount St. Mary's,73,88
+Oklahoma State,Texas Christian,76,54
+Arkansas State,Wichita State,65,69
+Bradley,Youngstown State,49,69
+Cleveland State,Seton Hall,70,60
+DePaul,Virginia Tech,65,48
+Duke,Drake,66,48
+Evansville,Missouri,61,56
+Georgia,Houston Baptist,71,107
+Longwood,Liberty,76,90
+UIC,Milwaukee,80,58
+Iowa,Minnesota,89,95
+Loyola (IL),Missouri State,56,72
+Utah State,New Mexico,58,67
+North Carolina Central,NJIT,81,62
+LIU-Brooklyn,Sacred Heart,80,75
+Dayton,St. Joseph's,53,79
+Fairfield,St. Peter's,62,63
+San Jose State,San Diego State,64,90
+Xavier,St. John's (NY),65,53
+Kansas State,Texas Tech,60,56
+Florida,Vanderbilt,57,54
+Clemson,Wake Forest,57,62
+Indiana,Wisconsin,58,69
+Valparaiso,Wright State,58,67
+Air Force,Wyoming,55,53
+University of California,Arizona,59,87
+Stanford,Arizona State,64,76
+Boston University,Army,71,70
+South Carolina,Auburn,67,83
+Western Michigan,Ball State,88,81
+Pitt,Boston College,66,59
+Kent State,Bowling Green State,66,73
+Lehigh,Bucknell,61,65
+Rutgers,UCF,65,67
+Gardner-Webb,Charleston Southern,78,76
+Presbyterian,Coastal Carolina,51,70
+Lafayette,Colgate,66,83
+College of Charleston,Drexel,45,56
+Central Michigan,Eastern Michigan,42,64
+Florida A&M,Boise State,104,56
+Fresno State,Richmond,76,60
+George Mason,Virginia Military Institute,69,67
+High Point,Nebraska,70,49
+Illinois,Indiana State,60,59
+Illinois State,West Virginia,77,66
+Iowa State,Towson,83,69
+James Madison,St. Bonaventure,66,67
+La Salle,Texas A&M,75,49
+LSU,Holy Cross,68,65
+Loyola (MD),Rhode Island,52,67
+UMass,Akron,70,61
+Miami (OH),Alabama,65,67
+Ole Miss,Tennessee,79,75
+Mississippi State,American,68,64
+Navy,Colorado State,55,70
+UNLV,UNC,78,85
+North Carolina State,Delaware,84,70
+North Carolina-Wilmington,Toledo,57,66
+Northern Illinois,Southern Illinois,74,54
+Northern Iowa,Georgia Tech,73,62
+Notre Dame,Buffalo,65,69
+Ohio,Michigan,64,77
+Purdue,Campbell,76,78
+Radford,UConn,82,61
+South Florida,Belmont,56,94
+Southern Illinois-Edwardsville,Baylor,75,69
+Texas,Florida Atlantic,74,64
+Tulane,Butler,72,48
+Villanova,Miami (FL),67,40
+Virginia,Hofstra,65,74
+William & Mary,North Carolina-Asheville,79,100
+New Hampshire,Albany (NY),48,66
+Texas-Rio Grande Valley,Cal State Bakersfield,63,61
+Cal State Northridge,Cal State Fullerton,81,82
+Cal Poly,UC-Davis,73,85
+UCSB,UC-Irvine,60,71
+Sam Houston State,Central Arkansas,71,80
+North Carolina-Greensboro,Davidson,46,79
+Milwaukee,Detroit,68,62
+Charlotte,East Carolina,68,75
+Tennessee Tech,Eastern Kentucky,67,74
+Wofford,Elon,63,59
+Robert Morris,Fairleigh Dickinson,69,64
+VCU,Fordham,85,66
+Georgia Southern,Furman,82,73
+UMKC,Grand Canyon,85,80
+Binghamton,Hartford,83,89
+Memphis,Houston,68,77
+Northern Arizona,Idaho State,66,65
+Iowa,Indiana,86,93
+Jacksonville,Kennesaw State,71,69
+Arkansas,Kentucky,71,67
+Florida Gulf Coast,Lipscomb,71,92
+Hawaii,Long Beach State,61,63
+Central Connecticut,LIU-Brooklyn,86,82
+South Alabama,Louisiana-Monroe,54,71
+Middle Tennessee,Louisiana Tech,39,55
+Temple,Louisville,66,88
+Santa Clara,Loyola Marymount,71,75
+Georgetown,Marquette,73,75
+Maine,UMass-Lowell,72,84
+Incarnate Word,McNeese State,72,87
+North Florida,Mercer,79,76
+Southern Utah,Montana State,72,77
+Tennessee State,Morehead State,70,68
+Sacred Heart,Mount St. Mary's,72,65
+IUPUI,Nebraska-Omaha,66,88
+Stephen F. Austin,New Orleans,103,63
+Abilene Christian,Nicholls State,60,79
+Portland State,North Dakota,73,83
+South Dakota,North Dakota State,54,82
+Eastern Washington,Northern Colorado,80,66
+Stetson,Northern Kentucky,58,96
+Green Bay,Oakland,71,63
+Marshall,Old Dominion,63,70
+Lamar,Oral Roberts,67,75
+Gonzaga,Pacific,70,53
+Ohio State,Penn State,63,65
+San Francisco,Pepperdine,77,53
+Siena,Quinnipiac,72,70
+Alabama-Birmingham,Rice,61,60
+Duquesne,Saint Louis,71,64
+Portland,Saint Mary's (CA),61,70
+Appalachian State,Samford,63,57
+Chicago State,Seattle,84,77
+Denver,South Dakota State,69,78
+Austin Peay,Southeast Missouri State,80,83
+Northwestern State,Southeastern Louisiana,88,83
+Oregon State,USC,76,66
+Florida International,Southern Miss,66,78
+Bryant,St. Francis (NY),59,62
+Murray State,UT-Martin,86,72
+Georgia State,Texas-Arlington,77,49
+Tulsa,UTEP,65,60
+North Texas,UTSA,71,62
+Western Kentucky,Texas State,51,50
+Arkansas-Little Rock,Troy,62,55
+Oregon,UCLA,87,83
+New Mexico State,Utah Valley,61,66
+Stony Brook,Vermont,53,69
+Saint Francis (PA),Wagner,45,74
+Sacramento State,Weber State,67,79
+Chattanooga,Western Carolina,83,81
+IPFW,Western Illinois,65,56
+Columbia,Dartmouth,84,72
+Marist,Fairfield,74,78
+Cornell,Harvard,47,72
+Campbell,High Point,53,56
+Iona,Manhattan,77,80
+Niagara,Monmouth,50,75
+Brown,Penn,76,67
+Yale,Princeton,46,57
+Canisius,Rider,79,66
+Providence,Seton Hall,74,69
+ETSU,South Carolina Upstate,73,79
+Washington State,Washington,49,72
+UNLV,Air Force,93,67
+Bowling Green State,Akron,47,57
+Auburn,Alabama,57,73
+Southern,Alcorn State,67,54
+Bucknell,American,56,51
+University of California,Arizona State,60,78
+Georgia,Arkansas,75,87
+Arkansas State,Arkansas-Little Rock,67,74
+Lafayette,Army,84,87
+Central Michigan,Ball State,71,74
+Texas Tech,Baylor,49,59
+Miami (OH),Buffalo,55,78
+New Mexico State,Cal State Bakersfield,72,57
+Long Beach State,Cal State Fullerton,76,84
+UCSB,UC-Davis,67,54
+Cal Poly,UC-Irvine,48,55
+Cal State Northridge,UC-Riverside,105,106
+Lamar,Central Arkansas,69,76
+Appalachian State,Chattanooga,44,63
+Georgia Southern,Citadel,63,80
+Charleston Southern,Coastal Carolina,61,63
+Delaware,College of Charleston,89,86
+Cincinnati,UConn,45,51
+Maryland-Eastern Shore,Coppin State,68,67
+Cornell,Dartmouth,78,87
+UMass,Dayton,79,86
+Howard,Delaware State,55,53
+Green Bay,Detroit,75,66
+Bradley,Drake,66,71
+Tennessee State,Eastern Kentucky,66,70
+Northern Illinois,Eastern Michigan,52,56
+Davidson,Elon,86,69
+LSU,Florida,61,79
+La Salle,Fordham,64,62
+San Diego State,Fresno State,82,67
+Arkansas-Pine Bluff,Grambling,61,52
+Chicago State,Grand Canyon,74,84
+Norfolk State,Hampton,53,61
+Columbia,Harvard,47,80
+James Madison,Hofstra,71,82
+Boston University,Holy Cross,68,64
+Sacramento State,Idaho State,67,80
+Wright State,UIC,68,61
+Northern Iowa,Indiana State,71,69
+Mississippi Valley State,Jackson State,64,82
+Belmont,Jacksonville State,76,53
+Iowa State,Kansas State,73,80
+North Florida,Kennesaw State,87,77
+Colgate,Lehigh,74,57
+Radford,Liberty,87,83
+Stetson,Lipscomb,76,83
+Bryant,LIU-Brooklyn,81,62
+Virginia Military Institute,Longwood,86,66
+Troy,Louisiana-Monroe,61,46
+Evansville,Loyola (IL),75,72
+San Francisco,Loyola Marymount,65,61
+Abilene Christian,McNeese State,91,95
+Louisville,Memphis,66,72
+Jacksonville,Mercer,55,69
+Minnesota,Michigan,56,66
+Illinois,Michigan State,53,46
+Rice,Middle Tennessee,41,65
+Mississippi State,Missouri,66,85
+Southern Utah,Montana,54,82
+Tennessee Tech,Morehead State,91,84
+Bethune-Cookman,Morgan State,61,65
+Saint Francis (PA),Mount St. Mary's,55,78
+Loyola (MD),Navy,67,65
+Northwestern,Nebraska,47,54
+IPFW,Nebraska-Omaha,96,95
+Northwestern State,New Orleans,84,71
+Incarnate Word,Nicholls State,69,67
+Gardner-Webb,North Carolina-Asheville,71,83
+Savannah State,North Carolina A&T,71,67
+South Carolina State,North Carolina Central,44,86
+Miami (FL),North Carolina State,85,70
+Eastern Washington,North Dakota,67,69
+Denver,North Dakota State,68,78
+Drexel,Northeastern,52,54
+Portland State,Northern Colorado,77,68
+Florida Gulf Coast,Northern Kentucky,92,72
+Pitt,Notre Dame,85,81
+Kent State,Ohio,75,61
+Texas,Oklahoma,65,77
+Kansas,Oklahoma State,65,72
+Sam Houston State,Oral Roberts,73,80
+Portland,Pacific,65,68
+Yale,Penn,70,63
+Santa Clara,Pepperdine,86,78
+Alabama A&M,Prairie View,72,65
+Brown,Princeton,64,69
+Richmond,Rhode Island,43,66
+South Florida,Rutgers,73,74
+Central Connecticut,Sacred Heart,73,70
+Gonzaga,Saint Mary's (CA),75,47
+Western Carolina,Samford,86,93
+BYU,San Diego,78,70
+Utah State,San Jose State,75,58
+Idaho,Seattle,68,76
+Kentucky,South Carolina,67,72
+South Dakota,South Dakota State,61,75
+Murray State,Southeast Missouri State,115,118
+Stephen F. Austin,Southeastern Louisiana,75,62
+Oregon,USC,78,63
+Illinois State,Southern Illinois,65,66
+Eastern Illinois,Southern Illinois-Edwardsville,78,74
+UCF,SMU,55,70
+St. Joseph's,St. Bonaventure,83,74
+Fairleigh Dickinson,St. Francis (NY),56,79
+Houston,Temple,89,79
+Vanderbilt,Tennessee,38,76
+Austin Peay,UT-Martin,88,85
+Ole Miss,Texas A&M,60,71
+Houston Baptist,Texas A&M-Corpus Christi,45,65
+Western Kentucky,Texas-Arlington,73,80
+Alabama State,Texas Southern,66,86
+Georgia State,Texas State,66,55
+Western Michigan,Toledo,85,96
+William & Mary,Towson,68,70
+Colorado,Utah,64,75
+Texas-Rio Grande Valley,Utah Valley,42,45
+Cleveland State,Valparaiso,63,52
+Syracuse,Virginia,56,75
+Saint Louis,VCU,56,67
+UNC,Virginia Tech,60,56
+Robert Morris,Wagner,48,59
+Boston College,Wake Forest,80,72
+Northern Arizona,Weber State,73,71
+Texas Christian,West Virginia,59,81
+IUPUI,Western Illinois,70,75
+Missouri State,Wichita State,45,68
+Presbyterian,Winthrop,60,82
+North Carolina-Greensboro,Wofford,73,71
+Boise State,Wyoming,72,63
+Creighton,Xavier,69,75
+Oakland,Youngstown State,87,81
+Louisiana Tech,Alabama-Birmingham,67,58
+Stanford,Arizona,66,79
+Vermont,Binghamton,92,82
+Old Dominion,Charlotte,63,74
+Maryland,Clemson,73,77
+Southern Miss,Florida Atlantic,60,49
+Tulane,Florida International,47,73
+Georgia Tech,Florida State,71,81
+George Mason,George Washington,58,66
+UMBC,Hartford,56,67
+Ohio State,Indiana,64,72
+Rider,Iona,81,97
+Purdue,Iowa,76,83
+South Alabama,Louisiana,76,102
+New Hampshire,Maine,69,73
+Canisius,Manhattan,63,68
+Quinnipiac,Marist,72,103
+East Carolina,Marshall,61,64
+New Mexico,Nevada,72,58
+UTEP,North Texas,74,54
+Wisconsin,Penn State,71,66
+Niagara,St. Peter's,67,71
+Monmouth,Siena,54,70
+DePaul,St. John's (NY),64,72
+Albany (NY),Stony Brook,68,73
+UTSA,Tulsa,70,72
+Oregon State,UCLA,69,74
+Marquette,Villanova,56,73
+Navy,Colgate,51,57
+Howard,Coppin State,69,86
+Mississippi Valley State,Grambling,70,72
+Arkansas-Pine Bluff,Jackson State,66,59
+Lafayette,Loyola (MD),84,71
+Montana State,Montana,50,53
+Florida A&M,Morgan State,78,73
+Maryland-Eastern Shore,Norfolk State,65,77
+Notre Dame,UNC,61,63
+South Carolina State,North Carolina A&T,60,62
+Savannah State,North Carolina Central,57,64
+Kansas State,Oklahoma State,61,77
+North Carolina State,Pitt,74,67
+Alabama State,Prairie View,90,87
+Xavier,Seton Hall,62,71
+Alabama A&M,Texas Southern,58,79
+Buffalo,Akron,71,83
+Georgia State,Arkansas State,79,76
+Iowa State,Baylor,61,74
+Florida State,Boston College,74,70
+Ohio,Bowling Green State,72,61
+Toledo,Central Michigan,73,69
+Miami (FL),Clemson,54,58
+Lipscomb,ETSU,88,89
+Ball State,Eastern Michigan,58,72
+Stetson,Florida Gulf Coast,55,77
+Creighton,Georgetown,63,75
+South Florida,Houston,69,78
+Michigan,Illinois,84,53
+Miami (OH),Kent State,73,61
+Alabama,Kentucky,48,55
+Virginia Tech,Maryland,47,64
+Jacksonville,Mercer,64,85
+Detroit,Milwaukee,73,83
+Northern Colorado,North Dakota,90,94
+Youngstown State,Oakland,92,96
+Arizona State,Oregon,78,85
+Marquette,Providence,80,81
+Florida,South Carolina,72,46
+North Florida,South Carolina Upstate,74,80
+Georgia Tech,Syracuse,67,62
+UCF,Temple,78,86
+UIC,Valparaiso,63,73
+Northern Illinois,Western Michigan,56,61
+Colgate,American,50,59
+Ole Miss,Arkansas,80,110
+Tennessee,Auburn,82,54
+Nevada,Boise State,83,81
+Lafayette,Boston University,54,91
+Saint Francis (PA),Bryant,55,54
+Army,Bucknell,72,71
+Utah,University of California,63,59
+Charleston Southern,Campbell,81,71
+San Jose State,Colorado State,66,78
+Rutgers,UConn,63,69
+UMass,Duquesne,78,74
+Southeast Missouri State,Eastern Illinois,79,61
+Longwood,Gardner-Webb,65,81
+St. Joseph's,George Washington,71,76
+Mississippi State,Georgia,45,66
+Lehigh,Holy Cross,48,54
+Nebraska,Indiana,70,60
+Texas Tech,Kansas,57,82
+Winthrop,Liberty,77,65
+Texas A&M,Missouri,56,57
+St. Francis (NY),Mount St. Mary's,71,72
+San Diego State,UNLV,73,64
+Air Force,New Mexico,52,80
+West Virginia,Oklahoma,62,72
+Arizona,Oregon State,74,69
+Radford,Presbyterian,78,73
+Fordham,Rhode Island,65,77
+Fairleigh Dickinson,Robert Morris,53,60
+Dayton,Saint Louis,72,67
+Tennessee Tech,Southern Illinois-Edwardsville,74,67
+Louisville,SMU,84,71
+Colorado,Stanford,59,56
+Texas Christian,Texas,54,66
+Wyoming,Utah State,54,65
+Central Connecticut,Wagner,59,83
+Duke,Wake Forest,72,82
+Purdue,Wisconsin,70,76
+Jackson State,Alabama A&M,59,72
+Middle Tennessee,Alabama-Birmingham,55,53
+Grambling,Alabama State,66,68
+Texas Southern,Alcorn State,77,69
+Louisiana-Monroe,Arkansas State,58,64
+Loyola (IL),Bradley,74,72
+UC-Irvine,Cal State Fullerton,62,44
+Long Beach State,Cal State Northridge,83,91
+UC-Davis,UC-Riverside,65,78
+Hawaii,UCSB,77,86
+Idaho,Chicago State,79,76
+Memphis,Cincinnati,84,97
+Butler,DePaul,79,46
+Evansville,Drake,69,61
+Southeast Missouri State,Eastern Kentucky,76,84
+Idaho State,Eastern Washington,69,77
+St. Peter's,Fairfield,65,62
+Bethune-Cookman,Florida A&M,70,68
+Florida International,Florida Atlantic,74,70
+ETSU,Florida Gulf Coast,64,69
+North Carolina A&T,Hampton,71,89
+Nicholls State,Houston Baptist,75,62
+Morgan State,Howard,68,66
+George Mason,La Salle,59,57
+New Orleans,Lamar,72,89
+Portland,Loyola Marymount,64,67
+Niagara,Marist,78,76
+Charlotte,Marshall,74,70
+Delaware State,Maryland-Eastern Shore,70,84
+South Carolina Upstate,Mercer,75,78
+Iowa,Michigan State,76,86
+Seattle,UMKC,73,82
+Rider,Monmouth,71,60
+Tennessee Tech,Morehead State,61,76
+Grand Canyon,New Mexico State,57,81
+North Carolina Central,Norfolk State,76,70
+Tulsa,North Texas,79,68
+Montana State,Northern Arizona,48,61
+Penn State,Northwestern,59,32
+Central Arkansas,Northwestern State,102,119
+East Carolina,Old Dominion,47,68
+Santa Clara,Pacific,81,64
+Weber State,Portland State,59,66
+Louisiana Tech,Rice,70,48
+VCU,Richmond,56,50
+Montana,Sacramento State,70,55
+Southeastern Louisiana,Sam Houston State,54,71
+South Carolina State,Savannah State,50,69
+Texas State,South Alabama,53,63
+Prairie View,Southern,59,91
+North Dakota,Southern Utah,71,77
+Oral Roberts,Stephen F. Austin,72,83
+McNeese State,Texas A&M-Corpus Christi,51,67
+UTEP,UTSA,61,51
+Texas-Arlington,Troy,87,86
+Southern Miss,Tulane,68,51
+LSU,Vanderbilt,57,51
+UCLA,Washington,91,82
+USC,Washington State,79,68
+Louisiana,Western Kentucky,72,75
+Villanova,Xavier,77,70
+Kent State,Akron,54,58
+Samford,Appalachian State,70,56
+Morehead State,Belmont,63,86
+Dartmouth,Brown,75,68
+Houston,UCF,83,104
+Western Michigan,Central Michigan,78,64
+North Carolina-Greensboro,Citadel,76,86
+Charleston Southern,Coastal Carolina,68,73
+Penn,Columbia,55,74
+Princeton,Cornell,91,51
+Murray State,Eastern Kentucky,83,86
+Wichita State,Evansville,80,58
+Georgia Southern,Furman,65,50
+Virginia Military Institute,Gardner-Webb,90,77
+Winthrop,High Point,62,60
+North Carolina-Wilmington,Hofstra,70,78
+Missouri State,Illinois State,53,48
+Loyola (IL),Indiana State,62,75
+Valparaiso,Milwaukee,57,74
+Radford,North Carolina-Asheville,87,96
+Southern Illinois,Northern Iowa,63,58
+Wright State,Oakland,73,57
+Cal State Bakersfield,Utah Valley,55,64
+Harvard,Yale,70,58
+Incarnate Word,Abilene Christian,59,56
+Boise State,Air Force,61,64
+Arkansas,Alabama,58,83
+Grambling,Alabama A&M,63,80
+Jackson State,Alabama State,63,67
+UMBC,Albany (NY),56,86
+Prairie View,Alcorn State,62,64
+Holy Cross,American,46,57
+Louisiana-Monroe,Arkansas-Little Rock,66,65
+Mississippi Valley State,Arkansas-Pine Bluff,68,83
+Louisiana,Arkansas State,77,76
+Eastern Kentucky,Belmont,79,73
+Hartford,Binghamton,69,42
+Army,Boston University,70,91
+Loyola Marymount,BYU,74,85
+Harvard,Brown,98,93
+Bowling Green State,Buffalo,65,88
+Seton Hall,Butler,54,71
+UCSB,Cal Poly,71,55
+Colorado,University of California,65,66
+UC-Davis,UC-Irvine,46,74
+Siena,Canisius,65,71
+Georgia Southern,Chattanooga,62,55
+Seattle,Chicago State,53,67
+Wofford,Citadel,68,51
+Pitt,Clemson,83,78
+Wright State,Cleveland State,68,63
+Virginia Military Institute,Coastal Carolina,62,66
+William & Mary,College of Charleston,70,59
+Princeton,Columbia,74,64
+Penn,Cornell,69,65
+Providence,Creighton,73,88
+Samford,Davidson,54,77
+Richmond,Dayton,48,60
+Hofstra,Delaware,76,87
+Northeastern,Drexel,90,81
+UNC,Duke,81,93
+Weber State,Eastern Washington,82,78
+Western Carolina,Elon,66,64
+Kentucky,Florida,65,84
+George Washington,Fordham,70,67
+Duquesne,George Mason,81,69
+Western Kentucky,Georgia State,55,73
+Virginia Tech,Georgia Tech,51,62
+Santa Clara,Gonzaga,75,77
+Milwaukee,Green Bay,73,66
+Cal State Fullerton,Hawaii,77,81
+McNeese State,Houston Baptist,79,77
+Southern Illinois,Indiana State,59,62
+Rider,Iona,71,94
+Illinois,Iowa,66,63
+Oklahoma State,Iowa State,81,85
+IUPUI,IPFW,47,85
+Towson,James Madison,80,71
+Baylor,Kansas State,76,74
+Southeastern Louisiana,Lamar,71,62
+UC-Riverside,Long Beach State,67,74
+Georgia,LSU,69,61
+UConn,Louisville,48,81
+Stony Brook,Maine,80,54
+St. Peter's,Manhattan,58,72
+St. John's (NY),Marquette,91,90
+SMU,Memphis,58,67
+Wake Forest,Miami (FL),56,69
+Ohio,Miami (OH),82,76
+Indiana,Michigan,80,84
+Vanderbilt,Ole Miss,62,65
+South Carolina,Mississippi State,74,62
+Idaho,UMKC,87,80
+Wichita State,Missouri State,67,42
+UNLV,Nevada,72,76
+Vermont,New Hampshire,77,60
+Quinnipiac,Niagara,89,80
+Winthrop,North Carolina-Asheville,80,79
+Montana,Northern Arizona,47,67
+Ball State,Northern Illinois,56,70
+Oral Roberts,Northwestern State,82,88
+Arizona,Oregon,57,64
+Arizona State,Oregon State,76,78
+Saint Mary's (CA),Pepperdine,80,69
+Idaho State,Portland State,74,78
+Saint Francis (PA),Robert Morris,57,60
+Cincinnati,Rutgers,70,66
+Montana State,Sacramento State,59,84
+New Orleans,Sam Houston State,61,80
+San Francisco,San Diego,69,60
+New Mexico,San Diego State,48,51
+Fresno State,San Jose State,69,56
+Texas-Arlington,South Alabama,73,78
+Temple,South Florida,66,65
+Texas Southern,Southern,67,64
+Northern Colorado,Southern Utah,77,52
+Utah,Stanford,60,61
+Central Arkansas,Stephen F. Austin,61,85
+Missouri,Tennessee,45,72
+Auburn,Texas A&M,69,64
+Nicholls State,Texas A&M-Corpus Christi,44,58
+Oklahoma,Texas Christian,97,67
+Grand Canyon,Texas-Rio Grande Valley,79,78
+Texas,Texas Tech,53,59
+Eastern Michigan,Toledo,66,77
+Texas State,Troy,50,72
+Georgetown,Villanova,59,77
+St. Bonaventure,VCU,67,86
+Mount St. Mary's,Wagner,77,72
+USC,Washington,75,82
+UCLA,Washington State,55,73
+Kansas,West Virginia,86,92
+Colorado State,Wyoming,75,83
+Dartmouth,Yale,69,61
+Vermont,Albany (NY),58,67
+Iona,Canisius,75,72
+Winthrop,Coastal Carolina,61,76
+Western Carolina,Davidson,99,97
+Northeastern,Delaware,74,87
+South Dakota,Denver,55,71
+Mercer,Florida Gulf Coast,68,60
+Syracuse,Florida State,74,58
+Wofford,Georgia Southern,71,57
+Stony Brook,Hartford,69,64
+Wichita State,Indiana State,83,69
+Quinnipiac,Manhattan,68,87
+Virginia,Maryland,69,75
+Saint Louis,UMass,64,62
+Penn State,Minnesota,63,81
+Wisconsin,Nebraska,68,77
+Boston College,North Carolina State,68,78
+Michigan State,Ohio State,67,69
+Northwestern,Purdue,74,65
+La Salle,St. Joseph's,71,63
+Western Illinois,South Dakota State,50,71
+William & Mary,Towson,75,71
+San Francisco,BYU,77,79
+William & Mary,Delaware,74,75
+North Dakota State,Denver,83,48
+Central Michigan,Eastern Michigan,60,72
+Saint Mary's (CA),Gonzaga,54,70
+Manhattan,Iona,71,68
+South Dakota State,IPFW,60,64
+Norfolk State,Maryland-Eastern Shore,78,74
+Kent State,Miami (OH),64,71
+Bowling Green State,Northern Illinois,51,54
+Ball State,Ohio,64,76
+South Carolina State,Savannah State,47,61
+Wofford,Western Carolina,56,53
+Coppin State,Bethune-Cookman,75,68
+Gonzaga,BYU,75,64
+Florida A&M,Delaware State,65,61
+UTSA,East Carolina,76,79
+Marshall,Florida Atlantic,63,59
+Jackson State,Grambling,75,84
+North Carolina A&T,Howard,47,53
+North Dakota State,IPFW,60,57
+Prairie View,Mississippi Valley State,79,63
+Rice,North Texas,62,63
+Penn,Princeton,65,70
+Mount St. Mary's,Robert Morris,88,71
+Milwaukee,Wright State,69,63
+Fresno State,Air Force,61,59
+Charlotte,Alabama-Birmingham,80,70
+South Carolina,Auburn,74,56
+Texas Christian,Baylor,68,76
+San Jose State,Boise State,52,83
+Georgia Tech,Boston College,73,70
+American,Boston University,55,36
+Seton Hall,Butler,51,50
+Temple,UCF,90,94
+USC,Colorado,56,59
+Utah State,Colorado State,73,69
+Hampton,Coppin State,77,83
+Georgetown,DePaul,56,60
+Northern Illinois,Eastern Michigan,48,53
+George Mason,Fordham,67,70
+Texas Southern,Grambling,79,54
+North Carolina Central,Howard,92,46
+Old Dominion,Marshall,73,58
+Oral Roberts,McNeese State,66,62
+Virginia Tech,Miami (FL),53,57
+Ohio,Miami (OH),63,55
+Vanderbilt,Mississippi State,68,82
+Southeastern Louisiana,Nicholls State,64,71
+Tulane,North Texas,66,61
+Wake Forest,Notre Dame,81,69
+Texas Tech,Oklahoma State,62,80
+Oregon State,Oregon,74,88
+Southern,Prairie View,46,64
+South Florida,Rutgers,68,72
+Washington State,Stanford,63,74
+East Carolina,UTEP,68,77
+Washington,Utah,61,67
+Ohio,Akron,77,83
+LSU,Alabama,68,56
+Arkansas-Pine Bluff,Alabama A&M,50,69
+Alcorn State,Alabama State,51,64
+Utah,Arizona,39,71
+Stanford,Arizona State,79,58
+South Carolina,Arkansas,71,69
+Troy,Arkansas-Little Rock,61,74
+Oklahoma,Baylor,73,78
+Nevada,Boise State,62,75
+Eastern Michigan,Buffalo,69,64
+UCSB,Cal Poly,38,69
+Chicago State,Cal State Bakersfield,62,68
+Long Beach State,Cal State Fullerton,66,56
+Hawaii,Cal State Northridge,84,87
+Colorado,University of California,59,56
+UC-Riverside,UC-Irvine,43,63
+Cincinnati,UCF,61,58
+Louisiana Tech,Charlotte,86,65
+Georgia Tech,Clemson,65,69
+Memphis,UConn,53,72
+DePaul,Creighton,62,84
+Fordham,Dayton,74,87
+Richmond,Duquesne,76,64
+Morgan State,Florida A&M,81,68
+Maryland,Florida State,65,67
+New Mexico,Fresno State,93,77
+SMU,Houston,64,68
+UMKC,Idaho,70,73
+Indiana,Illinois,54,64
+Northwestern,Iowa,67,62
+Kansas State,Iowa State,85,91
+Oklahoma State,Kansas,70,77
+St. Bonaventure,La Salle,82,72
+Texas-Arlington,Louisiana-Monroe,68,65
+Rutgers,Louisville,31,92
+Xavier,Marquette,68,65
+Rhode Island,UMass,61,65
+North Carolina State,Miami (FL),67,58
+Old Dominion,Middle Tennessee,48,62
+Penn State,Minnesota,56,63
+Mississippi State,Ole Miss,66,78
+Texas A&M,Missouri,83,91
+Portland State,Montana,70,63
+Wyoming,UNLV,67,71
+Seattle,New Mexico State,68,70
+Northwestern State,Nicholls State,88,72
+Savannah State,Norfolk State,47,57
+Sacramento State,North Dakota,76,79
+Northern Colorado,Northern Arizona,62,60
+Purdue,Ohio State,61,63
+Sam Houston State,Oral Roberts,70,61
+UCLA,Oregon,82,63
+Wake Forest,Pitt,55,84
+St. John's (NY),Providence,74,79
+Utah State,San Diego State,39,73
+Villanova,Seton Hall,63,64
+UTEP,Southern Miss,56,64
+West Virginia,Texas,49,66
+Utah Valley,Texas-Rio Grande Valley,83,63
+Tulsa,Tulane,70,49
+Western Michigan,Akron,64,60
+Prairie View,Alabama A&M,55,49
+Texas Southern,Alabama State,73,61
+Colorado,Arizona,43,63
+Arkansas State,Arkansas-Little Rock,116,114
+Texas,Baylor,69,86
+New Mexico,Boise State,70,67
+UC-Irvine,Cal Poly,58,61
+New Mexico State,Cal State Bakersfield,69,63
+Long Beach State,Cal State Northridge,77,82
+UConn,Cincinnati,58,56
+Duke,Clemson,63,62
+Morgan State,Coppin State,79,64
+Xavier,Creighton,78,86
+St. Joseph's,Dayton,70,67
+Toledo,Eastern Michigan,59,44
+Missouri,Florida,49,72
+Virginia,Florida State,64,51
+UMass,George Washington,77,85
+Ole Miss,Georgia,73,75
+Louisville,Houston,94,65
+Utah Valley,Idaho,69,74
+Michigan,Illinois,64,63
+Kansas,Iowa State,83,94
+LSU,Kentucky,67,85
+Texas-Arlington,Louisiana,85,91
+Southern Miss,Louisiana Tech,70,88
+Northwestern,Michigan State,51,67
+Tulsa,Middle Tennessee,76,69
+Wisconsin,Minnesota,83,57
+Ohio State,Nebraska,71,67
+San Diego State,UNLV,59,51
+North Carolina Central,Norfolk State,68,45
+Pitt,UNC,80,75
+Syracuse,North Carolina State,63,66
+Portland State,North Dakota,63,79
+Stephen F. Austin,Northwestern State,85,78
+Seton Hall,Providence,74,80
+VCU,Richmond,71,53
+St. Bonaventure,Saint Louis,71,68
+Texas A&M-Corpus Christi,Sam Houston State,63,69
+Tennessee,South Carolina,59,44
+UCLA,Stanford,84,59
+Northern Colorado,Weber State,63,66
+UCLA,Arizona,75,71
+Georgia State,Arkansas State,72,45
+Iowa State,Baylor,74,65
+Cal State Northridge,Cal Poly,59,61
+Louisville,UConn,71,61
+Providence,Creighton,65,58
+North Carolina State,Duke,67,75
+Tennessee,Florida,49,56
+VCU,George Washington,74,55
+Kentucky,Georgia,70,58
+New Mexico State,Idaho,77,55
+Western Kentucky,Louisiana,72,73
+Tulsa,Louisiana Tech,69,60
+Ohio State,Michigan,69,72
+Wisconsin,Michigan State,75,83
+North Carolina Central,Morgan State,71,62
+San Diego State,New Mexico,58,64
+Weber State,North Dakota,88,67
+Virginia,Pitt,51,48
+Texas Southern,Prairie View,78,73
+St. Bonaventure,St. Joseph's,48,67
+Stephen F. Austin,Sam Houston State,68,49
+Albany (NY),Stony Brook,69,60
+Western Michigan,Toledo,98,77
+Virginia,Duke,72,63
+Kentucky,Florida,60,61
+Louisiana,Georgia State,82,81
+Michigan State,Michigan,69,55
+VCU,St. Joseph's,61,65
+Holy Cross,Brown,68,65
