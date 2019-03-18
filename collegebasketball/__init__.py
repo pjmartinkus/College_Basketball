@@ -1,5 +1,5 @@
 
-__version__ = '0.1'
+__version__ = '0.2'
 
 
 # io helper functions
@@ -9,6 +9,12 @@ from collegebasketball.io.ioHelper import load_csv
 from collegebasketball.io.Kenpom import kenpom_to_csv
 from collegebasketball.io.Kenpom import load_kenpom_dataframe
 from collegebasketball.io.Kenpom import get_kenpom_html
+
+# T-Rank io
+from collegebasketball.io.TRank import load_TRank_dataframe
+
+# Basic Stats io
+from collegebasketball.io.SportsReference import load_stats_dataframe
 
 # scores io
 from collegebasketball.io.Scores import load_scores_dataframe
