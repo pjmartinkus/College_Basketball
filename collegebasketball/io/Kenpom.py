@@ -37,9 +37,9 @@ def load_kenpom_dataframe(html_file_path=None, csv_file_path=None, save_data=Fal
 
     # Load default values
     if html_file_path is None:
-        html_file_path = '/Users/phil/Documents/Documents/College Basketball/Data/kenpom.html'
+        html_file_path = '/Users/phil/Documents/Documents/College_Basketball/Data/kenpom.html'
     if csv_file_path is None:
-        csv_file_path = '/Users/phil/Documents/Documents/College Basketball/Data/kenpom.csv'
+        csv_file_path = '/Users/phil/Documents/Documents/College_Basketball/Data/kenpom.csv'
 
     # Check that files exits
     if os.path.exists(html_file_path):
@@ -88,7 +88,7 @@ def get_kenpom_html(file_path=None, year=None):
 
     # Load default values
     if file_path is None:
-        file_path = '/Users/phil/Documents/Documents/College Basketball/Data/kenpom.html'
+        file_path = '/Users/phil/Documents/Documents/College_Basketball/Data/kenpom.html'
     if year is None:
         year = datetime.datetime.now().year
 
@@ -133,9 +133,9 @@ def kenpom_to_csv(input_file_path=None, output_file_path=None):
 
     # Load default values
     if input_file_path is None:
-        input_file_path = '/Users/phil/Documents/Documents/College Basketball/Data/kenpom.html'
+        input_file_path = '/Users/phil/Documents/Documents/College_Basketball/Data/kenpom.html'
     if output_file_path is None:
-        output_file_path = '/Users/phil/Documents/Documents/College Basketball/Data/kenpom.csv'
+        output_file_path = '/Users/phil/Documents/Documents/College_Basketball/Data/kenpom.csv'
 
     # Check that fies exits
     if not os.path.exists(input_file_path):

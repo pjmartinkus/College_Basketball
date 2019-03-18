@@ -37,9 +37,9 @@ def load_scores_dataframe(html_file_path=None, csv_file_path=None, start_date=No
 
     # Load default values
     if html_file_path is None:
-        html_file_path = '/Users/phil/Documents/Documents/College Basketball/Data/scores.html'
+        html_file_path = '/Users/phil/Documents/Documents/College_Basketball/Data/scores.html'
     if csv_file_path is None:
-        csv_file_path = '/Users/phil/Documents/Documents/College Basketball/Data/scores.csv'
+        csv_file_path = '/Users/phil/Documents/Documents/College_Basketball/Data/scores.csv'
     if start_date is None:
         start_date = datetime.date.today()
     if end_date is None:
@@ -116,7 +116,7 @@ def get_scores_html(file_path=None, date=None):
 
     # Load default values
     if file_path is None:
-        file_path = '/Users/phil/Documents/Documents/College Basketball/Data/scores.html'
+        file_path = '/Users/phil/Documents/Documents/College_Basketball/Data/scores.html'
     if date is None:
         date = datetime.date.today()
 
@@ -167,9 +167,9 @@ def scores_to_csv(input_file_path=None, output_file_path=None):
 
     # Load default values
     if input_file_path is None:
-        input_file_path = '/Users/phil/Documents/Documents/College Basketball/Data/scores.html'
+        input_file_path = '/Users/phil/Documents/Documents/College_Basketball/Data/scores.html'
     if output_file_path is None:
-        output_file_path = '/Users/phil/Documents/Documents/College Basketball/Data/scores.csv'
+        output_file_path = '/Users/phil/Documents/Documents/College_Basketball/Data/scores.csv'
 
     # Check that fies exits
     if not os.path.exists(input_file_path):
