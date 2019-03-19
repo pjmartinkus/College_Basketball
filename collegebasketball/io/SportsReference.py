@@ -87,6 +87,6 @@ def load_stats_dataframe(year=None, csv_file_path=None):
         if os.path.exists(csv_file_path):
             os.remove(csv_file_path)
 
-        data_df.to_csv(csv_file_path)
+        data_df.to_csv(csv_file_path, index=False)
 
     return data_df
