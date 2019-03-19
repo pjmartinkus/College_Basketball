@@ -10,16 +10,10 @@ from collegebasketball.io.Kenpom import kenpom_to_csv
 from collegebasketball.io.Kenpom import load_kenpom_dataframe
 from collegebasketball.io.Kenpom import get_kenpom_html
 
-# T-Rank io
+# io functions
 from collegebasketball.io.TRank import load_TRank_dataframe
-
-# Basic Stats io
 from collegebasketball.io.SportsReference import load_stats_dataframe
-
-# scores io
 from collegebasketball.io.Scores import load_scores_dataframe
-from collegebasketball.io.Scores import get_scores_html
-from collegebasketball.io.Scores import scores_to_csv
 
 # data preperation
 from collegebasketball.data_prep.DataPrep import update_kenpom
