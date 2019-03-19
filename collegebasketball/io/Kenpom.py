@@ -1,4 +1,5 @@
 import os, six, urllib3, datetime
+from bs4 import BeautifulSoup
 from collegebasketball.io.ioHelper import load_csv
 
 
@@ -100,9 +101,10 @@ def get_kenpom_html(file_path=None, year=None):
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     http = urllib3.PoolManager()
     r = http.request('get', 'https://kenpom.com/index.php?y=' + str(year))
+    soup = BeautifulSoup(r.data, features='html.parser')
 
     with open(file_path, 'w') as fid:
-        fid.write(r.data)
+        fid.write(str(soup))
 
 
 def kenpom_to_csv(input_file_path=None, output_file_path=None):
