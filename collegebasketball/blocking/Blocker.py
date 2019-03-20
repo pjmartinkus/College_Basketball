@@ -46,11 +46,11 @@ def blocking_rules(row, cols):
     block = False
 
     # If one team is obviously superior
-    if row[cols.get_loc('AdjEM_Diff')] > 15:
+    if row[cols.get_loc('AdjEM_Diff')] > 30:
         block = True
 
     # If either team is not a tournament team
-    if row[cols.get_loc('AdjEM')] < -10 or row[cols.get_loc('AdjEM_Fav')] < -10:
+    if row[cols.get_loc('AdjEM')] < -12 or row[cols.get_loc('AdjEM_Fav')] < -5:
         block = True
 
     return block
