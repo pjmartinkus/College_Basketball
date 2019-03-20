@@ -1,105 +1,30 @@
 Home,Away,Home_Score,Away_Score
-Siena,Alcorn State,81,77
-South Florida,Ball State,92,98
-St. Joseph's,George Mason,73,64
-Princeton,Louisville,65,66
-Arizona State,UNLV,91,96
-Montana State,Utah State,77,69
-Detroit,Dayton,69,80
-Temple,Fresno State,81,75
-LSU,Iowa,63,61
-Louisiana,Louisiana Tech,63,83
-New Mexico,Minnesota,62,96
-Wagner,Richmond,67,74
-St. Bonaventure,Syracuse,66,76
-Georgia State,Tennessee Tech,62,64
-Houston,Vanderbilt,50,59
-South Carolina,Virginia,74,67
-Florida Atlantic,Alabama,78,86
-UCSB,Arizona,81,86
-UC-Irvine,BYU,55,78
-Bowling Green State,Butler,69,81
-Notre Dame,Charlotte,82,63
-Ohio State,Davidson,69,64
-Winthrop,Duke,37,84
-Wyoming,Gonzaga,73,66
-Kansas,Holy Cross,70,59
-Utah,Indiana,56,75
-Oklahoma State,Kent State,61,69
-Valparaiso,Kentucky,68,83
-Tulsa,Marquette,71,69
-North Carolina-Greensboro,Memphis,62,82
-Missouri,Miami (FL),93,80
-Oregon,Montana,81,62
-USC,North Carolina-Wilmington,89,93
-Wake Forest,Pepperdine,83,74
-Yale,Rutgers,67,65
-Western Kentucky,Stanford,68,84
-Manhattan,Villanova,69,84
-Texas,Boston College,70,57
-Cincinnati,Boston University,90,52
-Penn,University of California,75,82
-Pitt,Central Connecticut,71,54
-Hampton,UConn,67,78
-Florida,Creighton,82,83
-Tennessee Tech,Dayton,68,59
-Murray State,Georgia,68,85
-Xavier,Hawaii,70,58
-San Diego State,Illinois,64,93
-Oklahoma,UIC,71,63
-Vanderbilt,Louisiana Tech,68,83
-Siena,Maryland,70,85
-Mississippi State,McNeese State,70,58
-North Carolina State,Michigan State,69,58
-UCLA,Ole Miss,80,58
-Ball State,St. Joseph's,76,54
-Texas Tech,Southern Illinois,68,76
-Wisconsin,St. John's (NY),80,70
-Kent State,Alabama,71,58
-Wyoming,Arizona,60,68
-Notre Dame,Duke,77,84
-North Carolina-Wilmington,Indiana,67,76
-Stanford,Kansas,63,86
-Tulsa,Kentucky,82,87
-Ohio State,Missouri,67,83
-Wake Forest,Oregon,87,92
-Montana State,Richmond,48,63
-Pitt,University of California,63,50
-UCLA,Cincinnati,105,101
-North Carolina State,UConn,74,77
-Illinois,Creighton,72,60
-Southern Illinois,Georgia,77,75
-Wisconsin,Maryland,57,87
-Texas,Mississippi State,68,64
-Xavier,Oklahoma,65,78
-Richmond,Minnesota,67,66
-Butler,Syracuse,65,66
 Ball State,LSU,75,65
-Temple,Louisville,65,62
-UNLV,South Carolina,65,75
 Louisiana Tech,Villanova,64,67
+UNLV,South Carolina,65,75
+Temple,Louisville,65,62
 Tennessee Tech,Yale,80,61
 BYU,Memphis,69,80
 Syracuse,Richmond,62,46
-Oklahoma,Arizona,88,67
 Indiana,Duke,74,73
+Oklahoma,Arizona,88,67
 Pitt,Kent State,73,78
 UCLA,Missouri,73,82
 Ball State,South Carolina,47,82
-Southern Illinois,UConn,59,71
 Kansas,Illinois,73,69
 Maryland,Kentucky,78,68
+Southern Illinois,UConn,59,71
 Texas,Oregon,70,72
 Villanova,Temple,57,63
+Oklahoma,Missouri,81,75
 Kent State,Indiana,69,81
 Tennessee Tech,Memphis,73,79
-Oklahoma,Missouri,81,75
 Maryland,UConn,90,82
 Oregon,Kansas,86,104
-South Carolina,Syracuse,66,59
 Memphis,Temple,78,77
+South Carolina,Syracuse,66,59
 Memphis,South Carolina,72,62
 Temple,Syracuse,65,54
-Oklahoma,Indiana,64,73
 Maryland,Kansas,97,88
+Oklahoma,Indiana,64,73
 Maryland,Indiana,64,52

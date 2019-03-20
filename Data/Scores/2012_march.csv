@@ -1,147 +1,104 @@
 Home,Away,Home_Score,Away_Score
-Iona,BYU,72,78
-Princeton,Evansville,95,86
-Tennessee Tech,Georgia State,43,74
-Robert Morris,Indiana State,67,60
-Dayton,Iowa,75,84
-Tennessee State,Mercer,60,68
-Marshall,Middle Tennessee,78,86
-UMass,Mississippi State,101,96
-Western Kentucky,Mississippi Valley State,59,58
-Akron,Northwestern,74,76
-Coastal Carolina,Old Dominion,66,68
-LSU,Oregon,76,96
-Washington State,San Francisco,89,75
-Stony Brook,Seton Hall,61,63
-Cleveland State,Stanford,65,76
-Savannah State,Tennessee,51,65
-Milwaukee,Texas Christian,73,83
-McNeese State,Toledo,63,76
-Texas-Arlington,Washington,72,82
-Utah Valley,Weber State,69,72
-Manhattan,Albany (NY),89,79
-Buffalo,American,78,61
-Bucknell,Arizona,65,54
-Delaware,Butler,58,75
-South Florida,University of California,65,54
-North Dakota,Drake,64,70
-UCF,Drexel,56,81
-Yale,Fairfield,56,68
-UCSB,Idaho,83,86
-Minnesota,La Salle,70,61
-Vermont,Lamar,71,59
-Rice,Louisiana,68,63
-Cal State Fullerton,Loyola Marymount,79,88
-Valparaiso,Miami (FL),50,66
-Illinois State,Ole Miss,96,93
-Bowling Green State,Oakland,69,86
-Nevada,Oral Roberts,68,59
-Western Illinois,Oregon State,59,80
-Quinnipiac,Penn,63,74
-Wofford,Pitt,63,81
-Northern Iowa,St. Joseph's,67,65
-Cal State Bakersfield,Utah State,69,75
-North Dakota State,Wyoming,75,78
-South Dakota State,Baylor,60,68
-Marquette,BYU,88,68
-UNLV,Colorado,64,68
-Murray State,Colorado State,58,41
-Iowa State,UConn,77,64
-Louisville,Davidson,69,62
-West Virginia,Gonzaga,54,77
-Vanderbilt,Harvard,79,70
-New Mexico State,Indiana,66,79
-Southern Miss,Kansas State,64,70
+Syracuse,UNC Asheville,72,65
 Western Kentucky,Kentucky,66,81
-New Mexico,Long Beach State,75,68
 Ohio State,Loyola (MD),78,59
+Marquette,BYU,88,68
+South Dakota State,Baylor,60,68
+Louisville,Davidson,69,62
+New Mexico State,Indiana,66,79
 Wisconsin,Montana,73,49
-Syracuse,North Carolina-Asheville,72,65
-Kent State,South Carolina Upstate,58,73
+New Mexico,Long Beach State,75,68
+Vanderbilt,Harvard,79,70
 Wichita State,VCU,59,62
-Creighton,Alabama,58,57
-Georgetown,Belmont,74,59
-Texas,Cincinnati,59,65
+Murray State,Colorado State,58,41
+UNLV,Colorado,64,68
+West Virginia,Gonzaga,54,77
+Iowa State,UConn,77,64
+Southern Miss,Kansas State,64,70
+Kent State,USC Upstate,58,73
+Michigan State,LIU-Brooklyn,89,67
+Vermont,UNC,58,77
 Kansas,Detroit,65,50
 Lehigh,Duke,75,70
-Virginia,Florida,45,71
-St. Bonaventure,Florida State,63,66
-Michigan State,LIU-Brooklyn,89,67
-Saint Louis,Memphis,61,54
-Ohio,Michigan,65,60
 Norfolk State,Missouri,86,84
-Vermont,UNC,58,77
-San Diego State,North Carolina State,65,79
-Xavier,Notre Dame,67,63
-Saint Mary's (CA),Purdue,69,72
+Georgetown,Belmont,74,59
+St. Bonaventure,Florida State,63,66
+Ohio,Michigan,65,60
 Temple,South Florida,44,58
+San Diego State,NC State,65,79
+Texas,Cincinnati,59,65
+Saint Mary's,Purdue,69,72
+Virginia,Florida,45,71
+Xavier,Notre Dame,67,63
+Creighton,Alabama,58,57
+Saint Louis,Memphis,61,54
 Northwestern,Washington,55,76
-Colorado,Baylor,63,80
-Ohio State,Gonzaga,73,66
-VCU,Indiana,61,63
 Kentucky,Iowa State,87,71
 Syracuse,Kansas State,75,59
-New Mexico,Louisville,56,59
+Ohio State,Gonzaga,73,66
+Colorado,Baylor,63,80
 Murray State,Marquette,53,62
-Georgia State,Mercer,59,64
+New Mexico,Louisville,56,59
+VCU,Indiana,61,63
+Wisconsin,Vanderbilt,60,57
 Buffalo,Oakland,76,84
 Drake,Rice,68,74
+Georgia State,Mercer,59,64
+Idaho,Utah State,56,76
 UMass,Seton Hall,77,67
 Robert Morris,Toledo,69,51
-Idaho,Utah State,56,76
-Wisconsin,Vanderbilt,60,57
-Florida State,Cincinnati,56,62
 UNC,Creighton,87,73
-Northern Iowa,Drexel,63,65
-Manhattan,Fairfield,57,69
-Norfolk State,Florida,50,84
-North Carolina State,Georgetown,66,63
-Purdue,Kansas,60,63
-Xavier,Lehigh,70,58
-Weber State,Loyola Marymount,78,84
 Saint Louis,Michigan State,61,65
-Bucknell,Nevada,67,75
+Purdue,Kansas,60,63
+Florida State,Cincinnati,56,62
+NC State,Georgetown,66,63
+Norfolk State,Florida,50,84
+Xavier,Lehigh,70,58
 South Florida,Ohio,56,62
-South Carolina Upstate,Old Dominion,56,65
+Bucknell,Nevada,67,75
 Iowa,Oregon,97,108
-Minnesota,Miami (FL),78,60
-Texas Christian,Oregon State,81,101
+Manhattan,Fairfield,57,69
+Northern Iowa,Drexel,63,65
+USC Upstate,Old Dominion,56,65
+Weber State,Loyola Marymount,78,84
 Butler,Penn,63,53
-Princeton,Pitt,61,82
 Illinois State,Stanford,88,92
 Middle Tennessee,Tennessee,71,64
+Minnesota,Miami (FL),78,60
+Princeton,Pitt,61,82
+TCU,Oregon State,81,101
 Wyoming,Washington State,41,61
 UMass,Drexel,72,70
-Rice,Oakland,70,77
 Oregon,Washington,86,90
+Rice,Oakland,70,77
+Loyola Marymount,Utah State,69,77
+Mercer,Old Dominion,79,73
+Minnesota,Middle Tennessee,78,72
+Nevada,Stanford,56,84
 Pitt,Butler,68,62
 Robert Morris,Fairfield,61,67
-Minnesota,Middle Tennessee,78,72
-Mercer,Old Dominion,79,73
 Washington State,Oregon State,72,55
-Nevada,Stanford,56,84
-Loyola Marymount,Utah State,69,77
-Ohio State,Cincinnati,81,66
-Marquette,Florida,58,68
 Michigan State,Louisville,44,57
 Wisconsin,Syracuse,63,64
-Xavier,Baylor,70,75
+Ohio State,Cincinnati,81,66
+Marquette,Florida,58,68
 Kentucky,Indiana,102,90
-North Carolina State,Kansas,57,60
 Ohio,UNC,65,73
-Mercer,Fairfield,64,59
-Louisville,Florida,72,68
+NC State,Kansas,57,60
+Xavier,Baylor,70,75
 Syracuse,Ohio State,70,77
+Louisville,Florida,72,68
+Mercer,Fairfield,64,59
 Kentucky,Baylor,82,70
 UNC,Kansas,67,80
 Oakland,Utah State,81,105
 Pitt,Washington State,66,67
 Stanford,UMass,74,64
 Washington,Minnesota,67,68
-Washington State,Pitt,53,57
 Mercer,Utah State,70,67
+Washington State,Pitt,53,57
 Stanford,Minnesota,75,51
 Washington State,Pitt,65,71
-Ohio State,Kansas,62,64
 Louisville,Kentucky,61,69
+Ohio State,Kansas,62,64
 Kentucky,Kansas,67,59

@@ -1,138 +1,117 @@
 Home,Away,Home_Score,Away_Score
-North Dakota,Air Force,67,77
-Coastal Carolina,Alabama,44,68
-Clemson,Alabama-Birmingham,70,52
-North Carolina-Asheville,Arkansas-Little Rock,81,77
-Austin Peay,Boise State,80,83
-Vermont,Cleveland State,60,63
-Dayton,College of Charleston,84,94
-Fairfield,Colorado State,62,60
-San Jose State,Creighton,74,85
-James Madison,Davidson,65,85
-Jacksonville,East Carolina,71,66
-Furman,ETSU,63,76
-Hofstra,Evansville,70,77
-Ohio,Marshall,65,64
-Boston College,McNeese State,82,64
-Murray State,Missouri State,76,89
-UTEP,New Mexico,57,69
-Rider,Northern Iowa,50,84
-Harvard,Oklahoma State,54,71
-Kent State,Saint Mary's (CA),71,70
-Northern Arizona,Santa Clara,63,68
-UTSA,Alabama State,70,61
-Ole Miss,University of California,74,77
-St. Bonaventure,UCF,54,69
-Texas Southern,Colorado,74,88
-Portland,Hawaii,64,76
-Florida Atlantic,Miami (FL),62,85
-Duquesne,Montana,87,76
-Milwaukee,Northwestern,61,70
-Weber State,Oregon,59,68
-Miami (OH),Rhode Island,59,76
-Idaho,San Francisco,73,81
 VCU,USC,59,46
-Oral Roberts,SMU,57,64
-Iona,Valparaiso,85,77
+UTSA,Alabama State,70,61
 Bethune-Cookman,Virginia Tech,54,79
+Duquesne,Montana,87,76
+Florida Atlantic,Miami (FL),62,85
+Idaho,San Francisco,73,81
+Iona,Valparaiso,85,77
 Long Beach State,Washington State,74,85
-Tennessee Tech,Western Michigan,66,74
+Miami (OH),Rhode Island,59,76
+Milwaukee,Northwestern,61,70
+Ole Miss,California,74,77
 Nebraska,Wichita State,49,76
-Wisconsin,Belmont,72,58
-Wofford,BYU,66,74
-UConn,Bucknell,81,52
-Old Dominion,Butler,58,60
+Oral Roberts,SMU,57,64
+Portland,Hawaii,64,76
+St. Bonaventure,UCF,54,69
+Tennessee Tech,Western Michigan,66,74
+Texas Southern,Colorado,74,88
+Weber State,Oregon,59,68
+Pitt,UNC Asheville,74,51
 Florida,UCSB,79,51
-Missouri,Cincinnati,63,78
-West Virginia,Clemson,84,76
-St. John's (NY),Gonzaga,71,86
-Utah State,Kansas State,68,73
-Princeton,Kentucky,57,59
-Morehead State,Louisville,62,61
-UCLA,Michigan State,78,76
-Pitt,North Carolina-Asheville,74,51
 San Diego State,Northern Colorado,68,50
-Temple,Penn State,66,64
+UConn,Bucknell,81,52
+Wofford,BYU,66,74
+Morehead State,Louisville,62,61
+Princeton,Kentucky,57,59
+Wisconsin,Belmont,72,58
+Utah State,Kansas State,68,73
 Vanderbilt,Richmond,66,69
-Notre Dame,Akron,69,56
-Memphis,Arizona,75,77
-Kansas,Boston University,72,53
-University of California,Colorado,72,89
+West Virginia,Clemson,84,76
+Missouri,Cincinnati,63,78
+St. John's (NY),Gonzaga,71,86
+Temple,Penn State,66,64
+UCLA,Michigan State,78,76
+Old Dominion,Butler,58,60
 Hampton,Duke,45,87
-Texas A&M,Florida State,50,57
-Villanova,George Mason,57,61
+Kansas,Boston University,72,53
+UTSA,Ohio State,46,75
+UNC,LIU-Brooklyn,102,87
+Notre Dame,Akron,69,56
+St. Peter's,Purdue,43,65
+Syracuse,Indiana State,77,60
+Texas,Oakland,85,81
+Memphis,Arizona,75,77
 VCU,Georgetown,74,56
+Xavier,Marquette,55,66
+Texas A&M,Florida State,50,57
 Washington,Georgia,68,65
 UNLV,Illinois,62,73
-Syracuse,Indiana State,77,60
-UNC,LIU-Brooklyn,102,87
-Xavier,Marquette,55,66
 Tennessee,Michigan,45,75
-Texas,Oakland,85,81
-UTSA,Ohio State,46,75
-St. Peter's,Purdue,43,65
+Villanova,George Mason,57,61
 Air Force,Santa Clara,75,88
-Northwestern,Boston College,85,67
-Gonzaga,BYU,67,89
+California,Colorado,72,89
 Pitt,Butler,70,71
-UConn,Cincinnati,69,58
-College of Charleston,Cleveland State,64,56
-UCLA,Florida,65,73
-Wisconsin,Kansas State,70,65
-West Virginia,Kentucky,63,71
-Richmond,Morehead State,65,48
 Temple,San Diego State,64,71
-Jacksonville,SMU,62,63
+UCLA,Florida,65,73
+UConn,Cincinnati,69,58
+Gonzaga,BYU,67,89
+West Virginia,Kentucky,63,71
+Wisconsin,Kansas State,70,65
+Richmond,Morehead State,65,48
 Buffalo,Western Michigan,49,48
-Texas,Arizona,69,70
-Michigan,Duke,71,73
-Kent State,Fairfield,72,68
-Notre Dame,Florida State,57,71
-Ohio State,George Mason,98,66
-San Francisco,Hawaii,77,74
+College of Charleston,Cleveland State,64,56
+Jacksonville,SMU,62,63
+Northwestern,Boston College,85,67
 Kansas,Illinois,73,59
-Syracuse,Marquette,62,66
+Michigan,Duke,71,73
+Ohio State,George Mason,98,66
+Notre Dame,Florida State,57,71
 Washington,UNC,83,86
+Syracuse,Marquette,62,66
 VCU,Purdue,94,76
+Texas,Arizona,69,70
+Kent State,Fairfield,72,68
+San Francisco,Hawaii,77,74
 Wichita State,Virginia Tech,79,76
-New Mexico,Alabama,67,74
-Evansville,Boise State,69,75
-Rhode Island,UCF,54,66
 Davidson,Creighton,92,102
-Missouri State,Miami (FL),72,81
-SMU,Northern Iowa,57,50
 Duquesne,Oregon,75,77
+Evansville,Boise State,69,75
+Missouri State,Miami (FL),72,81
+New Mexico,Alabama,67,74
 Oklahoma State,Washington State,64,74
+Rhode Island,UCF,54,66
+SMU,Northern Iowa,57,50
+Buffalo,Iona,63,78
 Kent State,Colorado,74,81
 Ohio,ETSU,73,82
-Buffalo,Iona,63,78
 Santa Clara,San Francisco,95,91
-Miami (FL),Alabama,64,79
-UCF,Creighton,64,82
 Boise State,Oregon,71,79
-Northwestern,Washington State,66,69
+UCF,Creighton,64,82
 College of Charleston,Wichita State,75,82
+Miami (FL),Alabama,64,79
+Northwestern,Washington State,66,69
 Duke,Arizona,77,93
 Florida,BYU,83,74
-Wisconsin,Butler,54,61
 San Diego State,UConn,67,74
-VCU,Florida State,72,71
-Richmond,Kansas,57,77
+Wisconsin,Butler,54,61
 Ohio State,Kentucky,60,62
+Richmond,Kansas,57,77
 UNC,Marquette,81,63
+VCU,Florida State,72,71
 Santa Clara,SMU,72,55
-UConn,Arizona,65,63
 Florida,Butler,71,74
+UConn,Arizona,65,63
 Iona,ETSU,83,80
 VCU,Kansas,71,61
 UNC,Kentucky,69,76
 Oregon,Creighton,76,84
 Alabama,Colorado,62,61
 Wichita State,Washington State,75,44
-Santa Clara,Iona,76,69
 Creighton,Oregon,58,71
+Santa Clara,Iona,76,69
 Wichita State,Alabama,66,57
 Creighton,Oregon,69,71
-VCU,Butler,62,70
 Kentucky,UConn,55,56
+VCU,Butler,62,70
 UConn,Butler,53,41

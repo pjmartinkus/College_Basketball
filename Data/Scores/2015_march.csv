@@ -1,142 +1,125 @@
 Home,Away,Home_Score,Away_Score
-Illinois,Alabama,58,79
-Ole Miss,BYU,94,90
-Norfolk State,Eastern Kentucky,75,81
-Manhattan,Hampton,64,74
-Louisiana,Incarnate Word,83,68
-Central Michigan,Louisiana Tech,79,89
-Rider,Loyola (IL),59,62
-North Carolina Central,Miami (FL),71,75
-UTEP,Murray State,66,81
-Eastern Illinois,Oakland,97,91
-George Washington,Pitt,60,54
-Iona,Rhode Island,75,88
-Bowling Green State,Saint Francis (PA),67,64
-James Madison,South Carolina Upstate,72,73
-UC-Davis,Stanford,64,77
-Montana,Texas A&M,64,81
-William & Mary,Tulsa,67,70
 Dayton,Boise State,56,55
-Dartmouth,Canisius,72,87
-Gardner-Webb,Colorado,78,87
-South Dakota State,Colorado State,86,76
-Arizona State,UConn,68,61
-Radford,Delaware State,78,57
-IPFW,Evansville,77,82
-Texas A&M-Corpus Christi,Florida Gulf Coast,75,69
-Northern Arizona,Grand Canyon,75,70
-Maryland-Eastern Shore,High Point,64,70
-Vermont,Hofstra,85,81
-Green Bay,Illinois State,56,69
-Eastern Michigan,Louisiana-Monroe,67,71
-Stony Brook,Mercer,70,72
-Kent State,Middle Tennessee,68,56
 Robert Morris,North Florida,81,77
-Charleston Southern,Old Dominion,56,65
-UCSB,Oral Roberts,87,91
-Sacramento State,Portland,73,66
-St. Francis (NY),Richmond,74,84
-Vanderbilt,Saint Mary's (CA),75,64
-North Carolina-Wilmington,Sam Houston State,71,87
-Pepperdine,Seattle,45,62
+Arizona State,UConn,68,61
 Bucknell,Temple,67,73
+UCSB,Oral Roberts,87,91
+Charleston Southern,Old Dominion,56,65
 Cleveland State,Western Michigan,86,57
-Iowa State,Alabama-Birmingham,59,60
-Texas Southern,Arizona,72,93
-Wofford,Arkansas,53,56
-Georgia State,Baylor,57,56
-Texas,Butler,48,56
-Purdue,Cincinnati,65,66
-Georgetown,Eastern Washington,84,74
+Dartmouth,Canisius,72,87
+Eastern Michigan,Louisiana-Monroe,67,71
+Gardner-Webb,Colorado,78,87
+Green Bay,Illinois State,56,69
+Purdue-Fort Wayne,Evansville,77,82
+Kent State,Middle Tennessee,68,56
+Maryland-Eastern Shore,High Point,64,70
+UNC Wilmington,Sam Houston State,71,87
+Northern Arizona,Grand Canyon,75,70
+Pepperdine,Seattle,45,62
+Radford,Delaware State,78,57
+Sacramento State,Portland,73,66
+South Dakota State,Colorado State,86,76
+St. Francis (NY),Richmond,74,84
+Stony Brook,Mercer,70,72
+Texas A&M-Corpus Christi,Florida Gulf Coast,75,69
+Vanderbilt,Saint Mary's,75,64
+Vermont,Hofstra,85,81
 Kentucky,Hampton,79,56
-UNC,Harvard,67,65
 Villanova,Lafayette,93,52
-North Carolina State,LSU,66,65
-Xavier,Ole Miss,76,57
+Texas Southern,Arizona,72,93
+Georgia State,Baylor,57,56
+Iowa State,Alabama-Birmingham,59,60
 Notre Dame,Northeastern,69,65
-UT-Martin,Northwestern State,104,79
-VCU,Ohio State,72,75
-UCLA,SMU,60,59
+Georgetown,Eastern Washington,84,74
+UNC,Harvard,67,65
 Utah,Stephen F. Austin,57,50
-Oklahoma,Albany (NY),69,60
-Virginia,Belmont,79,67
-West Virginia,Buffalo,68,62
-Louisville,UC-Irvine,57,55
-Wisconsin,Coastal Carolina,86,72
-Iowa,Davidson,83,52
-Providence,Dayton,53,66
+Wofford,Arkansas,53,56
+Texas,Butler,48,56
+UCLA,SMU,60,59
+Xavier,Ole Miss,76,57
+VCU,Ohio State,72,75
+NC State,LSU,66,65
+Purdue,Cincinnati,65,66
+UT-Martin,Northwestern State,104,79
 Robert Morris,Duke,56,85
-High Point,Eastern Kentucky,65,66
-Michigan State,Georgia,70,63
-North Dakota State,Gonzaga,76,86
-Wichita State,Indiana,81,76
+Wisconsin,Coastal Carolina,86,72
 New Mexico State,Kansas,56,75
+North Dakota State,Gonzaga,76,86
+Virginia,Belmont,79,67
+Oklahoma,Albany (NY),69,60
+Louisville,UC-Irvine,57,55
 Valparaiso,Maryland,62,65
+West Virginia,Buffalo,68,62
 Wyoming,Northern Iowa,54,71
+Providence,Dayton,53,66
+Iowa,Davidson,83,52
+Michigan State,Georgia,70,63
+Wichita State,Indiana,81,76
 Oregon,Oklahoma State,79,73
 St. John's (NY),San Diego State,64,76
+High Point,Eastern Kentucky,65,66
 South Dakota State,Vanderbilt,77,92
-UCLA,Alabama-Birmingham,92,75
-Ohio State,Arizona,58,73
-UNC,Arkansas,87,78
-Canisius,Bowling Green State,82,59
-Notre Dame,Butler,67,64
 Kentucky,Cincinnati,64,51
+Villanova,NC State,68,71
+Ohio State,Arizona,58,73
+Notre Dame,Butler,67,64
+UNC,Arkansas,87,78
 Utah,Georgetown,75,64
 Xavier,Georgia State,75,67
+UCLA,Alabama-Birmingham,92,75
 Alabama,Miami (FL),66,73
-Villanova,North Carolina State,68,71
-Northern Arizona,Sacramento State,78,73
+Canisius,Bowling Green State,82,59
 Louisiana,Sam Houston State,71,70
-UT-Martin,South Carolina Upstate,60,49
-Oklahoma,Dayton,72,66
+Northern Arizona,Sacramento State,78,73
+UT-Martin,USC Upstate,60,49
 San Diego State,Duke,49,68
+Wisconsin,Oregon,72,65
 Iowa,Gonzaga,68,87
+Virginia,Michigan State,54,60
 Wichita State,Kansas,78,65
+Oklahoma,Dayton,72,66
 Northern Iowa,Louisville,53,66
 West Virginia,Maryland,69,59
-Virginia,Michigan State,54,60
-Wisconsin,Oregon,72,65
 Arizona State,Richmond,70,76
-Rhode Island,Stanford,65,74
 George Washington,Temple,77,90
-Evansville,Eastern Illinois,83,68
-Oral Roberts,Loyola (IL),78,86
-Louisiana-Monroe,Mercer,71,69
+Rhode Island,Stanford,65,74
 Cleveland State,NJIT,77,80
-Illinois State,Old Dominion,49,50
 Colorado,Seattle,65,72
-Louisiana Tech,Texas A&M,84,72
+Evansville,Eastern Illinois,83,68
+Illinois State,Old Dominion,49,50
 Kent State,Texas A&M-Corpus Christi,69,65
+Louisiana-Monroe,Mercer,71,69
+Louisiana Tech,Texas A&M,84,72
 Murray State,Tulsa,83,62
+Oral Roberts,Loyola (IL),78,86
 Radford,Vermont,71,78
 Miami (FL),Richmond,63,61
 Vanderbilt,Stanford,75,78
+Louisiana Tech,Temple,59,77
+Murray State,Old Dominion,69,72
+Seattle,Loyola (IL),48,63
 UT-Martin,Eastern Kentucky,70,69
 Vermont,Louisiana-Monroe,65,71
-Seattle,Loyola (IL),48,63
-Murray State,Old Dominion,69,72
-Louisiana Tech,Temple,59,77
-Xavier,Arizona,60,68
 West Virginia,Kentucky,39,78
-Evansville,Louisiana,89,82
 Wisconsin,UNC,79,72
+Xavier,Arizona,60,68
 Wichita State,Notre Dame,70,81
+Evansville,Louisiana,89,82
 Utah,Duke,57,63
 UCLA,Gonzaga,62,74
-North Carolina State,Louisville,65,75
 Oklahoma,Michigan State,58,62
+NC State,Louisville,65,75
 Kent State,Northern Arizona,73,74
-Wisconsin,Arizona,85,78
 Notre Dame,Kentucky,66,68
+Wisconsin,Arizona,85,78
 Canisius,NJIT,73,78
 Gonzaga,Duke,52,66
 Michigan State,Louisville,76,70
 Louisiana-Monroe,Loyola (IL),58,65
-UT-Martin,Evansville,66,79
-Temple,Miami (FL),57,60
 NJIT,Northern Arizona,61,68
 Stanford,Old Dominion,67,60
+Temple,Miami (FL),57,60
+UT-Martin,Evansville,66,79
 Loyola (IL),Louisiana-Monroe,63,62
 Northern Arizona,Evansville,65,71
 Stanford,Miami (FL),66,64

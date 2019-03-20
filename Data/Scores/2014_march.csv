@@ -1,142 +1,123 @@
 Home,Away,Home_Score,Away_Score
-Mount St. Mary's,Albany (NY),64,71
-Indiana State,Arkansas,71,91
-Virginia Military Institute,Canisius,111,100
-Georgia State,Clemson,66,78
-Wright State,East Carolina,73,59
-Chattanooga,ETSU,66,79
-Norfolk State,Eastern Michigan,54,58
-Florida Gulf Coast,Florida State,53,58
-West Virginia,Georgetown,65,77
-Belmont,Green Bay,80,65
-High Point,Minnesota,81,88
-Davidson,Missouri,77,85
-Xavier,North Carolina State,59,74
-Utah,Saint Mary's (CA),58,70
-Alabama State,Sam Houston State,49,71
-Portland State,San Diego,65,87
-Stony Brook,Siena,55,66
-Robert Morris,St. John's (NY),89,78
-Columbia,Valparaiso,58,56
-Illinois,Boston University,66,62
-Texas Southern,Cal Poly,69,81
-Utah Valley,University of California,64,77
-Vermont,Georgia,56,63
-Pacific,Grand Canyon,69,67
-Morehead State,Illinois State,67,77
 Tennessee,Iowa,78,65
-Akron,IPFW,91,97
-Iona,Louisiana Tech,88,89
-Murray State,Missouri State,66,63
-North Dakota,Nebraska-Omaha,75,91
-Texas A&M-Corpus Christi,Northern Colorado,82,71
-Cleveland State,Ohio,62,64
-South Dakota State,Old Dominion,65,72
-Radford,Oregon State,96,92
-Hampton,Penn State,65,69
-LSU,San Francisco,71,63
-Towson,South Carolina Upstate,63,60
+Texas Southern,Cal Poly,69,81
+Akron,Purdue-Fort Wayne,91,97
 UC-Irvine,SMU,54,68
-Toledo,Southern Miss,59,66
-Wyoming,Texas A&M,43,59
+Cleveland State,Ohio,62,64
 Fresno State,UTEP,61,56
+Hampton,Penn State,65,69
+Illinois,Boston University,66,62
+Iona,Louisiana Tech,88,89
+LSU,San Francisco,71,63
+Morehead State,Illinois State,67,77
+Murray State,Missouri State,66,63
+North Dakota,Omaha,75,91
+Pacific,Grand Canyon,69,67
 Princeton,Tulane,56,55
 Quinnipiac,Yale,68,69
+Radford,Oregon State,96,92
+South Dakota State,Old Dominion,65,72
+Texas A&M-Corpus Christi,Northern Colorado,82,71
+Toledo,Southern Miss,59,66
+Towson,USC Upstate,63,60
+Utah Valley,California,64,77
+Vermont,Georgia,56,63
+Wyoming,Texas A&M,43,59
 Florida,Albany (NY),67,55
-Wisconsin,American,75,35
-Texas,Arizona State,87,85
-Oregon,BYU,87,68
-Harvard,Cincinnati,61,57
-Pitt,Colorado,77,48
-St. Joseph's,UConn,81,89
-Ohio State,Dayton,59,60
-Michigan State,Delaware,93,78
-Manhattan,Louisville,64,71
-Wofford,Michigan,40,57
 Villanova,Milwaukee,73,53
-San Diego State,New Mexico State,73,69
-Saint Louis,North Carolina State,83,80
-Oklahoma,North Dakota State,75,80
+Wisconsin,American,75,35
+Wofford,Michigan,40,57
 Western Michigan,Syracuse,53,77
-Weber State,Arizona,59,68
-Nebraska,Baylor,60,74
-Robert Morris,Belmont,71,82
-Wichita State,Cal Poly,64,37
+Manhattan,Louisville,64,71
+Michigan State,Delaware,93,78
+San Diego State,New Mexico State,73,69
+Harvard,Cincinnati,61,57
+Oklahoma,North Dakota State,75,80
+Saint Louis,NC State,83,80
+Ohio State,Dayton,59,60
+Oregon,BYU,87,68
+St. Joseph's,UConn,81,89
+Texas,Arizona State,87,85
+Pitt,Colorado,77,48
 Virginia,Coastal Carolina,70,59
+Weber State,Arizona,59,68
+Wichita State,Cal Poly,64,37
+Kansas,Eastern Kentucky,80,69
 Louisiana,Creighton,66,76
 Mercer,Duke,78,71
-Towson,ETSU,83,77
-Kansas,Eastern Kentucky,80,69
-Memphis,George Washington,71,66
-Oklahoma State,Gonzaga,77,85
 North Carolina Central,Iowa State,75,93
-Kentucky,Kansas State,56,49
+UCLA,Tulsa,76,59
+VCU,Stephen F. Austin,75,77
+Nebraska,Baylor,60,74
+Providence,UNC,77,79
 Tennessee,UMass,86,67
 Stanford,New Mexico,58,53
-Providence,UNC,77,79
-VCU,Stephen F. Austin,75,77
-UCLA,Tulsa,76,59
-Eastern Michigan,Columbia,56,69
-Villanova,UConn,65,77
-Syracuse,Dayton,53,55
+Kentucky,Kansas State,56,49
+Memphis,George Washington,71,66
+Oklahoma State,Gonzaga,77,85
+Robert Morris,Belmont,71,82
+Towson,ETSU,83,77
 Pitt,Florida,45,61
-Louisiana Tech,Georgia,79,71
-Michigan State,Harvard,80,73
-Yale,Holy Cross,71,66
-Saint Louis,Louisville,51,66
 Texas,Michigan,65,79
-San Diego State,North Dakota State,63,44
-Wright State,Ohio,54,56
+Villanova,UConn,65,77
 Wisconsin,Oregon,85,77
-Texas A&M-Corpus Christi,Pacific,60,89
+Syracuse,Dayton,53,55
+Michigan State,Harvard,80,73
+Saint Louis,Louisville,51,66
+San Diego State,North Dakota State,63,44
+Eastern Michigan,Columbia,56,69
+Purdue-Fort Wayne,VMI,95,106
+Louisiana Tech,Georgia,79,71
 San Diego,Sam Houston State,77,72
-IPFW,Virginia Military Institute,95,106
+Texas A&M-Corpus Christi,Pacific,60,89
+Wright State,Ohio,54,56
+Yale,Holy Cross,71,66
 Gonzaga,Arizona,61,84
-Creighton,Baylor,55,85
-Illinois,Clemson,49,50
-UNC,Iowa State,83,85
-Stanford,Kansas,60,57
-Wichita State,Kentucky,76,78
 Virginia,Memphis,78,60
-Tennessee,Mercer,83,63
-Saint Mary's (CA),Minnesota,55,63
-Southern Miss,Missouri,71,63
+Wichita State,Kentucky,76,78
+Stanford,Kansas,60,57
+Creighton,Baylor,55,85
+UNC,Iowa State,83,85
 UCLA,Stephen F. Austin,77,60
-Arkansas,University of California,64,75
+Tennessee,Mercer,83,63
+Illinois,Clemson,49,50
+Saint Mary's,Minnesota,55,63
+Southern Miss,Missouri,71,63
+Arkansas,California,64,75
 Georgetown,Florida State,90,101
-Princeton,Fresno State,56,72
-Texas A&M,Illinois State,55,62
-Nebraska-Omaha,Murray State,62,86
-Radford,Old Dominion,59,82
-Penn State,Siena,52,54
 LSU,SMU,67,80
+Omaha,Murray State,62,86
+Penn State,Siena,52,54
+Princeton,Fresno State,56,72
+Radford,Old Dominion,59,82
+Texas A&M,Illinois State,55,62
 Belmont,Clemson,68,73
 Southern Miss,Minnesota,73,81
-Yale,Columbia,72,69
+California,SMU,65,67
+Illinois State,Siena,49,61
 Louisiana Tech,Florida State,75,78
 Old Dominion,Fresno State,64,71
-Virginia Military Institute,Ohio,92,90
 San Diego,Pacific,60,75
-Illinois State,Siena,49,61
-University of California,SMU,65,67
+VMI,Ohio,92,90
+Yale,Columbia,72,69
 San Diego State,Arizona,64,70
+UCLA,Florida,68,79
 Wisconsin,Baylor,69,52
 Stanford,Dayton,72,82
-UCLA,Florida,68,79
 Towson,Murray State,73,85
+Virginia,Michigan State,59,61
+Tennessee,Michigan,71,73
 Iowa State,UConn,76,81
 Louisville,Kentucky,69,74
-Tennessee,Michigan,71,73
-Virginia,Michigan State,59,61
-Wisconsin,Arizona,64,63
 Florida,Dayton,62,52
-Michigan State,UConn,54,60
+Wisconsin,Arizona,64,63
 Michigan,Kentucky,72,75
+Michigan State,UConn,54,60
 Siena,Fresno State,61,57
-SMU,Clemson,65,59
 Minnesota,Florida State,67,64
 Pacific,Murray State,75,98
-Yale,Virginia Military Institute,75,62
+SMU,Clemson,65,59
+Yale,VMI,75,62
 Fresno State,Siena,89,75
 SMU,Minnesota,63,65
 Yale,Murray State,57,65
