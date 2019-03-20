@@ -17,10 +17,14 @@ from collegebasketball.io.Scores import load_scores_dataframe
 
 # data preperation
 from collegebasketball.data_prep.DataPrep import update_kenpom
+from collegebasketball.data_prep.DataPrep import update_TRank
+from collegebasketball.data_prep.DataPrep import update_basic
 
 # Feature Generation
 from collegebasketball.features import Features
-from collegebasketball.features.FeatureGen import gen_features
+from collegebasketball.features.FeatureGen import gen_kenpom_features
+from collegebasketball.features.FeatureGen import gen_TRank_features
+from collegebasketball.features.FeatureGen import gen_basic_features
 
 # Blocking
 from collegebasketball.blocking.Blocker import block_table

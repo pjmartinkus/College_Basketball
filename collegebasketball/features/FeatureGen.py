@@ -2,12 +2,9 @@ from collegebasketball.features.Features import feature_difference, win_loss, te
 import pandas as pd
 
 
-def gen_features(data):
+def gen_features(data, feature_names):
 
     feature_vecs = []
-    feature_names = ['Rank', 'AdjEM', 'AdjO', 'AdjO Rank', 'AdjD', 'AdjD Rank', 'AdjT',
-                     'AdjT Rank', 'Luck', 'Luck Rank', 'OppAdjEM', 'OppAdjEM Rank', 'OppO',
-                     'OppO Rank', 'OppD', 'OppD Rank', 'NCSOS AdjEM', 'NCSOS AdjEM Rank']
 
     # Create the column names list
     cols = ['Favored', 'Underdog', 'Year', 'Win_Loss_Fav', 'Win_Loss', 'Win_Loss_Diff']
@@ -34,7 +31,7 @@ def gen_features(data):
         for feat in feature_names:
             vec[feat + '_Fav'], vec[feat], vec[feat+'_Diff'] = feature_difference(row, columns, feat)
 
-        # Add the label if necessary
+        # Add the label
         if 'Home_Score' in columns:
             if row[columns.get_loc('AdjEM_Home')] > row[columns.get_loc('AdjEM_Away')]:
                 # Home team was favored and won
@@ -62,4 +59,61 @@ def gen_features(data):
             features.remove(feat)
 
     # Return the dataframe
-    return pd.DataFrame(feature_vecs, columns=cols), features
+    return pd.DataFrame(feature_vecs, columns=cols)
+
+
+def gen_kenpom_features(data):
+
+    # Names of all the features for Kenpom
+    feature_names = ['Rank', 'AdjEM', 'AdjO', 'AdjO Rank', 'AdjD', 'AdjD Rank', 'AdjT',
+                     'AdjT Rank', 'Luck', 'Luck Rank', 'OppAdjEM', 'OppAdjEM Rank', 'OppO',
+                     'OppO Rank', 'OppD', 'OppD Rank', 'NCSOS AdjEM', 'NCSOS AdjEM Rank']
+
+    return gen_features(data, feature_names)
+
+
+def gen_TRank_features(data, kenpom_data):
+
+    # Names of the features for T-Rank
+    feature_names = ['Rk', 'AdjOE', 'AdjOE Rank', 'AdjDE', 'AdjDE Rank', 'Barthag',
+                     'EFG%', 'EFG% Rank', 'EFGD%', 'EFGD% Rank', 'TOR', 'TOR Rank',
+                     'TORD', 'TORD Rank', 'ORB', 'ORB Rank', 'DRB', 'DRB Rank',
+                     'FTR', 'FTR Rank', 'FTRD', 'FTRD Rank', '2P%', '2P% Rank',
+                     '2P%D', '2P%D Rank', '3P%D', '3P%D Rank', 'Adj T.', 'Adj T. Rank',
+                     'WAB', 'WAB Rank']
+
+    # Add the win/loss columns from kenpom
+    data = data.assign(Wins_Home=kenpom_data['Wins_Home'], Losses_Home=kenpom_data['Losses_Home'],
+                       Wins_Away=kenpom_data['Wins_Away'], Losses_Away=kenpom_data['Losses_Away'])
+
+    # Add Kenpom Rankings columns for home and away team to tell which team was favored by kenpom
+    data = data.assign(AdjEM_Home=kenpom_data['AdjEM_Home'], AdjEM_Away=kenpom_data['AdjEM_Away'])
+
+    # Now that the data is in the correct format, create features
+    return gen_features(data, feature_names)
+
+
+def gen_basic_features(data, kenpom_data):
+
+    # Names of the features for the basic stats
+    feature_names = ['Tm.', 'Opp.', 'MP', 'FG', 'FG_opp', 'FGA', 'FGA_opp', 'FG%',
+                     'FG%_opp', '3P', '3P_opp', '3PA', '3PA_opp', '3P%', '3P%_opp',
+                     'FT', 'FT_opp', 'FTA', 'FTA_opp', 'FT%', 'FT%_opp', 'ORB',
+                     'ORB_opp', 'TRB', 'TRB_opp', 'AST', 'AST_opp', 'STL', 'STL_opp',
+                     'BLK', 'BLK_opp', 'TOV', 'TOV_opp', 'PF',  'PF_opp']
+
+    # Add Kenpom Rankings columns for home and away team to tell which team was favored by kenpom
+    data = data.assign(AdjEM_Home=kenpom_data['AdjEM_Home'], AdjEM_Away=kenpom_data['AdjEM_Away'])
+
+    # Add the win/loss columns from kenpom
+    data = data.assign(Wins_Home=kenpom_data['Wins_Home'], Losses_Home=kenpom_data['Losses_Home'],
+                       Wins_Away=kenpom_data['Wins_Away'], Losses_Away=kenpom_data['Losses_Away'])
+
+    # Divide Total Season Stats by the number of games to get per game stats
+    for feature in feature_names:
+        if '%' not in feature:
+            data['{}_Home'.format(feature)] = data['{}_Home'.format(feature)] / data['G_Home']
+            data['{}_Away'.format(feature)] = data['{}_Away'.format(feature)] / data['G_Away']
+
+    # Now that the data is in the correct format, create features
+    return gen_features(data, feature_names)
