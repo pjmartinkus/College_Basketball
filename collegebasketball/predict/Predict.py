@@ -1,9 +1,8 @@
-from collegebasketball.features.FeatureGen import gen_features
-from collegebasketball.blocking.Blocker import block_table
+from collegebasketball.features.FeatureGen import gen_kenpom_features
 import pandas as pd
 
 
-def predict(model, games):
+def predict(model, games, features):
     preds = []
     cols = games.columns
     pred_cols = ['Favored', 'Underdog', 'Predicted Winner', 'Probabilities']
@@ -22,17 +21,14 @@ def predict(model, games):
         next_round = []
 
         # Generate the Features
-        data, features = gen_features(games)
-
-        # Block the tables
-        blocked = data
+        data = gen_kenpom_features(games)
 
         # Get predictions for the this round
         probs = model.predict_proba(data[features])
         data['Probabilities'] = [prob[1] for prob in probs]
         predictions = []
         for prob in probs:
-            if prob[1] > 0.4985:
+            if prob[1] > 0.4:
                 predictions.append(1)
             else:
                 predictions.append(0)
@@ -47,12 +43,8 @@ def predict(model, games):
             tuple['Underdog'] = row[data.columns.get_loc('Underdog')]
             tuple['Probabilities'] = row[data.columns.get_loc('Probabilities')]
 
-            # Check if this tuple would have been blocked
-            if len(blocked.loc[blocked['Favored'] == tuple['Favored'], :]) == 0:
-                tuple['Predicted Winner'] = tuple['Favored']
-
             # Show the winner
-            elif row[data.columns.get_loc('Prediction')] == 0:
+            if row[data.columns.get_loc('Prediction')] == 0:
                 tuple['Predicted Winner'] = tuple['Favored']
             else:
                 tuple['Predicted Winner'] = tuple['Underdog']

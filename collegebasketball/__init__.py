@@ -34,6 +34,8 @@ from collegebasketball.blocking.Blocker import create_rule
 # Evaluation
 from collegebasketball.evaluate.Evaluate import cross_val
 from collegebasketball.evaluate.Evaluate import evaluate
+from collegebasketball.evaluate.Evaluate import leave_march_out_cv
+from collegebasketball.evaluate.Evaluate import probability_hist
 
 # Predictions
 from collegebasketball.predict.Predict import predict

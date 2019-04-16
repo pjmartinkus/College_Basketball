@@ -1,8 +1,25 @@
 import pandas as pd
-from collegebasketball.evaluate.Evaluate import evaluate
 
-# Removes all tuples from the input dataframe that are blocked by out blocking scheme
+
 def block_table(data):
+    """
+    Removes all tuples from the input DataFrame that are blocked by out blocking scheme.
+
+    Args:
+        data(DataFrame): Input data to block.
+
+    Returns:
+        A pandas DataFrame that includes all tuples from the input DataFrame that were
+        not blocked by the blocking scheme.
+
+    Raises:
+
+    """
+
+    # Check that data is a dataframe
+    if type(data) is not pd.DataFrame:
+        raise AssertionError('Input data must be a pandas DataFrame.')
+
     rows = []
     cols = data.columns
 
