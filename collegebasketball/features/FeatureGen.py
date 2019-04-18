@@ -3,6 +3,27 @@ import pandas as pd
 
 
 def gen_features(data, feature_names):
+    """
+    Generates the features given by feature names from the given data set. For each
+    of the specified feature names, a feature is created to reflect the favored team's
+    stat for the feature, the underdog's stat and the difference between the two.
+
+    Args:
+        data(DataFrame): Input data to block.
+        feature_names(list): List of feature names to create. These names should be the
+                             names of attributes in the input data table.
+
+    Returns:
+        A new pandas DataFrame that includes the team names, year, and features for each
+        of the specified feature names.
+
+    Raises:
+        AssertionError: If data is not of type pandas DataFrame.
+    """
+
+    # Check that data is a dataframe
+    if not isinstance(data, pd.DataFrame):
+        raise AssertionError('Input data must be a pandas DataFrame.')
 
     feature_vecs = []
 
@@ -63,6 +84,23 @@ def gen_features(data, feature_names):
 
 
 def gen_kenpom_features(data):
+    """
+    Generates the features for the Kenpom data set.
+
+    Args:
+        data(DataFrame): Input data to block.
+
+    Returns:
+        A new pandas DataFrame that includes the team names, year, and features for
+        the Kenpom data set.
+
+    Raises:
+        AssertionError: If data is not of type pandas DataFrame.
+    """
+
+    # Check that data is a dataframe
+    if not isinstance(data, pd.DataFrame):
+        raise AssertionError('Input data must be a pandas DataFrame.')
 
     # Names of all the features for Kenpom
     feature_names = ['Rank', 'AdjEM', 'AdjO', 'AdjO Rank', 'AdjD', 'AdjD Rank', 'AdjT',
@@ -73,6 +111,30 @@ def gen_kenpom_features(data):
 
 
 def gen_TRank_features(data, kenpom_data):
+    """
+    Generates the features for the T-Rank data set. The Kenpom data set is also
+    necessary for this function because it is used to determing which team is
+    considered the underdog and which is considered the favorite.
+
+    Args:
+        data(DataFrame): Input data to block.
+        kenpom_data(DataFrame): The Kenpom data for the teams for the same year as
+                                the input data set.
+
+    Returns:
+        A new pandas DataFrame that includes the team names, year, and features for
+        the T-Rank data set.
+
+    Raises:
+        AssertionError: If data is not of type pandas DataFrame.
+        AssertionError: If kenpom_data is not of type pandas DataFrame.
+    """
+
+    # Check that data and kenpom_data are dataframes
+    if not isinstance(data, pd.DataFrame):
+        raise AssertionError('Input data must be a pandas DataFrame.')
+    if not isinstance(kenpom_data, pd.DataFrame):
+        raise AssertionError('The kenpom_data argument must be a pandas DataFrame.')
 
     # Names of the features for T-Rank
     feature_names = ['Rk', 'AdjOE', 'AdjOE Rank', 'AdjDE', 'AdjDE Rank', 'Barthag',
@@ -94,6 +156,30 @@ def gen_TRank_features(data, kenpom_data):
 
 
 def gen_basic_features(data, kenpom_data):
+    """
+    Generates the features for the basic team stats data set. The Kenpom data
+    set is necessary for this function because it is used to determing which
+    team is considered the underdog and which is considered the favorite.
+
+    Args:
+        data(DataFrame): Input data to block.
+        kenpom_data(DataFrame): The Kenpom data for the teams for the same year as
+                                the input data set.
+
+    Returns:
+        A new pandas DataFrame that includes the team names, year, and features for
+        the basic stats data set.
+
+    Raises:
+        AssertionError: If data is not of type pandas DataFrame.
+        AssertionError: If kenpom_data is not of type pandas DataFrame.
+    """
+
+    # Check that data and kenpom_data are dataframes
+    if not isinstance(data, pd.DataFrame):
+        raise AssertionError('Input data must be a pandas DataFrame.')
+    if not isinstance(kenpom_data, pd.DataFrame):
+        raise AssertionError('The kenpom_data argument must be a pandas DataFrame.')
 
     # Names of the features for the basic stats
     feature_names = ['Tm.', 'Opp.', 'MP', 'FG', 'FG_opp', 'FGA', 'FGA_opp', 'FG%',

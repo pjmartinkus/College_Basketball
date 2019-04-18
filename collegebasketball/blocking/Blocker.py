@@ -13,11 +13,11 @@ def block_table(data):
         not blocked by the blocking scheme.
 
     Raises:
-
+        AssertionError: If data is not of type pandas DataFrame.
     """
 
     # Check that data is a dataframe
-    if type(data) is not pd.DataFrame:
+    if not isinstance(data, pd.DataFrame):
         raise AssertionError('Input data must be a pandas DataFrame.')
 
     rows = []
@@ -38,8 +38,26 @@ def block_table(data):
     return pd.DataFrame(rows, columns=cols)
 
 
-# Returns all true names that were blocked by our blocking scheme
 def debug(data):
+    """
+    Returns all true games that were blocked by our blocking scheme. This can be
+    a useful tool to make sure that the blocking scheme is not too aggressive.
+
+    Args:
+        data(DataFrame): Input data to test the blocking scheme with.
+
+    Returns:
+        A pandas DataFrame that includes all positive examples tuples from the
+        input DataFrame that were blocked by the blocking scheme.
+
+    Raises:
+        AssertionError: If data is not of type pandas DataFrame.
+    """
+
+    # Check that data is a dataframe
+    if not isinstance(data, pd.DataFrame):
+        raise AssertionError('Input data must be a pandas DataFrame.')
+
     rows = []
     cols = data.columns
 
@@ -73,6 +91,7 @@ def blocking_rules(row, cols):
     return block
 
 
+# Experimental function designed to help find blocking rules.
 def create_rule(data, feat):
 
     # Keep track of the rules

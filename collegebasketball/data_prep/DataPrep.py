@@ -2,6 +2,19 @@ import pandas as pd
 
 
 def update_kenpom(data):
+    """
+    Updates the school names in the Kenpom data to match the team names in the
+    game scores data.
+
+    Args:
+        data(DataFrame): A pandas DataFrame with the Kenpom data.
+
+    Returns:
+        The same Kenpom data, but with updated school names.
+
+    Raises:
+        AssertionError: If data is not of type pandas DataFrame.
+    """
 
     # Check that data is a dataframe
     if not isinstance(data, pd.DataFrame):
@@ -11,6 +24,19 @@ def update_kenpom(data):
 
 
 def update_TRank(data):
+    """
+    Updates the school names in the T-Rank data to match the team names in the
+    game scores data.
+
+    Args:
+        data(DataFrame): A pandas DataFrame with the T-Rank data.
+
+    Returns:
+        The same T-Rank data, but with updated school names.
+
+    Raises:
+        AssertionError: If data is not of type pandas DataFrame.
+    """
 
     # Check that data is a dataframe
     if not isinstance(data, pd.DataFrame):
@@ -20,6 +46,19 @@ def update_TRank(data):
 
 
 def update_basic(data):
+    """
+    Updates the school names in the basic statistics data to match the team names
+    in the game scores data.
+
+    Args:
+        data(DataFrame): A pandas DataFrame with the basic stats data.
+
+    Returns:
+        The same stats data, but with updated school names.
+
+    Raises:
+        AssertionError: If data is not of type pandas DataFrame.
+    """
 
     # Check that data is a dataframe
     if not isinstance(data, pd.DataFrame):
@@ -34,6 +73,7 @@ def update_basic(data):
     return update_names(data, 'Stats')
 
 
+# Actually updates the school names based on the schools.csv file.
 def update_names(data, type):
 
     # Load school name data
