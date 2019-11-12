@@ -38,8 +38,7 @@ def load_kenpom_dataframe(year=None, csv_file_path=None):
     # Get the webpage html
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     http = urllib3.PoolManager(cert_reqs='CERT_NONE')
-    # r = http.request('get', 'https://kenpom.com/index.php?y={}'.format(year))
-    r = http.request('get', 'https://kenpom.com'.format(year))
+    r = http.request('get', 'https://kenpom.com/index.php?y={}'.format(year))
 
     # Parse the html document to get the table of data
     soup = BeautifulSoup(r.data, features='html.parser')
@@ -53,6 +52,9 @@ def load_kenpom_dataframe(year=None, csv_file_path=None):
         # Fix some column names
         if header == 'Rk':
             header = 'Rank'
+        elif header == 'Team':
+            cols.append('Team')
+            header = 'Seed'
         elif header == 'W-L':
             cols.append('Wins')
             header = 'Losses'
@@ -87,6 +89,12 @@ def load_kenpom_dataframe(year=None, csv_file_path=None):
             w_l = vals[3].split('-')
             vals[3] = w_l[0]
             vals.insert(4, w_l[1])
+
+            # Find the tournament seed in the team name
+            seed = re.findall(r'[0-9]+', vals[1])
+            vals.insert(2, None)
+            if len(seed) > 0:
+                vals[2] = seed[0]
 
             # Remove tournament seed from team name
             vals[1] = re.sub(r'[0-9]+', '', vals[1]).strip()
