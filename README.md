@@ -14,7 +14,7 @@ retrieved from Ken Pomeroy's college basketball statistics that are freely avail
 [his website](https://kenpom.com). Additionally, data for game scores for each year are obtained 
 from [sport reference's web site](https://www.sports-reference.com/cbb/boxscores/).
 
-As this project progresses, I plan to include team data from more sources. I have already wrote the 
+As this project progresses, I plan to include team data from more sources. I already wrote the 
 code required to scrape team statistics data from 
 [Sport's Reference](https://www.sports-reference.com/cbb/seasons/2019-school-stats.html) and [Bart 
 Torvik's website](http://www.barttorvik.com/) and will include them in next year's predictions. 
