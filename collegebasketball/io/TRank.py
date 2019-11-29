@@ -49,7 +49,10 @@ def load_TRank_dataframe(year=None, csv_file_path=None):
     cols = []
     for i, header in enumerate(column_headers):
         cols.append(header)
-        if i > 4:
+        if header == 'Rec':
+            cols[-1] = 'W'
+            cols.append('L')
+        elif i > 4:
             cols.append("{} Rank".format(header))
 
     # Iterate through rows to get data
@@ -67,11 +70,22 @@ def load_TRank_dataframe(year=None, csv_file_path=None):
                 # Split into actual stat and rank
                 if value.find('span') is not None:
                     rank = value.find('span').text
-                    stat = text[0:-len(rank)]
+                    stat = text
+                    if len(rank) > 0:
+                        stat = stat[0:-len(rank)]
+
+                    # Append the relevant information for this stat
                     if 'team=' not in str(value):
                         vals.extend([stat, rank])
                     else:
                         vals.append(stat)
+
+                # If this value is team record, split into W-L
+                elif len(vals) == 4:
+                    text = text.split('-')
+                    vals.append(text[0])
+                    vals.append(text[1])
+
                 else:
                     vals.append(text)
 
