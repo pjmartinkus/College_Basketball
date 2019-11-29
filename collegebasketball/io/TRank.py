@@ -70,7 +70,11 @@ def load_TRank_dataframe(year=None, csv_file_path=None):
                 # Split into actual stat and rank
                 if value.find('span') is not None:
                     rank = value.find('span').text
-                    stat = text[0:-len(rank)]
+                    stat = text
+                    if len(rank) > 0:
+                        stat = stat[0:-len(rank)]
+
+                    # Append the relevant information for this stat
                     if 'team=' not in str(value):
                         vals.extend([stat, rank])
                     else:
