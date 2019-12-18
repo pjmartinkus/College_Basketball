@@ -74,6 +74,9 @@ def load_stats_dataframe(year=None, csv_file_path=None):
         # Create a dataframe
         df = pd.DataFrame(data_array, columns=cols)
         df = df.drop(['W', 'L', 'W-L%', ], axis=1)
+
+        # Fix school names issue and append to df list
+        df['School'] = df['School'].str.replace('\xa0NCAA', '')
         dataframes.append(df)
 
     # Join offense and defense data into single dataframe
