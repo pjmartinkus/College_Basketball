@@ -78,9 +78,15 @@ def load_kenpom_dataframe(year=None, csv_file_path=None):
 
         # Extract data for each row
         vals = []
+        nit_team = False
         for value in row.find_all('td'):
             text = re.sub('[+]', '', value.text)
             vals.append(text)
+
+            # Check if the seed for this team is for the NIT instead of NCAA Tournament
+            span = value.find('span')
+            if span is not None and 'seed-nit' in str(span):
+                nit_team = True
 
         # Make sure this is not a header row
         if len(vals) > 5:
@@ -90,10 +96,10 @@ def load_kenpom_dataframe(year=None, csv_file_path=None):
             vals[3] = w_l[0]
             vals.insert(4, w_l[1])
 
-            # Find the tournament seed in the team name
+            # Append the seed if it exists and is not for the NIT
             seed = re.findall(r'[0-9]+', vals[1])
             vals.insert(2, None)
-            if len(seed) > 0:
+            if not nit_team and len(seed) > 0:
                 vals[2] = seed[0]
 
             # Remove tournament seed from team name
