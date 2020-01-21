@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 
 
@@ -77,7 +78,8 @@ def update_basic(data):
 def update_names(data, type):
 
     # Load school name data
-    school_names = pd.read_csv('/Users/phil/Documents/Documents/College_Basketball/Data/School_Names/schools.csv')
+    path = os.path.dirname(os.path.abspath(__file__)) + '/../../Data/School_Names/schools.csv'
+    school_names = pd.read_csv(path)
     stats = school_names.loc[:, type]
     scores = school_names.loc[:, 'Scores']
 
