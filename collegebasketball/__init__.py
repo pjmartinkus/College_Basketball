@@ -12,6 +12,7 @@ from collegebasketball.io.Scores import load_scores_dataframe
 from collegebasketball.data_prep.DataPrep import update_kenpom
 from collegebasketball.data_prep.DataPrep import update_TRank
 from collegebasketball.data_prep.DataPrep import update_basic
+from collegebasketball.data_prep.DataPrep import check_for_missing_names
 
 # Feature Generation
 from collegebasketball.features import Features
