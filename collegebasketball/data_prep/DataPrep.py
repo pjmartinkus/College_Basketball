@@ -92,3 +92,17 @@ def update_names(data, type):
             data.iloc[int(i), data.columns.get_loc('Team')] = names_dict[row['Team']]
 
     return data
+
+
+# Checks that all of the school names in the stats datasets are correctly in the scores datasets
+def check_for_missing_names(scores_df, stats_df, verbose=False):
+
+    # Check that each school in the stats df is in the scores df
+    missing_names = []
+    for name in stats_df['Team'].unique():
+        if name not in scores_df['Home'].values or name not in scores_df['Away'].values:
+            missing_names.append(name)
+
+    if verbose:
+        print("Checked {0} schools and found {1} matches.".format(len(stats_df), len(missing_names)))
+    return missing_names
