@@ -48,9 +48,6 @@ def gen_features(data, feature_names):
         # Add the win loss features
         vec['Win_Loss_Fav'], vec['Win_Loss'], vec['Win_Loss_Diff'] = win_loss(row, columns)
 
-        # Add team seeds
-        vec
-
         # Generate difference features
         for feat in feature_names:
             vec[feat + '_Fav'], vec[feat], vec[feat+'_Diff'] = feature_difference(row, columns, feat)
