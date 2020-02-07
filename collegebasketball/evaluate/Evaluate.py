@@ -168,7 +168,7 @@ def evaluate(train, test, exclude, models, model_names):
         features.remove(col)
 
     for i, model in enumerate(models):
-        model.fit(train[features], train[['Label']])
+        model.fit(train[features], train[['Label']].values.ravel())
         predictions = model.predict(test[features])
         data = test.copy()
         data['Prediction'] = predictions
