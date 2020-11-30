@@ -1,37 +1,9 @@
-from collegebasketball.features.FeatureGen import gen_kenpom_features
+from collegebasketball.features.FeatureGen import gen_features
+from collegebasketball.blocking.Blocker import block_table
 import pandas as pd
 
 
-def predict(model, games, features):
-    """
-    Generates predictions for the given NCAA Tournament using a list of the games
-    for the first round. The games DataFrame should follow the same format as the
-    training data used to train the input classifier. The games should be ordered such
-    that the winner of games in consecutive rows will play in the next round. This
-    function will then generate predictions for each of the games and then continue
-    making predictions for each of the later rounds until the champion is predicted.
-
-
-    Args:
-        model(Scikit-Learn Classifier): A trained Scikit-Learn classifier.
-        games(DataFrame): A DataFrame containing all of the matchups in the first
-                          round of the tournament.
-        features(list): A list of the features that will be used to generate
-                        predictions with the classifier.
-
-    Returns:
-        A pandas DataFrame that includes the names of the favored team, underdog,
-        predicted winner and the probability returned by the classifier for each
-        game in the tournament for the input data.
-
-    Raises:
-        AssertionError: If games is not of type pandas DataFrame.
-    """
-
-    # Check that games is a dataframes
-    if not isinstance(games, pd.DataFrame):
-        raise AssertionError('Input games argument must be a pandas DataFrame.')
-
+def predict(model, games):
     preds = []
     cols = games.columns
     pred_cols = ['Favored', 'Underdog', 'Predicted Winner', 'Probabilities']
@@ -50,14 +22,17 @@ def predict(model, games, features):
         next_round = []
 
         # Generate the Features
-        data = gen_kenpom_features(games)
+        data, features = gen_features(games)
+
+        # Block the tables
+        blocked = data
 
         # Get predictions for the this round
         probs = model.predict_proba(data[features])
         data['Probabilities'] = [prob[1] for prob in probs]
         predictions = []
         for prob in probs:
-            if prob[1] > 0.4:
+            if prob[1] > 0.4985:
                 predictions.append(1)
             else:
                 predictions.append(0)
@@ -72,8 +47,12 @@ def predict(model, games, features):
             tuple['Underdog'] = row[data.columns.get_loc('Underdog')]
             tuple['Probabilities'] = row[data.columns.get_loc('Probabilities')]
 
+            # Check if this tuple would have been blocked
+            if len(blocked.loc[blocked['Favored'] == tuple['Favored'], :]) == 0:
+                tuple['Predicted Winner'] = tuple['Favored']
+
             # Show the winner
-            if row[data.columns.get_loc('Prediction')] == 0:
+            elif row[data.columns.get_loc('Prediction')] == 0:
                 tuple['Predicted Winner'] = tuple['Favored']
             else:
                 tuple['Predicted Winner'] = tuple['Underdog']

@@ -1,28 +1,30 @@
-import os, six, urllib3, datetime, re
-import pandas as pd
-from bs4 import BeautifulSoup
+import os, six, urllib3, datetime
+from collegebasketball.io.ioHelper import load_csv
 
-
-def load_kenpom_dataframe(year=None, csv_file_path=None):
+def load_kenpom_dataframe(html_file_path=None, csv_file_path=None, save_data=False, year=None):
     """
-    Creates a pandas dataframe from the kenpom website to be used
-    for analysis. Can also create and save a csv file from the
-    dataframe.
+    Creates a csv from an html file from kenpom and then loads the
+    csv file as a dataframe to be used for analysis.
 
     Args:
+        html_file_path(String): File path for the input .html file
+        csv_file_path(String) File path for the output .csv file
+        save_data(Boolean): If True, then the .csv file will be saved.
         year(int): The year to get stats from
-        csv_file_path(String): File path for the output .csv file.
-                               If None, then no csv file is saved.
 
     Raises:
-        AssertionError: If 'year' is not of type integer.
+        AssertionError: If `html_file_path` is not of type string.
         AssertionError: If `csv_file_path` is not of type string.
+        AssertionError: If 'year' is not of type integer.
 
     Example:
-        >>> load_kenpom_dataframe(year=2018, csv_file_path='path/to/file.csv')
+        >>> load_kenpom_dataframe()
     """
 
-    # Check that the path is a string
+    # Check that paths are both strings
+    if html_file_path is not None:
+        if not isinstance(html_file_path, six.string_types):
+            raise AssertionError('Input file path must be a string.')
     if csv_file_path is not None:
         if not isinstance(csv_file_path, six.string_types):
             raise AssertionError('Output file path must be a string.')
@@ -31,91 +33,160 @@ def load_kenpom_dataframe(year=None, csv_file_path=None):
     if year is not None:
         if not isinstance(year, int):
             raise AssertionError('Year must be an integer.')
-    # Load default values if none given
-    else:
+
+    # Load default values
+    if html_file_path is None:
+        html_file_path = '/Users/phil/Documents/Documents/College Basketball/Data/kenpom.html'
+    if csv_file_path is None:
+        csv_file_path = '/Users/phil/Documents/Documents/College Basketball/Data/kenpom.csv'
+
+    # Check that files exits
+    if os.path.exists(html_file_path):
+        os.remove(html_file_path)
+    if os.path.exists(csv_file_path):
+        os.remove(csv_file_path)
+
+    # Call functions to create pandas dataframe
+    get_kenpom_html(html_file_path, year=year)
+    kenpom_to_csv(html_file_path, csv_file_path)
+    dataframe = load_csv(csv_file_path)
+
+    # If not saving data deletes the created files
+    os.remove(html_file_path)
+    if not save_data:
+        os.remove(csv_file_path)
+
+    return dataframe
+
+
+def get_kenpom_html(file_path=None, year=None):
+    """
+    Creates an html file from the kenpom webpage.
+
+    Args:
+        file_path(String): File path for the output .html file
+        year(int): The year to get stats from
+
+    Raises:
+        AssertionError: If `file_path` is not of type string.
+        AssertionError: If 'year' is not of type integer.
+
+    Example:
+        >>> get_kenpom_html()
+    """
+
+    # Check that the path is a strings
+    if file_path is not None:
+        if not isinstance(file_path, six.string_types):
+            raise AssertionError('Output file path must be a string.')
+
+    # Check that the year is an int
+    if year is not None:
+        if not isinstance(year, int):
+            raise AssertionError('Year must be an integer.')
+
+    # Load default values
+    if file_path is None:
+        file_path = '/Users/phil/Documents/Documents/College Basketball/Data/kenpom.html'
+    if year is None:
         year = datetime.datetime.now().year
+
+    # Check that file exits
+    if os.path.exists(file_path):
+        os.remove(file_path)
 
     # Get the webpage html
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-    http = urllib3.PoolManager(cert_reqs='CERT_NONE')
-    r = http.request('get', 'https://kenpom.com/index.php?y={}'.format(year))
+    http = urllib3.PoolManager()
+    r = http.request('get', 'https://kenpom.com/index.php?y=' + str(year))
 
-    # Parse the html document to get the table of data
-    soup = BeautifulSoup(r.data, features='html.parser')
+    with open(file_path, 'w') as fid:
+        fid.write(r.data)
 
-    # Get the column names from the header
-    table_header = soup.find('thead').find_all('tr')[1]
-    column_headers = [th.get_text() for th in table_header.find_all('th')]
-    cols = []
-    for i, header in enumerate(column_headers):
 
-        # Fix some column names
-        if header == 'Rk':
-            header = 'Rank'
-        elif header == 'Team':
-            cols.append('Team')
-            header = 'Seed'
-        elif header == 'W-L':
-            cols.append('Wins')
-            header = 'Losses'
-        elif i > 11:
-            header = 'NCSOS {}'.format(header)
-        elif i > 8 and 'Opp' not in header:
-            header = 'Opp{}'.format(header)
+def kenpom_to_csv(input_file_path=None, output_file_path=None):
+    """
+    Creates a CSV file with data for each team from an html page from kenpom.
 
-        # Add the header to the list
-        cols.append(header)
+    Args:
+        input_file_path(String): File path for the input .html file
+        output_file_path(String) File path for the output .csv file
 
-        # Add the team rank columns
-        if i > 4:
-            cols.append('{} Rank'.format(header))
+    Raises:
+        AssertionError: If `input_file_path` is not of type string.
+        AssertionError: If `output_file_path` is not of type string.
+        AssertionError: If a file does not exist in the
+            given `input_file_path`.
 
-    # Iterate through rows to get data
-    data_array = []
-    table_body = soup.find('tbody')
-    rows = table_body.find_all('tr')
-    for row in rows:
+    Example:
+        >>> kenpom_to_csv()
+    """
 
-        # Extract data for each row
-        vals = []
-        nit_team = False
-        for value in row.find_all('td'):
-            text = re.sub('[+]', '', value.text)
-            vals.append(text)
+    # Check that paths are both strings
+    if input_file_path is not None:
+        if not isinstance(input_file_path, six.string_types):
+            raise AssertionError('Input file path must be a string.')
+    if output_file_path is not None:
+        if not isinstance(output_file_path, six.string_types):
+            raise AssertionError('Output file path must be a string.')
 
-            # Check if the seed for this team is for the NIT instead of NCAA Tournament
-            span = value.find('span')
-            if span is not None and 'seed-nit' in str(span):
-                nit_team = True
+    # Load default values
+    if input_file_path is None:
+        input_file_path = '/Users/phil/Documents/Documents/College Basketball/Data/kenpom.html'
+    if output_file_path is None:
+        output_file_path = '/Users/phil/Documents/Documents/College Basketball/Data/kenpom.csv'
 
-        # Make sure this is not a header row
-        if len(vals) > 5:
+    # Check that fies exits
+    if not os.path.exists(input_file_path):
+        raise AssertionError('File does not exist at path %s' % input_file_path)
+    if os.path.exists(output_file_path):
+        os.remove(output_file_path)
 
-            # Split W-L into two values
-            w_l = vals[3].split('-')
-            vals[3] = w_l[0]
-            vals.insert(4, w_l[1])
+    # open kenpom html file and csv file
+    kenpom_html = open(input_file_path, 'r')
+    kenpom_csv = open(output_file_path, 'w')
 
-            # Append the seed if it exists and is not for the NIT
-            seed = re.findall(r'[0-9]+', vals[1])
-            vals.insert(2, None)
-            if not nit_team and len(seed) > 0:
-                vals[2] = seed[0]
+    # Write the header
+    kenpom_csv.write('Rank,Team,Conf,Wins,Losses,AdjEM,AdjO,AdjO Rank,AdjD,AdjD Rank,AdjT,AdjT Rank,Luck,Luck Rank,' +
+                     'OppAdjEM,OppAdjEM Rank,OppO,OppO Rank,OppD,OppD Rank,NCSOS AdjEM,NCSOS AdjEM Rank\n')
 
-            # Remove tournament seed from team name
-            vals[1] = re.sub(r'[0-9]+', '', vals[1]).strip()
+    # Go through each line in the html file
+    for line in kenpom_html:
+        # Reset the list
+        list = []
 
-            data_array.append(vals)
+        # We only care about lines for each team
+        if 'team=' in line:
 
-    # Create a dataframe
-    data_df = pd.DataFrame(data_array, columns=cols)
+            # Keep track of indexes
+            start = 0
+            i = 0
 
-    # Save the dataframe to csv if save_data is True
-    if csv_file_path is not None:
-        # Check if files exits
-        if os.path.exists(csv_file_path):
-            os.remove(csv_file_path)
+            # Go through each character in the string
+            for c in line:
+                # When we see a '>' remember the index
+                if c == '>':
+                    start = i
 
-        data_df.to_csv(csv_file_path, index=False)
+                # When we see a '<' save the string
+                if c == '<':
+                    # Save the substring and remove any '+' characters
+                    item = line[start+1:i].replace('+', '')
+                    if item != '' and item != ' ':
+                        # If the item contains actual info save to list
+                        list.append(line[start+1:i])
+        
+                i = i + 1
 
-    return data_df
+            # Check that the list is long enough
+            if len(list) > 3:
+
+                # Remove seeding from the data if necessary
+                if list[2].isdigit():
+                    del list[2]
+
+                # Split W-L column into W column and L column
+                list[3] = list[3].replace('-', ',')
+
+                # Write the items to csv file
+                kenpom_csv.write(','.join(list) + '\n')

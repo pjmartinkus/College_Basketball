@@ -1,25 +1,8 @@
 import pandas as pd
+from collegebasketball.evaluate.Evaluate import evaluate
 
-
+# Removes all tuples from the input dataframe that are blocked by out blocking scheme
 def block_table(data):
-    """
-    Removes all tuples from the input DataFrame that are blocked by out blocking scheme.
-
-    Args:
-        data(DataFrame): Input data to block.
-
-    Returns:
-        A pandas DataFrame that includes all tuples from the input DataFrame that were
-        not blocked by the blocking scheme.
-
-    Raises:
-        AssertionError: If data is not of type pandas DataFrame.
-    """
-
-    # Check that data is a dataframe
-    if not isinstance(data, pd.DataFrame):
-        raise AssertionError('Input data must be a pandas DataFrame.')
-
     rows = []
     cols = data.columns
 
@@ -38,26 +21,8 @@ def block_table(data):
     return pd.DataFrame(rows, columns=cols)
 
 
+# Returns all true names that were blocked by our blocking scheme
 def debug(data):
-    """
-    Returns all true games that were blocked by our blocking scheme. This can be
-    a useful tool to make sure that the blocking scheme is not too aggressive.
-
-    Args:
-        data(DataFrame): Input data to test the blocking scheme with.
-
-    Returns:
-        A pandas DataFrame that includes all positive examples tuples from the
-        input DataFrame that were blocked by the blocking scheme.
-
-    Raises:
-        AssertionError: If data is not of type pandas DataFrame.
-    """
-
-    # Check that data is a dataframe
-    if not isinstance(data, pd.DataFrame):
-        raise AssertionError('Input data must be a pandas DataFrame.')
-
     rows = []
     cols = data.columns
 
@@ -81,17 +46,16 @@ def blocking_rules(row, cols):
     block = False
 
     # If one team is obviously superior
-    if row[cols.get_loc('AdjEM_Diff')] > 30:
+    if row[cols.get_loc('AdjEM_Diff')] > 15:
         block = True
 
     # If either team is not a tournament team
-    if row[cols.get_loc('AdjEM')] < -12 or row[cols.get_loc('AdjEM_Fav')] < -5:
+    if row[cols.get_loc('AdjEM')] < -10 or row[cols.get_loc('AdjEM_Fav')] < -10:
         block = True
 
     return block
 
 
-# Experimental function designed to help find blocking rules.
 def create_rule(data, feat):
 
     # Keep track of the rules
