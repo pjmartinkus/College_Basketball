@@ -24,10 +24,7 @@ specific statistics, recruiting rankings and more.
 ### Overview of Methodologies
 
 The high level plan of this project consists of five major steps: data extraction, data cleaning, 
-feature generation, model selection, and making predictions. Below I give a brief explanation of
-each step, but for more information, check out the project summaries for 
-[2018](https://github.com/pjmartinkus/College_Basketball/tree/master/Version%20History/2018/Results) and
-[2019](https://github.com/pjmartinkus/College_Basketball/tree/master/Version%20History/2019/Results).
+feature generation, model selection, and making predictions. 
 
 As explained above, I used data from two sources: Kenpom and Sport's Reference. I created a python
 function to obtain the data for each data source. These scripts make use of the great package 
