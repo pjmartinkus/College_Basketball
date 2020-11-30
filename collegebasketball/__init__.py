@@ -22,6 +22,7 @@ from collegebasketball.features.FeatureGen import gen_basic_features
 
 # Blocking
 from collegebasketball.blocking.Blocker import block_table
+from collegebasketball.blocking.Blocker import covariate_shift
 from collegebasketball.blocking.Blocker import debug
 from collegebasketball.blocking.Blocker import create_rule
 
