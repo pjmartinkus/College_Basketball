@@ -1,6 +1,7 @@
 import os, six, urllib3, datetime
 import pandas as pd
 from bs4 import BeautifulSoup
+from collegebasketball.io.ioHelper import load_csv
 
 
 def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None):
@@ -30,6 +31,8 @@ def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None):
             raise AssertionError('Output file path must be a string.')
 
     # Load default values
+    if csv_file_path is None:
+        csv_file_path = '/Users/phil/Documents/Documents/College_Basketball/Data/scores.csv'
     if start_date is None:
         start_date = datetime.date.today()
     if end_date is None:
@@ -44,7 +47,7 @@ def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None):
         raise AssertionError('The start date must be equal to or before the end date')
 
     # Check that files exits
-    if csv_file_path is not None and os.path.exists(csv_file_path):
+    if os.path.exists(csv_file_path):
         os.remove(csv_file_path)
 
     # Load the scores for each date in the date range

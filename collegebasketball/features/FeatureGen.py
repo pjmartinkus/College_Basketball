@@ -3,27 +3,6 @@ import pandas as pd
 
 
 def gen_features(data, feature_names):
-    """
-    Generates the features given by feature names from the given data set. For each
-    of the specified feature names, a feature is created to reflect the favored team's
-    stat for the feature, the underdog's stat and the difference between the two.
-
-    Args:
-        data(DataFrame): Input data to block.
-        feature_names(list): List of feature names to create. These names should be the
-                             names of attributes in the input data table.
-
-    Returns:
-        A new pandas DataFrame that includes the team names, year, and features for each
-        of the specified feature names.
-
-    Raises:
-        AssertionError: If data is not of type pandas DataFrame.
-    """
-
-    # Check that data is a dataframe
-    if not isinstance(data, pd.DataFrame):
-        raise AssertionError('Input data must be a pandas DataFrame.')
 
     feature_vecs = []
 
@@ -41,7 +20,7 @@ def gen_features(data, feature_names):
     for row in data.itertuples(index=False):
 
         # Generate the initial data
-        vec = dict()
+        vec = {}
         vec['Favored'], vec['Underdog'] = teams(row, columns)
         vec['Year'] = row[columns.get_loc('Year')]
 
@@ -84,103 +63,55 @@ def gen_features(data, feature_names):
 
 
 def gen_kenpom_features(data):
-    """
-    Generates the features for the Kenpom data set.
-
-    Args:
-        data(DataFrame): Input data to block.
-
-    Returns:
-        A new pandas DataFrame that includes the team names, year, and features for
-        the Kenpom data set.
-
-    Raises:
-        AssertionError: If data is not of type pandas DataFrame.
-    """
-
-    # Check that data is a dataframe
-    if not isinstance(data, pd.DataFrame):
-        raise AssertionError('Input data must be a pandas DataFrame.')
 
     # Names of all the features for Kenpom
-    feature_names = ['Rank', 'Seed', 'AdjEM', 'AdjO', 'AdjO Rank', 'AdjD', 'AdjD Rank', 'AdjT',
+    feature_names = ['Rank', 'AdjEM', 'AdjO', 'AdjO Rank', 'AdjD', 'AdjD Rank', 'AdjT',
                      'AdjT Rank', 'Luck', 'Luck Rank', 'OppAdjEM', 'OppAdjEM Rank', 'OppO',
                      'OppO Rank', 'OppD', 'OppD Rank', 'NCSOS AdjEM', 'NCSOS AdjEM Rank']
 
     return gen_features(data, feature_names)
 
 
-def gen_TRank_features(data):
-    """
-    Generates the features for the T-Rank data set. The Kenpom data set is also
-    necessary for this function because it is used to determing which team is
-    considered the underdog and which is considered the favorite.
-
-    Args:
-        data(DataFrame): Input data to block.
-
-    Returns:
-        A new pandas DataFrame that includes the team names, year, and features for
-        the T-Rank data set.
-
-    Raises:
-        AssertionError: If data is not of type pandas DataFrame.
-        AssertionError: If kenpom_data is not of type pandas DataFrame.
-    """
-
-    # Check that data and kenpom_data are dataframes
-    if not isinstance(data, pd.DataFrame):
-        raise AssertionError('Input data must be a pandas DataFrame.')
+def gen_TRank_features(data, kenpom_data):
 
     # Names of the features for T-Rank
-    feature_names = ['Rk', 'Seed', 'AdjOE', 'AdjOE Rank', 'AdjDE', 'AdjDE Rank', 'Barthag',
+    feature_names = ['Rk', 'AdjOE', 'AdjOE Rank', 'AdjDE', 'AdjDE Rank', 'Barthag',
                      'EFG%', 'EFG% Rank', 'EFGD%', 'EFGD% Rank', 'TOR', 'TOR Rank',
                      'TORD', 'TORD Rank', 'ORB', 'ORB Rank', 'DRB', 'DRB Rank',
                      'FTR', 'FTR Rank', 'FTRD', 'FTRD Rank', '2P%', '2P% Rank',
                      '2P%D', '2P%D Rank', '3P%D', '3P%D Rank', 'Adj T.', 'Adj T. Rank',
-                     'WAB', 'WAB Rank', 'AdjEM']
+                     'WAB', 'WAB Rank']
+
+    # Add the win/loss columns from kenpom
+    data = data.assign(Wins_Home=kenpom_data['Wins_Home'], Losses_Home=kenpom_data['Losses_Home'],
+                       Wins_Away=kenpom_data['Wins_Away'], Losses_Away=kenpom_data['Losses_Away'])
+
+    # Add Kenpom Rankings columns for home and away team to tell which team was favored by kenpom
+    data = data.assign(AdjEM_Home=kenpom_data['AdjEM_Home'], AdjEM_Away=kenpom_data['AdjEM_Away'])
 
     # Now that the data is in the correct format, create features
     return gen_features(data, feature_names)
 
 
-def gen_basic_features(data):
-    """
-    Generates the features for the basic team stats data set. The Kenpom data
-    set is necessary for this function because it is used to determing which
-    team is considered the underdog and which is considered the favorite.
-
-    Args:
-        data(DataFrame): Input data to block.
-        kenpom_data(DataFrame): The Kenpom data for the teams for the same year as
-                                the input data set.
-
-    Returns:
-        A new pandas DataFrame that includes the team names, year, and features for
-        the basic stats data set.
-
-    Raises:
-        AssertionError: If data is not of type pandas DataFrame.
-        AssertionError: If kenpom_data is not of type pandas DataFrame.
-    """
-
-    # Check that data and kenpom_data are dataframes
-    if not isinstance(data, pd.DataFrame):
-        raise AssertionError('Input data must be a pandas DataFrame.')
+def gen_basic_features(data, kenpom_data):
 
     # Names of the features for the basic stats
-    feature_names = ['Tm.', 'Seed', 'Opp.', 'MP', 'FG', 'FG_opp', 'FGA', 'FGA_opp', 'FG%',
+    feature_names = ['Tm.', 'Opp.', 'MP', 'FG', 'FG_opp', 'FGA', 'FGA_opp', 'FG%',
                      'FG%_opp', '3P', '3P_opp', '3PA', '3PA_opp', '3P%', '3P%_opp',
                      'FT', 'FT_opp', 'FTA', 'FTA_opp', 'FT%', 'FT%_opp', 'ORB',
                      'ORB_opp', 'TRB', 'TRB_opp', 'AST', 'AST_opp', 'STL', 'STL_opp',
-                     'BLK', 'BLK_opp', 'TOV', 'TOV_opp', 'PF',  'PF_opp', 'AdjEM']
+                     'BLK', 'BLK_opp', 'TOV', 'TOV_opp', 'PF',  'PF_opp']
 
-    # Names of features that are not total season stats numbers
-    not_divide_by_games = ['Seed', 'FG%', 'FG%_opp', '3P%', '3P%_opp', 'FT%', 'FT%_opp', 'AdjEM']
+    # Add Kenpom Rankings columns for home and away team to tell which team was favored by kenpom
+    data = data.assign(AdjEM_Home=kenpom_data['AdjEM_Home'], AdjEM_Away=kenpom_data['AdjEM_Away'])
+
+    # Add the win/loss columns from kenpom
+    data = data.assign(Wins_Home=kenpom_data['Wins_Home'], Losses_Home=kenpom_data['Losses_Home'],
+                       Wins_Away=kenpom_data['Wins_Away'], Losses_Away=kenpom_data['Losses_Away'])
 
     # Divide Total Season Stats by the number of games to get per game stats
     for feature in feature_names:
-        if feature not in not_divide_by_games:
+        if '%' not in feature:
             data['{}_Home'.format(feature)] = data['{}_Home'.format(feature)] / data['G_Home']
             data['{}_Away'.format(feature)] = data['{}_Away'.format(feature)] / data['G_Away']
 

@@ -69,7 +69,6 @@ def load_stats_dataframe(year=None, csv_file_path=None):
                 # Create list of values for this row
                 vals = [value.text for value in row.find_all('td')]
                 vals.remove('')
-                vals[0] = vals[0].replace('\xa0NCAA', '')
                 data_array.append(vals)
 
         # Create a dataframe

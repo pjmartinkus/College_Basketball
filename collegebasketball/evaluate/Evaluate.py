@@ -5,30 +5,6 @@ import matplotlib.pyplot as plt
 
 # Performs cross validation using scikit learn's cross validation function
 def cross_val(data, features, models, model_names, scoring='f1', folds=5):
-    """
-    Performs k-fold cross validation using scikit learn's cross validation function
-    and the input classifiers and data.
-
-    Args:
-        data(DataFrame): Input data to train and test the classifiers. This table must
-                         include all of the features in the features list.
-        features(list): The list of feature names to use for training/testing.
-        models(list): The list of classifiers to use during the training/testing.
-        model_names(list): The names of models that will be included in the output table.
-        scoring(String): The scoring parameter passed on to the Scikit learn CV funtion.
-        folds(Int): The number of folds in the k-fold cross validation.
-
-    Returns:
-        A new pandas DataFrame that includes the scores for each model during the cross
-        validation.
-
-    Raises:
-        AssertionError: If data is not of type pandas DataFrame.
-    """
-
-    # Check that data is a dataframes
-    if not isinstance(data, pd.DataFrame):
-        raise AssertionError('Input data must be a pandas DataFrame.')
 
     rows = []
     cols = ['Classifier']
@@ -59,33 +35,6 @@ def cross_val(data, features, models, model_names, scoring='f1', folds=5):
 
 
 def leave_march_out_cv(season, march, exclude, model):
-    """
-    Performs a custom type of cross validation using separated regular season and
-    march data sets. The idea is to leave out one year's worth of march data as the
-    test set and to use the rest of the data as the training set for each fold in the
-    cross validation. The hope is that the results will better reflect the accuracy
-    of each model when it is later actually used to predict the NCAA tournament games.
-
-    Args:
-        season(DataFrame): A pandas DataFrame of regular season data.
-        march(DataFrame): A pandas DataFrame of march data.
-        exclude(list): List of columns to ignore during training and testing
-        model(Scikit-Learn Classifier): The model that will used to train/test.
-
-    Returns:
-        A new pandas DataFrame that includes the scores for each model during the cross
-        validation.
-
-    Raises:
-        AssertionError: If season is not of type pandas DataFrame.
-        AssertionError: If march is not of type pandas DataFrame.
-    """
-
-    # Check that season and march are dataframes
-    if not isinstance(season, pd.DataFrame):
-        raise AssertionError('Input argument season must be a pandas DataFrame.')
-    if not isinstance(march, pd.DataFrame):
-        raise AssertionError('Input argument march must be a pandas DataFrame.')
 
     # Get attributes used for the models
     features = list(season.columns)
@@ -128,35 +77,10 @@ def leave_march_out_cv(season, march, exclude, model):
     return pd.DataFrame(rows, columns=cols), pd.concat(data_with_preds)
 
 
+# Computes the precision and recall of a model given the predicted and labeled data
 def evaluate(train, test, exclude, models, model_names):
-    """
-    Computes the precision and recall of a model trained ont he training data
-    and tested on the test data.
 
-    Args:
-        train(DataFrame): A pandas DataFrame of training data.
-        test(DataFrame): A pandas DataFrame of test data.
-        exclude(list): List of columns to ignore during training and testing
-        models(list): A List of the Scikit-Learn classifiers that will used to train/test.
-        model_names(List): The names of models that will be included in the output table.
-
-    Returns:
-        A new pandas DataFrame that includes the scores for each model during evaluation.
-
-    Raises:
-        AssertionError: If the length of the model list is not equal to the length of the
-                        model_names list.
-        AssertionError: If train is not of type pandas DataFrame.
-        AssertionError: If train is not of type pandas DataFrame.
-    """
-
-    # Check that season and march are dataframes
-    if not isinstance(train, pd.DataFrame):
-        raise AssertionError('Input argument season must be a pandas DataFrame.')
-    if not isinstance(test, pd.DataFrame):
-        raise AssertionError('Input argument march must be a pandas DataFrame.')
-
-    # Confirm that length of models and model_names is the same
+    # confirm that length of models and model_names is the same
     if len(models) != len(model_names):
         raise AssertionError('Length of models list ({0}) does not equal ' +
                              'length of model names ({1}).'.format(len(models), len(model_names)))
@@ -179,36 +103,7 @@ def evaluate(train, test, exclude, models, model_names):
     return pd.DataFrame(rows, columns=cols)
 
 
-def probability_graph(data, num_bins, start=0.4, stop=0.6, stat='f1'):
-    """
-    Creates a vertical bar chart visualization. Each bar represents the accuracy of
-    the predictions within a range of probabilites attached to those predictions.
-    Equal sized bins are created where each bin contains the predictions made within
-    an interval of the probabilites of predictions. The goal is to provide a
-    visualization to help determine if the probability given by the classifier is
-    actually representative of the probability the classifier is correct.
-
-    Args:
-        data(DataFrame): A pandas DataFrame of prediction data. It should contain
-                         columns for the prediction, label, and probability.
-        num_bins(Int): The number of bins to use.
-        start(Float): The start of the range of prababilites to cover. Should be between
-                      0 and 1.
-        stop(Float): The end of the range of prababilites to cover. Should be between
-                     0 and 1.
-        stat(Float): The stat to use as a representation for accuracy. Options include
-                     'accuracy', 'recall', 'precision or 'f1'.
-
-    Raises:
-        AssertionError: If the length of the model list is not equal to the length of the
-                        model_names list.
-        AssertionError: If train is not of type pandas DataFrame.
-        AssertionError: If train is not of type pandas DataFrame.
-    """
-
-    # Check that data is a dataframe
-    if type(data) is not pd.DataFrame:
-        raise AssertionError('Input data must be a pandas DataFrame.')
+def probability_hist(data, num_bins, start=0.4, stop=0.6, stat='f1'):
 
     diff = stop - start
     bin_midpoints = []
@@ -231,7 +126,6 @@ def probability_graph(data, num_bins, start=0.4, stop=0.6, stat='f1'):
         plt.bar(bin_midpoints, bins, width=bin_range[1] - bin_range[0] - .001)
 
 
-# Calculate the precision, recall and f1 score for the input data.
 def get_stats(data, model_name):
 
     total_pos = len(data[data['Label'] == 1])
