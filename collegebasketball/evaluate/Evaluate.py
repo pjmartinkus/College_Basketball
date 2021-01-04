@@ -1,5 +1,6 @@
 import pandas as pd
 from sklearn.model_selection import KFold, cross_val_score
+from sklearn.metrics import matthews_corrcoef, f1_score, precision_score, recall_score, accuracy_score
 import matplotlib.pyplot as plt
 
 
@@ -162,13 +163,13 @@ def evaluate(train, test, exclude, models, model_names):
                              'length of model names ({1}).'.format(len(models), len(model_names)))
 
     rows = []
-    cols = ['Classifier', 'Precision', 'Recall', 'F1', 'Accuracy']
+    cols = ['Classifier', 'Precision', 'Recall', 'F1', 'MCC', 'Accuracy']
     features = list(train.columns)
     for col in exclude:
         features.remove(col)
 
     for i, model in enumerate(models):
-        model.fit(train[features], train[['Label']])
+        model.fit(train[features], train[['Label']].values.ravel())
         predictions = model.predict(test[features])
         data = test.copy()
         data['Prediction'] = predictions
@@ -234,33 +235,39 @@ def probability_graph(data, num_bins, start=0.4, stop=0.6, stat='f1'):
 # Calculate the precision, recall and f1 score for the input data.
 def get_stats(data, model_name):
 
-    total_pos = len(data[data['Label'] == 1])
-    total_pred_pos = len(data[data['Prediction'] == 1])
+    # total_pos = len(data[data['Label'] == 1])
+    # total_pred_pos = len(data[data['Prediction'] == 1])
+    #
+    # predictions = data[data['Label'] == 1]
+    # true_pos = len(predictions[predictions['Prediction'] == 1])
+    #
+    # neg_preds = data[data['Label'] == 0]
+    # true_neg = len(neg_preds[neg_preds['Prediction'] == 0])
+    #
+    # if total_pred_pos > 0:
+    #     precision = true_pos / float(total_pred_pos)
+    # else:
+    #     precision = float('nan')
+    #
+    # if total_pos > 0:
+    #     recall = true_pos / float(total_pos)
+    # else:
+    #     recall = float('nan')
+    #
+    # if precision + recall > 0:
+    #     f1 = 2 * (precision * recall) / (precision + recall)
+    # else:
+    #     f1 = float('nan')
+    #
+    # if true_neg > 0:
+    #     accuracy = (true_neg + true_pos) / float(len(data))
+    # else:
+    #     accuracy = float('nan')
 
-    predictions = data[data['Label'] == 1]
-    true_pos = len(predictions[predictions['Prediction'] == 1])
+    precision = precision_score(data['Label'], data['Prediction'])
+    recall = recall_score(data['Label'], data['Prediction'])
+    f1 = f1_score(data['Label'], data['Prediction'])
+    mcc = matthews_corrcoef(data['Label'], data['Prediction'])
+    accuracy = accuracy_score(data['Label'], data['Prediction'])
 
-    neg_preds = data[data['Label'] == 0]
-    true_neg = len(neg_preds[neg_preds['Prediction'] == 0])
-
-    if total_pred_pos > 0:
-        precision = true_pos / float(total_pred_pos)
-    else:
-        precision = float('nan')
-
-    if total_pos > 0:
-        recall = true_pos / float(total_pos)
-    else:
-        recall = float('nan')
-
-    if precision + recall > 0:
-        f1 = 2 * (precision * recall) / (precision + recall)
-    else:
-        f1 = float('nan')
-
-    if true_neg > 0:
-        accuracy = (true_neg + true_pos) / float(len(data))
-    else:
-        accuracy = float('nan')
-
-    return [model_name, precision, recall, f1, accuracy]
+    return [model_name, precision, recall, f1, mcc, accuracy]

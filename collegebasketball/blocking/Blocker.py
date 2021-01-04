@@ -1,4 +1,7 @@
 import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import matthews_corrcoef, f1_score
 
 
 def block_table(data):
@@ -36,6 +39,59 @@ def block_table(data):
     # Return the pruned dataframe
     cols = data.columns
     return pd.DataFrame(rows, columns=cols)
+
+
+def covariate_shift(train, test):
+    """
+    Function to help identify if the training and test data come from a similar
+    distribution. Trains a random forest classifier to predict if a given feature
+    vector comes from the training or test set. Returns the MCC and F1 scores
+    from running the classifier.
+
+    Args:
+        train(DataFrame): Input training data.
+        test(DataFrame): Input testing data.
+
+    Returns:
+        mcc(double): MCC score of trained classifier.
+        f1(double): F1 score of trained classifier.
+
+    Raises:
+        AssertionError: If train or test is not of type pandas DataFrame.
+    """
+
+    # Check that data is a dataframe
+    if not isinstance(train, pd.DataFrame):
+        raise AssertionError('Input training data must be a pandas DataFrame.')
+    if not isinstance(test, pd.DataFrame):
+        raise AssertionError('Input test data must be a pandas DataFrame.')
+
+    # Add label to both datasets
+    train = train.copy()
+    test = test.copy()
+    train['Origin'] = 1
+    test['Origin'] = 0
+
+    # Drop any null values
+    train.dropna(inplace=True)
+    test.dropna(inplace=True)
+
+    # Take a samle of the training data
+    train = train.sample(len(test))
+
+    # Split into training and test sets
+    cv_train, cv_test = train_test_split(pd.concat([train, test]), test_size=0.2, random_state=0)
+
+    # Train a classifier
+    drop_cols = ['Favored', 'Underdog', 'Year', 'Label', "Origin"]
+    rf = RandomForestClassifier()
+    rf.fit(cv_train.drop(drop_cols, axis=1), cv_train['Origin'])
+
+    # Run the classifier and evaluate
+    preds = rf.predict(cv_test.drop(drop_cols, axis=1))
+    mcc = matthews_corrcoef(preds, cv_test['Origin'])
+    f1 = f1_score(preds, cv_test['Origin'])
+    return mcc, f1
 
 
 def debug(data):
@@ -85,7 +141,7 @@ def blocking_rules(row, cols):
         block = True
 
     # If either team is not a tournament team
-    if row[cols.get_loc('AdjEM')] < -12 or row[cols.get_loc('AdjEM_Fav')] < -5:
+    if row[cols.get_loc('AdjEM')] < -5 or row[cols.get_loc('AdjEM_Fav')] < 5:
         block = True
 
     return block
