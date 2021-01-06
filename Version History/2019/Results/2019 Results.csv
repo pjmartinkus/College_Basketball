@@ -1,8 +1,0 @@
-Round,Games,Games Containing Predicted Winner,Correct Predictions,Total Upsets,Upsets Predicted,Games Containing Predicted Upset Winner,Correct Upset Predictions,Total Accuracy,Adjusted Accuracy,Upset Precision,Upset Recall,Adjusted Upset Accuracy
-Round of 64,32,32,27,11,8,8,7,0.84375,0.84375,0.875,0.636363636363636,0.875
-Round of 32,16,15,13,0,2,1,0,0.8125,0.866666666666667,0,,0
-Sweet Sixteen,8,7,5,3,2,2,1,0.625,0.714285714285714,0.5,0.333333333333333,0.5
-Elite Eight,4,3,2,2,2,2,1,0.5,0.666666666666667,0.5,0.5,0.5
-Final Four,2,1,1,1,1,0,0,0.5,1,0,0,
-Championship,1,1,1,0,0,0,0,1,1,,,
-Total,63,59,49,17,15,13,9,0.777777777777778,0.830508474576271,0.6,0.529411764705882,0.692307692307692
