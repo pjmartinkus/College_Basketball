@@ -77,14 +77,15 @@ def load_TRank_dataframe(year=None, csv_file_path=None):
                     # Append the relevant information for this stat
                     if 'team=' not in str(value):
                         vals.extend([stat, rank])
+
+                    # If this value is team record, split into W-L
+                    elif len(vals) == 4:
+                        stat = stat.split('-')
+                        vals.append(stat[0])
+                        vals.append(stat[1])
+
                     else:
                         vals.append(stat)
-
-                # If this value is team record, split into W-L
-                elif len(vals) == 4:
-                    text = text.split('-')
-                    vals.append(text[0])
-                    vals.append(text[1])
 
                 else:
                     vals.append(text)
