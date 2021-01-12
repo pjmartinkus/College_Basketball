@@ -1,4 +1,5 @@
 import os, six, urllib3, datetime
+import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
 
@@ -49,7 +50,7 @@ def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None):
 
     # Load the scores for each date in the date range
     current_date = start_date
-    cols = ['Home', 'Home_Score', 'Away', 'Away_Score']
+    cols = ['Home', 'Home_Score', 'Away', 'Away_Score', 'Tournament']
     data_df = pd.DataFrame(columns=cols)
     while current_date <= end_date:
 
@@ -73,13 +74,16 @@ def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None):
 
             # Get teams and score for each game
             vals = []
+            tournament = np.nan
             for row in game.find_all('td'):
                 if 'school' in str(row) or '<a>' in str(row):
                     if row.find('a') is not None:
                         vals.append(str(row.find('a').text))
                 elif 'class="right"' in str(row):
                     vals.append(str(row.text))
-            data.append(vals[0:4])
+                elif 'class="desc"' in str(row):
+                    tournament = str(row.text)
+            data.append(vals[0:4] + [tournament])
 
         # Create a dataframe for this day and add it to the previous days
         current_data = pd.DataFrame(data, columns=cols)
@@ -89,7 +93,7 @@ def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None):
         current_date = current_date + datetime.timedelta(days=1)
 
     # Rearrange the columns
-    data_df = data_df[['Home', 'Away', 'Home_Score', 'Away_Score']]
+    data_df = data_df[['Home', 'Away', 'Home_Score', 'Away_Score', 'Tournament']]
 
     if csv_file_path is not None:
         # write the final csv to a file
