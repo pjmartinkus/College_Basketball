@@ -50,8 +50,8 @@ def load_TRank_dataframe(year=None, csv_file_path=None):
     for i, header in enumerate(column_headers):
         cols.append(header)
         if header == 'Rec':
-            cols[-1] = 'W'
-            cols.append('L')
+            cols[-1] = 'Wins'
+            cols.append('Losses')
         elif i > 4:
             cols.append("{} Rank".format(header))
 
