@@ -32,39 +32,31 @@ cbb.__version__
 
 The scores are from https://www.sports-reference.com/cbb/. Below shows the code I used to download all the scores in college basketball from 2002 to 2017.
 
-For each season, I create two different csv files. One contains the regular season data and the other file contains just the scores from the NCAA tournament. I will later use the Tournment scores to evaluate the performance of the models and seperating the data at this stage will simplify things later on.
+For each season, I create a csv file with all of the game scores for that season. Each record contains the team names, score and the tournament the game was played in (if applicable).
 
 ```python
-# This list contains the starting dates of march madness for each year
-march_start_dates = [12, 18, 16, 15, 14, 13, 18, 17, 16, 15, 13, 19, 18, 17, 15, 14, 19]
-
 # The location where the files will be saved
 path = '../Data/Scores/'
 ```
 
 ```python
 # We will be creating a csv file for each regular season and tournament from 2002 to 2019
-for year in range(2002, 2003):
+for year in range(2002, 2019):
 
     # Set up the starting and ending dates of the regular season and march madness
-    start_regular = datetime.date(year - 1, 11, 1)
-    end_regular = datetime.date(year, 3, march_start_dates[year - 2003] - 1)
-    
-    start_march = datetime.date(year, 3, march_start_dates[year - 2003])
-    end_march = datetime.date(year, 4, 10)
+    start = datetime.date(year - 1, 11, 1)
+    end = datetime.date(year, 4, 10)
     
     # Set up the path for this years scores
-    path_regular = path + str(year) + '_regular_season.csv'
-    path_march = path + str(year) + '_march.csv'
+    path_regular = path + str(year) + '_season.csv'
 
     # Create and save the csv files for the regular season and march madness data for the year
-    cbb.load_scores_dataframe(start_date=start_regular, end_date=end_regular, csv_file_path=path_regular)
-    cbb.load_scores_dataframe(start_date=start_march, end_date=end_march, csv_file_path=path_march)
+    cbb.load_scores_dataframe(start, end, csv_file_path=path_regular)
 ```
 
 ```python
 # Load a dataset to take an initial look
-file_path = path + '2003_march.csv'
+file_path = path + '2003_season.csv'
 data = pd.read_csv(file_path)
 
 data.head()
@@ -72,6 +64,7 @@ data.head()
 
 ```python
 # Let's take a look at all the games involving Marquette during the 2003 Tournament
+data = data[(data['Tournament'].notnull()) & (data['Tournament'].str.contains('NCAA'))]
 pd.concat([data[data['Home'] == 'Marquette'], data[data['Away'] == 'Marquette']])
 ```
 
