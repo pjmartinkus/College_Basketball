@@ -77,7 +77,7 @@ The teams stats data is also from https://www.sports-reference.com/cbb/. This da
 path = '../Data/SportsReference/'
 
 # We will be creating a csv file of data for each season from 2003 to 2019
-for year in range(2010, 2020):
+for year in range(2010, 2019):
     
     # Set the path for the current year data
     stats_path = path + str(year) + '_stats.csv'
@@ -103,7 +103,7 @@ The kenpom data is from https://kenpom.com. This website displays advanced stats
 path = '../Data/Kenpom/'
 
 # We will be creating a csv file of kenpom data for each season from 2002 to 2019
-for year in range(2002, 2020):
+for year in range(2002, 2019):
     
     # Set the path for the current year data
     kp_path = path + str(year) + '_kenpom.csv'
@@ -134,7 +134,7 @@ The T-Rank data is from http://www.barttorvik.com/#. This website displays advan
 path = '../Data/TRank/'
 
 # We will be creating a csv file of data for each season from 2008 to 2019
-for year in range(2008, 2020):
+for year in range(2008, 2019):
     
     # Set the path for the current year data
     TRank_path = path + str(year) + '_TRank.csv'
