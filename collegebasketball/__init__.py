@@ -35,5 +35,8 @@ from collegebasketball.evaluate.Evaluate import probability_graph
 # Predictions
 from collegebasketball.predict.Predict import predict
 
+# Data Transformations
+from collegebasketball.transformations.Filter import filter_tournament
+
 # bracket
 from collegebasketball.bracket.Bracket import Bracket
