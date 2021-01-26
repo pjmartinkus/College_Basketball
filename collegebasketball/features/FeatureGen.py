@@ -28,7 +28,7 @@ def gen_features(data, feature_names):
     feature_vecs = []
 
     # Create the column names list
-    cols = ['Favored', 'Underdog', 'Year', 'Win_Loss_Fav', 'Win_Loss', 'Win_Loss_Diff']
+    cols = ['Favored', 'Underdog', 'Year', 'Tournament', 'Win_Loss_Fav', 'Win_Loss', 'Win_Loss_Diff']
     for feat in feature_names:
         cols.append(feat + '_Fav')
         cols.append(feat)
@@ -44,6 +44,7 @@ def gen_features(data, feature_names):
         vec = dict()
         vec['Favored'], vec['Underdog'] = teams(row, columns)
         vec['Year'] = row[columns.get_loc('Year')]
+        vec['Tournament'] = row[columns.get_loc('Tournament')]
 
         # Add the win loss features
         vec['Win_Loss_Fav'], vec['Win_Loss'], vec['Win_Loss_Diff'] = win_loss(row, columns)
@@ -71,13 +72,6 @@ def gen_features(data, feature_names):
 
         # Append the new vector to the list
         feature_vecs.append(vec)
-
-    # Create a list of all the features used
-    features = list(cols)
-    remove = ['Favored', 'Underdog', 'Label', 'Year']
-    for feat in remove:
-        if feat in features:
-            features.remove(feat)
 
     # Return the dataframe
     return pd.DataFrame(feature_vecs, columns=cols)
