@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import matthews_corrcoef, f1_score
+from sklearn.metrics import roc_auc_score, f1_score
 
 
 def block_table(data):
@@ -45,7 +45,7 @@ def covariate_shift(train, test):
     """
     Function to help identify if the training and test data come from a similar
     distribution. Trains a random forest classifier to predict if a given feature
-    vector comes from the training or test set. Returns the MCC and F1 scores
+    vector comes from the training or test set. Returns the AUC and F1 scores
     from running the classifier.
 
     Args:
@@ -53,11 +53,12 @@ def covariate_shift(train, test):
         test(DataFrame): Input testing data.
 
     Returns:
-        mcc(double): MCC score of trained classifier.
+        auc(double): AUC score of trained classifier.
         f1(double): F1 score of trained classifier.
 
     Raises:
         AssertionError: If train or test is not of type pandas DataFrame.
+        ValueError: If any feature columns in train or test has missing values.
     """
 
     # Check that data is a dataframe
@@ -66,30 +67,33 @@ def covariate_shift(train, test):
     if not isinstance(test, pd.DataFrame):
         raise AssertionError('Input test data must be a pandas DataFrame.')
 
+    # Check for missing values in feature columns
+    drop_cols = ['Favored', 'Underdog', 'Year', 'Label', 'Tournament',
+                 'Seed', 'Seed_Fav', 'Seed_Diff', 'Origin']
+    missing_value_cols_train = [col for col in train.columns[train.isna().any()] if col not in drop_cols]
+    missing_value_cols_test = [col for col in test.columns[test.isna().any()] if col not in drop_cols]
+    if len(missing_value_cols_train) + len(missing_value_cols_test) > 0:
+        raise ValueError(f'\nFeature columns in train with missing values: {missing_value_cols_train}\n' +
+                         f'Feature columns in test with missing values: {missing_value_cols_test}')
+
+
     # Add label to both datasets
-    train = train.copy()
-    test = test.copy()
-    train['Origin'] = 1
-    test['Origin'] = 0
+    train = train.assign(Origin=0)
+    test = test.assign(Origin=1)
 
-    # Drop any null values
-    train.dropna(inplace=True)
-    test.dropna(inplace=True)
-
-    # Take a samle of the training data
+    # Take a sample of the training data
     train = train.sample(len(test))
 
     # Split into training and test sets
     cv_train, cv_test = train_test_split(pd.concat([train, test]), test_size=0.2, random_state=0)
 
     # Train a classifier
-    drop_cols = ['Favored', 'Underdog', 'Year', 'Label', "Origin"]
     rf = RandomForestClassifier()
-    rf.fit(cv_train.drop(drop_cols, axis=1), cv_train['Origin'])
+    rf.fit(cv_train.drop(drop_cols, axis=1, errors='ignore'), cv_train['Origin'])
 
     # Run the classifier and evaluate
-    preds = rf.predict(cv_test.drop(drop_cols, axis=1))
-    mcc = matthews_corrcoef(preds, cv_test['Origin'])
+    preds = rf.predict(cv_test.drop(drop_cols, axis=1, errors='ignore'))
+    mcc = roc_auc_score(preds, cv_test['Origin'])
     f1 = f1_score(preds, cv_test['Origin'])
     return mcc, f1
 
