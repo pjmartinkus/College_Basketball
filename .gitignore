@@ -4,4 +4,4 @@
 **.ipynb_checkpoints
 **.idea
 *.csv
-!schools.csv
+!**/Resources/*.csv

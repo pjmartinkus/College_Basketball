@@ -37,6 +37,7 @@ from collegebasketball.predict.Predict import predict
 
 # Data Transformations
 from collegebasketball.transformations.Filter import filter_tournament
+from collegebasketball.transformations.Select import select_dataset
 
 # bracket
 from collegebasketball.bracket.Bracket import Bracket
