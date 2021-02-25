@@ -78,7 +78,7 @@ def update_basic(data):
 def update_names(data, type):
 
     # Load school name data
-    path = os.path.dirname(os.path.abspath(__file__)) + '/../../Data/School_Names/schools.csv'
+    path = os.path.dirname(os.path.abspath(__file__)) + '/../../Data/Resources/schools.csv'
     school_names = pd.read_csv(path)
     stats = school_names.loc[:, type]
     scores = school_names.loc[:, 'Scores']
