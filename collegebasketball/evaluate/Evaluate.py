@@ -1,11 +1,11 @@
 import pandas as pd
 from sklearn.model_selection import KFold, cross_val_score
-from sklearn.metrics import matthews_corrcoef, f1_score, precision_score, recall_score, accuracy_score
+from sklearn.metrics import roc_auc_score, brier_score_loss, f1_score, precision_score, recall_score, accuracy_score
 import matplotlib.pyplot as plt
 
 
 # Performs cross validation using scikit learn's cross validation function
-def cross_val(data, features, models, model_names, scoring='f1', folds=5):
+def cross_val(data, exclude, models, model_names, scoring='f1', folds=5):
     """
     Performs k-fold cross validation using scikit learn's cross validation function
     and the input classifiers and data.
@@ -13,10 +13,10 @@ def cross_val(data, features, models, model_names, scoring='f1', folds=5):
     Args:
         data(DataFrame): Input data to train and test the classifiers. This table must
                          include all of the features in the features list.
-        features(list): The list of feature names to use for training/testing.
+        exclude(list): List of columns to ignore during training and testing
         models(list): The list of classifiers to use during the training/testing.
         model_names(list): The names of models that will be included in the output table.
-        scoring(String): The scoring parameter passed on to the Scikit learn CV funtion.
+        scoring(String): The scoring parameter passed on to the Scikit learn CV function.
         folds(Int): The number of folds in the k-fold cross validation.
 
     Returns:
@@ -39,7 +39,7 @@ def cross_val(data, features, models, model_names, scoring='f1', folds=5):
         cv = KFold(folds, shuffle=True, random_state=0)
 
         # Run the cross validation
-        scores = cross_val_score(model, data[features], data['Label'], scoring=scoring, cv=cv)
+        scores = cross_val_score(model, data.drop(exclude, axis=1), data['Label'], scoring=scoring, cv=cv)
 
         # Create a dataframe row to display the scores
         tuple = {}
@@ -99,7 +99,7 @@ def leave_march_out_cv(season, march, exclude, model):
     # Each fold leaves out a year of march data
     rows = []
     data_with_preds = []
-    cols = ['Classifier', 'Precision', 'Recall', 'F1', 'Accuracy']
+    cols = ['Classifier', 'Precision', 'Recall', 'F1', 'AUC', 'Brier', 'Accuracy']
     for year in years:
 
         # Create our train and test data sets
@@ -107,7 +107,7 @@ def leave_march_out_cv(season, march, exclude, model):
         test = march[march['Year'] == year]
 
         # Train and run model
-        model.fit(train[features], train[['Label']])
+        model.fit(train[features], train[['Label']].values.ravel())
         predictions = model.predict(test[features])
         probabilities = model.predict_proba(test[features])
         data = test.copy()
@@ -126,12 +126,16 @@ def leave_march_out_cv(season, march, exclude, model):
         data_with_preds.append(data.loc[:, ['Favored', 'Underdog', 'Year', 'Label',
                                             'Prediction', 'Probability']])
 
-    return pd.DataFrame(rows, columns=cols), pd.concat(data_with_preds)
+    # Create data frame and add average row
+    cv_results = pd.DataFrame(rows, columns=cols).set_index('Classifier').sort_index()
+    cv_results.append(cv_results.mean().rename('Average'))
+
+    return cv_results, pd.concat(data_with_preds)
 
 
 def evaluate(train, test, exclude, models, model_names):
     """
-    Computes the precision and recall of a model trained ont he training data
+    Computes the precision and recall of a model trained on the training data
     and tested on the test data.
 
     Args:
@@ -163,7 +167,7 @@ def evaluate(train, test, exclude, models, model_names):
                              'length of model names ({1}).'.format(len(models), len(model_names)))
 
     rows = []
-    cols = ['Classifier', 'Precision', 'Recall', 'F1', 'MCC', 'Accuracy']
+    cols = ['Classifier', 'Precision', 'Recall', 'F1', 'AUC', 'Brier', 'Accuracy']
     features = list(train.columns)
     for col in exclude:
         features.remove(col)
@@ -171,8 +175,10 @@ def evaluate(train, test, exclude, models, model_names):
     for i, model in enumerate(models):
         model.fit(train[features], train[['Label']].values.ravel())
         predictions = model.predict(test[features])
+        probabilities = model.predict_proba(test[features])
         data = test.copy()
         data['Prediction'] = predictions
+        data['Probability'] = probabilities[:, 1]
 
         stats = get_stats(data, model_names[i])
         rows.append(stats)
@@ -198,7 +204,7 @@ def probability_graph(data, num_bins, start=0.4, stop=0.6, stat='f1'):
         stop(Float): The end of the range of prababilites to cover. Should be between
                      0 and 1.
         stat(Float): The stat to use as a representation for accuracy. Options include
-                     'accuracy', 'recall', 'precision or 'f1'.
+                     'accuracy', 'recall', 'precision' or 'f1'.
 
     Raises:
         AssertionError: If the length of the model list is not equal to the length of the
@@ -234,40 +240,11 @@ def probability_graph(data, num_bins, start=0.4, stop=0.6, stat='f1'):
 
 # Calculate the precision, recall and f1 score for the input data.
 def get_stats(data, model_name):
-
-    # total_pos = len(data[data['Label'] == 1])
-    # total_pred_pos = len(data[data['Prediction'] == 1])
-    #
-    # predictions = data[data['Label'] == 1]
-    # true_pos = len(predictions[predictions['Prediction'] == 1])
-    #
-    # neg_preds = data[data['Label'] == 0]
-    # true_neg = len(neg_preds[neg_preds['Prediction'] == 0])
-    #
-    # if total_pred_pos > 0:
-    #     precision = true_pos / float(total_pred_pos)
-    # else:
-    #     precision = float('nan')
-    #
-    # if total_pos > 0:
-    #     recall = true_pos / float(total_pos)
-    # else:
-    #     recall = float('nan')
-    #
-    # if precision + recall > 0:
-    #     f1 = 2 * (precision * recall) / (precision + recall)
-    # else:
-    #     f1 = float('nan')
-    #
-    # if true_neg > 0:
-    #     accuracy = (true_neg + true_pos) / float(len(data))
-    # else:
-    #     accuracy = float('nan')
-
     precision = precision_score(data['Label'], data['Prediction'])
     recall = recall_score(data['Label'], data['Prediction'])
     f1 = f1_score(data['Label'], data['Prediction'])
-    mcc = matthews_corrcoef(data['Label'], data['Prediction'])
+    auc = roc_auc_score(data['Label'], data['Probability'])
+    brier = brier_score_loss(data['Label'], data['Probability'])
     accuracy = accuracy_score(data['Label'], data['Prediction'])
 
-    return [model_name, precision, recall, f1, mcc, accuracy]
+    return [model_name, precision, recall, f1, auc, brier, accuracy]

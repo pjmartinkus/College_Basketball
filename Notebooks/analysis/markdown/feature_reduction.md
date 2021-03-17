@@ -154,10 +154,10 @@ Let's remove the features described above and take another look at some of those
 
 ```python
 # Remove features where we don't need offensive and defensive numbers 
-feats_to_remove = feats_to_remove + ['FTA_opp', 'PF_opp', 'OppO', 'OppD']
+feats_to_remove = ['FTA_opp', 'PF_opp', 'OppO', 'OppD']
 
 # Remove features that give a success number
-feats_to_remove = ['FG', 'FG_opp', '3P', '3P_opp', 'FT', 'FT_opp', 'Tm.']
+feats_to_remove = feats_to_remove + ['FG', 'FG_opp', '3P', '3P_opp', 'FT', 'FT_opp', 'Tm.']
 
 # Remove absolute stats when we have tempo adjusted version
 feats_to_remove = feats_to_remove + ['FTA', 'TOV', 'TOV_opp', 'ORB_y', 'ORB_opp', 'TRB', 
@@ -233,4 +233,12 @@ Next, we'll test out the reduced feature data with a random forest classifier to
 clf = RandomForestClassifier(n_estimators=100, random_state=77)
 clf.fit(X_train_reduced, y_train_reduced)
 print("Accuracy on test data: {:.2f}".format(clf.score(X_test_reduced, y_test_reduced)))
+```
+
+```python
+# Save all the training data to a csv - including identifier columns
+training_data = pd.concat([train_reduced , test_reduced], ignore_index=False)
+training_data = df[['Favored', 'Underdog', 'Year', 'Tournament']].join(training_data)
+training_data.to_csv('../../Data/Training/training_feat_reduced.csv', index=False)
+training_data.head()
 ```
