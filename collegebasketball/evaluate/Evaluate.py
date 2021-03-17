@@ -1,11 +1,11 @@
 import pandas as pd
 from sklearn.model_selection import KFold, cross_val_score
-from sklearn.metrics import matthews_corrcoef, f1_score, precision_score, recall_score, accuracy_score
+from sklearn.metrics import roc_auc_score, brier_score_loss, f1_score, precision_score, recall_score, accuracy_score
 import matplotlib.pyplot as plt
 
 
 # Performs cross validation using scikit learn's cross validation function
-def cross_val(data, features, models, model_names, scoring='f1', folds=5):
+def cross_val(data, exclude, models, model_names, scoring='f1', folds=5):
     """
     Performs k-fold cross validation using scikit learn's cross validation function
     and the input classifiers and data.
@@ -13,10 +13,10 @@ def cross_val(data, features, models, model_names, scoring='f1', folds=5):
     Args:
         data(DataFrame): Input data to train and test the classifiers. This table must
                          include all of the features in the features list.
-        features(list): The list of feature names to use for training/testing.
+        exclude(list): List of columns to ignore during training and testing
         models(list): The list of classifiers to use during the training/testing.
         model_names(list): The names of models that will be included in the output table.
-        scoring(String): The scoring parameter passed on to the Scikit learn CV funtion.
+        scoring(String): The scoring parameter passed on to the Scikit learn CV function.
         folds(Int): The number of folds in the k-fold cross validation.
 
     Returns:
@@ -39,7 +39,7 @@ def cross_val(data, features, models, model_names, scoring='f1', folds=5):
         cv = KFold(folds, shuffle=True, random_state=0)
 
         # Run the cross validation
-        scores = cross_val_score(model, data[features], data['Label'], scoring=scoring, cv=cv)
+        scores = cross_val_score(model, data.drop(exclude, axis=1), data['Label'], scoring=scoring, cv=cv)
 
         # Create a dataframe row to display the scores
         tuple = {}
@@ -99,7 +99,7 @@ def leave_march_out_cv(season, march, exclude, model):
     # Each fold leaves out a year of march data
     rows = []
     data_with_preds = []
-    cols = ['Classifier', 'Precision', 'Recall', 'F1', 'Accuracy']
+    cols = ['Classifier', 'Precision', 'Recall', 'F1', 'AUC', 'Brier', 'Accuracy']
     for year in years:
 
         # Create our train and test data sets
@@ -107,7 +107,7 @@ def leave_march_out_cv(season, march, exclude, model):
         test = march[march['Year'] == year]
 
         # Train and run model
-        model.fit(train[features], train[['Label']])
+        model.fit(train[features], train[['Label']].values.ravel())
         predictions = model.predict(test[features])
         probabilities = model.predict_proba(test[features])
         data = test.copy()
@@ -126,12 +126,16 @@ def leave_march_out_cv(season, march, exclude, model):
         data_with_preds.append(data.loc[:, ['Favored', 'Underdog', 'Year', 'Label',
                                             'Prediction', 'Probability']])
 
-    return pd.DataFrame(rows, columns=cols), pd.concat(data_with_preds)
+    # Create data frame and add average row
+    cv_results = pd.DataFrame(rows, columns=cols).set_index('Classifier').sort_index()
+    cv_results.append(cv_results.mean().rename('Average'))
+
+    return cv_results, pd.concat(data_with_preds)
 
 
 def evaluate(train, test, exclude, models, model_names):
     """
-    Computes the precision and recall of a model trained ont he training data
+    Computes the precision and recall of a model trained on the training data
     and tested on the test data.
 
     Args:
@@ -163,7 +167,7 @@ def evaluate(train, test, exclude, models, model_names):
                              'length of model names ({1}).'.format(len(models), len(model_names)))
 
     rows = []
-    cols = ['Classifier', 'Precision', 'Recall', 'F1', 'MCC', 'Accuracy']
+    cols = ['Classifier', 'Precision', 'Recall', 'F1', 'AUC', 'Brier', 'Accuracy']
     features = list(train.columns)
     for col in exclude:
         features.remove(col)
@@ -171,8 +175,10 @@ def evaluate(train, test, exclude, models, model_names):
     for i, model in enumerate(models):
         model.fit(train[features], train[['Label']].values.ravel())
         predictions = model.predict(test[features])
+        probabilities = model.predict_proba(test[features])
         data = test.copy()
         data['Prediction'] = predictions
+        data['Probability'] = probabilities[:, 1]
 
         stats = get_stats(data, model_names[i])
         rows.append(stats)
@@ -180,94 +186,66 @@ def evaluate(train, test, exclude, models, model_names):
     return pd.DataFrame(rows, columns=cols)
 
 
-def probability_graph(data, num_bins, start=0.4, stop=0.6, stat='f1'):
+def probability_graph(actual, probabilities, model_names=None, start=0.0, stop=0.7, bin_width=0.05, **kwargs):
     """
-    Creates a vertical bar chart visualization. Each bar represents the accuracy of
-    the predictions within a range of probabilites attached to those predictions.
-    Equal sized bins are created where each bin contains the predictions made within
-    an interval of the probabilites of predictions. The goal is to provide a
-    visualization to help determine if the probability given by the classifier is
-    actually representative of the probability the classifier is correct.
+        Creates a line plot visualization plotting the predicted probabilities from a model
+        against the fraction of actual upsets for those predictions. The functions splits
+        the predicted probabilities into bins spanning from the given starting and stopping
+        values. Then the fraction of upsets for the games in each bin is calculated and plotted
+        in a line plot. If the `probabilities` argument is a list of lists, the function
+        will calculate those upset percentages for each list of probabilities and plot them
+        in multiple series.
 
-    Args:
-        data(DataFrame): A pandas DataFrame of prediction data. It should contain
-                         columns for the prediction, label, and probability.
-        num_bins(Int): The number of bins to use.
-        start(Float): The start of the range of prababilites to cover. Should be between
-                      0 and 1.
-        stop(Float): The end of the range of prababilites to cover. Should be between
-                     0 and 1.
-        stat(Float): The stat to use as a representation for accuracy. Options include
-                     'accuracy', 'recall', 'precision or 'f1'.
+        The goal is to provide a visualization to help determine if the probability given by
+        the classifier is actually representative of the probability the classifier is correct.
 
-    Raises:
-        AssertionError: If the length of the model list is not equal to the length of the
-                        model_names list.
-        AssertionError: If train is not of type pandas DataFrame.
-        AssertionError: If train is not of type pandas DataFrame.
-    """
+        Args:
+            actual(List): A list like object of the correct result for a set of feature vectors.
+            probabilities(List): A list (or list of lists if plotting multiple series) of predicted
+                                 probabilities for the same games as the `actual` input list.
+            model_names(List): The names of each series of probabilities if plotting multiple series
+            start(Float): The start of the range of probabilities to cover. Should be between 0 and 1.
+            stop(Float): The end of the range of probabilities to cover. Should be between 0 and 1.
+            bin_width(Float): The width of each bin.
+            kwargs: Key word arguments to pass on to the figure functions from matplotlib.
+        """
+    num_bins = int((stop - start) / bin_width) + 1
+    upset_pcts = list()
+    for probs in probabilities:
+        actual_and_probs = list(zip(actual, probs))
 
-    # Check that data is a dataframe
-    if type(data) is not pd.DataFrame:
-        raise AssertionError('Input data must be a pandas DataFrame.')
+        # Bin predictions (bins from start to end with widths of bin_width)
+        this_model_upset_pcts = list()
+        for i in range(num_bins):
+            # Get upper and lower bound for bins
+            bin_range = [round(start + bin_width * i, 3), round(start + bin_width * (i + 1), 3)]
 
-    diff = stop - start
-    bin_midpoints = []
-    bins = []
-    for i in range(0, num_bins):
-        # Get bin ranges and midpoints
-        bin_range = [start + diff * i / num_bins, start + diff * (i + 1) / num_bins]
-        bin_midpoints.append(sum(bin_range) / 2)
+            # Calculate percentage of upsets for games with predicted probabilities within the bin
+            bin_games = [label for label, prob in actual_and_probs if bin_range[0] < prob <= bin_range[1]]
+            bin_pct_upsets = sum(bin_games) / len(bin_games)
+            this_model_upset_pcts.append(bin_pct_upsets)
+        upset_pcts.append(this_model_upset_pcts)
 
-        # Get data in this bin
-        bin_curr = data[data['Probability'] > bin_range[0]]
-        bin_curr = bin_curr[bin_curr['Probability'] <= bin_range[1]]
+    # Plot results
+    bin_midpoints = [round(bin_width / 2 + i * bin_width, 3) for i in range(num_bins)]
+    fig = plt.figure(**kwargs)
+    ax = plt.axes()
 
-        # Calculate the accuracy and precision in each bin
-        stats = get_stats(bin_curr, None)
-        ind = [None, 'precision', 'recall', 'f1', 'accuracy']
-        bins.append(stats[ind.index(stat)])
+    for x, name in zip(upset_pcts, model_names):
+        ax.plot(bin_midpoints, x, label=name)
 
-        # Plot results
-        plt.bar(bin_midpoints, bins, width=bin_range[1] - bin_range[0] - .001)
+    ax.legend()
+    plt.ylabel('Fraction of Games that were Upsets')
+    plt.xlabel('Predicted Probability of Upset')
 
 
 # Calculate the precision, recall and f1 score for the input data.
 def get_stats(data, model_name):
-
-    # total_pos = len(data[data['Label'] == 1])
-    # total_pred_pos = len(data[data['Prediction'] == 1])
-    #
-    # predictions = data[data['Label'] == 1]
-    # true_pos = len(predictions[predictions['Prediction'] == 1])
-    #
-    # neg_preds = data[data['Label'] == 0]
-    # true_neg = len(neg_preds[neg_preds['Prediction'] == 0])
-    #
-    # if total_pred_pos > 0:
-    #     precision = true_pos / float(total_pred_pos)
-    # else:
-    #     precision = float('nan')
-    #
-    # if total_pos > 0:
-    #     recall = true_pos / float(total_pos)
-    # else:
-    #     recall = float('nan')
-    #
-    # if precision + recall > 0:
-    #     f1 = 2 * (precision * recall) / (precision + recall)
-    # else:
-    #     f1 = float('nan')
-    #
-    # if true_neg > 0:
-    #     accuracy = (true_neg + true_pos) / float(len(data))
-    # else:
-    #     accuracy = float('nan')
-
     precision = precision_score(data['Label'], data['Prediction'])
     recall = recall_score(data['Label'], data['Prediction'])
     f1 = f1_score(data['Label'], data['Prediction'])
-    mcc = matthews_corrcoef(data['Label'], data['Prediction'])
+    auc = roc_auc_score(data['Label'], data['Probability'])
+    brier = brier_score_loss(data['Label'], data['Probability'])
     accuracy = accuracy_score(data['Label'], data['Prediction'])
 
-    return [model_name, precision, recall, f1, mcc, accuracy]
+    return [model_name, precision, recall, f1, auc, brier, accuracy]
