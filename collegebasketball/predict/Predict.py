@@ -1,4 +1,4 @@
-from collegebasketball.features.FeatureGen import gen_kenpom_features
+from collegebasketball.features.FeatureGen import gen_features
 import pandas as pd
 
 
@@ -50,14 +50,23 @@ def predict(model, games, features):
         next_round = []
 
         # Generate the Features
-        data = gen_kenpom_features(games)
+        features_to_gen = [x for x in features if '_Fav' not in x and x != 'Win_Loss']
+        data = gen_features(games, features_to_gen)
+
+        # Set the threshold probability for an upset for each game
+        if i == 0: # First round we'll consider the difference in seeding
+            thresholds = 0.511 - abs(games['Seed_Home'] - games['Seed_Away']) * 0.03
+        elif i < 4: # Middle rounds we'll allow more upsets with threshold of 0.3
+            thresholds = [0.3 for _ in range(len(games))]
+        else: # Later rounds we'll tighten up the threshold to 0.4 to get a more accurate champion
+            thresholds = [0.4 for _ in range(len(games))]
 
         # Get predictions for the this round
         probs = model.predict_proba(data[features])
         data['Probabilities'] = [prob[1] for prob in probs]
         predictions = []
-        for prob in probs:
-            if prob[1] > 0.4:
+        for prob, threshold in zip(probs, thresholds):
+            if prob[1] > threshold:
                 predictions.append(1)
             else:
                 predictions.append(0)

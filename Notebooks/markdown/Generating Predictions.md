@@ -6,7 +6,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.2'
-      jupytext_version: 1.8.1
+      jupytext_version: 1.9.1
   kernelspec:
     display_name: Python 3
     language: python
@@ -15,14 +15,15 @@ jupyter:
 
 # Generating Predictions
 
-Using the AdaBoost model that we selected in the Selecting a Model notebook, we will create preditions for the 2018 NCAA Tournament.
+Using the Logistic Regression model that we chose in the Selecting a Model notebook, we will create predictions for the 2021 NCAA Tournament.
 
 ```python
 # Import packages
 import sys
-sys.path.append('/Users/phil/Documents/Documents/College_Basketball')
+sys.path.append('../')
 
 import pandas as pd
+from sklearn.linear_model import LogisticRegression
 import collegebasketball as cbb
 cbb.__version__
 
@@ -34,110 +35,107 @@ warnings.filterwarnings('ignore')
 
 Using the same method as before, we will train the model. To understand how I arrived at this model, please look at the Selecting a Model notebook for more information.
 
-However, there is one major difference in how we will train the model this time. Since we were using the tournament data as a test set before, we did not use it to train the model. However, since we are now predicting on the 2018 data, we can use the tournament data to help train the model.
+However, there is one major difference in how we will train the model this time. Before, we split the data into training and testing sets, but since we are predicting for new games, we will use all of the training data to train the model.
 
 ```python
 # Load the csv files that contain the scores/kenpom data
-path = '../Data/Training/'
-kenpom_season = cbb.load_csv('{}kenpom_season.csv'.format(path))
-kenpom_march = cbb.load_csv('{}kenpom_march.csv'.format(path))
+path = '../Data/Training/training_feat_reduced.csv'
+train = pd.read_csv(path)
 
 # Get a sense for the size of each data set
-print('Length of kenpom data: {}'.format(len(kenpom_season) + len(kenpom_march)))
+print('Length of training data: {}'.format(len(train)))
 ```
 
 ```python
-# Combine regular season and march data
-kenpom_data = pd.concat([kenpom_season, kenpom_march])
+train.head()
+```
 
+```python
 # Get feature names
-exclude = ['Favored', 'Underdog', 'Year', 'Label']
-features = list(kenpom_season.columns)
+exclude = ['Favored', 'Underdog', 'Year', 'Tournament', 'Label']
+
+# Due to the differences in games among teams, we need to remove all of the stats that are an absolute number
+exclude = exclude + ['3PA_Fav', '3PA', '3PA_opp_Fav', '3PA_opp', 'AST_Fav', 'AST', 
+                     'AST_opp_Fav', 'AST_opp', 'BLK_Fav', 'BLK', 'BLK_opp_Fav', 'BLK_opp']
+
+features = list(train.columns)
 for col in exclude:
     features.remove(col)
 ```
 
 ```python
 # Train the classifier
-log = cbb.LogisticRegression(penalty='l1', C=10)
-log.fit(kenpom_data[features], kenpom_data[['Label']])
+log = LogisticRegression(penalty='l2', C=10, solver='liblinear', random_state=77)
+log.fit(train[features], train[['Label']])
+```
+
+## Get Input Data for this Year
+
+Next, we'll need to get the input data for this year so we can use it to predict game results for tournament games. We'll retrieve data from each source for this year, clean the data and combine it into a single data set.
+
+```python
+year = 2021
+stats_path = '../Data/SportsReference/' + str(year) + '_stats.csv'
+stats = cbb.load_stats_dataframe(year=2021, csv_file_path=stats_path)
+stats = pd.read_csv(stats_path)
+stats = cbb.update_basic(stats.rename(index=str, columns={'School': 'Team'}))
+stats[stats['Team'] == 'Marquette']
+```
+
+```python
+kp_path = '../Data/Kenpom/' + str(year) + '_kenpom.csv'
+kenpom = cbb.load_kenpom_dataframe(year=year, csv_file_path=kp_path)
+kenpom = pd.read_csv(kp_path)
+kenpom = cbb.update_kenpom(kenpom)
+kenpom[kenpom['Team'] == 'Marquette']
+```
+
+```python
+TRank_path = '../Data/TRank/' + str(year) + '_TRank.csv'
+TRank = cbb.load_TRank_dataframe(year=year, csv_file_path=TRank_path)
+TRank = pd.read_csv(TRank_path)
+TRank = cbb.update_TRank(TRank)
+TRank[TRank['Team'] == 'Marquette']
+```
+
+```python
+# Merge the data from each source (and drop columns that are repeats)
+team_stats = pd.merge(kenpom, TRank.drop(['Conf', 'Wins', 'Losses'], axis=1), on='Team', sort=False)
+team_stats = pd.merge(team_stats, stats.drop(['G', 'ORB', '3P%'], axis=1), on='Team', sort=False)
+team_stats[team_stats['Team'] == 'Marquette']
+```
+
+```python
+# Load Tournament games
+games_path = '../Data/Tourney/{}.csv'.format(year)
+games = pd.read_csv(games_path)
+games.head(3)
+```
+
+```python
+# Join the team data with the game data
+data = pd.merge(games, team_stats, left_on='Home', right_on='Team', sort=False)
+data = pd.merge(data, team_stats, left_on='Away', right_on='Team', suffixes=('_Home', '_Away'), sort=False)
+data.insert(0, 'Year', year)
+data.insert(3, 'Tournament', 'NCAA Tournament')
+data.head(3)
 ```
 
 ## Predict Games Using the Classifier
 
-Now that we have a trained model, we can use it to predict games in the 2018 NCAA Tournament. First we need to load in the games from the first round and create feature vectors.
-
-```python
-# Load games csv
-games = cbb.load_csv('/Users/phil/Documents/Documents/College_Basketball/Data/Tourney/2019.csv')
-games.head()
-```
-
-```python
-# Set up the training data set
-path = '/Users/phil/Documents/Documents/College_Basketball/Data/Kenpom/2019_kenpom.csv'
-kenpom = cbb.load_csv(path)
-kenpom = cbb.update_kenpom(kenpom)
-kenpom.head()
-```
-
-```python
-# Merge Games data with the different data sets
-games = pd.merge(games, kenpom, left_on='Home', right_on='Team', sort=False)
-games = pd.merge(games, kenpom, left_on='Away', right_on='Team', suffixes=('_Home', '_Away'), sort=False)
-games.insert(0, 'Year', 2019)
-
-games.head()
-```
-
-Now that we have feature vectors for the first round of the tournament and a trained model, we can make our predictions for the 2018 NCAA Tournament.
+Now that we have a trained model and data for the tournament games this year, we can use it to predict games in the 2021 NCAA Tournament.
 
 ```python
 # Make Predictions
-predictions = cbb.predict(log, games, features)
+features = [x.replace('_x', '') for x in features] # Fix an issue with training data
+predictions = cbb.predict(log, data, features)
+predictions.to_csv('../Data/predictions/predictions_2021.csv', index=False)
+predictions['Upset'] = predictions['Underdog'] == predictions['Predicted Winner']
 ```
 
 ```python
 # First Round
 predictions.iloc[0:32,:]
-```
-
-```python
-seeds = []
-for i in range(4):
-    seeds.extend([1, 8, 5, 4, 6, 3, 7, 2])
-data = predictions[0:32].copy()
-data['Top Seed'] = seeds
-
-data = data.sort_values(by=['Top Seed', 'Probabilities'])
-
-winner = []
-count = 0
-for row in data.iterrows():
-    if row[1]['Top Seed'] < 5:
-        winner.append(row[1].loc['Favored'])
-    elif count < 2:
-        winner.append(row[1].loc['Favored'])
-    else:
-        winner.append(row[1].loc['Underdog'])
-    count = count + 1
-    if count > 3:
-        count = 0
-data['Winner'] = winner
-
-data = data.sort_index()
-actual_winner = ['Duke', 'UCF', 'Liberty', 'Virginia Tech', 'Maryland', 'LSU',
-                'Minnesota', 'Michigan State', 'Gonzaga', 'Baylor', 'Murray State',
-                'Florida State', 'Buffalo', 'Texas Tech', 'Florida', 'Michigan',
-                'Virginia', 'Oklahoma', 'Oregon', 'UC Irvine', 'Villanova',
-                'Purdue', 'Iowa', 'Tennessee', 'UNC', 'Washington', 'Auburn',
-                'Kansas', 'Ohio State', 'Houston', 'Wofford', 'Kentucky']
-data['Actual Winner'] = actual_winner
-
-print(sum(data['Winner'] == data['Actual Winner']))
-print(sum(data['Winner'] == data['Predicted Winner']))
-
-data
 ```
 
 ```python
@@ -150,6 +148,4 @@ predictions.iloc[32:48,:]
 predictions.iloc[48:,:]
 ```
 
-```python
-
-```
+Congratulations to all Illinois fans because the model has predicted the Illini to win the 2021 NCAA Tournament!
