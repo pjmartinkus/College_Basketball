@@ -5,3 +5,4 @@
 **.idea
 *.csv
 !**/Resources/*.csv
+!**/predictions*.csv

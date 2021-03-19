@@ -129,6 +129,7 @@ Now that we have a trained model and data for the tournament games this year, we
 # Make Predictions
 features = [x.replace('_x', '') for x in features] # Fix an issue with training data
 predictions = cbb.predict(log, data, features)
+predictions.to_csv('../Data/predictions/predictions_2021.csv', index=False)
 predictions['Upset'] = predictions['Underdog'] == predictions['Predicted Winner']
 ```
 
