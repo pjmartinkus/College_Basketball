@@ -31,6 +31,7 @@ from collegebasketball.evaluate.Evaluate import cross_val
 from collegebasketball.evaluate.Evaluate import evaluate
 from collegebasketball.evaluate.Evaluate import leave_march_out_cv
 from collegebasketball.evaluate.Evaluate import probability_graph
+from collegebasketball.evaluate.Evaluate import post_tournament_eval
 
 # Predictions
 from collegebasketball.predict.Predict import predict
