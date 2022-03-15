@@ -9,27 +9,19 @@ Madness rolls around.
 
 ### Data
 
-The data for this project currently comes from two sources. First, team statistics for each year are 
-retrieved from Ken Pomeroy's college basketball statistics that are freely available at 
-[his website](https://kenpom.com). Additionally, data for game scores for each year are obtained 
-from [sport reference's web site](https://www.sports-reference.com/cbb/boxscores/).
-
-As this project progresses, I plan to include team data from more sources. I already wrote the 
-code required to scrape team statistics data from 
-[Sport's Reference](https://www.sports-reference.com/cbb/seasons/2019-school-stats.html) and [Bart 
-Torvik's website](http://www.barttorvik.com/) and will include them in next year's predictions. 
-In the future, I hope to include more data sources including other advanced season metrics, player 
-specific statistics, recruiting rankings and more.
+The data for this project currently comes from three sources. First, data for game scores for each
+year are obtained from [sport reference's web site](https://www.sports-reference.com/cbb/boxscores/).
+Additionally, team statistics are from Ken Pomeroy's college basketball statistics that are freely available at
+[his website](https://kenpom.com), [Bart Torvik's website](http://www.barttorvik.com/) and from
+[sport reference's web site](https://www.sports-reference.com/cbb/boxscores/). With these three data
+sources I had a good variety of regular and tempo adjusted statistics to measure each team's overall performance.
 
 ### Overview of Methodologies
 
 The high level plan of this project consists of five major steps: data extraction, data cleaning, 
-feature generation, model selection, and making predictions. Below I give a brief explanation of
-each step, but for more information, check out the project summaries for 
-[2018](https://github.com/pjmartinkus/College_Basketball/tree/master/Version%20History/2018/Results) and
-[2019](https://github.com/pjmartinkus/College_Basketball/tree/master/Version%20History/2019/Results).
+feature generation, model selection, and making predictions.
 
-As explained above, I used data from two sources: Kenpom and Sport's Reference. I created a python
+As explained above, I used data from three sources: Kenpom,, T-Rank and Sports Reference. I created a python
 function to obtain the data for each data source. These scripts make use of the great package 
 [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to help parse the html files
 to extract the actual data. The data was then saved in [pandas dataframes](https://pandas.pydata.org)
@@ -51,11 +43,24 @@ won and a 1 when the underdog pulled off the upset. I thought this would be a us
 data because creating an NCAA Tournament bracket is all about looking for the right upsets.
 
 At this point, I had a large data set containing feature vectors for each game of men's division one
-college basketball going back to 2002. Before using all of this data, I refined it to include
-only games that included tournament quality teams. Then, I trained several different machine learning 
-models from the excellent [scikit-learn](https://scikit-learn.org/stable/) python package. I used a variation
-of cross validation I like to call "leave one march out CV", meaning that for each fold, I trained the
-model on all of the data except for the games from one year of March Madness, which was used as the
+college basketball going back to 2002. Before using all of this data, I wanted to refine it to only
+include games that included tournament quality teams. I used covariate shift analysis to compare the training
+feature vectors to the data set of actual tournament games and found an obvious difference between the two. By
+looking at the most important feature in distinguishing between the data sets and trying some different
+rules for filtering the complete data, I was able to reduce the training data to more closely resemble
+actual NCAA Tournament games.
+
+In addition to filtering the number of training feature vectors, I also wanted to reduce the number of features.
+Since I had added the additional T-Rank and Sports Reference data sources this year, I knew there were many
+redundant features covered in multiple source data sets. To this end, I looked at the correlations between
+features and removed aas many aas I could without sacrificing too much potential information from the dropped
+features.
+
+Then, I trained several different machine learning models from the excellent
+[scikit-learn](https://scikit-learn.org/stable/) python package. I started by tuning some parameters for
+each model type using cross validation on a portion of the training data. Then, I compared the tuned models
+using a variation of cross validation I like to call "leave one march out CV", meaning that for each fold,
+I trained the model on all of the data except for the games from one year of March Madness, which was used as the
 test set. Other than high values for standard accuracy metrics such as precision and recall, I found it 
 was very important that the selected model would be able to give a probability score to help me make 
 decisions about the most probable upsets. I also was conscious that my data was very noisy since it is
@@ -64,22 +69,18 @@ choose a more robust model. I settled on a logistic regression model to use as m
 
 Finally, I was ready to create a bracket. I first trained the logistic regression model on all of the data
 that I had collected. I then used it to make predictions on each game in the tournament. However, in order
-to promote more upsets in my bracket, I decided that I would call a game an upset if the model gave a 
-probability score of 0.4 or greater. Using this method, I created a bracket and submitted it to ESPN's 
-Tournament Challenge to test how well it performed.
+to promote more upsets in my bracket, I added some rules to lower the threshold for predicting an upset
+depending on some criteria like the round and seeding of the teams. Using this method, I created a bracket
+and submitted it to ESPN's Tournament Challenge to test how well it performed.
 
 ### Last Year's Results
-Last year, in the 2019 NCAA Tournament, I successfully 
-[predicted](https://github.com/pjmartinkus/College_Basketball/blob/docs_summary/Version%20History/2019/Results/Tournament%20Challenge%20-%20ESPN%20-%202019.pdf) 
-that Virginia would win the tournament, though I should note they were a top team per the Kenpom data
-I used in this project despite their historic loss in 2018. Overall, I correctly predicted 77% of the
-games in the tournament and 83% of the games that actually included my predicted winner (in later rounds 
-my predicted winner may have lost already). 
-
-As a fun test of how my bracket faired against the rest of the country, I submitted it to ESPN's
-Tournament Challenge and it scored 1370 points, was ranked about 121 thousandth, which left it in 
-the 99th percentile. These results are of course skewed by the way ESPN counts points since I had
-the correct champion, but I think it was a fun experiment none the less.
+Unfortunately, my bracket did not do so well last year. My predicted winner, Illinois lost in the second
+round to Loyola Chicago and Gonzaga was my only correct Final Four prediction. Overall, I correctly predicted
+only 48% of the games in the tournament and 64% of the games that actually included my predicted winner
+(in later rounds my predicted winner may have lost already), which was significantly down from the
+previous season. Some of the error can be chalked up to the reduced non-conference schedule this past year
+due to COVID, but the reality is that it is never easy to predict March Madness and that's whaat makes it
+such a fun tournament to watch.
 
 ### Using the Code Available in the Repository
 All of the code required to make my predictions are available in the python files and 
