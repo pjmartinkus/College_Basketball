@@ -6,7 +6,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.2'
-      jupytext_version: 1.8.1
+      jupytext_version: 1.9.1
   kernelspec:
     display_name: Python 3
     language: python
@@ -77,7 +77,7 @@ The teams stats data is also from https://www.sports-reference.com/cbb/. This da
 path = '../Data/SportsReference/'
 
 # We will be creating a csv file of data for each season from 2003 to 2019
-for year in range(2010, 2019):
+for year in range(2002, 2019):
     
     # Set the path for the current year data
     stats_path = path + str(year) + '_stats.csv'
@@ -88,7 +88,7 @@ for year in range(2010, 2019):
 
 ```python
 # Load some data to take a look
-stats_path = path + '2013_stats.csv'
+stats_path = path + '2022_stats.csv'
 data = pd.read_csv(stats_path)
 
 data.head()
