@@ -1,18 +1,16 @@
 Scores,Kenpom/TRank,Stats
-Texas-Arlington,UT Arlington,
 Cleveland State,Cleveland St.,
 Penn State,Penn St.,
 St. Peter's,Saint Peter's,Saint Peter's
 Centenary (LA),Centenary,
 Alabama State,Alabama St.,
-Alabama-Birmingham,UAB,
 Morehead State,Morehead St.,
 Jackson State,Jackson St.,
 Southeast Missouri State,Southeast Missouri St.,
 Texas A&M-Corpus Christi,Texas A&M Corpus Chris,
 Weber State,Weber St.,
 Long Beach State,Long Beach St.,Cal State Long Beach
-Citadel,The Citadel,
+The Citadel,Citadel,
 UIC,Illinois Chicago,Illinois-Chicago
 Grambling,Grambling St.,
 Little Rock,Arkansas Little Rock,
@@ -31,8 +29,8 @@ Tennessee State,Tennessee St.,
 Texas-Rio Grande Valley,Texas Pan American,
 Alcorn State,Alcorn St.,
 Ball State,Ball St.,
-UC-Irvine,UC Irvine,
-UCSB,UC Santa Barbara,UC-Santa Barbara
+UC-Irvine,UC Irvine,UC Irvine
+UCSB,UC Santa Barbara,UC Santa Barbara
 Bethune-Cookman,Bethune Cookman,
 Idaho State,Idaho St.,
 Bowling Green State,Bowling Green,
@@ -81,7 +79,7 @@ LIU,LIU Brooklyn,Long Island University
 Indiana State,Indiana St.,
 Texas State,Southwest Texas St.,
 Arizona State,Arizona St.,
-UC-Riverside,UC Riverside,
+UC-Riverside,UC Riverside,UC Riverside
 Fresno State,Fresno St.,
 Missouri State,Southwest Missouri St.,
 Nicholls State,Nicholls St.,
@@ -103,7 +101,7 @@ Sam Houston State,Sam Houston St.,
 San Diego State,San Diego St.,
 Washington State,Washington St.,
 Texas State,Texas St.,
-UC-Davis,UC Davis,
+UC-Davis,UC Davis,UC Davis
 Utah Valley,Utah Valley St.,
 South Dakota State,South Dakota St.,
 Kennesaw State,Kennesaw St.,
@@ -127,7 +125,13 @@ Texas A&M-Corpus Christi,Texas A&amp;M Corpus Chris,
 North Carolina A&T,North Carolina A&amp;T,
 Florida A&M,Florida A&amp;M,
 Alabama A&M,Alabama A&amp;M,
+Tarleton State,Tarleton St.,
+Kansas City,UMKC,
 College of Charleston,Charleston,
+Detroit,Detroit Mercy,
+The Citadel,Citadel,
+Dixie State,Dixie St.,
+St. Thomas (MN),St. Thomas,
 BYU,,Brigham Young
 Central Connecticut,,Central Connecticut State
 UCF,,Central Florida

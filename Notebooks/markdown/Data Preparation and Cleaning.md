@@ -6,7 +6,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.2'
-      jupytext_version: 1.8.1
+      jupytext_version: 1.9.1
   kernelspec:
     display_name: Python 3
     language: python
@@ -37,10 +37,11 @@ scores_path = '../Data/Scores/'
 
 # Initialize some variables
 scores_data = {}
-this_year = 2019
+this_year = 2022
+
 
 # Load the scores datasets
-for year in range(2002, this_year):
+for year in range(2002, 2019):
     scores_data[year] = pd.read_csv(scores_path + str(year) + '_season.csv')
 ```
 
