@@ -1,5 +1,5 @@
 
-__version__ = '0.3'
+__version__ = '2022'
 
 
 # io functions
