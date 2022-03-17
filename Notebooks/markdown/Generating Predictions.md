@@ -74,9 +74,9 @@ log.fit(train[features], train[['Label']])
 Next, we'll need to get the input data for this year so we can use it to predict game results for tournament games. We'll retrieve data from each source for this year, clean the data and combine it into a single data set.
 
 ```python
-year = 2021
+year = 2022
 stats_path = '../Data/SportsReference/' + str(year) + '_stats.csv'
-stats = cbb.load_stats_dataframe(year=2021, csv_file_path=stats_path)
+stats = cbb.load_stats_dataframe(year=year, csv_file_path=stats_path)
 stats = pd.read_csv(stats_path)
 stats = cbb.update_basic(stats.rename(index=str, columns={'School': 'Team'}))
 stats[stats['Team'] == 'Marquette']
@@ -129,7 +129,7 @@ Now that we have a trained model and data for the tournament games this year, we
 # Make Predictions
 features = [x.replace('_x', '') for x in features] # Fix an issue with training data
 predictions = cbb.predict(log, data, features)
-predictions.to_csv('../Data/predictions/predictions_2021.csv', index=False)
+predictions.to_csv('../Data/predictions/predictions_2022.csv', index=False)
 predictions['Upset'] = predictions['Underdog'] == predictions['Predicted Winner']
 ```
 
@@ -148,4 +148,8 @@ predictions.iloc[32:48,:]
 predictions.iloc[48:,:]
 ```
 
-Congratulations to all Illinois fans because the model has predicted the Illini to win the 2021 NCAA Tournament!
+Congratulations to all Kansas fans because the model has predicted the Jayhawks to win the 2022 NCAA Tournament!
+
+```python
+
+```
