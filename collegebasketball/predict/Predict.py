@@ -54,12 +54,14 @@ def predict(model, games, features):
         data = gen_features(games, features_to_gen)
 
         # Set the threshold probability for an upset for each game
-        if i == 0: # First round we'll consider the difference in seeding
+        if i == 0:  # First round we'll consider the difference in seeding
             thresholds = 0.511 - abs(games['Seed_Home'] - games['Seed_Away']) * 0.03
-        elif i < 4: # Middle rounds we'll allow more upsets with threshold of 0.3
+        elif i < 2:  # Second round we'll allow more upsets with threshold of 0.3
             thresholds = [0.3 for _ in range(len(games))]
-        else: # Later rounds we'll tighten up the threshold to 0.4 to get a more accurate champion
-            thresholds = [0.4 for _ in range(len(games))]
+        elif i < 3:  # Middle rounds we'll allow slightly fewer with threshold of 0.32
+            thresholds = [0.32 for _ in range(len(games))]
+        else:  # Later rounds we'll tighten up the threshold to 0.45 to get a more accurate champion
+            thresholds = [0.45 for _ in range(len(games))]
 
         # Get predictions for the this round
         probs = model.predict_proba(data[features])
