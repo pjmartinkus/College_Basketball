@@ -33,7 +33,7 @@ Now that the season is complete, we can retrieve all of the scores for both eval
 
 ```python
 # Dates to search for games
-year = 2021
+year = 2022
 start = datetime.date(year - 1, 11, 1)
 end = datetime.date(year, 4, 10)
 
@@ -43,7 +43,7 @@ path_regular = path + str(year) + '_season.csv'
 ```
 
 ```python
-# cbb.load_scores_dataframe(start, end, csv_file_path=path_regular)
+cbb.load_scores_dataframe(start, end, csv_file_path=path_regular)
 ```
 
 ```python
@@ -54,21 +54,12 @@ data.head()
 ### Load in Predictions and Kenpom Data for This Season
 In addition to the actual tournament game scores, we'll need our predictions and the pre-tournament Kenpom data to evaluate our bracket. The scores are obviously needed to verify when we were correct, but the Kenpom data is also necessary to determine which team was favored in each game since our model determines favorites using the Kenpom efficiency metric rather than tournament seeding.
 
-Note that this year, one game was canceled due to COVID. While we could remove this game from the data, I'll just keep it in as an Oregon win since that's how many of the bracket sites, such as ESPN, scored that game.
-
 ```python
 scores = cbb.filter_tournament(data)
 predictions = pd.read_csv(f'../Data/predictions/predictions_{year}.csv')
 kenpom = pd.read_csv(f'../Data/Kenpom/{year}_kenpom.csv')
 kenpom = cbb.update_kenpom(kenpom)
 kenpom.head(3)
-```
-
-```python
-# Since Oregon VCU was cancelled due to COVID, we need to add fake score to indicate oregon won and moved on
-scores.loc[scores['Away'] == 'Oregon', 'Home_Score'] = 0
-scores.loc[scores['Away'] == 'Oregon', 'Away_Score'] = 1
-scores[scores['Away'] == 'Oregon']
 ```
 
 ### Calculate Metrics
@@ -100,9 +91,11 @@ The purpose of these "adjusted" stats are to adjust for the fact that in later r
 
 ### How did the Bracket Perform this Year?
 
-Unfortunately, not too well. While I can chalk some of the bad performance this year down to COVID, ultimately predicting the NCAA Tournament will never be easy and bad years are bound to happen. I think the game cancellations from COVID did have a pretty big impact on the reliability of our team metrics this year because many of them occurred during non-conference play. This lack of data between conferences made it even harder than usual to adjust efficiency metrics like Kenpom based on strength of schedule because there weren't many data points to compare teams in different conferences. For example, the Big Ten had strong Kenpom stats across the board. Perhaps the conference's bad performance was a results of inflated ratings from conference play between teams that were never actually tested against other conferences. 
+To start off with, I'm excited to say that the bracket successfully predicted the winner for the third time out of four years. It's honestly incredible how frequently this bracket has predicted the winner even if you account for some favorites winning it over the last few years and I honestly don't expect this trend to continue.
 
-Overall, I'll need to go back to the drawing board and make some adjustments in the future, particularly to how I pick the actual tournament winners. Since going exactly with whether or not the model predicts an upset results in far too few upset predictions, I lowered the threshold of the predicted probability required to pick an upset. I have yet to come up with a satisfying method for dealing with this issue and surely it is part of the reason for the poor performance this year.
+Overall, it was a pretty average year as far as the metrics go. The overall accuracy and adjusted accuracy were down compared to previous seasons, but the upset precision and recall metrics were overall slightly up. This is mostly due to there being more upsets than previous seasons, so I think it's fair to say that the model actually was better than previous years, but the frequent number of upsets caused overall accuracy to be lower in spite of that.
+
+Unfortunately, I haven't found much time to make many improvements for next year, but I'm looking forward to seeing how the bracket performs next tournament.
 
 ```python
 

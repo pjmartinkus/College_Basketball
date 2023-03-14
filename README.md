@@ -74,13 +74,21 @@ depending on some criteria like the round and seeding of the teams. Using this m
 and submitted it to ESPN's Tournament Challenge to test how well it performed.
 
 ### Last Year's Results
-Unfortunately, my bracket did not do so well last year. My predicted winner, Illinois lost in the second
-round to Loyola Chicago and Gonzaga was my only correct Final Four prediction. Overall, I correctly predicted
-only 48% of the games in the tournament and 64% of the games that actually included my predicted winner
-(in later rounds my predicted winner may have lost already), which was significantly down from the
-previous season. Some of the error can be chalked up to the reduced non-conference schedule this past year
-due to COVID, but the reality is that it is never easy to predict March Madness and that's whaat makes it
-such a fun tournament to watch.
+To start off with, I'm excited to say that the bracket successfully predicted the winner for the third time
+out of four years. It's honestly incredible how frequently this bracket has predicted the winner even if you
+account for some favorites winning it over the last few years and I honestly don't expect this trend to continue.
+
+Overall, it was a pretty average year as far as the metrics go. I predicted 59% of the games in the tournament
+and 67% of the games that included my predicted winner (in later rounds my predicted winner may have lost already),
+which is about in line with most previous years. However, there were ore upsets this year than any of the previous
+three years I've been doing this project and despite the generally average results, I think the model actually did
+better than in the past. The upset precision and recall metrics are slightly up this year, which help account for
+the similar accuracy metrics despite the increased number of upsets.
+
+I again submitted the bracket to ESPN's Tournament Challenge and ended up in the 95th percentile. I should mention
+that this challenge heavily favors predicting later games correctly so the fact that I predicted the winner correctly
+provides a huge boost as far as scoring goes, but I think it's still a fun way to compare my bracket to other
+brackets across the country.
 
 ### Using the Code Available in the Repository
 All of the code required to make my predictions are available in the python files and 
