@@ -104,7 +104,9 @@ def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None, de
 
         if debug:
             print(len(current_data))
-            time.sleep(3)
+
+        # Sleep to avoid rate limits
+        time.sleep(4)
 
     # Rearrange the columns
     data_df = data_df[['Home', 'Away', 'Home_Score', 'Away_Score', 'Tournament']]

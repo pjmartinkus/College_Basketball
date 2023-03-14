@@ -40,8 +40,8 @@ path = '../Data/Scores/'
 ```
 
 ```python
-# We will be creating a csv file for each regular season and tournament from 2002 to 2019
-for year in range(2002, 2019):
+# We will be creating a csv file for each regular season and tournament from 2002 to 2023 (you might want to ignore 2020)
+for year in range(2002, 2024):
 
     # Set up the starting and ending dates of the regular season and march madness
     start = datetime.date(year - 1, 11, 1)
@@ -64,8 +64,8 @@ data.head()
 
 ```python
 # Let's take a look at all the games involving Marquette during the 2003 Tournament
-data = data[(data['Tournament'].notnull()) & (data['Tournament'].str.contains('NCAA'))]
-pd.concat([data[data['Home'] == 'Marquette'], data[data['Away'] == 'Marquette']])
+data = cbb.filter_tournament(data)
+data[(data['Home'] == 'Marquette') | (data['Away'] == 'Marquette')]
 ```
 
 ## Getting Basic Team Stats
@@ -76,8 +76,8 @@ The teams stats data is also from https://www.sports-reference.com/cbb/. This da
 # The location where the files will be saved
 path = '../Data/SportsReference/'
 
-# We will be creating a csv file of data for each season from 2003 to 2019
-for year in range(2002, 2019):
+# We will be creating a csv file of data for each season
+for year in range(2002, 2024):
     
     # Set the path for the current year data
     stats_path = path + str(year) + '_stats.csv'
@@ -88,7 +88,7 @@ for year in range(2002, 2019):
 
 ```python
 # Load some data to take a look
-stats_path = path + '2022_stats.csv'
+stats_path = path + '2023_stats.csv'
 data = pd.read_csv(stats_path)
 
 data.head()
@@ -102,8 +102,8 @@ The kenpom data is from https://kenpom.com. This website displays advanced stats
 # The location where the files will be saved
 path = '../Data/Kenpom/'
 
-# We will be creating a csv file of kenpom data for each season from 2002 to 2019
-for year in range(2002, 2019):
+# We will be creating a csv file of kenpom data for each season
+for year in range(2002, 2024):
     
     # Set the path for the current year data
     kp_path = path + str(year) + '_kenpom.csv'
@@ -133,8 +133,8 @@ The T-Rank data is from http://www.barttorvik.com/#. This website displays advan
 # The location where the files will be saved
 path = '../Data/TRank/'
 
-# We will be creating a csv file of data for each season from 2008 to 2019
-for year in range(2008, 2019):
+# We will be creating a csv file of data for each season
+for year in range(2008, 2023):
     
     # Set the path for the current year data
     TRank_path = path + str(year) + '_TRank.csv'
@@ -154,4 +154,8 @@ data.head()
 ```python
 # Let's take a look at Marquette's kenpom numbers for 2008
 data[data['Team'] == 'Marquette']
+```
+
+```python
+
 ```

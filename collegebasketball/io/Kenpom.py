@@ -48,6 +48,7 @@ def load_kenpom_dataframe(year=None, csv_file_path=None):
     column_headers = [th.get_text() for th in table_header.find_all('th')]
     cols = []
     for i, header in enumerate(column_headers):
+        header = header.strip()
 
         # Fix some column names
         if header == 'Rk':
@@ -80,6 +81,7 @@ def load_kenpom_dataframe(year=None, csv_file_path=None):
         vals = []
         nit_team = False
         for value in row.find_all('td'):
+            value = value.strip()
             text = re.sub('[+]', '', value.text)
             vals.append(text)
 
