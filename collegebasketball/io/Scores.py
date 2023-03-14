@@ -1,10 +1,10 @@
-import os, six, urllib3, datetime
+import os, six, urllib3, datetime, time
 import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
 
 
-def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None):
+def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None, debug=False):
     """
     Creates a csv of game scores for all games between and including the
     given start date and end date. The scores are retrieved from the sports
@@ -15,11 +15,13 @@ def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None):
         start_date(datetime.date): Starting date to retrieve scores
         end_date(datetime.date): Ending date to retrieve scores
         csv_file_path(String): File path for the output .csv file
+        debug(boolean): Whether to print debug statements
 
     Raises:
         AssertionError: If 'start_date' is not of type datetime.date.
         AssertionError: If 'end_date' is not of type datetime.date.
         AssertionError: If `csv_file_path` is not of type string.
+        AssertionError: If `debug` is not of type boolean.
 
     Example:
         >>> load_scores_dataframe()
@@ -43,6 +45,8 @@ def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None):
         raise AssertionError('Ending date must be of type datetime')
     if start_date > end_date:
         raise AssertionError('The start date must be equal to or before the end date')
+    if type(debug) is not bool:
+        raise AssertionError('Debug must be of type bool')
 
     # Check that files exits
     if csv_file_path is not None and os.path.exists(csv_file_path):
@@ -53,6 +57,9 @@ def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None):
     cols = ['Home', 'Home_Score', 'Away', 'Away_Score', 'Tournament']
     data_df = pd.DataFrame(columns=cols)
     while current_date <= end_date:
+
+        if debug:
+            print(current_date, end=': ')
 
         # Create the correct url using the date
         url = 'https://www.sports-reference.com/cbb/boxscores/index.cgi?'
@@ -71,19 +78,22 @@ def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None):
         # Iterate through each game
         data = []
         for game in soup.find_all('tbody'):
+            if 'women' not in str(game):
 
-            # Get teams and score for each game
-            vals = []
-            tournament = np.nan
-            for row in game.find_all('td'):
-                if 'school' in str(row) or '<a>' in str(row):
-                    if row.find('a') is not None:
-                        vals.append(str(row.find('a').text))
-                elif 'class="right"' in str(row):
-                    vals.append(str(row.text))
-                elif 'class="desc"' in str(row):
-                    tournament = str(row.text)
-            data.append(vals[0:4] + [tournament])
+                # Get teams and score for each game
+                vals = []
+                tournament = np.nan
+                for row in game.find_all('td'):
+                        if 'school' in str(row) or '<a>' in str(row):
+                            if row.find('a') is not None:
+                                vals.append(str(row.find('a').text))
+                        elif 'class="right"' in str(row):
+                            vals.append(str(row.text))
+                        elif 'class="desc"' in str(row):
+                            tournament = row.text.replace("Men's", '')
+                            if tournament == '':
+                                tournament = np.nan
+                data.append(vals[0:4] + [tournament])
 
         # Create a dataframe for this day and add it to the previous days
         current_data = pd.DataFrame(data, columns=cols)
@@ -91,6 +101,10 @@ def load_scores_dataframe(start_date=None, end_date=None, csv_file_path=None):
 
         # Increment the current date
         current_date = current_date + datetime.timedelta(days=1)
+
+        if debug:
+            print(len(current_data))
+            time.sleep(3)
 
     # Rearrange the columns
     data_df = data_df[['Home', 'Away', 'Home_Score', 'Away_Score', 'Tournament']]
