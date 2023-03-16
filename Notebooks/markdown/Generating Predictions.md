@@ -25,10 +25,11 @@ sys.path.append('../')
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 import collegebasketball as cbb
-cbb.__version__
 
 import warnings
 warnings.filterwarnings('ignore')
+
+cbb.__version__
 ```
 
 ## Train the Model
@@ -39,7 +40,7 @@ However, there is one major difference in how we will train the model this time.
 
 ```python
 # Load the csv files that contain the scores/kenpom data
-path = '../Data/Training/training_feat_reduced.csv'
+path = '../Data/Training/training.csv'
 train = pd.read_csv(path)
 
 # Get a sense for the size of each data set
@@ -47,16 +48,12 @@ print('Length of training data: {}'.format(len(train)))
 ```
 
 ```python
-train.head()
+train.head(3)
 ```
 
 ```python
 # Get feature names
 exclude = ['Favored', 'Underdog', 'Year', 'Tournament', 'Label']
-
-# Due to the differences in games among teams, we need to remove all of the stats that are an absolute number
-exclude = exclude + ['3PA_Fav', '3PA', '3PA_opp_Fav', '3PA_opp', 'AST_Fav', 'AST', 
-                     'AST_opp_Fav', 'AST_opp', 'BLK_Fav', 'BLK', 'BLK_opp_Fav', 'BLK_opp']
 
 features = list(train.columns)
 for col in exclude:
@@ -74,17 +71,23 @@ log.fit(train[features], train[['Label']])
 Next, we'll need to get the input data for this year so we can use it to predict game results for tournament games. We'll retrieve data from each source for this year, clean the data and combine it into a single data set.
 
 ```python
-year = 2022
+year = 2023
 stats_path = '../Data/SportsReference/' + str(year) + '_stats.csv'
-stats = cbb.load_stats_dataframe(year=year, csv_file_path=stats_path)
+# stats = cbb.load_stats_dataframe(year=year, csv_file_path=stats_path)
 stats = pd.read_csv(stats_path)
 stats = cbb.update_basic(stats.rename(index=str, columns={'School': 'Team'}))
+
+# Fix absolute stats to be per game
+cols_to_fix = ['3PA', '3PA_opp',  'AST', 'AST_opp', 'BLK', 'BLK_opp']
+for c in cols_to_fix:
+    stats[c] = stats[c] / stats['G']
+
 stats[stats['Team'] == 'Marquette']
 ```
 
 ```python
 kp_path = '../Data/Kenpom/' + str(year) + '_kenpom.csv'
-kenpom = cbb.load_kenpom_dataframe(year=year, csv_file_path=kp_path)
+# kenpom = cbb.load_kenpom_dataframe(year=year, csv_file_path=kp_path)
 kenpom = pd.read_csv(kp_path)
 kenpom = cbb.update_kenpom(kenpom)
 kenpom[kenpom['Team'] == 'Marquette']
@@ -92,7 +95,7 @@ kenpom[kenpom['Team'] == 'Marquette']
 
 ```python
 TRank_path = '../Data/TRank/' + str(year) + '_TRank.csv'
-TRank = cbb.load_TRank_dataframe(year=year, csv_file_path=TRank_path)
+# TRank = cbb.load_TRank_dataframe(year=year, csv_file_path=TRank_path)
 TRank = pd.read_csv(TRank_path)
 TRank = cbb.update_TRank(TRank)
 TRank[TRank['Team'] == 'Marquette']
@@ -101,7 +104,7 @@ TRank[TRank['Team'] == 'Marquette']
 ```python
 # Merge the data from each source (and drop columns that are repeats)
 team_stats = pd.merge(kenpom, TRank.drop(['Conf', 'Wins', 'Losses'], axis=1), on='Team', sort=False)
-team_stats = pd.merge(team_stats, stats.drop(['G', 'ORB', '3P%'], axis=1), on='Team', sort=False)
+team_stats = pd.merge(team_stats, stats.drop(['G', 'ORB', '3P%', 'ORB'], axis=1), on='Team', sort=False)
 team_stats[team_stats['Team'] == 'Marquette']
 ```
 
@@ -127,9 +130,8 @@ Now that we have a trained model and data for the tournament games this year, we
 
 ```python
 # Make Predictions
-features = [x.replace('_x', '') for x in features] # Fix an issue with training data
 predictions = cbb.predict(log, data, features)
-predictions.to_csv('../Data/predictions/predictions_2022.csv', index=False)
+predictions.to_csv('../Data/predictions/predictions_2023.csv', index=False)
 predictions['Upset'] = predictions['Underdog'] == predictions['Predicted Winner']
 ```
 
@@ -148,7 +150,7 @@ predictions.iloc[32:48,:]
 predictions.iloc[48:,:]
 ```
 
-Congratulations to all Kansas fans because the model has predicted the Jayhawks to win the 2022 NCAA Tournament!
+Congratulations to all Kansas fans because the model has predicted the Jayhawks to repeat as the the 2023 NCAA Tournament Champion!
 
 ```python
 
