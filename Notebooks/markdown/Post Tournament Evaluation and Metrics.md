@@ -29,25 +29,35 @@ cbb.__version__
 ```
 
 ### Load in Scores from Last Season
-Now that the season is complete, we can retrieve all of the scores for both evaluating our bracket this year and as more training data for next year.
+Now that the season is complete, we can retrieve all of the postseason scores for both evaluating our bracket this year and as more training data for next year.
 
 ```python
 # Dates to search for games
-year = 2022
-start = datetime.date(year - 1, 11, 1)
+year = 2023
+start = datetime.date(year, 3, 13)
 end = datetime.date(year, 4, 10)
 
 # Set up the path for this years scores
 path = '../Data/Scores/'
-path_regular = path + str(year) + '_season.csv'
+path_regular = path + str(year) + '_regular_season.csv'
+path_full = path + str(year) + '_season.csv'
 ```
 
 ```python
-cbb.load_scores_dataframe(start, end, csv_file_path=path_regular)
+# Get tournament games from college basketball reference
+tournament = cbb.load_scores_dataframe(start, end, csv_file_path=None)
+tournament.head(3)
 ```
 
 ```python
-data = pd.read_csv(path_regular)
+# Load regular season and combine to form file with whole season
+regular = pd.read_csv(path_regular)
+full_season = pd.concat([regular, tournament], ignore_index=True)
+full_season.to_csv(path_full index=False)
+```
+
+```python
+data = pd.read_csv(path_full)
 data.head()
 ```
 
@@ -91,9 +101,7 @@ The purpose of these "adjusted" stats are to adjust for the fact that in later r
 
 ### How did the Bracket Perform this Year?
 
-To start off with, I'm excited to say that the bracket successfully predicted the winner for the third time out of four years. It's honestly incredible how frequently this bracket has predicted the winner even if you account for some favorites winning it over the last few years and I honestly don't expect this trend to continue.
-
-Overall, it was a pretty average year as far as the metrics go. The overall accuracy and adjusted accuracy were down compared to previous seasons, but the upset precision and recall metrics were overall slightly up. This is mostly due to there being more upsets than previous seasons, so I think it's fair to say that the model actually was better than previous years, but the frequent number of upsets caused overall accuracy to be lower in spite of that.
+Unfortunately, it was somewhat of an off year for this project, though that can partially be explained by the unusual number and unexpectedness of the upsets this year. The overall accuracy, precision and recall were down compared to most previous year. However, the adjusted metrics, which account for games where my selected winner wasn't even present aren't too bad, which I think speaks to how this tournament had some shocking early upsets that shaped the rest of the tournament.
 
 Unfortunately, I haven't found much time to make many improvements for next year, but I'm looking forward to seeing how the bracket performs next tournament.
 
