@@ -3,7 +3,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 
 
-def load_kenpom_dataframe(year=None, csv_file_path=None):
+def load_kenpom_dataframe(year=None, csv_file_path=None, input_file_path=None):
     """
     Creates a pandas dataframe from the kenpom website to be used
     for analysis. Can also create and save a csv file from the
@@ -13,10 +13,13 @@ def load_kenpom_dataframe(year=None, csv_file_path=None):
         year(int): The year to get stats from
         csv_file_path(String): File path for the output .csv file.
                                If None, then no csv file is saved.
+        input_file_path(String): File path for an html file for the
+                                 year of Kenpom data.
 
     Raises:
         AssertionError: If 'year' is not of type integer.
         AssertionError: If `csv_file_path` is not of type string.
+        AssertionError: If `input_file_path` is not of type string.
 
     Example:
         >>> load_kenpom_dataframe(year=2018, csv_file_path='path/to/file.csv')
@@ -27,6 +30,11 @@ def load_kenpom_dataframe(year=None, csv_file_path=None):
         if not isinstance(csv_file_path, six.string_types):
             raise AssertionError('Output file path must be a string.')
 
+    # Check that the path is a string
+    if csv_file_path is not None:
+        if not isinstance(csv_file_path, six.string_types):
+            raise AssertionError('Input file path must be a string.')
+
     # Check that the year is an int
     if year is not None:
         if not isinstance(year, int):
@@ -36,12 +44,16 @@ def load_kenpom_dataframe(year=None, csv_file_path=None):
         year = datetime.datetime.now().year
 
     # Get the webpage html
-    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-    http = urllib3.PoolManager(cert_reqs='CERT_NONE')
-    r = http.request('get', 'https://kenpom.com/index.php?y={}'.format(year))
+    if input_file_path is not None:
+        with open(input_file_path) as fp:
+            soup = BeautifulSoup(fp, 'html.parser')
+    else:
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+        http = urllib3.PoolManager(cert_reqs='CERT_NONE')
+        r = http.request('get', 'https://kenpom.com/index.php?y={}'.format(year))
 
-    # Parse the html document to get the table of data
-    soup = BeautifulSoup(r.data, features='html.parser')
+        # Parse the html document to get the table of data
+        soup = BeautifulSoup(r.data, features='html.parser')
 
     # Get the column names from the header
     table_header = soup.find('thead').find_all('tr')[1]
@@ -81,7 +93,6 @@ def load_kenpom_dataframe(year=None, csv_file_path=None):
         vals = []
         nit_team = False
         for value in row.find_all('td'):
-            value = value.strip()
             text = re.sub('[+]', '', value.text)
             vals.append(text)
 

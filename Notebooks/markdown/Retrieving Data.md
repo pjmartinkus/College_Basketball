@@ -37,26 +37,25 @@ For each season, I create a csv file with all of the game scores for that season
 ```python
 # The location where the files will be saved
 path = '../Data/Scores/'
+year = 2024
 ```
 
 ```python
-# We will be creating a csv file for each regular season and tournament from 2002 to 2023 (you might want to ignore 2020)
-for year in range(2002, 2024):
+# Load regular season scores data from the current season. This data set goes back to 2002 (though you might want to ignore 2020)
+# and we have previously retrieved that data in this project
+start = datetime.date(year - 1, 11, 1)
+end = datetime.date(year, 3, 18)
 
-    # Set up the starting and ending dates of the regular season and march madness
-    start = datetime.date(year - 1, 11, 1)
-    end = datetime.date(year, 4, 10)
-    
-    # Set up the path for this years scores
-    path_regular = path + str(year) + '_season.csv'
+# Set up the path for this years scores
+path_regular = path + str(year) + '_season.csv'
 
-    # Create and save the csv files for the regular season and march madness data for the year
-    cbb.load_scores_dataframe(start, end, csv_file_path=path_regular)
+# Create and save the csv files for the regular season and march madness data for the year
+cbb.load_scores_dataframe(start, end, csv_file_path=path_regular)
 ```
 
 ```python
 # Load a dataset to take an initial look
-file_path = path + '2003_season.csv'
+file_path = path + '2024_season.csv'
 data = pd.read_csv(file_path)
 
 data.head()
@@ -64,7 +63,7 @@ data.head()
 
 ```python
 # Let's take a look at all the games involving Marquette during the 2003 Tournament
-data = cbb.filter_tournament(data)
+data = cbb.filter_tournament(pd.read_csv(path + '2003_season.csv'))
 data[(data['Home'] == 'Marquette') | (data['Away'] == 'Marquette')]
 ```
 
@@ -76,19 +75,16 @@ The teams stats data is also from https://www.sports-reference.com/cbb/. This da
 # The location where the files will be saved
 path = '../Data/SportsReference/'
 
-# We will be creating a csv file of data for each season
-for year in range(2002, 2024):
+# Like before we will add this season to the data going back to 2002
+stats_path = path + str(year) + '_stats.csv'
     
-    # Set the path for the current year data
-    stats_path = path + str(year) + '_stats.csv'
-    
-    # Save the basic stats data into a csv file
-    cbb.load_stats_dataframe(year=year, csv_file_path=stats_path)
+# Save the basic stats data into a csv file
+cbb.load_stats_dataframe(year=year, csv_file_path=stats_path)
 ```
 
 ```python
 # Load some data to take a look
-stats_path = path + '2023_stats.csv'
+stats_path = path + '2024_stats.csv'
 data = pd.read_csv(stats_path)
 
 data.head()
@@ -102,26 +98,26 @@ The kenpom data is from https://kenpom.com. This website displays advanced stats
 # The location where the files will be saved
 path = '../Data/Kenpom/'
 
-# We will be creating a csv file of kenpom data for each season
-for year in range(2002, 2024):
+# Since the kenpom data has become harder to scrap we'll manually save the html to a file
+kp_input_path = '../Data/kenpom_html/kenpom_2024.html'
+
+# This data also goes back to 2002, but we'll just retrieve the current season now
+kp_path = path + str(year) + '_kenpom.csv'
     
-    # Set the path for the current year data
-    kp_path = path + str(year) + '_kenpom.csv'
-    
-    # Save the kenpom data into a csv file
-    cbb.load_kenpom_dataframe(year=year, csv_file_path=kp_path)
+# Save the kenpom data into a csv file
+cbb.load_kenpom_dataframe(year=year, csv_file_path=kp_path, input_file_path=kp_input_path)
 ```
 
 ```python
 # Load some data to take a look
-kp_path = path + '2003_kenpom.csv'
+kp_path = path + '2024_kenpom.csv'
 data = pd.read_csv(kp_path)
 
 data.head()
 ```
 
 ```python
-# Let's take a look at Marquette's kenpom numbers for 2003
+# Let's take a look at Marquette's kenpom numbers for 2024
 data[data['Team'] == 'Marquette']
 ```
 
@@ -133,26 +129,23 @@ The T-Rank data is from http://www.barttorvik.com/#. This website displays advan
 # The location where the files will be saved
 path = '../Data/TRank/'
 
-# We will be creating a csv file of data for each season
-for year in range(2008, 2023):
+# This data goes back to 2008 but we'll just get this season
+TRank_path = path + str(year) + '_TRank.csv'
     
-    # Set the path for the current year data
-    TRank_path = path + str(year) + '_TRank.csv'
-    
-    # Save the T-Rank data into a csv file
-    cbb.load_TRank_dataframe(year=year, csv_file_path=TRank_path)
+# Save the T-Rank data into a csv file
+cbb.load_TRank_dataframe(year=year, csv_file_path=TRank_path)
 ```
 
 ```python
 # Load some data to take a look
-TRank_path = path + '2008_TRank.csv'
+TRank_path = path + '2024_TRank.csv'
 data = pd.read_csv(TRank_path)
 
 data.head()
 ```
 
 ```python
-# Let's take a look at Marquette's kenpom numbers for 2008
+# Let's take a look at Marquette's numbers for 2024
 data[data['Team'] == 'Marquette']
 ```
 
