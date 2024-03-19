@@ -74,21 +74,15 @@ depending on some criteria like the round and seeding of the teams. Using this m
 and submitted it to ESPN's Tournament Challenge to test how well it performed.
 
 ### Last Year's Results
-To start off with, I'm excited to say that the bracket successfully predicted the winner for the third time
-out of four years. It's honestly incredible how frequently this bracket has predicted the winner even if you
-account for some favorites winning it over the last few years and I honestly don't expect this trend to continue.
+Unfortunately, it was somewhat of an off year for this project, though that can partially be explained by the unusual
+number and unexpectedness of the upsets this year. The overall accuracy, precision and recall were down compared to
+most previous year. However, the adjusted metrics, which account for games where my selected winner wasn't even present
+aren't too bad, which I think speaks to how this tournament had some shocking early upsets that shaped the rest of the
+tournament.
 
-Overall, it was a pretty average year as far as the metrics go. I predicted 59% of the games in the tournament
-and 67% of the games that included my predicted winner (in later rounds my predicted winner may have lost already),
-which is about in line with most previous years. However, there were ore upsets this year than any of the previous
-three years I've been doing this project and despite the generally average results, I think the model actually did
-better than in the past. The upset precision and recall metrics are slightly up this year, which help account for
-the similar accuracy metrics despite the increased number of upsets.
-
-I again submitted the bracket to ESPN's Tournament Challenge and ended up in the 95th percentile. I should mention
-that this challenge heavily favors predicting later games correctly so the fact that I predicted the winner correctly
-provides a huge boost as far as scoring goes, but I think it's still a fun way to compare my bracket to other
-brackets across the country.
+I again submitted the bracket to ESPN's Tournament Challenge and ended up in the 49th percentile, so a pretty big drop
+compared to last year when my bracket successfully predicted the winner. As mentioned in the past, the scoring in these
+types of contests is heavily skewed towards picking later games correctly.
 
 ### Using the Code Available in the Repository
 All of the code required to make my predictions are available in the python files and 
