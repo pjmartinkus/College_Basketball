@@ -40,7 +40,8 @@ However, there is one major difference in how we will train the model this time.
 
 ```python
 # Load the csv files that contain the scores/kenpom data
-path = '../Data/Training/training.csv'
+year = 2024
+path = f'../Data/Training/training_{year}.csv'
 train = pd.read_csv(path)
 
 # Get a sense for the size of each data set
@@ -71,9 +72,7 @@ log.fit(train[features], train[['Label']])
 Next, we'll need to get the input data for this year so we can use it to predict game results for tournament games. We'll retrieve data from each source for this year, clean the data and combine it into a single data set.
 
 ```python
-year = 2023
 stats_path = '../Data/SportsReference/' + str(year) + '_stats.csv'
-# stats = cbb.load_stats_dataframe(year=year, csv_file_path=stats_path)
 stats = pd.read_csv(stats_path)
 stats = cbb.update_basic(stats.rename(index=str, columns={'School': 'Team'}))
 
@@ -87,7 +86,6 @@ stats[stats['Team'] == 'Marquette']
 
 ```python
 kp_path = '../Data/Kenpom/' + str(year) + '_kenpom.csv'
-# kenpom = cbb.load_kenpom_dataframe(year=year, csv_file_path=kp_path)
 kenpom = pd.read_csv(kp_path)
 kenpom = cbb.update_kenpom(kenpom)
 kenpom[kenpom['Team'] == 'Marquette']
@@ -95,7 +93,6 @@ kenpom[kenpom['Team'] == 'Marquette']
 
 ```python
 TRank_path = '../Data/TRank/' + str(year) + '_TRank.csv'
-# TRank = cbb.load_TRank_dataframe(year=year, csv_file_path=TRank_path)
 TRank = pd.read_csv(TRank_path)
 TRank = cbb.update_TRank(TRank)
 TRank[TRank['Team'] == 'Marquette']
@@ -117,10 +114,14 @@ games.head(3)
 
 ```python
 # Join the team data with the game data
-data = pd.merge(games, team_stats, left_on='Home', right_on='Team', sort=False)
-data = pd.merge(data, team_stats, left_on='Away', right_on='Team', suffixes=('_Home', '_Away'), sort=False)
+data = pd.merge(games, team_stats, left_on='Home', right_on='Team', sort=False, how='left')
+data = pd.merge(data, team_stats, left_on='Away', right_on='Team', suffixes=('_Home', '_Away'), sort=False, how='left')
 data.insert(0, 'Year', year)
 data.insert(3, 'Tournament', 'NCAA Tournament')
+
+# Confirm school names are correct
+assert len(data[(data['Rank_Home'].isna()) | (data['Rank_Away'].isna())]) == 0
+
 data.head(3)
 ```
 
@@ -131,7 +132,7 @@ Now that we have a trained model and data for the tournament games this year, we
 ```python
 # Make Predictions
 predictions = cbb.predict(log, data, features)
-predictions.to_csv('../Data/predictions/predictions_2023.csv', index=False)
+predictions.to_csv('../Data/predictions/predictions_2024.csv', index=False)
 predictions['Upset'] = predictions['Underdog'] == predictions['Predicted Winner']
 ```
 
@@ -150,7 +151,7 @@ predictions.iloc[32:48,:]
 predictions.iloc[48:,:]
 ```
 
-Congratulations to all Kansas fans because the model has predicted the Jayhawks to repeat as the the 2023 NCAA Tournament Champion!
+Congratulations to all UConn fans because the model has predicted the Huskies to repeat as the the 2024 NCAA Tournament Champion!
 
 ```python
 
