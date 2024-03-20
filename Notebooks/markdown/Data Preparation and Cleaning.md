@@ -37,7 +37,7 @@ scores_path = '../Data/Scores/'
 
 # Initialize some variables
 scores_data = {}
-year = 2023
+year = 2024
 
 # Load the scores datasets
 scores_data = pd.read_csv(scores_path + str(year) + '_season.csv')
@@ -118,6 +118,11 @@ TRank_df = pd.merge(TRank_df, kp, left_on='Away', right_on='Team',
 
 # Add a column to indicate the year
 TRank_df.insert(0, 'Year', year)
+
+# T-Rank has introduced a new column - for now we'll just drop it but should include in future
+drop_cols = ['3PR_Home', '3PR Rank_Home', '3PRD_Home', '3PRD Rank_Home', '3PR_Away', '3PR Rank_Away', 
+             '3PRD_Away', '3PRD Rank_Away']
+TRank_df = TRank_df.drop(drop_cols, axis=1)
     
 # Combine the data for every year and save to csv
 all_TRank = pd.read_csv(save_path)

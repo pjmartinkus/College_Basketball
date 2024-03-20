@@ -86,6 +86,7 @@ Nicholls State,Nicholls St.,
 Appalachian State,Appalachian St.,
 Sacramento State,Sacramento St.,
 Montana State,Montana St.,
+Saint Francis (PA),Saint Francis,
 Saint Francis (PA),St. Francis PA,
 St. Joseph's,Saint Joseph's,Saint Joseph's
 Florida State,Florida St.,
@@ -97,7 +98,7 @@ Birmingham-Southern,Birmingham Southern,
 ETSU,East Tennessee St.,East Tennessee State
 Illinois State,Illinois St.,
 Northwestern State,Northwestern St.,
-Sam Houston State,Sam Houston St.,
+Sam Houston,Sam Houston St.,
 San Diego State,San Diego St.,
 Washington State,Washington St.,
 Texas State,Texas St.,
@@ -113,11 +114,9 @@ SIU-Edwardsville,SIU Edwardsville,SIU Edwardsville
 Omaha,Nebraska Omaha,Omaha
 UMass-Lowell,UMass Lowell,Massachusetts-Lowell
 Texas-Rio Grande Valley,UT Rio Grande Valley,
-Purdue-Fort Wayne,IPFW,Fort Wayne
-Purdue-Fort Wayne,Fort Wayne,
 Little Rock,Little Rock,
 Texas A&M,Texas A&amp;M,
-Purdue-Fort Wayne,Purdue Fort Wayne,
+Purdue Fort Wayne,Fort Wayne,
 California Baptist,Cal Baptist,
 Prairie View,Prairie View A&amp;M,
 William & Mary,William &amp; Mary,
@@ -128,13 +127,12 @@ Alabama A&M,Alabama A&amp;M,
 Tarleton State,Tarleton St.,
 Kansas City,UMKC,
 College of Charleston,Charleston,
-Detroit,Detroit Mercy,
+Detroit Mercy,Detroit,Detroit Mercy
 The Citadel,Citadel,
 Utah Tech,Dixie St.,Dixie State
 BYU,,Brigham Young
 Central Connecticut,,Central Connecticut State
 UCF,,Central Florida
-Detroit,,Detroit Mercy
 LSU,,Louisiana State
 UMBC,,Maryland-Baltimore County
 UMKC,,Missouri-Kansas City
@@ -159,3 +157,4 @@ UC-San Diego,UC San Diego,UC San Diego
 Texas A&M-Commerce,Texas A&M Commerce,
 Houston Christian,Houston Baptist,Houston Baptist
 St. Thomas,,St. Thomas (MN)
+FDU,Fairleigh Dickinson,
