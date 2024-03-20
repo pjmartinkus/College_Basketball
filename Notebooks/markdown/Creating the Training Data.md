@@ -164,7 +164,8 @@ feature_vecs.head(3)
 
 ```python
 # Save final training set
-feature_vecs.to_csv('../Data/Training/training.csv', index=False)
+year = 2024
+feature_vecs.to_csv(f'../Data/Training/training_{year}.csv', index=False)
 ```
 
 ```python
